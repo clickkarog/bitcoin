@@ -187,10 +187,59 @@ CAddress GetLocalAddress(const CNetAddr *paddrPeer)
 
 int GetnScore(const CService& addr)
 {
+<<<<<<< HEAD
     LOCK(cs_mapLocalHost);
     if (mapLocalHost.count(addr) == LOCAL_NONE)
         return 0;
     return mapLocalHost[addr].nScore;
+=======
+    strLine = "";
+    while (true)
+    {
+        char c;
+        int nBytes = recv(hSocket, &c, 1, 0);
+        if (nBytes > 0)
+        {
+            if (c == '\n')
+                continue;
+            if (c == '\r')
+                return true;
+            strLine += c;
+            if (strLine.size() >= 9000)
+                return true;
+        }
+        else if (nBytes <= 0)
+        {
+            boost::this_thread::interruption_point();
+            if (nBytes < 0)
+            {
+                int nErr = WSAGetLastError();
+                if (nErr == WSAEMSGSIZE)
+                    continue;
+                if (nErr == WSAEWOULDBLOCK || nErr == WSAEINTR || nErr == WSAEINPROGRESS)
+                {
+                    MilliSleep(10);
+                    continue;
+                }
+            }
+            if (!strLine.empty())
+                return true;
+            if (nBytes == 0)
+            {
+                // socket closed
+                LogPrint("net", "socket closed\n");
+                return false;
+            }
+            else
+            {
+                // socket error
+                int nErr = WSAGetLastError();
+                LogPrint("net", "recv failed: %s\n", NetworkErrorString(nErr));
+                return false;
+            }
+        }
+    }
+>>>>>>> refs/remotes/karogkung/0.9
 }
 
 // Is our peer's addrLocal potentially useful as an external IP source?
@@ -306,7 +355,98 @@ bool IsLocal(const CService& addr)
 bool IsReachable(enum Network net)
 {
     LOCK(cs_mapLocalHost);
+<<<<<<< HEAD
     return !vfLimited[net];
+=======
+    enum Network net = addr.GetNetwork();
+    return vfReachable[net] && !vfLimited[net];
+}
+
+bool GetMyExternalIP2(const CService& addrConnect, const char* pszGet, const char* pszKeyword, CNetAddr& ipRet)
+{
+    SOCKET hSocket;
+    if (!ConnectSocket(addrConnect, hSocket))
+        return error("GetMyExternalIP() : connection to %s failed", addrConnect.ToString());
+
+    send(hSocket, pszGet, strlen(pszGet), MSG_NOSIGNAL);
+
+    string strLine;
+    while (RecvLine(hSocket, strLine))
+    {
+        if (strLine.empty()) // HTTP response is separated from headers by blank line
+        {
+            while (true)
+            {
+                if (!RecvLine(hSocket, strLine))
+                {
+                    closesocket(hSocket);
+                    return false;
+                }
+                if (pszKeyword == NULL)
+                    break;
+                if (strLine.find(pszKeyword) != string::npos)
+                {
+                    strLine = strLine.substr(strLine.find(pszKeyword) + strlen(pszKeyword));
+                    break;
+                }
+            }
+            closesocket(hSocket);
+            if (strLine.find("<") != string::npos)
+                strLine = strLine.substr(0, strLine.find("<"));
+            strLine = strLine.substr(strspn(strLine.c_str(), " \t\n\r"));
+            while (strLine.size() > 0 && isspace(strLine[strLine.size()-1]))
+                strLine.resize(strLine.size()-1);
+            CService addr(strLine,0,true);
+            LogPrintf("GetMyExternalIP() received [%s] %s\n", strLine, addr.ToString());
+            if (!addr.IsValid() || !addr.IsRoutable())
+                return false;
+            ipRet.SetIP(addr);
+            return true;
+        }
+    }
+    closesocket(hSocket);
+    return error("GetMyExternalIP() : connection closed");
+}
+
+bool GetMyExternalIP(CNetAddr& ipRet)
+{
+    CService addrConnect;
+    const char* pszGet;
+    const char* pszKeyword;
+
+    for (int nLookup = 0; nLookup <= 1; nLookup++)
+    for (int nHost = 1; nHost <= 1; nHost++)
+    {
+        // We should be phasing out our use of sites like these. If we need
+        // replacements, we should ask for volunteers to put this simple
+        // php file on their web server that prints the client IP:
+        //  <?php echo $_SERVER["REMOTE_ADDR"]; ?>
+        if (nHost == 1)
+        {
+            addrConnect = CService("91.198.22.70", 80); // checkip.dyndns.org
+
+            if (nLookup == 1)
+            {
+                CService addrIP("checkip.dyndns.org", 80, true);
+                if (addrIP.IsValid())
+                    addrConnect = addrIP;
+            }
+
+            pszGet = "GET / HTTP/1.1\r\n"
+                     "Host: checkip.dyndns.org\r\n"
+                     "User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)\r\n"
+                     "Connection: close\r\n"
+                     "\r\n";
+
+            pszKeyword = "Address:";
+        }
+
+        if (GetMyExternalIP2(addrConnect, pszGet, pszKeyword, ipRet))
+            return true;
+    }
+
+    return false;
+>>>>>>> refs/remotes/karogkung/0.9
 }
 
 /** check whether a given address is in a network we can probably connect to */
@@ -430,7 +570,19 @@ CNode* ConnectNode(CAddress addrConnect, const char *pszDest, bool fCountFailure
             }
         }
 
+<<<<<<< HEAD
         addrman.Attempt(addrConnect, fCountFailure);
+=======
+        // Set to non-blocking
+#ifdef WIN32
+        u_long nOne = 1;
+        if (ioctlsocket(hSocket, FIONBIO, &nOne) == SOCKET_ERROR)
+            LogPrintf("ConnectSocket() : ioctlsocket non-blocking setting failed, error %s\n", NetworkErrorString(WSAGetLastError()));
+#else
+        if (fcntl(hSocket, F_SETFL, O_NONBLOCK) == SOCKET_ERROR)
+            LogPrintf("ConnectSocket() : fcntl non-blocking setting failed, error %s\n", NetworkErrorString(errno));
+#endif
+>>>>>>> refs/remotes/karogkung/0.9
 
         // Add node
         CNode* pnode = new CNode(hSocket, addrConnect, pszDest ? pszDest : "", false);
@@ -1238,7 +1390,43 @@ void ThreadSocketHandler()
         //
         BOOST_FOREACH(const ListenSocket& hListenSocket, vhListenSocket)
         {
+<<<<<<< HEAD
             if (hListenSocket.socket != INVALID_SOCKET && FD_ISSET(hListenSocket.socket, &fdsetRecv))
+=======
+            struct sockaddr_storage sockaddr;
+            socklen_t len = sizeof(sockaddr);
+            SOCKET hSocket = accept(hListenSocket, (struct sockaddr*)&sockaddr, &len);
+            CAddress addr;
+            int nInbound = 0;
+
+            if (hSocket != INVALID_SOCKET)
+                if (!addr.SetSockAddr((const struct sockaddr*)&sockaddr))
+                    LogPrintf("Warning: Unknown socket family\n");
+
+            {
+                LOCK(cs_vNodes);
+                BOOST_FOREACH(CNode* pnode, vNodes)
+                    if (pnode->fInbound)
+                        nInbound++;
+            }
+
+            if (hSocket == INVALID_SOCKET)
+            {
+                int nErr = WSAGetLastError();
+                if (nErr != WSAEWOULDBLOCK)
+                    LogPrintf("socket error accept failed: %s\n", NetworkErrorString(nErr));
+            }
+            else if (nInbound >= nMaxConnections - MAX_OUTBOUND_CONNECTIONS)
+            {
+                closesocket(hSocket);
+            }
+            else if (CNode::IsBanned(addr))
+            {
+                LogPrintf("connection from %s dropped (banned)\n", addr.ToString());
+                closesocket(hSocket);
+            }
+            else
+>>>>>>> refs/remotes/karogkung/0.9
             {
                 AcceptConnection(hListenSocket);
             }
@@ -1492,7 +1680,11 @@ void ThreadDNSAddressSeed()
 {
     // goal: only query DNS seeds if address need is acute
     if ((addrman.size() > 0) &&
+<<<<<<< HEAD
         (!GetBoolArg("-forcednsseed", DEFAULT_FORCEDNSSEED))) {
+=======
+        (!GetBoolArg("-forcednsseed", false))) {
+>>>>>>> refs/remotes/karogkung/0.9
         MilliSleep(11 * 1000);
 
         LOCK(cs_vNodes);
@@ -1502,7 +1694,11 @@ void ThreadDNSAddressSeed()
         }
     }
 
+<<<<<<< HEAD
     const std::vector<CDNSSeedData> &vSeeds = Params().DNSSeeds();
+=======
+    const vector<CDNSSeedData> &vSeeds = Params().DNSSeeds();
+>>>>>>> refs/remotes/karogkung/0.9
     int found = 0;
 
     LogPrintf("Loading addresses from DNS seeds (could take a while)\n");
@@ -1800,6 +1996,43 @@ bool OpenNetworkConnection(const CAddress& addrConnect, bool fCountFailure, CSem
 }
 
 
+<<<<<<< HEAD
+=======
+// for now, use a very simple selection metric: the node from which we received
+// most recently
+static int64_t NodeSyncScore(const CNode *pnode) {
+    return pnode->nLastRecv;
+}
+
+void static StartSync(const vector<CNode*> &vNodes) {
+    CNode *pnodeNewSync = NULL;
+    int64_t nBestScore = 0;
+
+    int nBestHeight = g_signals.GetHeight().get_value_or(0);
+
+    // Iterate over all nodes
+    BOOST_FOREACH(CNode* pnode, vNodes) {
+        // check preconditions for allowing a sync
+        if (!pnode->fClient && !pnode->fOneShot &&
+            !pnode->fDisconnect && pnode->fSuccessfullyConnected &&
+            (pnode->nStartingHeight > (nBestHeight - 144)) &&
+            (pnode->nVersion < NOBLKS_VERSION_START || pnode->nVersion >= NOBLKS_VERSION_END)) {
+            // if ok, compare node's score with the best so far
+            int64_t nScore = NodeSyncScore(pnode);
+            if (pnodeNewSync == NULL || nScore > nBestScore) {
+                pnodeNewSync = pnode;
+                nBestScore = nScore;
+            }
+        }
+    }
+    // if a new sync candidate was found, start sync!
+    if (pnodeNewSync) {
+        pnodeNewSync->fStartSync = true;
+        pnodeSync = pnodeNewSync;
+    }
+}
+
+>>>>>>> refs/remotes/karogkung/0.9
 void ThreadMessageHandler()
 {
     boost::mutex condition_mutex;
@@ -1913,8 +2146,17 @@ bool BindListenPort(const CService &addrBind, std::string& strError, bool fWhite
 #endif
 
     // Set to non-blocking, incoming connections will also inherit this
+<<<<<<< HEAD
     if (!SetSocketNonBlocking(hListenSocket, true)) {
         strError = strprintf("BindListenPort: Setting listening socket to non-blocking failed, error %s\n", NetworkErrorString(WSAGetLastError()));
+=======
+    if (ioctlsocket(hListenSocket, FIONBIO, (u_long*)&nOne) == SOCKET_ERROR)
+#else
+    if (fcntl(hListenSocket, F_SETFL, O_NONBLOCK) == SOCKET_ERROR)
+#endif
+    {
+        strError = strprintf("Error: Couldn't set properties on socket for incoming connections (error %s)", NetworkErrorString(WSAGetLastError()));
+>>>>>>> refs/remotes/karogkung/0.9
         LogPrintf("%s\n", strError);
         return false;
     }
@@ -2120,11 +2362,19 @@ public:
         // Close sockets
         BOOST_FOREACH(CNode* pnode, vNodes)
             if (pnode->hSocket != INVALID_SOCKET)
+<<<<<<< HEAD
                 CloseSocket(pnode->hSocket);
         BOOST_FOREACH(ListenSocket& hListenSocket, vhListenSocket)
             if (hListenSocket.socket != INVALID_SOCKET)
                 if (!CloseSocket(hListenSocket.socket))
                     LogPrintf("CloseSocket(hListenSocket) failed with error %s\n", NetworkErrorString(WSAGetLastError()));
+=======
+                closesocket(pnode->hSocket);
+        BOOST_FOREACH(SOCKET hListenSocket, vhListenSocket)
+            if (hListenSocket != INVALID_SOCKET)
+                if (closesocket(hListenSocket) == SOCKET_ERROR)
+                    LogPrintf("closesocket(hListenSocket) failed with error %s\n", NetworkErrorString(WSAGetLastError()));
+>>>>>>> refs/remotes/karogkung/0.9
 
         // clean up some globals (to help leak detection)
         BOOST_FOREACH(CNode *pnode, vNodes)

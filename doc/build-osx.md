@@ -7,6 +7,7 @@ Preparation
 -----------
 Install the OS X command line tools:
 
+<<<<<<< HEAD
 `xcode-select --install`
 
 When the popup appears, click `Install`.
@@ -17,6 +18,36 @@ Dependencies
 ----------------------
 
     brew install automake berkeley-db4 libtool boost --c++11 miniupnpc openssl pkg-config protobuf --c++11 qt5 libevent
+=======
+You need to install XCode with all the options checked so that the compiler
+and everything is available in /usr not just /Developer. XCode should be
+available on your OS X installation media, but if not, you can get the
+current version from https://developer.apple.com/xcode/. If you install
+Xcode 4.3 or later, you'll need to install its command line tools. This can
+be done in `Xcode > Preferences > Downloads > Components` and generally must
+be re-done or updated every time Xcode is updated.
+
+There's an assumption that you already have `git` installed, as well. If
+not, it's the path of least resistance to install [Github for Mac](https://mac.github.com/)
+(OS X 10.7+) or
+[Git for OS X](https://code.google.com/p/git-osx-installer/). It is also
+available via Homebrew.
+
+You will also need to install [Homebrew](http://brew.sh)
+in order to install library dependencies.
+
+The installation of the actual dependencies is covered in the Instructions
+sections below.
+
+Instructions: Homebrew
+----------------------
+
+#### Install dependencies using Homebrew
+
+        brew install autoconf automake libtool boost miniupnpc openssl pkg-config protobuf qt
+
+Note: After you have installed the dependencies, you should check that the Homebrew installed version of OpenSSL is the one available for compilation. You can check this by typing
+>>>>>>> refs/remotes/karogkung/0.9
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
@@ -25,8 +56,35 @@ Build Bitcoin Core
 
 1. Clone the bitcoin source code and cd into `bitcoin`
 
+<<<<<<< HEAD
         git clone https://github.com/bitcoin/bitcoin
         cd bitcoin
+=======
+#### Installing berkeley-db4 using Homebrew
+
+The homebrew package for berkeley-db4 has been broken for some time.  It will install without Java though.
+
+Running this command takes you into brew's interactive mode, which allows you to configure, make, and install by hand:
+```
+$ brew install https://raw.github.com/mxcl/homebrew/master/Library/Formula/berkeley-db4.rb -–without-java 
+```
+
+These rest of these commands are run inside brew interactive mode:
+```
+/private/tmp/berkeley-db4-UGpd0O/db-4.8.30 $ cd ..
+/private/tmp/berkeley-db4-UGpd0O $ db-4.8.30/dist/configure --prefix=/usr/local/Cellar/berkeley-db4/4.8.30 --mandir=/usr/local/Cellar/berkeley-db4/4.8.30/share/man --enable-cxx
+/private/tmp/berkeley-db4-UGpd0O $ make
+/private/tmp/berkeley-db4-UGpd0O $ make install
+/private/tmp/berkeley-db4-UGpd0O $ exit
+```
+
+After exiting, you'll get a warning that the install is keg-only, which means it wasn't symlinked to `/usr/local`.  You don't need it to link it to build bitcoin, but if you want to, here's how:
+
+    $ brew --force link berkeley-db4
+
+
+### Building `bitcoind`
+>>>>>>> refs/remotes/karogkung/0.9
 
 2.  Build bitcoin-core:
 
@@ -53,6 +111,7 @@ Bitcoin Core is now available at `./src/bitcoind`
 
 Before running, it's recommended you create an RPC configuration file.
 
+<<<<<<< HEAD
     echo -e "rpcuser=bitcoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
 
     chmod 600 "/Users/${USER}/Library/Application Support/Bitcoin/bitcoin.conf"
@@ -62,6 +121,10 @@ The first time you run bitcoind, it will start downloading the blockchain. This 
 You can monitor the download process by looking at the debug.log file:
 
     tail -f $HOME/Library/Application\ Support/Bitcoin/debug.log
+=======
+Once dependencies are compiled, see release-process.md for how the Bitcoin-Qt.app
+bundle is packaged and signed to create the .dmg disk image that is distributed.
+>>>>>>> refs/remotes/karogkung/0.9
 
 Other commands:
 -------

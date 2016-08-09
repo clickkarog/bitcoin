@@ -210,6 +210,7 @@ bool LookupHost(const char *pszName, std::vector<CNetAddr>& vIP, unsigned int nM
 bool Lookup(const char *pszName, CService& addr, int portDefault, bool fAllowLookup);
 bool Lookup(const char *pszName, std::vector<CService>& vAddr, int portDefault, bool fAllowLookup, unsigned int nMaxSolutions);
 bool LookupNumeric(const char *pszName, CService& addr, int portDefault = 0);
+<<<<<<< HEAD
 bool ConnectSocket(const CService &addr, SOCKET& hSocketRet, int nTimeout, bool *outProxyConnectionFailed = 0);
 bool ConnectSocketByName(CService &addr, SOCKET& hSocketRet, const char *pszDest, int portDefault, int nTimeout, bool *outProxyConnectionFailed = 0);
 /** Return readable error string for a network error code */
@@ -224,3 +225,11 @@ bool SetSocketNonBlocking(SOCKET& hSocket, bool fNonBlocking);
 struct timeval MillisToTimeval(int64_t nTimeout);
 
 #endif // BITCOIN_NETBASE_H
+=======
+bool ConnectSocket(const CService &addr, SOCKET& hSocketRet, int nTimeout = nConnectTimeout);
+bool ConnectSocketByName(CService &addr, SOCKET& hSocketRet, const char *pszDest, int portDefault = 0, int nTimeout = nConnectTimeout);
+/** Return readable error string for a network error code */
+std::string NetworkErrorString(int err);
+
+#endif
+>>>>>>> refs/remotes/karogkung/0.9

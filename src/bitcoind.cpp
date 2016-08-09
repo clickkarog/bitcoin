@@ -183,6 +183,11 @@ bool AppInit(int argc, char* argv[])
 int main(int argc, char* argv[])
 {
     SetupEnvironment();
+<<<<<<< HEAD
+=======
+
+    bool fRet = false;
+>>>>>>> refs/remotes/karogkung/0.9
 
     // Connect bitcoind signal handlers
     noui_connect();

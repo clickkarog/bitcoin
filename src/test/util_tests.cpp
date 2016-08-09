@@ -296,6 +296,7 @@ BOOST_AUTO_TEST_CASE(strprintf_numbers)
 
     size_t st = 12345678; /* unsigned size_t test value */
     ssize_t sst = -12345678; /* signed size_t test value */
+<<<<<<< HEAD
     BOOST_CHECK(strprintf("%s %d %s", B, sst, E) == B" -12345678 " E);
     BOOST_CHECK(strprintf("%s %u %s", B, st, E) == B" 12345678 " E);
     BOOST_CHECK(strprintf("%s %x %s", B, st, E) == B" bc614e " E);
@@ -305,6 +306,17 @@ BOOST_AUTO_TEST_CASE(strprintf_numbers)
     BOOST_CHECK(strprintf("%s %d %s", B, spt, E) == B" -87654321 " E);
     BOOST_CHECK(strprintf("%s %u %s", B, pt, E) == B" 87654321 " E);
     BOOST_CHECK(strprintf("%s %x %s", B, pt, E) == B" 5397fb1 " E);
+=======
+    BOOST_CHECK(strprintf("%s %d %s", B, sst, E) == B" -12345678 "E);
+    BOOST_CHECK(strprintf("%s %u %s", B, st, E) == B" 12345678 "E);
+    BOOST_CHECK(strprintf("%s %x %s", B, st, E) == B" bc614e "E);
+
+    ptrdiff_t pt = 87654321; /* positive ptrdiff_t test value */
+    ptrdiff_t spt = -87654321; /* negative ptrdiff_t test value */
+    BOOST_CHECK(strprintf("%s %d %s", B, spt, E) == B" -87654321 "E);
+    BOOST_CHECK(strprintf("%s %u %s", B, pt, E) == B" 87654321 "E);
+    BOOST_CHECK(strprintf("%s %x %s", B, pt, E) == B" 5397fb1 "E);
+>>>>>>> refs/remotes/karogkung/0.9
 }
 #undef B
 #undef E

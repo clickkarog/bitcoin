@@ -65,9 +65,13 @@ void WalletTxToJSON(const CWalletTx& wtx, UniValue& entry)
     {
         entry.push_back(Pair("blockhash", wtx.hashBlock.GetHex()));
         entry.push_back(Pair("blockindex", wtx.nIndex));
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
         entry.push_back(Pair("blocktime", mapBlockIndex[wtx.hashBlock]->GetBlockTime()));
     } else {
         entry.push_back(Pair("trusted", wtx.IsTrusted()));
+=======
+        entry.push_back(Pair("blocktime", (int64_t)(mapBlockIndex[wtx.hashBlock]->nTime)));
+>>>>>>> refs/remotes/karogkung/0.9:src/rpcwallet.cpp
     }
     uint256 hash = wtx.GetHash();
     entry.push_back(Pair("txid", hash.GetHex()));
@@ -77,6 +81,7 @@ void WalletTxToJSON(const CWalletTx& wtx, UniValue& entry)
     entry.push_back(Pair("walletconflicts", conflicts));
     entry.push_back(Pair("time", wtx.GetTxTime()));
     entry.push_back(Pair("timereceived", (int64_t)wtx.nTimeReceived));
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
 
     // Add opt-in RBF status
     std::string rbfStatus = "no";
@@ -90,6 +95,8 @@ void WalletTxToJSON(const CWalletTx& wtx, UniValue& entry)
     }
     entry.push_back(Pair("bip125-replaceable", rbfStatus));
 
+=======
+>>>>>>> refs/remotes/karogkung/0.9:src/rpcwallet.cpp
     BOOST_FOREACH(const PAIRTYPE(string,string)& item, wtx.mapValue)
         entry.push_back(Pair(item.first, item.second));
 }
@@ -960,8 +967,13 @@ UniValue sendmany(const UniValue& params, bool fHelp)
     return wtx.GetHash().GetHex();
 }
 
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
 // Defined in rpc/misc.cpp
 extern CScript _createmultisig_redeemScript(const UniValue& params);
+=======
+// Defined in rpcmisc.cpp
+extern CScript _createmultisig_redeemScript(const Array& params);
+>>>>>>> refs/remotes/karogkung/0.9:src/rpcwallet.cpp
 
 UniValue addmultisigaddress(const UniValue& params, bool fHelp)
 {
@@ -1004,7 +1016,11 @@ UniValue addmultisigaddress(const UniValue& params, bool fHelp)
 
     // Construct using pay-to-script-hash:
     CScript inner = _createmultisig_redeemScript(params);
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
     CScriptID innerID(inner);
+=======
+    CScriptID innerID = inner.GetID();
+>>>>>>> refs/remotes/karogkung/0.9:src/rpcwallet.cpp
     pwalletMain->AddCScript(inner);
 
     pwalletMain->SetAddressBook(innerID, strAccount, "send");
@@ -1439,7 +1455,10 @@ UniValue listtransactions(const UniValue& params, bool fHelp)
             "                                          category of transactions.\n"
             "    \"blockindex\": n,          (numeric) The index of the transaction in the block that includes it. Available for 'send' and 'receive'\n"
             "                                          category of transactions.\n"
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
             "    \"blocktime\": xxx,         (numeric) The block time in seconds since epoch (1 Jan 1970 GMT).\n"
+=======
+>>>>>>> refs/remotes/karogkung/0.9:src/rpcwallet.cpp
             "    \"txid\": \"transactionid\", (string) The transaction id. Available for 'send' and 'receive' category of transactions.\n"
             "    \"time\": xxx,              (numeric) The transaction time in seconds since epoch (midnight Jan 1 1970 GMT).\n"
             "    \"timereceived\": xxx,      (numeric) The time received in seconds since epoch (midnight Jan 1 1970 GMT). Available \n"
@@ -2094,7 +2113,10 @@ UniValue lockunspent(const UniValue& params, bool fHelp)
             "lockunspent unlock ([{\"txid\":\"txid\",\"vout\":n},...])\n"
             "\nUpdates list of temporarily unspendable outputs.\n"
             "Temporarily lock (unlock=false) or unlock (unlock=true) specified transaction outputs.\n"
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
             "If no transaction outputs are specified when unlocking then all current locked transaction outputs are unlocked.\n"
+=======
+>>>>>>> refs/remotes/karogkung/0.9:src/rpcwallet.cpp
             "A locked transaction output will not be chosen by automatic coin selection, when spending bitcoins.\n"
             "Locks are stored in memory only. Nodes start with zero locked outputs, and the locked output list\n"
             "is always cleared (by virtue of process exit) when a node stops or fails.\n"
@@ -2288,10 +2310,13 @@ UniValue getwalletinfo(const UniValue& params, bool fHelp)
     obj.push_back(Pair("keypoolsize",   (int)pwalletMain->GetKeyPoolSize()));
     if (pwalletMain->IsCrypted())
         obj.push_back(Pair("unlocked_until", nWalletUnlockTime));
+<<<<<<< HEAD:src/wallet/rpcwallet.cpp
     obj.push_back(Pair("paytxfee",      ValueFromAmount(payTxFee.GetFeePerK())));
     CKeyID masterKeyID = pwalletMain->GetHDChain().masterKeyID;
     if (!masterKeyID.IsNull())
          obj.push_back(Pair("hdmasterkeyid", masterKeyID.GetHex()));
+=======
+>>>>>>> refs/remotes/karogkung/0.9:src/rpcwallet.cpp
     return obj;
 }
 

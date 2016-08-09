@@ -288,14 +288,23 @@ def copyFramework(framework, path, verbose):
         if not os.path.exists(linkfrom):
             os.symlink(linkto, linkfrom)
             if verbose >= 2:
+<<<<<<< HEAD
                 print("Linked:", linkfrom, "->", linkto)
+=======
+                print "Linked:", linkfrom, "->", linkto
+>>>>>>> refs/remotes/karogkung/0.9
         fromResourcesDir = framework.sourceResourcesDirectory
         if os.path.exists(fromResourcesDir):
             toResourcesDir = os.path.join(path, framework.destinationResourcesDirectory)
             shutil.copytree(fromResourcesDir, toResourcesDir, symlinks=True)
             if verbose >= 3:
+<<<<<<< HEAD
                 print("Copied resources:", fromResourcesDir)
                 print(" to:", toResourcesDir)
+=======
+                print "Copied resources:", fromResourcesDir
+                print " to:", toResourcesDir
+>>>>>>> refs/remotes/karogkung/0.9
         fromContentsDir = framework.sourceVersionContentsDirectory
         if not os.path.exists(fromContentsDir):
             fromContentsDir = framework.sourceContentsDirectory
@@ -304,8 +313,13 @@ def copyFramework(framework, path, verbose):
             shutil.copytree(fromContentsDir, toContentsDir, symlinks=True)
             contentslinkfrom = os.path.join(path, framework.destinationContentsDirectory)
             if verbose >= 3:
+<<<<<<< HEAD
                 print("Copied Contents:", fromContentsDir)
                 print(" to:", toContentsDir)
+=======
+                print "Copied Contents:", fromContentsDir
+                print " to:", toContentsDir
+>>>>>>> refs/remotes/karogkung/0.9
     elif framework.frameworkName.startswith("libQtGui"): # Copy qt_menu.nib (applies to non-framework layout)
         qtMenuNibSourcePath = os.path.join(framework.frameworkDirectory, "Resources", "qt_menu.nib")
         qtMenuNibDestinationPath = os.path.join(path, "Contents", "Resources", "qt_menu.nib")

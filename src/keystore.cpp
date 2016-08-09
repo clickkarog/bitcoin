@@ -41,7 +41,11 @@ bool CBasicKeyStore::AddKeyPubKey(const CKey& key, const CPubKey &pubkey)
 bool CBasicKeyStore::AddCScript(const CScript& redeemScript)
 {
     if (redeemScript.size() > MAX_SCRIPT_ELEMENT_SIZE)
+<<<<<<< HEAD
         return error("CBasicKeyStore::AddCScript(): redeemScripts > %i bytes are invalid", MAX_SCRIPT_ELEMENT_SIZE);
+=======
+        return error("CBasicKeyStore::AddCScript() : redeemScripts > %i bytes are invalid", MAX_SCRIPT_ELEMENT_SIZE);
+>>>>>>> refs/remotes/karogkung/0.9
 
     LOCK(cs_KeyStore);
     mapScripts[CScriptID(redeemScript)] = redeemScript;

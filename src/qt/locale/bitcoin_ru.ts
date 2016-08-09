@@ -1,4 +1,44 @@
 <TS language="ru" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>О Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>версия &lt;b&gt;Bitcoin Core&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Это экспериментальная программа.
+
+Распространяется на правах лицензии MIT/X11, см. файл license.txt или http://www.opensource.org/licenses/mit-license.php.
+
+Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit (http://www.openssl.org/) и криптографическое ПО, написанное Eric Young (eay@cryptsoft.com) и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Все права защищены</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Разработчики Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-бит)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -260,7 +300,11 @@
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
+<<<<<<< HEAD
         <translation><numerusform>%n активных соединений с сетью Bitcoin</numerusform><numerusform>%n активных соединений с сетью Bitcoin</numerusform><numerusform>%n активных соединений с сетью Bitcoin</numerusform><numerusform>%n активных соединений с сетью Bitcoin</numerusform></translation>
+=======
+        <translation><numerusform>%n активное соединение с сетью</numerusform><numerusform>%n активных соединений с сетью</numerusform><numerusform>%n активных соединений с сетью Bitcoin</numerusform><numerusform>%n активных соединений с сетью Bitcoin</numerusform></translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -288,7 +332,11 @@
     </message>
     <message numerus="yes">
         <source>%n week(s)</source>
+<<<<<<< HEAD
         <translation><numerusform>%n неделю</numerusform><numerusform>%n недели</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform></translation>
+=======
+        <translation><numerusform>%n неделя</numerusform><numerusform>%n недели</numerusform><numerusform>%n недель</numerusform><numerusform>%n недель</numerusform></translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 and %2</source>
@@ -296,7 +344,11 @@
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
+<<<<<<< HEAD
         <translation><numerusform>%n год</numerusform><numerusform>%n лет</numerusform><numerusform>%n лет</numerusform><numerusform>%n года</numerusform></translation>
+=======
+        <translation><numerusform>%n год</numerusform><numerusform>%n лет</numerusform><numerusform>%n года</numerusform><numerusform>%n года</numerusform></translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 behind</source>
@@ -588,8 +640,13 @@
         <translation>Использовать другой каталог данных:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>Ошибка: не удалось создать указанный каталог данных "%1".</translation>
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Эта пометка становится красной, если приоритет ниже, чем "средний".</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Error</source>
@@ -662,12 +719,225 @@
         <translation>Разрешить входящие подключения</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
         <translation>IP-адрес прокси (например IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation>Сворачивать вместо закрытия. Если данная опция будет выбрана — приложение закроется только после выбора соответствующего пункта в меню.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Введённый адрес «%1» уже находится в адресной книге.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Введённый адрес "%1" не является правильным Bitcoin-адресом.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Сторонние URL (например, block explorer), которые отображаются на вкладке транзакций как пункты контекстного меню. %s в URL заменяется хэшем транзакции. URL отделяются друг от друга вертикальной чертой |.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Third party transaction URLs</source>
+        <translation>Сторонние URL транзакций.</translation>
+=======
+        <source>New key generation failed.</source>
+        <translation>Генерация нового ключа не удалась.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Будет создан новый каталог данных.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>имя</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Каталог уже существует. Добавьте %1, если вы хотите создать здесь новый каталог.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Путь уже существует и не является каталогом.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Не удаётся создать здесь каталог данных.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Bitcoin Core - опции командной строки</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>версия</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Использование:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>опции командной строки</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>Опции интерфейса</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Выберите язык, например "de_DE" (по умолчанию: как в системе)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Запускать свёрнутым</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Указать корневые SSL-сертификаты для запроса платежа (по умолчанию: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Показывать сплэш при запуске (по умолчанию: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Выбрать каталог данных при запуске (по умолчанию: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Добро пожаловать</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Добро пожаловать в Bitcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>Так как вы впервые запустили программу, вы можете выбрать, где Bitcoin Core будет хранить данные.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Core скачает и сохранит копию цепи блоков. Как минимум, %1ГБ данных будет храниться в этом каталоге, и со временем он будет расти. Бумажник будет также сохранён в этом каталоге.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Использовать каталог данных по умолчанию</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Использовать другой каталог данных:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Ошибка: не удалось создать указанный каталог данных "%1".</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Ошибка</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>ГБ свободного места доступно</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(из необходимых %1ГБ)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Открыть URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Открыть запрос платежа из URI или файла</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Выбрать файл запроса платежа</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Выберите файл запроса платежа</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Опции</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Главная</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Необязательная комиссия за каждый КБ транзакции, которая ускоряет обработку Ваших транзакций.  Большинство транзакций занимают 1КБ.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Заплатить ко&amp;миссию</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Автоматически запускать Bitcoin после входа в систему</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Запускать Bitcoin при входе в систему</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Размер кэша &amp;БД</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>МБ</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Число потоков проверки &amp;сценария</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Подключаться к сети Bitcoin через прокси SOCKS.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Подключаться через SOCKS прокси (прокси по умолчанию):</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP-адрес прокси (например IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -913,8 +1183,37 @@
         <translation>Ваш текущий баланс в адресах наблюдения</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Spendable:</source>
         <translation>Доступно:</translation>
+=======
+        <source>Payment request error</source>
+        <translation>Ошибка запроса платежа</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить bitcoin: обработчик click-to-pay</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Предупреждение менеджера сети</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Активный прокси не поддерживает SOCKS5, который необходим для запроса платежей через прокси.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Неверный URL запроса платежа: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Обработка файла запроса платежа</translation>
+    </message>
+    <message>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation>Файл запроса платежа не может быть прочитан или обработан! Обычно это происходит из-за неверного файла запроса платежа.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Recent transactions</source>
@@ -951,8 +1250,17 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Сумма</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Ошибка: указанный каталог "%1" не существует.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
@@ -963,8 +1271,13 @@
         <translation>%1 д</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 ч</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core ещё не завершился безопасно...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 m</source>
@@ -1618,6 +1931,515 @@
     <message>
         <source>&amp;Sign Message</source>
         <translation>&amp;Подписать сообщение</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Вы можете подписывать сообщения своими адресами, чтобы доказать владение ими. Будьте осторожны, не подписывайте что-то неопределённое, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Адрес, которым вы хотите подписать сообщение  (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Выберите ранее использованный адрес</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Вставить адрес из буфера обмена</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Введите сообщение для подписи</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Подпись</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Скопировать текущую подпись в системный буфер обмена</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Bitcoin</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Подписать &amp;Сообщение</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Сбросить значения всех полей подписывания сообщений</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Очистить &amp;всё</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Проверить сообщение</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Введите ниже адрес для подписи, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle".</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Адрес, которым было подписано сообщение (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Bitcoin</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Проверить &amp;Сообщение</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Сбросить все поля проверки сообщения</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Введите адрес Bitcoin (напр. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Нажмите "Подписать сообщение" для создания подписи</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Введённый адрес неверен</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Пожалуйста, проверьте адрес и попробуйте ещё раз.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Введённый адрес не связан с ключом</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Разблокировка бумажника была отменена.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Для введённого адреса недоступен закрытый ключ</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Не удалось подписать сообщение</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Сообщение подписано</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Подпись не может быть раскодирована.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Пожалуйста, проверьте подпись и попробуйте ещё раз.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Подпись не соответствует отпечатку сообщения.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Проверка сообщения не удалась.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Сообщение проверено.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Разработчики Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[тестовая сеть]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>КБ/сек</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Открыто до %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>в противоречии</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/отключен</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/не подтверждено</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 подтверждений</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Статус</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, разослано через %n узел</numerusform><numerusform>, разослано через %n узла</numerusform><numerusform>, разослано через %n узлов</numerusform><numerusform>, разослано через %n узлов</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Источник</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Сгенерированно</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>От</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Для</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>свой адрес</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>метка</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Кредит</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>будет доступно через %n блок</numerusform><numerusform>будет доступно через %n блока</numerusform><numerusform>будет доступно через %n блоков</numerusform><numerusform>будет доступно через %n блоков</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>не принято</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Дебет</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Комиссия</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Чистая сумма</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Сообщение</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Комментарий:</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID транзакции</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Продавец</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Сгенерированные монеты должны подождать %1 блоков, прежде чем они могут быть потрачены. Когда Вы сгенерировали этот блок, он был отправлен в сеть для добавления в цепочку блоков. Если он не попадёт в цепь, его статус изменится на "не принят", и монеты будут недействительны. Это иногда происходит в случае, если другой узел сгенерирует блок на несколько секунд раньше вас.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Отладочная информация</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Транзакция</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Входы</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сумма</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>истина</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>ложь</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, ещё не было успешно разослано</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>неизвестно</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Детали транзакции</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Эта панель отображает детальное описание транзакции.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тип</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрес</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Сумма</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Незрелый (%1 подтверждений, будет доступен после %2)</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Открыто для ещё %n блока</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform><numerusform>Открыто для ещё %n блоков</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Открыто до %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Подтверждено (%1 подтверждений)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Этот блок не был получен другими узлами и, возможно, не будет принят!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Сгенерированно, но не подтверждено</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Нет активных соединений с сетью</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Неподтверждено</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>В противоречии</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Получено</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Получено от</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Отправлено</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Отправлено себе</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Добыто</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>[не доступно]</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Статус транзакции. Подведите курсор к нужному полю для того, чтобы увидеть количество подтверждений.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Дата и время, когда транзакция была получена.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Тип транзакции.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Адрес назначения транзакции.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Сумма, добавленная, или снятая с баланса.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Все</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Сегодня</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>На этой неделе</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>В этом месяце</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>В прошлом месяце</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>В этом году</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Промежуток...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Получено на</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Отправлено на</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Отправленные себе</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Добытые</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Другое</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Введите адрес или метку для поиска</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Мин. сумма</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Копировать адрес</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Копировать метку</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Скопировать сумму</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Скопировать ID транзакции</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Изменить метку</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Показать подробности транзакции</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>Экспортировать историю транзакций</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Экспорт не удался</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Произошла ошибка при сохранении истории транзакций в %1.</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Экспорт успешно завершён</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>История транзакций была успешно сохранена в %1.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
@@ -1791,8 +2613,33 @@
         <translation>Принимать подключения извне (по умолчанию: 1, если не используется -proxy или -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Bitcoin Core</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, вы должны установить опцию rpcpassword в конфигурационном файле:
+ %s
+Рекомендуется использовать следующий случайный пароль:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(вам не нужно запоминать этот пароль)
+Имя и пароль ДОЛЖНЫ различаться.
+Если файл не существует, создайте его и установите права доступа только для владельца, только для чтения.
+Также рекомендуется включить alertnotify для оповещения о проблемах;
+Например: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>The %s developers</source>
@@ -1847,8 +2694,25 @@
         <translation>Это пре-релизная тестовая сборка - используйте на свой страх и риск - не используйте для добычи или торговых приложений</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Использовать UPnP для проброса порта (по умолчанию: 1, если используется прослушивание и нет -proxy)</translation>
+=======
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>Не удалось забиндиться на %s на этом компьютере. Возможно, Bitcoin Core уже запущен.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Использовать отдельный прокси SOCKS5 для соединения с участниками через скрытые сервисы Tor (по умолчанию: -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Внимание: установлено очень большое значение -paytxfee. Это комиссия, которую вы заплатите при проведении транзакции.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Внимание: убедитесь, что дата и время на Вашем компьютере выставлены верно. Если Ваши часы идут неправильно, Bitcoin будет работать некорректно.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2043,8 +2907,13 @@
         <translation>Исходный код доступен в %s.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
         <translation>Невозможно привязаться к %s на этом компьютере. Возможно, %s уже работает.</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Неверный -onion адрес: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -2151,12 +3020,21 @@
         <translation>Сумма транзакции за вычетом комиссии слишком мала</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Этот продукт включает ПО, разработанное OpenSSL Project для использования в OpenSSL Toolkit &lt;https://www.openssl.org/&gt; и криптографическое ПО, написанное Eric Young и ПО для работы с UPnP, написанное Thomas Bernard.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Участники из белого списка не могуть быть забанены за DoS, и их транзакции всегда транслируются, даже если они уже содержатся в памяти. Полезно, например, для шлюза.</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неверная сумма в параметре -minrelaytxfee=&lt;кол-во&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неверная сумма в параметре -mintxfee=&lt;кол-во&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
@@ -2399,18 +3277,28 @@
         <translation>Всегда запрашивать адреса участников с помощью DNS (по умолчанию: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>Сколько блоков проверять при запуске (по умолчанию: %u, 0 = все)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>Включить IP-адреса в отладочный вывод (по умолчанию: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Неверный адрес -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>В параметре -onlynet указана неизвестная сеть: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Неверный адрес -proxy: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Прослушивать подключения JSON-RPC на &lt;порту&gt; (по умолчанию: %u или %u в тестовой сети)</translation>
     </message>
@@ -2421,6 +3309,18 @@
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Поддерживать не более &lt;n&gt; подключений к узлам (по умолчанию: %u)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Не удаётся разрешить адрес в параметре -bind: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Не удаётся разрешить адрес в параметре -externalip: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Неверная сумма в параметре -paytxfee=&lt;кол-во&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>

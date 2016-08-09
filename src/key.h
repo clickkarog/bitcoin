@@ -189,6 +189,7 @@ struct CExtKey {
     }
 };
 
+<<<<<<< HEAD
 /** Initialize the elliptic curve support. May not be called twice without calling ECC_Stop first. */
 void ECC_Start(void);
 
@@ -199,3 +200,9 @@ void ECC_Stop(void);
 bool ECC_InitSanityCheck(void);
 
 #endif // BITCOIN_KEY_H
+=======
+/** Check that required EC support is available at runtime */
+bool ECC_InitSanityCheck(void);
+
+#endif
+>>>>>>> refs/remotes/karogkung/0.9

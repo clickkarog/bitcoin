@@ -1,4 +1,36 @@
 <TS language="et" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Kirjeldus Bitcoini Tuumast</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>⏎
+See on eksperimentaalne tarkvara.⏎
+⏎
+Levitatud MIT/X11 tarkvara litsentsi all, vaata kaasasolevat faili COPYING või http://www.opensource.org/licenses/mit-license.php⏎
+⏎
+Toode sisaldab OpenSSL Projekti all toodetud tarkvara, mis on kasutamiseks OpenSSL Toolkitis (http://www.openssl.org/) ja Eric Young'i poolt loodud krüptograafilist tarkvara (eay@cryptsoft.com) ning Thomas Bernard'i loodud UPnP tarkvara.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Autoriõigus</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoini Tuuma arendajad</translation>
+    </message>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -20,6 +52,13 @@
     <message>
         <source>C&amp;lose</source>
         <translation>S&amp;ulge</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Aadressi kopeerimine</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -37,6 +76,48 @@
         <source>&amp;Delete</source>
         <translation>&amp;Kustuta</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>V&amp;ali</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Bitcoini aadressid maksete saatmiseks. Müntide saatmisel kontrolli alati summat ning saaja aadressi.</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>&amp;Märgise kopeerimine</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Muuda</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Komaeraldatud fail (*.csv)</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Eksportimine Ebaõnnestus</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(silti pole)</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
 </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -121,6 +202,13 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>Ava &amp;URI...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Impordi blokid kettalt...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -203,8 +291,33 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoini tuumik</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoini klient</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Bitcoini võrku</numerusform><numerusform>%n aktiivset ühendust Bitcoini võrku</numerusform></translation>
+    </message>
+    <message>
+        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
+        <translation>Protsessitud %1 (arvutuslikult) tehingu ajaloo blokki %2-st.</translation>
+    </message>
+    <message>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Protsessitud %1 tehingute ajaloo blokki.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message numerus="yes">
         <source>%n hour(s)</source>
@@ -221,10 +334,13 @@
     <message>
         <source>%1 and %2</source>
         <translation>%1 ja %2</translation>
+<<<<<<< HEAD
     </message>
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n aasta</numerusform><numerusform>%n aastat</numerusform></translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 behind</source>
@@ -335,12 +451,17 @@
 <context>
     <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Edit Address</source>
         <translation>Muuda aadressi</translation>
     </message>
     <message>
         <source>&amp;Label</source>
         <translation>&amp;Märgis</translation>
+=======
+        <source>Copy address</source>
+        <translation>Aadressi kopeerimine</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Address</source>
@@ -361,6 +482,7 @@
         <translation>versioon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
@@ -472,6 +594,123 @@
     <message>
         <source>User Interface &amp;language:</source>
         <translation>Kasutajaliidese &amp;keel:</translation>
+=======
+        <source>Copy fee</source>
+        <translation>Kopeeri tasu</translation>
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>kõrgeim</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>kõrgem</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>kõrge</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>keskmine</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>madal</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>madalam</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>madalaim</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 lukustatud)</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>jah</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ei</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(silti pole)</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Muuda aadressi</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Märgis</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Aadress</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Uus sissetulev aadress</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Uus väljaminev aadress</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Sissetulevate aadresside muutmine</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Väljaminevate aadresside muutmine</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Selline aadress on juba olemas: "%1"</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole Bitcoinis kehtiv.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Rahakotti ei avatud</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Tõrge uue võtme loomisel.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>name</source>
+        <translation>nimi</translation>
+    </message>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoini tuumik</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versioon</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Kasutus:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -480,6 +719,208 @@
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
         <translation>Vali liideses ning müntide saatmisel kuvatav vaikimisi alajaotus.</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+=======
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Keele valik, nt "ee_ET" (vaikeväärtus: system locale)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Katkesta</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>default</source>
+        <translation>vaikeväärtus</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Kinnita valikute algseadistamine</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>Sisestatud kehtetu proxy aadress.</translation>
+    </message>
+</context>
+<context>
+    <name>OverviewPage</name>
+=======
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Käivitamisel teabeakna kuvamine (vaikeväärtus: 1)</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Teretulemast</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
+    <message>
+        <source>Form</source>
+        <translation>Vorm</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>Ebaküps:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>Mitte aegunud mine'itud jääk</translation>
+    </message>
+    <message>
+        <source>Recent transactions</source>
+        <translation>Hiljutised tehingud</translation>
+    </message>
+    </context>
+<context>
+    <name>PeerTableModel</name>
+    </context>
+<context>
+    <name>QObject</name>
+=======
+        <source>Error</source>
+        <translation>Tõrge</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Ava URI</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Valikud</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Tasu tehingu &amp;fee</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Käivita Bitcoin süsteemi logimisel.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Start Bitcoin sisselogimisel</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Taasta kõik klientprogrammi seadete vaikeväärtused.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Lähtesta valikud</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Võrk</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>R&amp;ahakott</translation>
+    </message>
+    <message>
+        <source>Expert</source>
+        <translation>Ekspert</translation>
+    </message>
+    <message>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Bitcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Suuna port &amp;UPnP kaudu</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>Proxi &amp;IP:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Port:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Proxi port (nt 9050)</translation>
+    </message>
+    <message>
+        <source>SOCKS &amp;Version:</source>
+        <translation>Turva proxi SOCKS &amp;Version:</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>Turva proxi SOCKS versioon (nt 5)</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Aken</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Minimeeri systray alale.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Minimeeri systray alale</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Sulgemise asemel minimeeri aken. Selle valiku tegemisel suletakse programm Menüüst "Välju" käsuga.</translation>
+    </message>
+    <message>
+        <source>M&amp;inimize on close</source>
+        <translation>M&amp;inimeeri sulgemisel</translation>
+    </message>
+    <message>
+        <source>&amp;Display</source>
+        <translation>&amp;Kuva</translation>
+    </message>
+    <message>
+        <source>User Interface &amp;language:</source>
+        <translation>Kasutajaliidese &amp;keel:</translation>
+    </message>
+    <message>
+        <source>The user interface language can be set here. This setting will take effect after restarting Bitcoin.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Bitcoini käivitamisel.</translation>
+    </message>
+    <message>
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>Summade kuvamise &amp;Unit:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Vali liideses ning müntide saatmisel kuvatav vaikimisi alajaotus.</translation>
+    </message>
+    <message>
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Kuvada Bitcoini aadress tehingute loetelus või mitte.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>Tehingute loetelu &amp;Display aadress</translation>
     </message>
     <message>
         <source>&amp;OK</source>
@@ -513,6 +954,10 @@
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Bitconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
+        <source>Wallet</source>
+        <translation>Rahakott</translation>
+    </message>
+    <message>
         <source>Immature:</source>
         <translation>Ebaküps:</translation>
     </message>
@@ -521,20 +966,871 @@
         <translation>Mitte aegunud mine'itud jääk</translation>
     </message>
     <message>
-        <source>Recent transactions</source>
-        <translation>Hiljutised tehingud</translation>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Uuesti saadetud tehingud&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>sünkimata</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI käsitsemine</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI ei suudeta parsida. Põhjuseks võib olla kehtetu Bitcoini aadress või vigased URI parameetrid.</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Bitcoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
 <context>
-    <name>PeerTableModel</name>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Sisesta Bitcoini aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>Save QR Code</source>
+        <translation>Salvesta QR kood</translation>
+    </message>
     </context>
 <context>
-    <name>QObject</name>
+    <name>RPCConsole</name>
+    <message>
+        <source>Client name</source>
+        <translation>Kliendi nimi</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>Kliendi versioon</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informatsioon</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Üldine</translation>
+    </message>
+    <message>
+        <source>Using OpenSSL version</source>
+        <translation>Kasutan OpenSSL versiooni</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>Käivitamise hetk</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Võrgustik</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>Ühenduste arv</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>Ploki jada</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>Plokkide hetkearv</translation>
+    </message>
+    <message>
+        <source>Estimated total blocks</source>
+        <translation>Ligikaudne plokkide kogus</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Viimane ploki aeg</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Ava</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Konsool</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Valmistusaeg</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Debugimise logifail</translation>
+    </message>
+    <message>
+        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava Bitcoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Puhasta konsool</translation>
+    </message>
+    <message>
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>Teretulemast Bitcoini RPC konsooli.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Ajaloo sirvimiseks kasuta üles ja alla nooli, ekraani puhastamiseks &lt;b&gt;Ctrl-L&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Ülevaateks võimalikest käsklustest trüki &lt;b&gt;help&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>&amp;Summa:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Märgis</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Sõnum:</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Näita</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Eemalda</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Märgise kopeerimine</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Kopeeri sõnum</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopeeri summa</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
     <message>
         <source>Amount</source>
         <translation>Kogus</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Sõnum</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Tulemuseks on liiga pikk URL, püüa lühendada märgise/teate teksti.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Tõrge URI'st QR koodi loomisel</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Sõnum</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kogus</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(silti pole)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(sõnum puudub)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(summa puudub)</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Müntide saatmine</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Kogus:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Summa:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Tasu:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Saatmine mitmele korraga</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Lisa &amp;Saaja</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Puhasta &amp;Kõik</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Jääk:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Saatmise kinnitamine</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>S&amp;aada</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Müntide saatmise kinnitamine</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopeeri summa</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Kopeeri tasu</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>või</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Saaja aadress ei ole kehtiv, palun kontrolli.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Makstav summa peab olema suurem kui 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Summa ületab jäägi.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Summa koos tehingu tasuga %1 ületab sinu jääki.</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Ühe saatmisega topelt-adressaati olla ei tohi.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(silti pole)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>S&amp;umma:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Maksa &amp;:</translation>
+    </message>
+    <message>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Tehingu saaja aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Aadressiraamatusse sisestamiseks märgista aadress</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Märgis</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Kleebi aadress vahemälust</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Sõnum:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Signatuurid - Allkirjasta / Kinnita Sõnum</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Allkirjastamise teade</translation>
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Omandiõigsuse tõestamiseks saad sõnumeid allkirjastada oma aadressiga. Ettevaatust petturitega, kes üritavad saada sinu allkirja endale saada. Allkirjasta ainult korralikult täidetud avaldusi, millega nõustud.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Sõnumi signeerimise aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Kleebi aadress vahemälust</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Sisesta siia allkirjastamise sõnum</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatuur</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopeeri praegune signatuur vahemällu</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Allkirjasta sõnum Bitcoini aadressi sulle kuulumise tõestamiseks</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Allkirjasta &amp;Sõnum</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Tühjenda kõik sõnumi allkirjastamise väljad</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Puhasta &amp;Kõik</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Kinnita Sõnum</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Kinnitamiseks sisesta allkirjastamise aadress, sõnum (kindlasti kopeeri täpselt ka reavahetused, tühikud, tabulaatorid jms) ning allolev signatuur.</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Aadress, millega sõnum allkirjastati (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Kinnita &amp;Sõnum</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Tühjenda kõik sõnumi kinnitamise väljad</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Sisesta Bitcoini aadress (nt: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Signatuuri genereerimiseks vajuta "Allkirjasta Sõnum"</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Sisestatud aadress ei kehti.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Palun kontrolli aadressi ning proovi uuesti.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Sisestatud aadress ei viita võtmele.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Rahakoti avamine katkestati.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Sisestatud aadressi privaatvõti ei ole saadaval.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Sõnumi signeerimine ebaõnnestus.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Sõnum signeeritud.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Signatuuri ei õnnestunud dekodeerida.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Palun kontrolli signatuuri ning proovi uuesti.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Signatuur ei kattunud sõnumi kokkuvõttega.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Sõnumi kontroll ebaõnnestus.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Sõnum kontrollitud.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoini tuumik</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoini Tuuma arendajad</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Avatud kuni %1</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/kinnitamata</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 kinnitust</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Staatus</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, levita läbi %n node'i</numerusform><numerusform>, levita läbi %n node'i</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Allikas</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Genereeritud</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Saatja</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Saaja</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>oma aadress</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>märgis</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Krediit</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>aegub %n bloki pärast</numerusform><numerusform>aegub %n bloki pärast</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>mitte aktsepteeritud</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Deebet</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Tehingu tasu</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Neto summa</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Sõnum</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentaar</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>Tehingu ID</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Debug'imise info</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Tehing</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Sisendid</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kogus</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>õige</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>vale</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, veel esitlemata</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Avaneb %n bloki pärast</numerusform><numerusform>Avaneb %n bloki pärast</numerusform></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>tundmatu</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Tehingu üksikasjad</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Paan kuvab tehingu detailid</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tüüp</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Kogus</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Avaneb %n bloki pärast</numerusform><numerusform>Avaneb %n bloki pärast</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Avatud kuni %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Kinnitatud (%1 kinnitust)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Antud klotsi pole saanud ükski osapool ning tõenäoliselt seda ei aktsepteerita!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Loodud, kuid aktsepteerimata</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Saadud koos</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Kellelt saadud</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Saadetud</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Makse iseendale</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Mine'itud</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Tehingu staatus. Kinnituste arvu kuvamiseks liigu hiire noolega selle peale.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Tehingu saamise kuupäev ning kellaaeg.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Tehingu tüüp.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Tehingu saaja aadress.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Jäägile lisatud või eemaldatud summa.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Kõik</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Täna</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Jooksev nädal</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Jooksev kuu</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Eelmine kuu</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Jooksev aasta</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Ulatus...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Saadud koos</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Saadetud</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Iseendale</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Mine'itud</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Muu</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Otsimiseks sisesta märgis või aadress</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Vähim summa</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Aadressi kopeerimine</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Märgise kopeerimine</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopeeri summa</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Kopeeri tehingu ID</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Märgise muutmine</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Kuva tehingu detailid</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Eksportimine Ebaõnnestus</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Komaeraldatud fail (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Kinnitatud</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Kuupäev</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tüüp</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Silt</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Aadress</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
+    <message>
+        <source>Amount</source>
+        <translation>Kogus</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
@@ -544,6 +1840,222 @@
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
+=======
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Ulatus:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>saaja</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Müntide saatmine</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Ekspordi</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Ekspordi kuvatava vahelehe sisu faili</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Varundatud Rahakott</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Rahakoti andmed (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Varundamine nurjus</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Varundamine õnnestus</translation>
+    </message>
+</context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Usage:</source>
+        <translation>Kasutus:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Käskluste loetelu</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Käskluste abiinfo</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Valikud:</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Täpsusta sätete fail (vaikimisi: bitcoin.conf)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>Täpsusta PID fail (vaikimisi: bitcoin.pid)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Täpsusta andmekataloog</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Kuula ühendusi pordil &lt;port&gt; (vaikeväärtus: 8333 või testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Säilita vähemalt &lt;n&gt; ühendust peeridega (vaikeväärtus: 125)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Peeri aadressi saamiseks ühendu korraks node'iga</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Täpsusta enda avalik aadress</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Ulakate peeride valulävi (vaikeväärtus: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Mitme sekundi pärast ulakad peerid tagasi võivad tulla (vaikeväärtus: 86400)</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv4'l: %s</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Kuula JSON-RPC ühendusel seda porti &lt;port&gt; (vaikeväärtus: 8332 või testnet: 18332)</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Luba käsurea ning JSON-RPC käsklusi</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Testvõrgu kasutamine</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Luba välisühendusi (vaikeväärtus: 1 kui puudub -proxy või -connect)</translation>
+    </message>
+    <message>
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, sul tuleb rpcpassword määrata seadete failis:
+%s
+Soovitatav on kasutada järgmist juhuslikku parooli:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(seda parooli ei pea meeles pidama)
+Kasutajanimi ning parool EI TOHI kattuda.
+Kui faili ei leita, loo see ainult-omaniku-loetavas failiõigustes .
+Soovitatav on seadistada tõrgete puhul teavitus;
+nt: alertnotify=echo %%s | email -s "Bitcoin Alert" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation>RPC pordi %u kuulamiseks seadistamisel ilmnes viga IPv6'l, lülitumine tagasi IPv4'le : %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Määratud aadressiga sidumine ning sellelt kuulamine. IPv6 jaoks kasuta vormingut [host]:port</translation>
+    </message>
+    <message>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Tõrge: Tehingust keelduti! Põhjuseks võib olla juba kulutatud mündid, nt kui wallet.dat fail koopias kulutatid mündid, kuid ei märgitud neid siin vastavalt.</translation>
+    </message>
+    <message>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation>Tõrge: Selle tehingu jaoks on nõutav lisatasu vähemalt %s. Põhjuseks võib olla summa suurus, keerukus või hiljuti saadud summade kasutamine!</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Käivita käsklus, kui rahakoti tehing muutub (%s cmd's muudetakse TxID'ks)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>See on test-versioon - kasutamine omal riisikol - ära kasuta mining'uks ega kaupmeeste programmides</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Hoiatus: -paytxfee on seatud väga kõrgeks! See on sinu poolt makstav tehingu lisatasu.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Hoiatus: Palun kontrolli oma arvuti kuupäeva/kellaaega! Kui arvuti kell on vale, siis Bitcoin ei tööta korralikult</translation>
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Hoiatus: ilmnes tõrge wallet.dat faili lugemisel! Võtmed on terved, kuid tehingu andmed või aadressiraamatu kirjed võivad olla kadunud või vigased.</translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Hoiatus: toimus wallet.dat faili andmete päästmine! Originaal wallet.dat nimetati kaustas %s ümber wallet.{ajatempel}.bak'iks, jäägi või tehingute ebakõlade puhul tuleks teha backup'ist taastamine.</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Püüa vigasest wallet.dat failist taastada turvavõtmed</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Blokeeri loomise valikud:</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Ühendu ainult määratud node'i(de)ga</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Tuvastati vigane bloki andmebaas</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Leia oma IP aadress (vaikeväärtus: 1, kui kuulatakse ning puudub -externalip)</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Kas soovid bloki andmebaasi taastada?</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Client version</source>
@@ -618,6 +2130,7 @@
         <translation>&amp;Konsool</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Debug log file</source>
         <translation>Debugimise logifail</translation>
     </message>
@@ -636,12 +2149,17 @@
     <message>
         <source>%1 B</source>
         <translation>%1 B</translation>
+=======
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Otsi DNS'i lookup'i kastavaid peere (vaikeväärtus: 1, kui mitte -connect)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 KB</source>
         <translation>%1 B</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 MB</source>
         <translation>%1 MB</translation>
     </message>
@@ -678,11 +2196,16 @@
     <message>
         <source>Copy &amp;Address</source>
         <translation>&amp;Kopeeri Aadress</translation>
+=======
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Taasta bloki jada indeks blk000??.dat failist</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Send Coins</source>
         <translation>Müntide saatmine</translation>
     </message>
@@ -717,12 +2240,21 @@
     <message>
         <source>Recommended:</source>
         <translation>Soovitatud:</translation>
+=======
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Määra RPC kõnede haldurite arv (vaikeväärtus: 4)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Kontrollin blokke...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>normal</source>
         <translation>normaalne</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>fast</source>
         <translation>kiire</translation>
     </message>
@@ -741,12 +2273,17 @@
     <message>
         <source>Balance:</source>
         <translation>Jääk:</translation>
+=======
+        <source>Wallet options:</source>
+        <translation>Rahakoti valikud:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Confirm the send action</source>
         <translation>Saatmise kinnitamine</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>S&amp;end</source>
         <translation>S&amp;aada</translation>
     </message>
@@ -794,6 +2331,14 @@
     <message>
         <source>Signatures - Sign / Verify a Message</source>
         <translation>Signatuurid - Allkirjasta / Kinnita Sõnum</translation>
+=======
+        <source>Information</source>
+        <translation>Informatsioon</translation>
+    </message>
+    <message>
+        <source>Maintain a full transaction index (default: 0)</source>
+        <translation>Säilita kogu tehingu indeks (vaikeväärtus: 0)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Sign Message</source>
@@ -808,6 +2353,7 @@
         <translation>Kleebi aadress vahemälust</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Alt+P</source>
         <translation>Alt+P</translation>
     </message>
@@ -838,18 +2384,31 @@
     <message>
         <source>Clear &amp;All</source>
         <translation>Puhasta &amp;Kõik</translation>
+=======
+        <source>Only connect to nodes in network &lt;net&gt; (IPv4, IPv6 or Tor)</source>
+        <translation>Ühenda ainult node'idega &lt;net&gt; võrgus (IPv4, IPv6 või Tor)</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>RPC serveri valikud:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Verify Message</source>
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Bitcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
         <translation>Kinnita &amp;Sõnum</translation>
+=======
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Saada jälitus/debug, debug.log faili asemel, konsooli</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Reset all verify message fields</source>
@@ -859,6 +2418,7 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -889,12 +2449,21 @@
     <message>
         <source>Specify data directory</source>
         <translation>Täpsusta andmekataloog</translation>
+=======
+        <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
+        <translation>Kahanda programmi käivitamisel debug.log faili (vaikeväärtus: 1, kui ei ole -debug)</translation>
+    </message>
+    <message>
+        <source>Signing transaction failed</source>
+        <translation>Tehingu allkirjastamine ebaõnnestus</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Connect to a node to retrieve peer addresses, and disconnect</source>
         <translation>Peeri aadressi saamiseks ühendu korraks node'iga</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify your own public address</source>
         <translation>Täpsusta enda avalik aadress</translation>
     </message>
@@ -913,6 +2482,18 @@
     <message>
         <source>Bitcoin Core</source>
         <translation>Bitcoini tuumik</translation>
+=======
+        <source>System error: </source>
+        <translation>Süsteemi tõrge:</translation>
+    </message>
+    <message>
+        <source>Transaction amount too small</source>
+        <translation>Tehingu summa liiga väikene</translation>
+    </message>
+    <message>
+        <source>Transaction too large</source>
+        <translation>Tehing liiga suur</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
@@ -935,12 +2516,17 @@
         <translation>Ühendu ainult määratud node'i(de)ga</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Corrupted block database detected</source>
         <translation>Tuvastati vigane bloki andmebaas</translation>
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
         <translation>Kas soovid bloki andmebaasi taastada?</translation>
+=======
+        <source>on startup</source>
+        <translation>käivitamisel</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -959,12 +2545,21 @@
         <translation>Tõrge bloki andmebaasi avamisel</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Disk space is low!</source>
         <translation>Tõrge: liiga vähe kettaruumi!</translation>
     </message>
     <message>
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>Pordi kuulamine nurjus. Soovikorral kasuta -listen=0.</translation>
+=======
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Saada käsklusi node'ile IP'ga &lt;ip&gt; (vaikeväärtus: 127.0.0.1)</translation>
+    </message>
+    <message>
+        <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
+        <translation>Käivita käsklus, kui parim plokk muutub (käskluse %s asendatakse ploki hash'iga)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -979,8 +2574,13 @@
         <translation>Rahakoti valikud:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: %u)</source>
         <translation>(vaikimisi: %u)</translation>
+=======
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Kasuta JSON-RPC ühenduste jaoks OpenSSL'i (https)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Information</source>
@@ -999,8 +2599,13 @@
         <translation>Kahanda programmi käivitamisel debug.log faili (vaikeväärtus: 1, kui ei ole -debug)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Signing transaction failed</source>
         <translation>Tehingu allkirjastamine ebaõnnestus</translation>
+=======
+        <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
+        <translation>-addnode, -seednode ja -connect tohivad kasutada DNS lookup'i</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>The transaction amount is too small to pay the fee</source>
@@ -1023,18 +2628,28 @@
         <translation>Hoiatus</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Password for JSON-RPC connections</source>
         <translation>JSON-RPC ühenduste salasõna</translation>
     </message>
     <message>
         <source>Execute command when the best block changes (%s in cmd is replaced by block hash)</source>
         <translation>Käivita käsklus, kui parim plokk muutub (käskluse %s asendatakse ploki hash'iga)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Vigane -proxi aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Kirjeldatud tundmatu võrgustik -onlynet'is: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Allow DNS lookups for -addnode, -seednode and -connect</source>
         <translation>-addnode, -seednode ja -connect tohivad kasutada DNS lookup'i</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Loading addresses...</source>
         <translation>Aadresside laadimine...</translation>
     </message>
@@ -1045,6 +2660,18 @@
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Vigane -proxi aadress: '%s'</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Tundmatu -bind aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Tundmatu -externalip aadress: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt; jaoks vigane kogus: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unknown network specified in -onlynet: '%s'</source>

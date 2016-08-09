@@ -16,10 +16,14 @@
 
 #include "chainparams.h"
 #include "key.h"
+<<<<<<< HEAD
 #include "pubkey.h"
 #include "script/script.h"
 #include "script/standard.h"
 #include "support/allocators/zeroafterfree.h"
+=======
+#include "script.h"
+>>>>>>> refs/remotes/karogkung/0.9
 
 #include <string>
 #include <vector>
@@ -107,7 +111,10 @@ public:
     bool Set(const CScriptID &id);
     bool Set(const CTxDestination &dest);
     bool IsValid() const;
+<<<<<<< HEAD
     bool IsValid(const CChainParams &params) const;
+=======
+>>>>>>> refs/remotes/karogkung/0.9
 
     CBitcoinAddress() {}
     CBitcoinAddress(const CTxDestination &dest) { Set(dest); }

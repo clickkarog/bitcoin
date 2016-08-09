@@ -1,4 +1,45 @@
 <TS language="sv" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Om Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt;-version</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Detta är experimentell mjukvara.
+
+
+Distribuerad under mjukvarulicensen MIT/X11, se den medföljande filen COPYING eller http://www.opensource.org/licenses/mit-license.php.
+
+Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit (http://www.openssl.org/) och kryptografisk mjukvara utvecklad av Eric Young (eay@cryptsoft.com) samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core-utvecklarna</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -599,9 +640,15 @@
         <source>Error</source>
         <translation>Fel</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n GB of free space available</source>
         <translation><numerusform>%n GB fritt utrymme kvar</numerusform><numerusform>%n GB fritt utrymme kvar</numerusform></translation>
+=======
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Denna etikett blir röd om prioriteten är mindre än "medium".</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message numerus="yes">
         <source>(of %n GB needed)</source>
@@ -674,8 +721,228 @@
         <translation>Minimera istället för att stänga programmet när fönstret stängs. När detta alternativ är aktiverat stängs programmet endast genom att välja Stäng i menyn.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
         <translation>Tredjeparts URL:er (t.ex. en blockutforskare) som finns i transaktionstabben som ett menyval i sammanhanget. %s i URL:en ersätts med tansaktionshashen. Flera URL:er är separerade med vertikala streck |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Tredjeparts transaktions-URL:er</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Den angivna adressen "%1" finns redan i adressboken.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Den angivna adressen "%1" är inte en giltig Bitcoin-adress.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktiva kommandoradsalternativ som ersätter alternativen ovan:</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Reset all client options to default.</source>
+        <translation>Återställ alla klientinställningar till förvalen.</translation>
+=======
+        <source>New key generation failed.</source>
+        <translation>Misslyckades med generering av ny nyckel.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>En ny datakatalog kommer att skapas.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>namn</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Katalogen finns redan. Läggtill %1 om du vill skapa en ny katalog här.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Sökvägen finns redan, och är inte en katalog.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Kan inte skapa datakatalog här.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Bitcoin Core - Kommandoradsalternativ</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Kärna</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>version</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Användning:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>kommandoradsalternativ</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>UI alternativ</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Ändra språk, till exempel "de_DE" (förvalt: systemets språk)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Starta som minimerad</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Sätt SSL root-certifikat för betalningsbegäran (förvalt: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Visa startbilden vid uppstart (förvalt: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Välj datakatalog vid uppstart (förvalt: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Välkommen</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Välkommen till Bitcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>Eftersom detta är första gången programmet startas får du välja var Bitcoin Core skall lagra sitt data.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Core kommer att ladda ner och spara en kopia av Bitcoin blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Använd den förvalda datakatalogen</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Använd en anpassad datakatalog:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Fel: Den angivna datakatalogen "%1" kan inte skapas.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fel</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB ledigt utrymme är tillgängligt</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(av %1GB behövs)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Öppna URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Öppna betalningsbegäran från URI eller fil</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Välj betalningsbegäransfil</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Välj betalningsbegäransfil att öppna</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Alternativ</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Allmänt</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Valfri transaktionsavgift per kB som ser till att dina transaktioner behandlas snabbt. De flesta transaktioner är 1 kB.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Betala överförings&amp;avgift</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Starta Bitcoin automatiskt efter inloggning.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Starta Bitcoin vid systemstart</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Storleken på &amp;databascache</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Antalet skript &amp; verifikationstrådar</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Anslut till Bitcoin-nätverket genom en SOCKS-proxy.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Anslut genom SOCKS-proxy (förvald proxy):</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>Proxyns IP-adress (t.ex.  IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Tredjeparts URL:er (t.ex. en block utforskare) som finns i transaktionstabben som ett menyval i sammanhanget. %s i URL:en ersätts med tansaktionshashen. Flera URL:er är separerade med vertikala streck |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -683,11 +950,12 @@
     </message>
     <message>
         <source>Active command-line options that override above options:</source>
-        <translation>Aktiva kommandoradsalternativ som ersätter alternativen ovan:</translation>
+        <translation>Aktiva kommandoradsalternativ som överrider alternativen ovan:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
-        <translation>Återställ alla klientinställningar till förvalen.</translation>
+        <translation>Återställ alla klient inställningar till förvalen.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Reset Options</source>
@@ -913,8 +1181,56 @@
         <translation>Ditt nuvarande totala saldo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current balance in watch-only addresses</source>
         <translation>Ditt nuvarande saldo i granska-bara adresser</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Nyligen genomförda transaktioner&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>osynkroniserad</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI hantering</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI går inte att tolkas! Detta kan orsakas av en ogiltig Bitcoin-adress eller felaktiga URI parametrar.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Begärd betalning av %1 är för liten (betraktas som damm).</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Fel vid betalningsbegäran</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Kan inte starta bitcoin: klicka-och-betala handhavare</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Varningar från näthanteraren</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Din aktiva proxy stödjer inte SOCKS5, vilket är nödvändigt för att använda betalningsbegäran via proxy.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Betalningsbegärans hämta URL är felaktig: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Hantering av betalningsbegäransfil</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spendable:</source>
@@ -955,8 +1271,17 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Mängd</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Fel: Den angivna datakatalogen "%1" finns inte.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
@@ -967,8 +1292,13 @@
         <translation>%1 d</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 h</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core avslutades inte ännu säkert...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 m</source>
@@ -1285,10 +1615,13 @@
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Amount:</source>
         <translation>&amp;Belopp:</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>&amp;Label:</source>
         <translation>&amp;Etikett:</translation>
     </message>
@@ -1624,8 +1957,523 @@
         <translation>&amp;Signera Meddelande</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive bitcoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Du kan underteckna meddelanden/avtal med dina adresser för att bevisa att du kan ta emot bitcoins som skickats till dem. Var försiktig så du inte undertecknar något oklart eller konstigt, eftersom phishing-angrepp kan försöka få dig att underteckna din identitet till dem. Underteckna endast väldetaljerade meddelanden som du godkänner.</translation>
+=======
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Du kan signera meddelanden med dina adresser för att bevisa att du äger dem. Var försiktig med vad du signerar eftersom phising-attacker kan försöka få dig att skriva över din identitet till någon annan. Signera bara väldetaljerade påståenden du kan gå i god för.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adressen att signera meddelandet med  (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Välj tidigare använda adresser</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Klistra in adress från Urklipp</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Skriv in meddelandet du vill signera här</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopiera signaturen till systemets Urklipp</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Signera meddelandet för att bevisa att du äger denna adress</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Signera &amp;Meddelande</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Rensa alla fält</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Rensa &amp;alla</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Verifiera Meddelande</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Skriv in din adress, meddelande (se till att du kopierar radbrytningar, mellanslag, tabbar, osv. exakt) och signatur nedan för att verifiera meddelandet. Var noga med att inte läsa in mer i signaturen än vad som finns i det signerade meddelandet, för att undvika att luras av en man-in-the-middle attack.</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adressen som meddelandet var signerat med  (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Verifiera meddelandet för att vara säker på att den var signerad med den angivna Bitcoin-adressen</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Verifiera &amp;Meddelande</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Rensa alla fält</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Ange en Bitcoin-adress (t.ex. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Klicka "Signera Meddelande" för att få en signatur</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Den angivna adressen är ogiltig.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Vad god kontrollera adressen och försök igen.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Den angivna adressen refererar inte till en nyckel.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Upplåsningen av plånboken avbröts.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Privata nyckel för den angivna adressen är inte tillgänglig.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Signeringen av meddelandet misslyckades.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Meddelandet är signerat.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Signaturen kunde inte avkodas.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Kontrollera signaturen och försök igen.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Signaturen matchade inte meddelandesammanfattningen.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Meddelandet verifikation misslyckades.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Meddelandet är verifierad.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Kärna</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core-utvecklarna</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Öppet till %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>konflikterade</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/nerkopplad</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/obekräftade</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 bekräftelser</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, sänd genom %n nod</numerusform><numerusform>, sänd genom %n noder</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Källa</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Genererad</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Från</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Till</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>egen adress</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>etikett</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Kredit</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>mognar om %n block</numerusform><numerusform>mognar om %n fler block</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>inte accepterad</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Belasta</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transaktionsavgift</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Nettobelopp</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Meddelande</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>Transaktions-ID</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Handlare</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Genererade mynt måste vänta %1 block innan de kan användas. När du skapade detta block sändes det till nätverket för att läggas till i blockkedjan. Om blocket inte kommer in i kedjan kommer dess status att ändras till "accepteras inte" och kommer ej att gå att spendera. Detta kan ibland hända om en annan nod genererar ett block nästan samtidigt som dig.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Debug information</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transaktion</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Inputs</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Mängd</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>sant</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>falsk</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, har inte lyckats skickas ännu</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>okänd</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Transaktionsdetaljer</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Den här panelen visar en detaljerad beskrivning av transaktionen</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adress</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Mängd</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Omogen (%1 konfirmeringar, blir tillgänglig efter %2)</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Öppet för %n mer block</numerusform><numerusform>Öppet för %n mer block</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Öppet till %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Bekräftad (%1 bekräftelser)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Det här blocket togs inte emot av några andra noder och kommer antagligen inte att bli godkänt.</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Genererad men inte accepterad</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Nerkopplad</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Okonfirmerade</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Konfirmerar (%1 of %2 konfirmeringar)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Konflikterade</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Mottagen med</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Mottaget från</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Skickad till</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Betalning till dig själv</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Genererade</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Transaktionsstatus. Håll muspekaren över för att se antal bekräftelser.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Tidpunkt då transaktionen mottogs.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Transaktionstyp.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Transaktionens destinationsadress.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Belopp draget eller tillagt till balans.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Alla</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Idag</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Denna vecka</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Denna månad</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Föregående månad</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Det här året</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Period...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Mottagen med</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Skickad till</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Till dig själv</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Genererade</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Övriga</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Sök efter adress eller etikett </translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Minsta mängd</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Kopiera adress</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopiera etikett</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopiera belopp</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Kopiera transaktions ID</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Ändra etikett</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Visa transaktionsdetaljer</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>Exportera Transaktionshistoriken</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Exporteringen misslyckades</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>Det inträffade ett fel när transaktionshistoriken skulle sparas till %1.</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>Exporteringen lyckades</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>Transaktionshistoriken sparades utan problem till %1.</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Kommaseparerad fil (*. csv)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>The Bitcoin address to sign the message with</source>
@@ -1795,8 +2643,33 @@
         <translation>Acceptera anslutningar utifrån (förvalt: 1 om ingen -proxy eller -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Bitcoin Core</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
+%s
+Det är rekommenderat att använda följande slumpade lösenord:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(du behöver inte komma ihåg lösenordet)
+Användarnamnet och lösenordet FÅR INTE bara detsamma.
+Om filen inte existerar, skapa den med enbart ägarläsbara filrättigheter.
+Det är också rekommenderat att sätta alertnotify så du meddelas om problem;
+till exempel: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
@@ -1875,8 +2748,21 @@
         <translation>Kan inte spola tillbaka databasen till obeskärt läge. Du måste ladda ner blockkedjan igen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Använd UPnP för att mappa den lyssnande porten (förvalt: 1 när lyssning aktiverat och utan -proxy)</translation>
+=======
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Använd separat SOCKS5 proxy för att nå kollegor via dolda tjänster i Tor (default: -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Varning: -paytxfee är satt väldigt hög! Detta är avgiften du kommer betala för varje transaktion.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Varning: Vänligen kolla så att din dators datum och tid är korrekt! Om din klocka går fel kommer Bitcoin inte fungera korrekt.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2067,8 +2953,13 @@
         <translation>Visa denna hjälptext och avsluta</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Print version and exit</source>
         <translation>Visa version och avsluta</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Ogiltig -onion adress:'%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Prune cannot be configured with a negative value.</source>
@@ -2223,12 +3114,21 @@
         <translation>Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användning i OpenSSL Toolkit &lt;https://www.openssl.org/&gt; och kryptografisk mjukvara utvecklad av Eric Young samt UPnP-mjukvara skriven av Thomas Bernard.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use hierarchical deterministic key generation (HD) after BIP32. Only has effect during wallet creation/first start</source>
         <translation>Använd hierarkisk deterministisk nyckel generering (HD) efter BIP32. Har bara effekt under plånbokens skapande/första användning.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Vitlistade klienter kan inte bli DoS-bannade och deras transaktioner reläas alltid, även om dom redan är i mempoolen, användbart för t.ex en gateway  </translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ogiltigt belopp för -minrelaytxfee=&lt;belopp&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ogiltigt belopp för -mintxfee=&lt;belopp&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
@@ -2475,18 +3375,28 @@
         <translation>Sök alltid efter klientadresser med DNS sökningen (förvalt: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>Hur många block att kontrollera vid uppstart (förvalt: %u, 0 = alla)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>Inkludera IP-adresser i debugutskrift (förvalt: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ogiltig -proxy adress: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Okänt nätverk som anges i -onlynet: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Ogiltig -proxy adress: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Lyssna på JSON-RPC-anslutningar på &lt;port&gt; (förval: %u eller testnet: %u)</translation>
     </message>
@@ -2497,6 +3407,18 @@
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Ha som mest &lt;n&gt; anslutningar till andra klienter (förvalt: %u)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Kan inte matcha -bind adress: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Kan inte matcha -externalip adress: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ogiltigt belopp för -paytxfee=&lt;belopp&gt;:'%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>

@@ -1,4 +1,44 @@
 <TS language="de" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Über Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;"Bitcoin Core"&lt;/b&gt;-Version</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Dies ist experimentelle Software.
+
+Veröffentlicht unter der MIT/X11-Softwarelizenz, siehe beiligende Datei COPYING oder http://www.opensource.org/licenses/mit-license.php.
+
+Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im OpenSSL-Toolkit (https://www.openssl.org) entwickelt wird, sowie von Eric Young (eay@cryptsoft.com) geschriebene kryptographische Software und von Thomas Bernard geschriebene UPnP-Software.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Urheberrecht</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Die "Bitcoin Core"-Entwickler</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-Bit)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -241,6 +281,13 @@
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Zahlungen anfordern (erzeugt QR-Codes und "bitcoin:"-URIs)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;About Bitcoin Core</source>
+        <translation>&amp;Über Bitcoin Core</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -258,6 +305,17 @@
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandozeilenoptionen</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Zeige den "Bitcoin Core"-Hilfetext, um eine Liste mit möglichen Kommandozeilenoptionen zu erhalten</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin-Client</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
         <translation><numerusform>%n aktive Verbindung zum Bitcoin-Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Bitcoin-Netzwerk</numerusform></translation>
@@ -388,8 +446,13 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Selection</source>
         <translation>Münzauswahl ("Coin Control")</translation>
+=======
+        <source>Coin Control Address Selection</source>
+        <translation>"Coin Control"-Adressauswahl</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Quantity:</source>
@@ -561,8 +624,13 @@
         <translation>Startbildschirm beim Starten anzeigen (Standard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reset all settings changed in the GUI</source>
         <translation>Setze alle Einstellungen zurück, die über die grafische Oberfläche geändert wurden.</translation>
+=======
+        <source>Dust</source>
+        <translation>"Dust"</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -592,8 +660,13 @@
         <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Error: Specified data directory "%1" cannot be created.</source>
         <translation>Fehler: Angegebenes Datenverzeichnis "%1" kann nicht angelegt werden.</translation>
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Diese Bezeichnung wird rot, wenn die Priorität niedriger als "mittel" ist.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Error</source>
@@ -603,9 +676,15 @@
         <source>%n GB of free space available</source>
         <translation><numerusform>%n GB freier Speicherplatz verfügbar</numerusform><numerusform>%n GB freier Speicherplatz verfügbar</numerusform></translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation><numerusform>(von benötigtem %n GB)</numerusform><numerusform>(von benötigten %n GB)</numerusform></translation>
+=======
+    <message>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation>Beträge kleiner als das 0,546-fache der niedrigsten Vermittlungsgebühr werden als "Dust" angezeigt.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -654,8 +733,204 @@
         <translation>MB</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Number of script &amp;verification threads</source>
         <translation>Anzahl an Skript-&amp;Verifizierungs-Threads</translation>
+=======
+        <source>New sending address</source>
+        <translation>Neue Zahlungsadresse</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Empfangsadresse bearbeiten</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Zahlungsadresse bearbeiten</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Die eingegebene Adresse "%1" befindet sich bereits im Adressbuch.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Die eingegebene Adresse "%1" ist keine gültige Bitcoin-Adresse.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Wallet konnte nicht entsperrt werden.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Erzeugung eines neuen Schlüssels fehlgeschlagen.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Es wird ein neues Datenverzeichnis angelegt.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>Name</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Verzeichnis existiert bereits. Fügen Sie %1 an, wenn Sie beabsichtigen hier ein neues Verzeichnis anzulegen.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Pfad existiert bereits und ist kein Verzeichnis.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Datenverzeichnis kann hier nicht angelegt werden.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Bitcoin Core - Kommandozeilenoptionen</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>Version</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Benutzung:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>Kommandozeilenoptionen</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>UI-Optionen</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Sprache festlegen, z.B. "de_DE" (Standard: Systemstandard)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Minimiert starten</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>SSL-Wurzelzertifikate für Zahlungsanforderungen festlegen (Standard: Systemstandard)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Startbildschirm beim Starten anzeigen (Standard: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Datenverzeichnis beim Starten auswählen (Standard: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Willkommen</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Willkommen zu Bitcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>Da Sie das Programm gerade zum ersten Mal starten, können Sie nun auswählen wo Bitcoin Core seine Daten ablegen soll.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Core wird eine Kopie der Blockkette herunterladen und speichern. Mindestens %1GB Daten werden in diesem Verzeichnis abgelegt und die Datenmenge wächst über die Zeit an. Auch die Wallet wird in diesem Verzeichnis abgelegt.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Standard-Datenverzeichnis verwenden</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Ein benutzerdefiniertes Datenverzeichnis verwenden:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Fehler: Angegebenes Datenverzeichnis "%1" kann nicht angelegt werden.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fehler</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB freier Speicherplatz verfügbar</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(von benötigten %1GB)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>URI öffnen</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Zahlungsanforderung über URI oder aus Datei öffnen</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Zahlungsanforderungsdatei auswählen</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Zu öffnende Zahlungsanforderungsdatei auswählen</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Konfiguration</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Allgemein</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Optionale Transaktionsgebühr pro kB, die sicherstellt, dass ihre Transaktionen schnell bearbeitet werden. Die meisten Transaktionen sind 1 kB groß.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Transaktions&amp;gebühr bezahlen</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Bitcoin nach der Anmeldung am System automatisch ausführen.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Starte Bitcoin nach Systemanmeldung</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -672,6 +947,14 @@
     <message>
         <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Exit in the menu.</source>
         <translation>Minimiert die Anwendung anstatt sie zu beenden wenn das Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie die Anwendung über "Beenden" im Menü schließen.</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Externe URLs (z.B. ein Block-Explorer), die im Kontextmenü des Transaktionsverlaufs eingefügt werden. In der URL wird %s durch den Transaktionshash ersetzt. Bei Angabe mehrerer URLs müssen diese durch "|" voneinander getrennt werden.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Externe Transaktions-URLs</translation>
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
@@ -798,6 +1081,13 @@
         <translation>In den Infobereich anstatt in die Taskleiste &amp;minimieren</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>Minimiert die Anwendung anstatt sie zu beenden wenn das Fenster geschlossen wird. Wenn dies aktiviert ist, müssen Sie das Programm über "Beenden" im Menü schließen.</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>M&amp;inimize on close</source>
         <translation>Beim Schließen m&amp;inimieren</translation>
     </message>
@@ -909,8 +1199,56 @@
         <translation>Aktueller Gesamtbetrag aus obigen Kategorien</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current balance in watch-only addresses</source>
         <translation>Ihr aktueller Kontostand beobachteter Adressen</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Letzte Transaktionen&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>nicht synchron</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI-Verarbeitung</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI kann nicht analysiert werden! Dies kann durch eine ungültige Bitcoin-Adresse oder fehlerhafte URI-Parameter verursacht werden.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Angeforderter Zahlungsbetrag in Höhe von %1 ist zu niedrig und wurde als "Dust" eingestuft.</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>fehlerhafte Zahlungsanforderung</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>"bitcoin: Klicken-zum-Bezahlen"-Handler konnte nicht gestartet werden</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Netzwerkmanager-Warnung</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Ihr aktiver Proxy unterstützt kein SOCKS5, dies wird jedoch für Zahlungsanforderungen über einen Proxy benötigt.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Abruf-URL der Zahlungsanforderung ist ungültig: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Zahlungsanforderungsdatei-Verarbeitung</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spendable:</source>
@@ -951,20 +1289,38 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Betrag</translation>
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
         <translation>Bitcoin-Adresse eingeben (z.B. %1)</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Fehler: Angegebenes Datenverzeichnis "%1" existiert nicht.</translation>
+    </message>
+    <message>
+        <source>Error: Cannot parse configuration file: %1. Only use key=value syntax.</source>
+        <translation>Fehler: Konfigurationsdatei kann nicht analysiert werden: %1. Bitte nur "Schlüssel=Wert"-Syntax verwenden.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 d</source>
         <translation>%1 d</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 h</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core wurde noch nicht sicher beendet...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 m</source>
@@ -1588,6 +1944,13 @@
     <message>
         <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
         <translation>Eine an die "bitcoin:"-URI angefügte Nachricht, die zusammen mit der Transaktion gespeichert wird. Hinweis: Diese Nachricht wird nicht über das Bitcoin-Netzwerk gesendet.</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Dies is eine unverifizierte Zahlungsanforderung.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Pay To:</source>
@@ -1611,6 +1974,483 @@
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Signaturen - eine Nachricht signieren / verifizieren</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>Nachricht &amp;signieren</translation>
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Sie können Nachrichten mit ihren Adressen signieren, um den Besitz dieser Adressen zu beweisen. Bitte nutzen Sie diese Funktion mit Vorsicht und nehmen Sie sich vor Phishingangriffen in Acht. Signieren Sie nur Nachrichten, mit denen Sie vollständig einverstanden sind.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die Adresse mit der die Nachricht signiert wird (z.B. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Bereits verwendete Adresse auswählen</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Adresse aus der Zwischenablage einfügen</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Zu signierende Nachricht hier eingeben</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatur</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Aktuelle Signatur in die Zwischenablage kopieren</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Die Nachricht signieren, um den Besitz dieser Bitcoin-Adresse zu beweisen</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>&amp;Nachricht signieren</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Alle "Nachricht signieren"-Felder zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>&amp;Zurücksetzen</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>Nachricht &amp;verifizieren</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Geben Sie die signierende Adresse, Nachricht (achten Sie darauf Zeilenumbrüche, Leerzeichen, Tabulatoren usw. exakt zu kopieren) und Signatur unten ein, um die Nachricht zu verifizieren. Vorsicht, interpretieren Sie nicht mehr in die Signatur hinein, als in der signierten Nachricht selber enthalten ist, um nicht von einem Man-in-the-middle-Angriff hinters Licht geführt zu werden.</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die Adresse mit der die Nachricht signiert wurde (z.B. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Die Nachricht verifizieren, um sicherzustellen, dass diese mit der angegebenen Bitcoin-Adresse signiert wurde</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>&amp;Nachricht verifizieren</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Alle "Nachricht verifizieren"-Felder zurücksetzen</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Bitcoin-Adresse eingeben (z.B. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Auf "Nachricht signieren" klicken, um die Signatur zu erzeugen</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Die eingegebene Adresse ist ungültig.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Bitte überprüfen Sie die Adresse und versuchen Sie es erneut.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Die eingegebene Adresse verweist nicht auf einen Schlüssel.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Wallet-Entsperrung wurde abgebrochen.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Privater Schlüssel zur eingegebenen Adresse ist nicht verfügbar.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Signierung der Nachricht fehlgeschlagen.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Nachricht signiert.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Die Signatur konnte nicht dekodiert werden.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Bitte überprüfen Sie die Signatur und versuchen Sie es erneut.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Die Signatur entspricht nicht dem "Message Digest".</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Verifikation der Nachricht fehlgeschlagen.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Nachricht verifiziert.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Die "Bitcoin Core"-Entwickler</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[Testnetz]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Offen bis %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>in Konflikt stehend</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/unbestätigt</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 Bestätigungen</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, über %n Knoten übertragen</numerusform><numerusform>, über %n Knoten übertragen</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Quelle</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Erzeugt</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Von</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>An</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>eigene Adresse</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>Bezeichnung</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Gutschrift</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>reift noch %n weiteren Block</numerusform><numerusform>reift noch %n weitere Blöcke</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>nicht angenommen</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Belastung</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transaktionsgebühr</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Nettobetrag</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nachricht</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Kommentar</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>Transaktions-ID</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Händler</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Erzeugte Bitcoins müssen %1 Blöcke lang reifen, bevor sie ausgegeben werden können. Als Sie diesen Block erzeugten, wurde er an das Netzwerk übertragen, um ihn der Blockkette hinzuzufügen. Falls dies fehlschlägt wird der Status in "nicht angenommen" geändert und Sie werden keine Bitcoins gutgeschrieben bekommen. Das kann gelegentlich passieren, wenn ein anderer Knoten einen Block fast zeitgleich erzeugt.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Debuginformationen</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transaktion</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Eingaben</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Betrag</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>wahr</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>falsch</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, wurde noch nicht erfolgreich übertragen</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Offen für %n weiteren Block</numerusform><numerusform>Offen für %n weitere Blöcke</numerusform></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>unbekannt</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Transaktionsdetails</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Dieser Bereich zeigt eine detaillierte Beschreibung der Transaktion an</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresse</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Betrag</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>Unreif (%1 Bestätigungen, wird verfügbar sein nach %2)</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Offen für %n weiteren Block</numerusform><numerusform>Offen für %n weitere Blöcke</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Offen bis %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Bestätigt (%1 Bestätigungen)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Dieser Block wurde von keinem anderen Knoten empfangen und wird wahrscheinlich nicht angenommen werden!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Erzeugt, jedoch nicht angenommen</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Offline</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Unbestätigt</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Wird bestätigt (%1 von %2 empfohlenen Bestätigungen)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>in Konflikt stehend</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Empfangen über</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Empfangen von</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Überwiesen an</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Eigenüberweisung</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Erarbeitet</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(k.A.)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Transaktionsstatus, fahren Sie mit der Maus über dieses Feld, um die Anzahl der Bestätigungen zu sehen.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Datum und Uhrzeit zu der die Transaktion empfangen wurde.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Art der Transaktion</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Zieladresse der Transaktion</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Der Betrag, der dem Kontostand abgezogen oder hinzugefügt wurde.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Alle</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Heute</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Diese Woche</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Diesen Monat</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Letzten Monat</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Dieses Jahr</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Zeitraum...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Empfangen über</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Überwiesen an</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Eigenüberweisung</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Erarbeitet</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Andere</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Zu suchende Adresse oder Bezeichnung eingeben</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Minimaler Betrag</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>Signatures - Sign / Verify a Message</source>
         <translation>Signaturen - eine Nachricht signieren / verifizieren</translation>
@@ -1763,12 +2603,17 @@
         <translation>Fehler: Ein schwerer interner Fehler ist aufgetreten, siehe debug.log für Details.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fee (in %s/kB) to add to transactions you send (default: %s)</source>
         <translation>Gebühr (in %s/kB), die von Ihnen gesendeten Transaktionen hinzugefügt wird (Standard: %s)</translation>
     </message>
     <message>
         <source>Pruning blockstore...</source>
         <translation>Kürze Blockspeicher...</translation>
+=======
+        <source>Bitcoin Core RPC client version</source>
+        <translation>"Bitcoin Core"-RPC-Client-Version</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -1783,8 +2628,33 @@
         <translation>Eingehende Verbindungen annehmen (Standard: 1, wenn nicht -proxy oder -connect)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Bitcoin Core</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, Sie müssen den Wert rpcpasswort in dieser Konfigurationsdatei angeben:
+%s
+Es wird empfohlen das folgende Zufallspasswort zu verwenden:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(Sie müssen sich dieses Passwort nicht merken!)
+Der Benutzername und das Passwort dürfen NICHT identisch sein.
+Falls die Konfigurationsdatei nicht existiert, erzeugen Sie diese bitte mit Leserechten nur für den Dateibesitzer.
+Es wird ebenfalls empfohlen alertnotify anzugeben, um im Problemfall benachrichtig zu werden;
+zum Beispiel: alertnotify=echo %%s | mail -s \"Bitcoin Alert\" admin@foo.com
+</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
@@ -1796,7 +2666,15 @@
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+<<<<<<< HEAD
         <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Notation verwenden</translation>
+=======
+        <translation>An die angegebene Adresse binden und immer abhören. Für IPv6 "[Host]:Port"-Schreibweise verwenden</translation>
+    </message>
+    <message>
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
+        <translation>Anzahl der freien Transaktionen auf &lt;n&gt; * 1000 Byte pro Minute begrenzen (Standard: 15)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. %s is probably already running.</source>
@@ -1839,8 +2717,25 @@
         <translation>Dies ist eine Vorab-Testversion - Verwendung auf eigene Gefahr - nicht für Mining- oder Handelsanwendungen nutzen!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>UPnP verwenden, um eine Portweiterleitung einzurichten (Standard: 1, wenn abgehört wird und -proxy nicht gesetzt ist)</translation>
+=======
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>Kann auf diesem Computer nicht an %s binden, da Bitcoin Core wahrscheinlich bereits gestartet wurde.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Separaten SOCKS5-Proxy verwenden, um Gegenstellen über versteckte Tor-Dienste zu erreichen (Standard: -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Warnung: -paytxfee ist auf einen sehr hohen Wert festgelegt! Dies ist die Gebühr die beim Senden einer Transaktion fällig wird.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Warnung: Bitte korrigieren Sie die Datums- und Uhrzeiteinstellungen ihres Computers, da Bitcoin ansonsten nicht ordnungsgemäß funktionieren wird!</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -1875,8 +2770,13 @@
         <translation>Hänge ein Kommentar zur User Agent-Zeichenkette an</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
         <translation>Es wird versucht, private Schlüssel beim Starten aus einem beschädigtem Wallet wiederherzustellen</translation>
+=======
+        <source>Bitcoin Core Daemon</source>
+        <translation>"Bitcoin Core"-Hintergrunddienst</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Block creation options:</source>
@@ -2035,8 +2935,13 @@
         <translation>Wallet-Datei angeben (innerhalb des Datenverzeichnisses)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The source code is available from %s.</source>
         <translation>Der Quellcode ist von %s verfügbar.</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Ungültige "-onion"-Adresse: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
@@ -2139,12 +3044,21 @@
         <translation>Der Transaktionsbetrag ist zum senden zu niedrig, nachdem die Gebühr abgezogen wurde.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dieses Produkt enthält Software, die vom OpenSSL-Projekt zur Verwendung im OpenSSL-Toolkit &lt;https://www.openssl.org/&gt; entwickelt wird, sowie von Eric Young geschriebene kryptographische Software und von Thomas Bernard geschriebene UPnP-Software.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Erlaubte Gegenstellen werden nicht für DoS-Attacken gesperrt und ihre Transkationen werden immer weitergeleitet, auch wenn sie sich bereits im Speicherpool befinden, was z.B. für Gateways sinnvoll ist.</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ungültiger Betrag für -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ungültiger Betrag für -mintxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
@@ -2235,8 +3149,13 @@
         <translation>Der Transaktionsbetrag ist zu niedrig, um die Gebühr zu bezahlen.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is experimental software.</source>
         <translation>Dies ist experimentelle Software.</translation>
+=======
+        <source>Start Bitcoin Core Daemon</source>
+        <translation>"Bitcoin Core"-Hintergrunddienst starten</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
@@ -2383,18 +3302,28 @@
         <translation>Adressen von Gegenstellen immer über DNS-Namensauflösung abfragen (Standard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>Wieviele Blöcke beim Starten geprüft werden sollen (Standard: %u, 0 = alle)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>IP-Adressen in Debugausgabe einschließen (Standard: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ungültige Adresse in -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Unbekannter Netztyp in -onlynet angegeben: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Ungültige Adresse in -proxy: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>&lt;port&gt; nach JSON-RPC-Verbindungen abhören (Standard: %u oder Testnetz: %u)</translation>
     </message>
@@ -2405,6 +3334,18 @@
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Maximal &lt;n&gt; Verbindungen zu Gegenstellen aufrechterhalten (Standard: %u)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Kann Adresse in -bind nicht auflösen: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Kann Adresse in -externalip nicht auflösen: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ungültiger Betrag für -paytxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>

@@ -39,6 +39,7 @@ class CTxMemPool;
 class CValidationInterface;
 class CValidationState;
 
+<<<<<<< HEAD
 struct CNodeStateStats;
 struct LockPoints;
 
@@ -70,6 +71,23 @@ static const unsigned int DEFAULT_DESCENDANT_LIMIT = 25;
 static const unsigned int DEFAULT_DESCENDANT_SIZE_LIMIT = 101;
 /** Default for -mempoolexpiry, expiration time for mempool transactions in hours */
 static const unsigned int DEFAULT_MEMPOOL_EXPIRY = 72;
+=======
+/** The maximum allowed size for a serialized block, in bytes (network rule) */
+static const unsigned int MAX_BLOCK_SIZE = 1000000;
+/** Default for -blockmaxsize and -blockminsize, which control the range of sizes the mining code will create **/
+static const unsigned int DEFAULT_BLOCK_MAX_SIZE = 750000;
+static const unsigned int DEFAULT_BLOCK_MIN_SIZE = 0;
+/** Default for -blockprioritysize, maximum space for zero/low-fee transactions **/
+static const unsigned int DEFAULT_BLOCK_PRIORITY_SIZE = 50000;
+/** The maximum size for transactions we're willing to relay/mine */
+static const unsigned int MAX_STANDARD_TX_SIZE = 100000;
+/** The maximum allowed number of signature check operations in a block (network rule) */
+static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
+/** Default for -maxorphantx, maximum number of orphan transactions kept in memory */
+static const unsigned int DEFAULT_MAX_ORPHAN_TRANSACTIONS = 100;
+/** Default for -maxorphanblocks, maximum number of orphan blocks kept in memory */
+static const unsigned int DEFAULT_MAX_ORPHAN_BLOCKS = 750;
+>>>>>>> refs/remotes/karogkung/0.9
 /** The maximum size of a blk?????.dat file (since 0.8) */
 static const unsigned int MAX_BLOCKFILE_SIZE = 0x8000000; // 128 MiB
 /** The pre-allocation chunk size for blk?????.dat files (since 0.8) */
@@ -248,6 +266,13 @@ bool ProcessMessages(CNode* pfrom);
 bool SendMessages(CNode* pto);
 /** Run an instance of the script checking thread */
 void ThreadScriptCheck();
+<<<<<<< HEAD
+=======
+/** Check whether a block hash satisfies the proof-of-work requirement specified by nBits */
+bool CheckProofOfWork(uint256 hash, unsigned int nBits);
+/** Calculate the minimum amount of work a received block needs, without knowing its direct parent */
+unsigned int ComputeMinWork(unsigned int nBase, int64_t nTime);
+>>>>>>> refs/remotes/karogkung/0.9
 /** Check whether we are doing an initial block download (synchronizing from disk or network) */
 bool IsInitialBlockDownload();
 /** Format a string that describes several potential problems detected by the core.

@@ -1,4 +1,40 @@
 <TS language="ka" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Bitcoin Core-ს შესახებ</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt;-ს ვერსია</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+პროგრამა ექსპერიმენტულია.
+
+ვრცელდება MIT/X11 ლიცენზიით, იხილე თანდართული ფაილი COPYING ან http://www.opensource.org/licenses/mit-license.php.
+
+პროდუქტი შეიცავს OpenSSL პროექტის ფარგლებში შემუშავებულ პროგრამულ უზრუნველყოფას OpenSSL Toolkit-ში გამოყენებისათვის (http://www.openssl.org/), კრიპტოგრაფიულ პროგრამას, ავტორი ერიქ იანგი (Eric Young, eay@cryptsoft.com) და UPnP-პროგრამას, ავტორი თომას ბერნარდი (Thomas Bernard).</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>საავტორო უფლებები</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core-ს ავტორები</translation>
+    </message>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -496,8 +532,13 @@
         <translation>დაბ&amp;რუნების ოპციები</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Network</source>
         <translation>&amp;ქსელი</translation>
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>ნიშნული წითლდება, როცა პრიორიტეტი "საშუალო"-ზე დაბალია.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -540,6 +581,300 @@
         <translation>&amp;მინიმიზება სისტემურ ზონაში პროგრამების პანელის ნაცვლად</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>მისამართების სიის ამ ჩანაწერთან მისამართი ასოცირებული. მისი შეცვლა შეიძლება მხოლოდ გაგზავნის მისამართის შემთხვევაში.</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>მის&amp;ამართი</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>ახალი მიღების მისამართი</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>ახალი გაგზავნის მისამართი</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>მიღების მისამართის შეცვლა</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>გაგზავნის მისამართის შეცვლა</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>მისამართი "%1" უკვე არის მისამართების წიგნში.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>შეყვანილი მისამართი "%1" არ არის ვალიდური Bitcoin-მისამართი.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>საფულის განბლოკვა ვერ მოხერხდა.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>ახალი გასაღების გენერირება ვერ მოხერხდა</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>შეიქმნება ახალი მონაცემთა კატალოგი.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>სახელი</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>კატალოგი უკვე არსებობს. დაამატეთ %1 თუ გინდათ ახალი კატალოგის აქვე შექმნა.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>მისამართი უკვე არსებობს და არ წარმოადგენს კატალოგს.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>კატალოგის აქ შექმნა შეუძლებელია.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Bitcoin Core - საკომანდო სტრიქონის ოპციები</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>ვერსია</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>გამოყენება:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>კომანდების ზოლის ოპციები</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>ინტერფეისის პარამეტრები</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>აირჩიეთ ენა, მაგალითად "de_DE" (ნაგულისხმევია სისტემური ლოკალი)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>გაშვება მინიმიზებული ეკრანით</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>მისალმების ეკრანის ჩვენება გაშვებისას (ნაგულისხმევი:1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>მონაცემთა კატალოგის მითითება ყოველი გაშვებისას (ნაგულისხმევი: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>მოგესალმებით</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>მოგესალმებათ Bitcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები Bitcoin Core-მ.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>ნაგულისხმევი კატალოგის გამოყენება</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>მითითებული კატალოგის გამოყენება:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>შეცდომა: მითითებული მონაცემთა კატალოგი "%1" ვერ შეიქმნა.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>შეცდომა</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>გიგაბაიტია თავისუფალი</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(საჭიროა  %1GB)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>URI-ის გახსნა</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>გადახდის მოთხოვნის შექმნა URI-იდან ან ფაილიდან</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>გადახდის მოთხოვნის ფაილის არჩევა</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>გადახდის მოთხოვნის ფაილის არჩევა გასახსნელად</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>ოპციები</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;მთავარი</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>დამატებითი საკომისიო თითო კილობაიტზე; აჩქარებს ტრანსაქციის შესრულებას. ტრანსაქციების უმეტესობა არის 1 კბ.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>ტრანსაქციის სა&amp;ფასურის გადახდა</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>სისტემაში შესვლის შემდეგ Bitcoin-ის ავტომატური გაშვება.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;სისტემაში შესვლისას გაშვება</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>მონაცემთა ბაზის კეშის სი&amp;დიდე</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>სკრიპტის &amp;ვერიფიცირების ნაკადების რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Bitcoin-ქსელზე მიერთება SOCKS-პროქსით.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>SO&amp;CKS (ნაგულისხმევი) პროქსი მიერთებისათვის:</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>პროქსის IP-მისამართი (მაგ.: IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>საკომანდო სტრიქონის აქტიური ოპციები, რომლებიც გადაფარავენ ზემოთნაჩვენებს:</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>კლიენტის ყველა პარამეტრის დაბრუნება ნაგულისხმევ მნიშვნელობებზე.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>დაბ&amp;რუნების ოპციები</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;ქსელი</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>ს&amp;აფულე</translation>
+    </message>
+    <message>
+        <source>If you disable the spending of unconfirmed change, the change from a transaction cannot be used until that transaction has at least one confirmation. This also affects how your balance is computed.</source>
+        <translation>დაუდასტურებელი ხურდის გამოყენების აკრძალვის შემდეგ მათი გამოყენება შეუძლებელი იქნება, სანამ ტრანსაქციას არ ექნება ერთი დასტური მაინც. ეს აისახება თქვენი ნაშთის დათვლაზეც.</translation>
+    </message>
+    <message>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>როუტერში Bitcoin-კლიენტის პორტის ავტომატური გახსნა. მუშაობს, თუ თქვენს როუტერს ჩართული აქვს UPnP.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>პორტის გადამისამართება &amp;UPnP-ით</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>პროქსის &amp;IP:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;პორტი</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>პროქსის პორტი (მაგ.: 9050)</translation>
+    </message>
+    <message>
+        <source>SOCKS &amp;Version:</source>
+        <translation>SOCKS &amp;ვერსია:</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>პროქსის SOCKS-ვერსია (მაგ.: 5)</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;ფანჯარა</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>ფანჯრის მინიმიზებისას მხოლოდ იკონა სისტემურ ზონაში</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;მინიმიზება სისტემურ ზონაში პროგრამების პანელის ნაცვლად</translation>
+    </message>
+    <message>
+        <source>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</source>
+        <translation>პროგრამის მინიმიზება ფანჯრის დახურვისას. ოპციის ჩართვის შემდეგ პროგრამის დახურვა შესაძლებელი იქნება მხოლოდ მენიუდან - პუნქტი "გასვლა".</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>M&amp;inimize on close</source>
         <translation>მ&amp;ინიმიზება დახურვისას</translation>
     </message>
@@ -578,6 +913,1295 @@
     <message>
         <source>none</source>
         <translation>ცარიელი</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>დაადასტურეთ პარამეტრების დაბრუნება ნაგულისხმევზე</translation>
+    </message>
+    <message>
+        <source>Client restart required to activate changes.</source>
+        <translation>ცვლილებები ძალაში შევა კლიენტის ხელახალი გაშვების შემდეგ.</translation>
+    </message>
+    <message>
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>კლიენტი დაიხურება, გავაგრძელოთ?</translation>
+    </message>
+    <message>
+        <source>This change would require a client restart.</source>
+        <translation>ამ ცვლილებების ძალაში შესასვლელად საჭიროა კლიენტის დახურვა და ხელახალი გაშვება.</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>პროქსის მისამართი არასწორია.</translation>
+    </message>
+</context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>ფორმა</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>ნაჩვენები ინფორმაცია შეიძლება მოძველებული იყოს. თქვენი საფულე ავტომატურად სინქრონიზდება Bitcoin-ის ქსელთან კავშირის დამყარების შემდეგ, ეს პროცესი ჯერ არ არის დასრულებული.</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>საფულე</translation>
+    </message>
+    <message>
+        <source>Available:</source>
+        <translation>ხელმისაწვდომია:</translation>
+    </message>
+    <message>
+        <source>Your current spendable balance</source>
+        <translation>თქვენი ხელმისაწვდომი ნაშთი</translation>
+    </message>
+    <message>
+        <source>Pending:</source>
+        <translation>იგზავნება:</translation>
+    </message>
+    <message>
+        <source>Total of transactions that have yet to be confirmed, and do not yet count toward the spendable balance</source>
+        <translation>დასადასტურებელი ტრანსაქციების საერთო რაოდენობა, რომლებიც ჯერ არ არის ასახული ბალანსში</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>მოუმზადებელია:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>მოპოვებული თანხა, რომელიც ჯერ არ არის მზადყოფნაში</translation>
+    </message>
+    <message>
+        <source>Total:</source>
+        <translation>სულ:</translation>
+    </message>
+    <message>
+        <source>Your current total balance</source>
+        <translation>თქვენი სრული მიმდინარე ბალანსი</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;ბოლო ტრანსაქციები&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>არ არის სინქრონიზებული</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI-ების დამუშავება</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI-ის დამუშავება ვერ მოხერხდა. შესაძლოა არასწორია Bitcoin-მისამართი ან  URI-ის პარამეტრები.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>მოთხოვნილი გადახდის %1 მოცულობა ძალიან მცირეა (ითვლება "მტვრად")</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>გადახდის მოთხოვნის შეცდომა</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>ვერ გაიშვა bitcoin: click-to-pay</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>გაფრთხილება ქსელის მენეჯერისაგან</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>თქვენს აქტიურ პროქსის არა აქვს SOCKS5-ის მხარდაჭერა, რაც საჭიროა გადახდების პროქსით განხორციელებისათვის.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>არასწორია გადახდის მოთხოვნის URL: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>გადახდის მოთხოვნის ფაილის დამუშავება</translation>
+    </message>
+    <message>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation>ვერ ხერხდება გადახდის მოთხოვნის ფაილის წაკითხვა ან დამუშავება! შესაძლოა დაზიანებულია გადახდის მოთხოვნის ფაილი.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>არავერიფიცირებული გადახდის მოთხოვნები გადახდის სამომხმარებლო სკრიპტებისათვის არ არის მხარდაჭერილი.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>დაბრუნება %1-საგან</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>ვერ გამოდის კავშირზე %1: %2</translation>
+    </message>
+    <message>
+        <source>Payment request can not be parsed or processed!</source>
+        <translation>ვერ ხერხდება გადახდის მოთხოვნის გარჩევა ან დამუშავება!</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>ცუდი პასუხი სერვერისაგან %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>გადახდა მიღებულია</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>ქსელური მოთხოვნის შეცდომა</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>შეცდომა: მითითებული მონაცემთა კატალოგი "%1" არ არსებობს.</translation>
+    </message>
+    <message>
+        <source>Error: Invalid combination of -regtest and -testnet.</source>
+        <translation>შეცდომა: -regtest-ისა და -testnet-ის დაუშვებელი კომბინაცია.</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>გამო&amp;სახულების შენახვა</translation>
+    </message>
+    <message>
+        <source>&amp;Copy Image</source>
+        <translation>გამოსახულების &amp;კოპირება</translation>
+    </message>
+    <message>
+        <source>Save QR Code</source>
+        <translation>QR-კოდის შენახვა</translation>
+    </message>
+    <message>
+        <source>PNG Image (*.png)</source>
+        <translation>PNG სურათი (*.png)</translation>
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>Client name</source>
+        <translation>კლიენტი</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>მიუწვდ.</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>კლიენტის ვერსია</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>&amp;ინფორმაცია</translation>
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>დახვეწის ფანჯარა</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>საერთო</translation>
+    </message>
+    <message>
+        <source>Using OpenSSL version</source>
+        <translation>OpenSSL-ის ვერსია</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>სტარტის დრო</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>ქსელი</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>სახელი</translation>
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>შეერთებების რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>ბლოკთა ჯაჭვი</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>ბლოკების მიმდინარე რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Estimated total blocks</source>
+        <translation>ბლოკების სავარაუდო რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>ბოლო ბლოკის დრო</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;შექმნა</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;კონსოლი</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;ქსელის ტრაფიკი</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;წაშლა</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>ჯამი</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>შემომავალი:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>გამავალი:</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>შექმნის დრო</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>დახვეწის ლოგ-ფაილი</translation>
+    </message>
+    <message>
+        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>გახსენით Bitcoin-ის დახვეწის ლოგ-ფაილი მიმდინარე კატალოგიდან. დიდი ლოგ-ფაილის შემთხვევაში ამას შეიძლება რამდენიმე წამი მოუნდეს.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>კონსოლის გასუფთავება</translation>
+    </message>
+    <message>
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>მოგესალმებათ Bitcoin-ის RPC კონსოლი.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>კლავიშები "ზევით" და "ქვევით" - ისტორიაში მოძრაობა, &lt;b&gt;Ctrl-L&lt;/b&gt; - ეკრანის გასუფთავება.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>აკრიფეთ &lt;b&gt;help&lt;/b&gt; ფაშვებული ბრძანებების სანახავად.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 წთ</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 სთ</translation>
+    </message>
+    <message>
+        <source>%1 h %2 m</source>
+        <translation>%1 სთ %2 წთ</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>თ&amp;ანხა:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>ნიშნუ&amp;ლი:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;მესიჯი:</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>რომელიმე ადრე გამოყენებული მიღების მისამართის გამოყენება. ეს ამცირებს უსაფრთხოებასა და პრივატულობას. ნუ გამოიყენებთ ამ ოპციას, თუ არ ახდენთ ადრე მოთხოვნილი გადახდის ხელახლა გენერირებას.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>ად&amp;რე გამოყენებული მიღების მისამართის გამოყენება (არ არის რეკომენდებული)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>არააუცილებელი ნიშნული ახალ მიღების მისამართთან ასოცირებისათვის.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>გამოიყენეთ ეს ფორმა გადახდის მოთხოვნისათვის. ყველა ველი &lt;b&gt;არააუცილებელია&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>მოთხოვნის მოცულობა. არააუცილებელია. ჩაწერეთ 0 ან დატოვეთ ცარიელი, თუ არ მოითხოვება კონკრეტული მოცულობა.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>ფორმის ყველა ველის წაშლა</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>წაშლა</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>მოთხოვნილი გადახდების ისტორია</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;გადახდის მოთხოვნა</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>არჩეული მოთხოვნის ჩვენება (იგივეა, რაც ჩანაწერზე ორჯერ ჩხვლეტა)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>ჩვენება</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>მონიშნული ჩანაწერების წაშლა სიიდან</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>წაშლა</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>ნიშნულის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>მესიჯის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>თანხის კოპირება</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR-კოდი</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>&amp;URI-ის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>მის&amp;ამართის კოპირება</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>გამო&amp;სახულების შენახვა...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>%1-ის გადაზდის მოთხოვნა</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>ინფორმაცია გადახდის შესახებ</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>მისამართი</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ნიშნული</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>მესიჯი</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>URI ძალიან გრძელი გამოდის, შეამოკლეთ ნიშნულის/მესიჯის ტექსტი.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>შედომა URI-ის QR-კოდში გადაყვანისას.</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>თარიღი</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ნიშნული</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>მესიჯი</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>რაოდენობა</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(არ არის ნიშნული)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(მესიჯები არ არის)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(თანხა არ არის)</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>მონეტების გაგზავნა</translation>
+    </message>
+    <message>
+        <source>Coin Control Features</source>
+        <translation>მონეტების კონტროლის პარამეტრები</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>ხარჯები...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>არჩეულია ავტომატურად</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>არ არის საკმარისი თანხა!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>რაოდენობა:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>ბაიტები:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>თანხა:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>პრიორიტეტი:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>საკომისიო:</translation>
+    </message>
+    <message>
+        <source>Low Output:</source>
+        <translation>ქვედა ზღვარი:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>დამატებითი საკომისიო:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>ხურდა:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>ამის გააქტიურებისას თუ ხურდის მისამართი ცარიელია ან არასწორია, ხურდა გაიგზავნება ახლად გენერირებულ მისამართებზე.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>ხურდის მისამართი</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>გაგზავნა რამდენიმე რეციპიენტთან ერთდროულად</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>&amp;რეციპიენტის დამატება</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>ფორმის ყველა ველის წაშლა</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>გ&amp;ასუფთავება</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>ბალანსი:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>გაგზავნის დადასტურება</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>გაგ&amp;ზავნა</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>მონეტების გაგზავნის დადასტურება</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1-დან %2-ში</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>რაოდენობის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>თანხის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>საკომისიოს კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>დამატებითი საკომისიოს კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>ბაიტების კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>პრიორიტეტის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation>ქვედა ზღვრის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>ხურდის კოპირება</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>ჯამური თანხა %1 (= %2)</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>ან</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>მიმღების მისამართი არასწორია, შეამოწმეთ.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>გადახდის მოცულობა 0-ზე მეტი უნდა იყოს</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>თანხა აღემატება თქვენს ბალანსს</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>მისამართები დუბლირებულია, დაშვებულია ერთ ჯერზე თითო მისამართზე ერთხელ გაგზავნა.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>შეცდომა ტრანსაქციის შექმნისას!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>ტრანსაქცია უარყოფილია! შესაძლოა მონეტების ნაწილი თქვენი საფულიდან უკვე გამოყენებულია, რაც შეიძლება მოხდეს wallet.dat-ის ასლის გამოყენებისას, როცა მონეტები გაიგზავნა სხვა ასლიდან, აქ კი არ არის გაგზავნილად მონიშნული.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>ყურადღება: არასწორია Bitcoin-მისამართი</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(არ არის ნიშნული)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>ყურადღება: უცნობია ხურდის მისამართი</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>დარწმუნებული ხართ, რომ გინდათ გაგზავნა?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>დამატებულია საკომისიო</translation>
+    </message>
+    <message>
+        <source>Payment request expired</source>
+        <translation>გადახდის მოთხოვნას ვადა გაუვიდა</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>გადახდის მისამართი არასწორია: %1</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>ადრესა&amp;ტი:</translation>
+    </message>
+    <message>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>მისამართი, რომლითაც ასრულებთ გადახდას (მაგ.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>შეიყვანეთ ამ მისამართის ნიშნული მისამართების წიგნში დასამატებლად</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>ნიშნუ&amp;ლი:</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>აირჩიეთ ადრე გამოყენებული მისამართი</translation>
+    </message>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation>ეს არის ჩვეულებრივი გადახდა.</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>მისამართის ჩასმა კლიპბორდიდან</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>ჩანაწერის წაშლა</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>მესიჯი:</translation>
+    </message>
+    <message>
+        <source>This is a verified payment request.</source>
+        <translation>ეს არის ვერიფიცირებული გადახდის მოთხოვნა.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>ეს არის არავერიფიცირებული გადახდის მოთხოვნა.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>ადრესატი:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>შენიშვნა:</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Bitcoin Core is shutting down...</source>
+        <translation>Bitcoin Core იხურება...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>არ გამორთოთ კომპიუტერი ამ ფანჯრის გაქრობამდე.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>ხელმოწერები - მესიჯის ხელმოწერა/ვერიფიკაცია</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>მე&amp;სიჯის ხელმოწერა</translation>
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>ხელმოწერით თქვენ ადასტურებთ, რომ მესიჯი თქვენია. ფრთხილად - არ მოაწეროთ ხელი რაიმე საეჭვოს: ფიშინგური ხრიკებით შეიძლება ის თქვენს მესიჯად გაასაღონ. მოაწერეთ ხელი მხოლოდ იმას, რასაც ყველა წვრილმანში ეთანხმებით.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>მისამართი, რომლითაც ხელს აწერთ (მაგ.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>აირჩიეთ ადრე გამოყენებული მისამართი</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>მისამართის ჩასმა კლიპბორდიდან</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>აკრიფეთ ხელმოსაწერი მესიჯი</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>ხელმოწერა</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>მიმდინარე ხელმოწერის კოპირება კლიპბორდში</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>&amp;მესიჯის ხელმოწერა</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>ხელმოწერის ყველა ველის წაშლა</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>გ&amp;ასუფთავება</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>მესიჯის &amp;ვერიფიკაცია</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>შეიყვანეთ ხელმოწერის მისამართი, მესიჯი (დაუკვირდით, რომ ზუსტად იყოს კოპირებული სტრიქონის გადატანები, ჰარები, ტაბულაციები და სხვ) და ხელმოწერა მესიჯის ვერიფიკაციისათვის. მიაქციეთ ყურადღება, რომ რაიმე ზედმეტი არ გაგყვეთ კოპირებისას, რათა არ გახდეთ "man-in-the-middle" შეტევის ობიექტი.</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>მისამართი, რომლითაც ხელმოწერილია მესიჯი (მაგ.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>&amp;მესიჯის ვერიფიკაცია</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>ვერიფიკაციის ყველა ველის წაშლა</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>შეიყვანეთ ბიტკოინ-მისამართი (მაგ. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>ხელმოწერის გენერირებისათვის დააჭირეთ "მესიჯის ხელმოწერა"-ს</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>შეყვანილი მისამართი არასწორია.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>შეამოწმეთ მისამართი და სცადეთ ხელახლა.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>შეყვანილი მისამართი არ არის კავშირში გასაღებთან.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>საფულის განბლოკვა შეწყვეტილია.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>ამ მისამართისათვის პირადი გასაღები მიუწვდომელია.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>ვერ მოხერხდა მესიჯის ხელმოწერა.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>მესიჯი ხელმოწერილია.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>ხელმოწერის დეკოდირება ვერ ხერხდება.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>შეამოწმეთ ხელმოწერა და სცადეთ ხელახლა.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>ხელმოწერა არ შეესაბამება მესიჯის დაიჯესტს.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>მესიჯის ვერიფიკაცია ვერ მოხერხდა.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>მესიჯი ვერიფიცირებულია.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core-ს ავტორები</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>ღია იქნება სანამ %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>კონფლიქტშია</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/გათიშულია</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/დაუდასტურებელია</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 დადასტურებულია</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>სტატუსი</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, დაგზავნილია %n კვანძისათვის</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>თარიღი</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>წყარო</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>გენერირებულია</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>გამგზავნი</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>მიმღები</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>საკუთარი მისამართი</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>ნიშნული</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>კრედიტი</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>მზად იქნება %n ბლოკის შემდეგ</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>უარყოფილია</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>დებიტი</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>ტრანსაქციის საფასური - საკომისიო</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>სუფთა თანხა</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>მესიჯი</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>შენიშვნა</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ტრანსაქციის ID</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>გამყიდველი</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>გენერირებული მონეტები გასაგზავნად მომწიფდება %1 ბლოკის შემდეგ. ეს ბლოკი გენერირების შემდეგ გავრცელებულ იქნა ქსელში ბლოკთა ჯაჭვზე დასამატებლად. თუ ის ვერ ჩაჯდა ჯაჭვში, მიეცემა სტატუსი "უარყოფილია" და ამ მონეტებს ვერ გამოიყენებთ. ასეთი რამ შეიძლება მოხდეს, თუ რომელიმე კვანძმა რამდენიმე წამით დაგასწროთ ბლოკის გენერირება.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>დახვეწის ინფორმაცია</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>ტრანსაქცია</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>ხარჯები</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>თანხა</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>ჭეშმარიტი</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>მცდარი</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, დაგზავნა არ არის წარმატებით დასრულებული</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>ღიაა კიდევ %n ბლოკისათვის</numerusform></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>უცნობია</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>ტრანსაქციის დეტალები</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>ტრანსაქციის დაწვრილებითი აღწერილობა</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>თარიღი</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>ტიპი</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>მისამართი</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>რაოდენობა</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>არ არის მომწიფებული (%1 დასტური, საჭიროა სულ %2)</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>ღიაა კიდევ %n ბლოკისათვის</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>ღია იქნება სანამ %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>დადასტურებულია (%1დასტური)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>ეს ბლოკი არ არის მიღებული არცერთი კვანძის მიერ და სავარაუდოდ უარყოფილია!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>გენერირებულია, მაგრამ უარყოფილია</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>ოფლაინშია</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>დაუდასტურებელია</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>დადასტურებულია (%1,  რეკომენდებულია %2)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>კონფლიქტშია</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>მიღებულია</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>გამომგზავნი</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>გაგზავნილია ადრესატთან</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>გადახდილია საკუთარი თავისათვის</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>მოპოვებულია</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(მიუწვდ.)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>ტრანსაქციის სტატუსი. ველზე კურსორის შეყვანისას გამოჩნდება დასტურების რაოდენობა.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>ტრანსაქციის მიღების თარიღი და დრო.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>ტრანსაქციის ტიპი.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>ტრანსაქიის დანიშნულების მისამართი.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>ბალანსიდან მოხსნილი ან დამატებული თანხა.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>ყველა</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>დღეს</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>ამ კვირის</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>ამ თვის</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>ბოლო თვის</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>ამ წლის</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>შუალედი...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>შემოსულია</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>გაგზავნილია</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>საკუთარი თავისათვის</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>მოპოვებულია</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>სხვა</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>შეიყვანეთ საძებნი მისამართი ან ნიშნული</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>მინ. თანხა</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>მისამართის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>ნიშნულის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>თანხის კოპირება</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>ტრანსაქციის ID-ს კოპირება</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>ნიშნულის რედაქტირება</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>ტრანსაქციის დეტალების ჩვენება</translation>
+    </message>
+    <message>
+        <source>Export Transaction History</source>
+        <translation>ტრანსაქციების ისტორიის ექსპორტი</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>ექსპორტი ვერ განხორციელდა</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Confirm options reset</source>
@@ -744,12 +2368,17 @@
         <translation>დახვეწის ლოგ-ფაილი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear console</source>
         <translation>კონსოლის გასუფთავება</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
         <translation>კლავიშები "ზევით" და "ქვევით" - ისტორიაში მოძრაობა, &lt;b&gt;Ctrl-L&lt;/b&gt; - ეკრანის გასუფთავება.</translation>
+=======
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>რეზიდენტულად გაშვება და კომანდების მიღება</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
@@ -760,8 +2389,33 @@
         <translation>%1 B</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 KB</source>
         <translation>%1 KB</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, მიუთითეთ rpcpassword საკონფიგურაციო ფაილში:
+%s
+რეკომენდებულია შემდეგი შემთხვევითი პაროლი:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(ამის დამახსოვრება არ გჭირდებათ)
+სახელი და პაროლი ერთმანეთს არ უნდა ემთხვეოდეს.
+თუ ფაილი არ არსებობს, შექმენით იგი უფლებებით owner-readable-only.
+ასევე რეკომენდებულია დააყენოთ alertnotify რათა მიიღოთ შეტყობინებები პრობლემების შესახებ;
+მაგალითად: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 MB</source>
@@ -779,24 +2433,34 @@
         <translation>თ&amp;ანხა:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Label:</source>
         <translation>ნიშნუ&amp;ლი:</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
         <translation>&amp;მესიჯი:</translation>
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>შესვლა რეგრესული ტესტირების რეჟიმში; სპეციალური ჯაჭვის გამოყენებით ბლოკების პოვნა ხდება დაუყოვნებლივ. გამოიყენება რეგრესული ტესტირების ინსტრუმენტებისა და პროგრამების შემუშავებისას.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
         <translation>რომელიმე ადრე გამოყენებული მიღების მისამართის გამოყენება. ეს ამცირებს უსაფრთხოებასა და პრივატულობას. ნუ გამოიყენებთ ამ ოპციას, თუ არ ახდენთ ადრე მოთხოვნილი გადახდის ხელახლა გენერირებას.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>R&amp;euse an existing receiving address (not recommended)</source>
         <translation>ად&amp;რე გამოყენებული მიღების მისამართის გამოყენება (არ არის რეკომენდებული)</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
         <translation>არააუცილებელი მესიჯი, რომელიც ერთვის გადახდის მოთხოვნას და ნაჩვენები იქნება მოთხოვნის გახსნისას. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
+=======
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>შეცდომა: ტრანსაქცია უარყოფილია! შესაძლოა მონეტების ნაწილი თქვენი საფულიდან უკვე გამოყენებულია, რაც შეიძლება მოხდეს wallet.dat-ის ასლის გამოყენებისას, როცა მონეტები გაიგზავნა სხვა ასლიდან, აქ კი არ არის გაგზავნილად მონიშნული.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -807,6 +2471,7 @@
         <translation>გამოიყენეთ ეს ფორმა გადახდის მოთხოვნისათვის. ყველა ველი &lt;b&gt;არააუცილებელია&lt;/b&gt;.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
         <translation>მოთხოვნის მოცულობა. არააუცილებელია. ჩაწერეთ 0 ან დატოვეთ ცარიელი, თუ არ მოითხოვება კონკრეტული მოცულობა.</translation>
     </message>
@@ -841,6 +2506,14 @@
     <message>
         <source>Remove</source>
         <translation>წაშლა</translation>
+=======
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>ეს არის წინასწარი სატესტო ვერსია - გამოიყენეთ საკუთარი რისკით - არ გამოიყენოთ მოპოვებისა ან კომერციული მიზნებისათვის</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>ფარული Tor-სერვისებით პირების წვდომისათვის სხვა SOCKS5 პროქსის გამოყენება (ნაგულისხმევია: -proxy)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -850,8 +2523,13 @@
         <translation>QR-კოდი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy &amp;URI</source>
         <translation>&amp;URI-ის კოპირება</translation>
+=======
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>ყურადღება: შეამოწმეთ თქვენი კომპიუტერის სისტემური თარიღი და დრო! თუ ისინი არასწორია, Bitcoin ვერ იმუშავებს კორექტულად.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Copy &amp;Address</source>
@@ -873,6 +2551,7 @@
         <translation>მონეტების კონტროლის პარამეტრები</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Inputs...</source>
         <translation>ხარჯები...</translation>
     </message>
@@ -883,6 +2562,10 @@
     <message>
         <source>Insufficient funds!</source>
         <translation>არ არის საკმარისი თანხა!</translation>
+=======
+        <source>&lt;category&gt; can be:</source>
+        <translation>&lt;category&gt; შეიძლება იყოს:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Quantity:</source>
@@ -913,6 +2596,7 @@
         <translation>ხურდა:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
         <translation>ამის გააქტიურებისას თუ ხურდის მისამართი ცარიელია ან არასწორია, ხურდა გაიგზავნება ახლად გენერირებულ მისამართებზე.</translation>
     </message>
@@ -931,6 +2615,14 @@
     <message>
         <source>Add &amp;Recipient</source>
         <translation>&amp;რეციპიენტის დამატება</translation>
+=======
+        <source>Corrupted block database detected</source>
+        <translation>შენიშნულია ბლოკთა ბაზის დაზიანება</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>საკუთარი IP-მისამართის განსაზღვრა (ნაგულისხმევი: 1 თუ ჩართულია მიყურადება და არ გამოიყენება -externalip)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Clear all fields of the form.</source>
@@ -1026,6 +2718,7 @@
         <translation>ხელმოწერები - მესიჯის ხელმოწერა/ვერიფიკაცია</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Sign Message</source>
         <translation>მე&amp;სიჯის ხელმოწერა</translation>
     </message>
@@ -1040,6 +2733,14 @@
     <message>
         <source>Paste address from clipboard</source>
         <translation>მისამართის ჩასმა კლიპბორდიდან</translation>
+=======
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>პირების ძებნა DNS-ით (ნაგულისხმევი: 1 გარდა -connect-ისა)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>მონეტების გენერირება (ნაგულისხმევი: 0)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Alt+P</source>
@@ -1050,6 +2751,7 @@
         <translation>აკრიფეთ ხელმოსაწერი მესიჯი</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Signature</source>
         <translation>ხელმოწერა</translation>
     </message>
@@ -1060,6 +2762,14 @@
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
         <translation>მოაწერეთ ხელი იმის დასადასტურებლად, რომ ეს მისამართი თქვენია</translation>
+=======
+        <source>Incorrect or no genesis block found. Wrong datadir for network?</source>
+        <translation>საწყისი ბლოკი არ არსებობს ან არასწორია. ქსელის მონაცემთა კატალოგი datadir ხომ არის არასწორი?</translation>
+    </message>
+    <message>
+        <source>Invalid -onion address: '%s'</source>
+        <translation>არასწორია მისამართი -onion: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1082,12 +2792,17 @@
         <translation>შეამოწმეთ, რომ მესიჯი ხელმოწერილია მითითებული Bitcoin-მისამართით</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify &amp;Message</source>
         <translation>&amp;მესიჯის ვერიფიკაცია</translation>
     </message>
     <message>
         <source>Reset all verify message fields</source>
         <translation>ვერიფიკაციის ყველა ველის წაშლა</translation>
+=======
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>ბლოკის მაქსიმალური ზომის განსაზღვრა ბაიტებში (ნადულისხმევი: %d)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -1157,12 +2872,17 @@
         <translation>კომანდის შესრულება საფულის ტრანსაქციის ცვლილებისას (%s კომანდაში ჩანაცვლდება TxID-ით)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>ეს არის წინასწარი სატესტო ვერსია - გამოიყენეთ საკუთარი რისკით - არ გამოიყენოთ მოპოვებისა ან კომერციული მიზნებისათვის</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>ყურადღება: ქსელში შეუთანხმებლობაა. შესაძლოა ცალკეულ მომპოვებლებს პრობლემები ექმნებათ!</translation>
+=======
+        <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
+        <translation>ბრძანების შესრულება შესაბამისი უწყების მიღებისას ან როცა შეინიშნება საგრძნობი გახლეჩა (cmd-ში %s შეიცვლება მესიჯით)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: We do not appear to fully agree with our peers! You may need to upgrade, or other nodes may need to upgrade.</source>
@@ -1177,6 +2897,7 @@
         <translation>ბლოკის შექმნის ოპციები:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect only to the specified node(s)</source>
         <translation>შეერთება მხოლოდ მითითებულ კვანძ(ებ)თან</translation>
     </message>
@@ -1191,6 +2912,14 @@
     <message>
         <source>Do you want to rebuild the block database now?</source>
         <translation>გავუშვათ ბლოკთა ბაზის ხელახლა აგება ეხლა?</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -mintxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Error initializing block database</source>
@@ -1213,6 +2942,7 @@
         <translation>შეცდომა: დისზე არ არის ადგილი!</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Failed to listen on any port. Use -listen=0 if you want this.</source>
         <translation>ვერ ხერხდება პორტების მიყურადება. თუ გსურთ, გამოიყენეთ -listen=0.</translation>
     </message>
@@ -1251,12 +2981,21 @@
     <message>
         <source>Wallet options:</source>
         <translation>სფულის ოპციები:</translation>
+=======
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>SSL ოპციები: (იხილე Bitcoin Wiki-ში  SSL-ს მოწყობის ინსტრუქციები)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>ტრასირების/დახვეწის ინფოს გაგზავნა კონსოლზე debug.log ფაილის ნაცვლად</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>ბრძანების შესრულება შესაბამისი უწყების მიღებისას ან როცა შეინიშნება საგრძნობი გახლეჩა (cmd-ში %s შეიცვლება მესიჯით)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>მაღალპრიორიტეტული/დაბალსაკომისიოიანი ტრანსაქციების მაქსიმალური ზომა ბაიტებში (ნაგულისხმევი: %d)</translation>
     </message>
@@ -1269,6 +3008,8 @@
         <translation>ტრასირების/დახვეწის ინფოს გაგზავნა კონსოლზე debug.log ფაილის ნაცვლად</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>debug.log ფაილის შეკუმშვა გაშვებისას (ნაგულისხმევია: 1 როცა არ აყენია -debug)</translation>
     </message>
@@ -1277,6 +3018,17 @@
         <translation>ტრანსაქციების ხელმოწერა ვერ მოხერხდა</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>მიუთითეთ შეერთების ტაიმაუტი მილიწამებში (ნაგულისხმევი: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>სისტემური შეცდომა:</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Transaction amount too small</source>
         <translation>ტრანსაქციების რაოდენობა ძალიან ცოტაა</translation>
     </message>
@@ -1301,6 +3053,17 @@
         <translation>ტრანსაქციების ჩახსნა საფულიდან...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>version</source>
+        <translation>ვერსია</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat დაზიანებულია, აღდგენა ვერ მოხერხდა</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Password for JSON-RPC connections</source>
         <translation>პაროლი JSON-RPC-შეერთებისათვის</translation>
     </message>
@@ -1321,8 +3084,37 @@
         <translation>არასწორია მისამართი -proxy: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>არასწორია მისამართი -proxy: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet-ში მითითებულია უცნობი ქსელი: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>მოთხოვნილია -socks პროქსის უცნობი ვერსია: %i</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>ვერ ხერხდება -bind მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>ვერ ხერხდება -externalip მისამართის გარკვევა: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>დაუშვებელი მნიშვნელობა -paytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>დაუშვებელი თანხა</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Insufficient funds</source>

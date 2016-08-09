@@ -361,8 +361,13 @@ void RPCConsole::setClientModel(ClientModel *model)
         setNumConnections(model->getNumConnections());
         connect(model, SIGNAL(numConnectionsChanged(int)), this, SLOT(setNumConnections(int)));
 
+<<<<<<< HEAD
         setNumBlocks(model->getNumBlocks(), model->getLastBlockDate(), model->getVerificationProgress(NULL), false);
         connect(model, SIGNAL(numBlocksChanged(int,QDateTime,double,bool)), this, SLOT(setNumBlocks(int,QDateTime,double,bool)));
+=======
+        setNumBlocks(model->getNumBlocks());
+        connect(model, SIGNAL(numBlocksChanged(int)), this, SLOT(setNumBlocks(int)));
+>>>>>>> refs/remotes/karogkung/0.9
 
         updateTrafficStats(model->getTotalBytesRecv(), model->getTotalBytesSent());
         connect(model, SIGNAL(bytesChanged(quint64,quint64)), this, SLOT(updateTrafficStats(quint64, quint64)));
@@ -590,6 +595,7 @@ void RPCConsole::setNumConnections(int count)
     ui->numberOfConnections->setText(connections);
 }
 
+<<<<<<< HEAD
 void RPCConsole::setNumBlocks(int count, const QDateTime& blockDate, double nVerificationProgress, bool headers)
 {
     if (!headers) {
@@ -606,6 +612,13 @@ void RPCConsole::setMempoolSize(long numberOfTxs, size_t dynUsage)
         ui->mempoolSize->setText(QString::number(dynUsage/1000.0, 'f', 2) + " KB");
     else
         ui->mempoolSize->setText(QString::number(dynUsage/1000000.0, 'f', 2) + " MB");
+=======
+void RPCConsole::setNumBlocks(int count)
+{
+    ui->numberOfBlocks->setText(QString::number(count));
+    if(clientModel)
+        ui->lastBlockTime->setText(clientModel->getLastBlockDate().toString());
+>>>>>>> refs/remotes/karogkung/0.9
 }
 
 void RPCConsole::on_lineEdit_returnPressed()

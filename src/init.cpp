@@ -14,10 +14,13 @@
 #include "chain.h"
 #include "chainparams.h"
 #include "checkpoints.h"
+<<<<<<< HEAD
 #include "compat/sanity.h"
 #include "consensus/validation.h"
 #include "httpserver.h"
 #include "httprpc.h"
+=======
+>>>>>>> refs/remotes/karogkung/0.9
 #include "key.h"
 #include "main.h"
 #include "miner.h"
@@ -317,6 +320,7 @@ std::string HelpMessage(HelpMessageMode mode)
         strUsage += HelpMessageOpt("-daemon", _("Run in the background as a daemon and accept commands"));
 #endif
     }
+<<<<<<< HEAD
     strUsage += HelpMessageOpt("-datadir=<dir>", _("Specify data directory"));
     strUsage += HelpMessageOpt("-dbcache=<n>", strprintf(_("Set database cache size in megabytes (%d to %d, default: %d)"), nMinDbCache, nMaxDbCache, nDefaultDbCache));
     if (showDebug)
@@ -368,6 +372,40 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-timeout=<n>", strprintf(_("Specify connection timeout in milliseconds (minimum: 1, default: %d)"), DEFAULT_CONNECT_TIMEOUT));
     strUsage += HelpMessageOpt("-torcontrol=<ip>:<port>", strprintf(_("Tor control port to use if onion listening enabled (default: %s)"), DEFAULT_TOR_CONTROL));
     strUsage += HelpMessageOpt("-torpassword=<pass>", _("Tor control port password (default: empty)"));
+=======
+    strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
+    strUsage += "  -dbcache=<n>           " + strprintf(_("Set database cache size in megabytes (%d to %d, default: %d)"), nMinDbCache, nMaxDbCache, nDefaultDbCache) + "\n";
+    strUsage += "  -loadblock=<file>      " + _("Imports blocks from external blk000??.dat file") + " " + _("on startup") + "\n";
+    strUsage += "  -maxorphanblocks=<n>   " + strprintf(_("Keep at most <n> unconnectable blocks in memory (default: %u)"), DEFAULT_MAX_ORPHAN_BLOCKS) + "\n";
+    strUsage += "  -maxorphantx=<n>       " + strprintf(_("Keep at most <n> unconnectable transactions in memory (default: %u)"), DEFAULT_MAX_ORPHAN_TRANSACTIONS) + "\n";
+    strUsage += "  -par=<n>               " + strprintf(_("Set the number of script verification threads (%u to %d, 0 = auto, <0 = leave that many cores free, default: %d)"), -(int)boost::thread::hardware_concurrency(), MAX_SCRIPTCHECK_THREADS, DEFAULT_SCRIPTCHECK_THREADS) + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: bitcoind.pid)") + "\n";
+    strUsage += "  -reindex               " + _("Rebuild block chain index from current blk000??.dat files") + " " + _("on startup") + "\n";
+    strUsage += "  -txindex               " + _("Maintain a full transaction index (default: 0)") + "\n";
+
+    strUsage += "\n" + _("Connection options:") + "\n";
+    strUsage += "  -addnode=<ip>          " + _("Add a node to connect to and attempt to keep the connection open") + "\n";
+    strUsage += "  -banscore=<n>          " + _("Threshold for disconnecting misbehaving peers (default: 100)") + "\n";
+    strUsage += "  -bantime=<n>           " + _("Number of seconds to keep misbehaving peers from reconnecting (default: 86400)") + "\n";
+    strUsage += "  -bind=<addr>           " + _("Bind to given address and always listen on it. Use [host]:port notation for IPv6") + "\n";
+    strUsage += "  -connect=<ip>          " + _("Connect only to the specified node(s)") + "\n";
+    strUsage += "  -discover              " + _("Discover own IP address (default: 1 when listening and no -externalip)") + "\n";
+    strUsage += "  -dns                   " + _("Allow DNS lookups for -addnode, -seednode and -connect") + " " + _("(default: 1)") + "\n";
+    strUsage += "  -dnsseed               " + _("Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)") + "\n";
+    strUsage += "  -forcednsseed          " + _("Always query for peer addresses via DNS lookup (default: 0)") + "\n";
+    strUsage += "  -externalip=<ip>       " + _("Specify your own public address") + "\n";
+    strUsage += "  -listen                " + _("Accept connections from outside (default: 1 if no -proxy or -connect)") + "\n";
+    strUsage += "  -maxconnections=<n>    " + _("Maintain at most <n> connections to peers (default: 125)") + "\n";
+    strUsage += "  -maxreceivebuffer=<n>  " + _("Maximum per-connection receive buffer, <n>*1000 bytes (default: 5000)") + "\n";
+    strUsage += "  -maxsendbuffer=<n>     " + _("Maximum per-connection send buffer, <n>*1000 bytes (default: 1000)") + "\n";
+    strUsage += "  -onion=<ip:port>       " + _("Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)") + "\n";
+    strUsage += "  -onlynet=<net>         " + _("Only connect to nodes in network <net> (IPv4, IPv6 or Tor)") + "\n";
+    strUsage += "  -port=<port>           " + _("Listen for connections on <port> (default: 8333 or testnet: 18333)") + "\n";
+    strUsage += "  -proxy=<ip:port>       " + _("Connect through SOCKS proxy") + "\n";
+    strUsage += "  -seednode=<ip>         " + _("Connect to a node to retrieve peer addresses, and disconnect") + "\n";
+    strUsage += "  -socks=<n>             " + _("Select SOCKS version for -proxy (4 or 5, default: 5)") + "\n";
+    strUsage += "  -timeout=<n>           " + _("Specify connection timeout in milliseconds (default: 5000)") + "\n";
+>>>>>>> refs/remotes/karogkung/0.9
 #ifdef USE_UPNP
 #if USE_UPNP
     strUsage += HelpMessageOpt("-upnp", _("Use UPnP to map the listening port (default: 1 when listening and no -proxy)"));
@@ -383,6 +421,7 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-maxuploadtarget=<n>", strprintf(_("Tries to keep outbound traffic under the given target (in MiB per 24h), 0 = no limit (default: %d)"), DEFAULT_MAX_UPLOAD_TARGET));
 
 #ifdef ENABLE_WALLET
+<<<<<<< HEAD
     strUsage += CWallet::GetWalletHelpString(showDebug);
 #endif
 
@@ -392,6 +431,19 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-zmqpubhashtx=<address>", _("Enable publish hash transaction in <address>"));
     strUsage += HelpMessageOpt("-zmqpubrawblock=<address>", _("Enable publish raw block in <address>"));
     strUsage += HelpMessageOpt("-zmqpubrawtx=<address>", _("Enable publish raw transaction in <address>"));
+=======
+    strUsage += "\n" + _("Wallet options:") + "\n";
+    strUsage += "  -disablewallet         " + _("Do not load the wallet and disable wallet RPC calls") + "\n";
+    strUsage += "  -keypool=<n>           " + _("Set key pool size to <n> (default: 100)") + "\n";
+    strUsage += "  -paytxfee=<amt>        " + _("Fee per kB to add to transactions you send") + "\n";
+    strUsage += "  -rescan                " + _("Rescan the block chain for missing wallet transactions") + " " + _("on startup") + "\n";
+    strUsage += "  -salvagewallet         " + _("Attempt to recover private keys from a corrupt wallet.dat") + " " + _("on startup") + "\n";
+    strUsage += "  -spendzeroconfchange   " + _("Spend unconfirmed change when sending transactions (default: 1)") + "\n";
+    strUsage += "  -upgradewallet         " + _("Upgrade wallet to latest format") + " " + _("on startup") + "\n";
+    strUsage += "  -wallet=<file>         " + _("Specify wallet file (within data directory)") + " " + _("(default: wallet.dat)") + "\n";
+    strUsage += "  -walletnotify=<cmd>    " + _("Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)") + "\n";
+    strUsage += "  -zapwallettxes         " + _("Clear list of wallet transactions (diagnostic tool; implies -rescan)") + "\n";
+>>>>>>> refs/remotes/karogkung/0.9
 #endif
 
     strUsage += HelpMessageGroup(_("Debugging/Testing options:"));
@@ -412,6 +464,7 @@ std::string HelpMessage(HelpMessageMode mode)
         strUsage += HelpMessageOpt("-limitdescendantsize=<n>", strprintf("Do not accept transactions if any ancestor would have more than <n> kilobytes of in-mempool descendants (default: %u).", DEFAULT_DESCENDANT_SIZE_LIMIT));
         strUsage += HelpMessageOpt("-bip9params=deployment:start:end", "Use given start/end times for specified BIP9 deployment (regtest-only)");
     }
+<<<<<<< HEAD
     string debugCategories = "addrman, alert, bench, coindb, db, http, libevent, lock, mempool, mempoolrej, net, proxy, prune, rand, reindex, rpc, selectcoins, tor, zmq"; // Don't translate these and qt below
     if (mode == HMM_BITCOIN_QT)
         debugCategories += ", qt";
@@ -423,6 +476,22 @@ std::string HelpMessage(HelpMessageMode mode)
     strUsage += HelpMessageOpt("-logips", strprintf(_("Include IP addresses in debug output (default: %u)"), DEFAULT_LOGIPS));
     strUsage += HelpMessageOpt("-logtimestamps", strprintf(_("Prepend debug output with timestamp (default: %u)"), DEFAULT_LOGTIMESTAMPS));
     if (showDebug)
+=======
+    strUsage += "  -debug=<category>      " + _("Output debugging information (default: 0, supplying <category> is optional)") + "\n";
+    strUsage += "                         " + _("If <category> is not supplied, output all debugging information.") + "\n";
+    strUsage += "                         " + _("<category> can be:");
+    strUsage +=                                 " addrman, alert, coindb, db, lock, rand, rpc, selectcoins, mempool, net"; // Don't translate these and qt below
+    if (hmm == HMM_BITCOIN_QT)
+        strUsage += ", qt";
+    strUsage += ".\n";
+#ifdef ENABLE_WALLET
+    strUsage += "  -gen                   " + _("Generate coins (default: 0)") + "\n";
+    strUsage += "  -genproclimit=<n>      " + _("Set the processor limit for when generation is on (-1 = unlimited, default: -1)") + "\n";
+#endif
+    strUsage += "  -help-debug            " + _("Show all debugging options (usage: --help -help-debug)") + "\n";
+    strUsage += "  -logtimestamps         " + _("Prepend debug output with timestamp (default: 1)") + "\n";
+    if (GetBoolArg("-help-debug", false))
+>>>>>>> refs/remotes/karogkung/0.9
     {
         strUsage += HelpMessageOpt("-logtimemicros", strprintf("Add microsecond precision to debug timestamps (default: %u)", DEFAULT_LOGTIMEMICROS));
         strUsage += HelpMessageOpt("-mocktime=<n>", "Replace actual time with <n> seconds since epoch (default: 0)");
@@ -776,6 +845,23 @@ void InitLogging()
     LogPrintf("Bitcoin version %s\n", FormatFullVersion());
 }
 
+/** Sanity checks
+ *  Ensure that Bitcoin is running in a usable environment with all
+ *  necessary library support.
+ */
+bool InitSanityCheck(void)
+{
+    if(!ECC_InitSanityCheck()) {
+        InitError("OpenSSL appears to lack support for elliptic curve cryptography. For more "
+                  "information, visit https://en.bitcoin.it/wiki/OpenSSL_and_EC_Libraries");
+        return false;
+    }
+
+    // TODO: remaining sanity checks, see #4081
+
+    return true;
+}
+
 /** Initialize bitcoin.
  *  @pre Parameters should be parsed and config file should be read.
  */
@@ -919,6 +1005,7 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         nScriptCheckThreads = MAX_SCRIPTCHECK_THREADS;
 
     fServer = GetBoolArg("-server", false);
+<<<<<<< HEAD
 
     // block pruning; get the amount of disk space (in MiB) to allot for block & undo files
     int64_t nSignedPruneTarget = GetArg("-prune", 0) * 1024 * 1024;
@@ -935,6 +1022,11 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     }
 
     RegisterAllCoreRPCCommands(tableRPC);
+=======
+    fPrintToConsole = GetBoolArg("-printtoconsole", false);
+    fLogTimestamps = GetBoolArg("-logtimestamps", true);
+    setvbuf(stdout, NULL, _IOLBF, 0);
+>>>>>>> refs/remotes/karogkung/0.9
 #ifdef ENABLE_WALLET
     bool fDisableWallet = GetBoolArg("-disablewallet", false);
     if (!fDisableWallet)
@@ -1027,6 +1119,9 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
     }
 
     // ********************************************************* Step 4: application initialization: dir lock, daemonize, pidfile, debug log
+    // Sanity check
+    if (!InitSanityCheck())
+        return InitError(_("Initialization sanity check failed. Bitcoin Core is shutting down."));
 
     // Initialize elliptic curve code
     ECC_Start();
@@ -1132,12 +1227,26 @@ bool AppInit2(boost::thread_group& threadGroup, CScheduler& scheduler)
         }
     }
 
+<<<<<<< HEAD
     if (mapArgs.count("-whitelist")) {
         BOOST_FOREACH(const std::string& net, mapMultiArgs["-whitelist"]) {
             CSubNet subnet(net);
             if (!subnet.IsValid())
                 return InitError(strprintf(_("Invalid netmask specified in -whitelist: '%s'"), net));
             CNode::AddWhitelistedRange(subnet);
+=======
+    CService addrProxy;
+    bool fProxy = false;
+    if (mapArgs.count("-proxy")) {
+        addrProxy = CService(mapArgs["-proxy"], 9050);
+        if (!addrProxy.IsValid())
+            return InitError(strprintf(_("Invalid -proxy address: '%s'"), mapArgs["-proxy"]));
+
+        SetProxy(NET_IPV4, addrProxy, nSocksVersion);
+        if (nSocksVersion > 4) {
+            SetProxy(NET_IPV6, addrProxy, nSocksVersion);
+            SetNameProxy(addrProxy, nSocksVersion);
+>>>>>>> refs/remotes/karogkung/0.9
         }
     }
 

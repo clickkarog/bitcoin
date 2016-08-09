@@ -1,4 +1,44 @@
 <TS language="ja" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Bitcoinコアについて</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ビットコインコア&lt;/b&gt; バージョン</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+これは実験的なソフトウェアです。
+
+MIT/X11 ソフトウェア ライセンスの下で配布されています。詳しくは添付の COPYING ファイルやhttp://www.opensource.org/licenses/mit-license.php を参照してください。
+
+この製品は OpenSSL Toolkit (http://www.openssl.org/) に用いられる  Eric Young (eay@cryptsoft.com)  が開発した暗号化ソフトウェアと Thomas Bernard が開発した UPnP ソフトウェアを含んでいます。</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>ビットコインコアの開発者</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1ビット)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -41,6 +81,72 @@
         <source>&amp;Delete</source>
         <translation>削除(&amp;D)</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>送信先のアドレスを選択</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>支払いを受け取るアドレスを指定する</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>選択(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>アドレス送信中</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>アドレス受信中</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>これらは支払いを送信するためのあなたの Bitcoin アドレスです。コインを送信する前に、常に額と受信アドレスを確認してください。</translation>
+    </message>
+    <message>
+        <source>These are your Bitcoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>これらは支払いを受け取るためのビットコインアドレスです。トランザクションごとに新しい受け取り用アドレスを作成することが推奨されます。</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>ラベルをコピー (&amp;L)</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>編集 (&amp;E)</translation>
+    </message>
+    <message>
+        <source>Export Address List</source>
+        <translation>アドレス帳をエクスポート</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>CSVファイル (*.csv)</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>エクスポート失敗</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>（ラベル無し）</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
 </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -157,6 +263,13 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>URI を開く (&amp;U)...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>ディスクからブロックをインポートしています...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -241,6 +354,13 @@
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>支払いを要求する (QRコードとbitcoin:ではじまるURIを生成する)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;About Bitcoin Core</source>
+        <translation>ビットコインコアについて (&amp;A)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -257,6 +377,17 @@
     <message>
         <source>&amp;Command-line options</source>
         <translation>コマンドラインオプション (&amp;C)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <translation>有効な Bitcoin のコマンドライン オプションを見るために Bitcoin Core のヘルプメッセージを表示します。</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin クライアント</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -388,10 +519,13 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Selection</source>
         <translation>コイン選択</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Quantity:</source>
         <translation>数量:</translation>
     </message>
@@ -410,10 +544,13 @@
     <message>
         <source>Fee:</source>
         <translation>手数料:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Dust:</source>
         <translation>ダスト：</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>After Fee:</source>
@@ -483,13 +620,19 @@
         <translation>このアドレス帳項目に結びつけられているアドレス。この項目は送金用アドレスの場合のみ編集することができます。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Address</source>
         <translation>アドレス帳 (&amp;A)</translation>
+=======
+        <source>Lock unspent</source>
+        <translation>未使用トランザクションをロックする</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
+<<<<<<< HEAD
         <source>A new data directory will be created.</source>
         <translation>新しいデータ ディレクトリが作成されます。</translation>
     </message>
@@ -508,11 +651,32 @@
     <message>
         <source>Cannot create data directory here.</source>
         <translation>ここにデータ ディレクトリを作成することはできません。</translation>
+=======
+        <source>Unlock unspent</source>
+        <translation>未使用トランザクションをアンロックする</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>数量をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>手数料をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>手数料差引後の値をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>バイト数をコピーする</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>version</source>
         <translation>バージョン</translation>
     </message>
@@ -563,17 +727,70 @@
     <message>
         <source>Reset all settings changed in the GUI</source>
         <translation>GUI で行われた設定の変更を全てリセット</translation>
+=======
+        <source>Copy priority</source>
+        <translation>優先度をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>釣り銭をコピー</translation>
+    </message>
+    <message>
+        <source>highest</source>
+        <translation>最高</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>非常に高</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>高</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>中〜高</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>中</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>低〜中</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>低</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>非常に低</translation>
+    </message>
+    <message>
+        <source>lowest</source>
+        <translation>最低</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 がロック済み)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Welcome</source>
         <translation>ようこそ</translation>
     </message>
     <message>
         <source>Welcome to %1.</source>
         <translation>%1 へようこそ。</translation>
+=======
+        <source>none</source>
+        <translation>なし</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where %1 will store its data.</source>
@@ -584,6 +801,7 @@
         <translation>%1 は、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも %2 ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use the default data directory</source>
         <translation>初期値のデータ ディレクトリを使用</translation>
     </message>
@@ -606,11 +824,32 @@
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation><numerusform>(%n GB必要)</numerusform></translation>
+=======
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>トランザクションサイズが1000バイトを超える場合にはこのラベルは赤くなります。</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>これは少なくとも1kBあたり %1 の手数料が必要であることを意味します。</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>ひとつの入力につき1バイト程度ずれることがあります。</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>より高い優先度を持つトランザクションの方がブロックに取り込まれやすくなります。</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>優先度が「中」未満の場合には、このラベルは赤くなります。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Open URI</source>
         <translation>URI を開く</translation>
     </message>
@@ -625,6 +864,10 @@
     <message>
         <source>Select payment request file</source>
         <translation>支払いリクエストファイルを選択してください</translation>
+=======
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>少なくともひとつの受取額が %1 を下回る場合にはこのラベルは赤くなります。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -634,12 +877,21 @@
         <translation>設定</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Main</source>
         <translation>メイン (&amp;M)</translation>
     </message>
     <message>
         <source>Automatically start %1 after logging in to the system.</source>
         <translation>システムにログインした際、自動的に %1 を起動する。</translation>
+=======
+        <source>change from %1 (%2)</source>
+        <translation>%1 (%2) からのおつり</translation>
+    </message>
+    <message>
+        <source>(change)</source>
+        <translation>(おつり)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Start %1 on system login</source>
@@ -650,12 +902,21 @@
         <translation>データベースキャッシュのサイズ (&amp;D)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>MB</source>
         <translation>MB</translation>
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>スクリプト検証用スレッド数 (&amp;V)</translation>
+=======
+        <source>The label associated with this address list entry</source>
+        <translation>このアドレス帳項目に結びつけられているラベル</translation>
+    </message>
+    <message>
+        <source>The address associated with this address list entry. This can only be modified for sending addresses.</source>
+        <translation>このアドレス帳項目に結びつけられているアドレス。この項目は送金用アドレスの場合のみ編集することができます。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -678,6 +939,220 @@
         <translation>トランザクションタブのコンテキストメニュー項目に表示する、サードパーティURL (例えばブロックエクスプローラ)。URL中の%sはトランザクションのハッシュ値に置き換えられます。垂直バー | で区切ることで、複数のURLを指定できます。</translation>
     </message>
     <message>
+<<<<<<< HEAD
+        <source>Third party transaction URLs</source>
+        <translation>サードパーティのトランザクションURL</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>上のオプションを置き換えることのできる、有効なコマンドラインオプションの一覧:</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>入力されたアドレス "%1" は既にアドレス帳にあります。</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>入力されたアドレス "%1" は無効な Bitcoin アドレスです。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>すべてのオプションを初期値に戻します。</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+=======
+        <source>New key generation failed.</source>
+        <translation>新しいキーの生成に失敗しました。</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>新しいデータ ディレクトリが作成されます。</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>name</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>ディレクトリがもうあります。 新しいのディレクトリを作るつもりなら%1を書いてください。</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>パスが存在しますがディレクトリではありません。</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>ここにデータ ディレクトリを作成することはできません。</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>ビットコインコア - コマンドライン オプション</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin のコア</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>バージョン</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>使用法:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>コマンドライン オプション</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>UI オプション</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>言語設定 例: "de_DE" (初期値: システムの言語)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>最小化された状態で起動する</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>支払いリクエスト用にSSLルート証明書を設定する（デフォルト：-system-）</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>起動時にスプラッシュ画面を表示する (初期値: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>起動時にデータ ディレクトリを選ぶ (初期値: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>ようこそ</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>ようこそ！</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>これはプログラム最初の起動です。Bitcoin Coreがデータを保存する場所を選択して下さい。</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Coreは、ビットコインのブロックチェーンのコピーを、ダウンロードして保存します。少なくとも%1ギガバイトのデータが、このディレクトリに保存されます。そしてそれは時間と共に増加します。またウォレットもこのディレクトリに保存されます。</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>初期値のデータ ディレクトリを使用</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>任意のデータ ディレクトリを使用:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>エラー: 指定のデータ ディレクトリ "%1" を作成できません。</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>エラー</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GBの利用可能な空き領域</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(%1GB が必要)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>URI を開く</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>URI またはファイルから支払いリクエストを開く</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>支払いリクエストファイルを選択してください</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>開きたい支払いリクエストファイルを選択してください</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>設定</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>メイン (&amp;M)</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>あたなの取引が早く処理されるように任意で kB 毎の取引手数料を設定します。ほとんどの取引は 1 kB です。</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>支払う取引手数料 (&amp;f)</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>システムにログインした時に自動的に Bitcoin を起動します。</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>システムにログインした時に Bitcoin を起動 (&amp;S)</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>データベースキャッシュのサイズ (&amp;D)</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>スクリプト検証用スレッド数 (&amp;V)</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>プロキシのIPアドレス (例えば IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>トランザクションタブのコンテキストメニュー項目に表示する、サードパーティURL (例えばブロックエクスプローラ)。URL中の%sはトランザクションのハッシュ値に置き換えられます。垂直バー | で区切ることで、複数のURLを指定できます。</translation>
+    </message>
+    <message>
         <source>Third party transaction URLs</source>
         <translation>サードパーティのトランザクションURL</translation>
     </message>
@@ -690,6 +1165,7 @@
         <translation>すべてのオプションを初期値に戻します。</translation>
     </message>
     <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>&amp;Reset Options</source>
         <translation>オプションをリセット (&amp;R)</translation>
     </message>
@@ -850,8 +1326,13 @@
         <translation>変更を有効化するにはクライアントを再起動する必要があります。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Client will be shut down. Do you want to proceed?</source>
         <translation>クライアントを終了します。続行してもよろしいですか？</translation>
+=======
+        <source>Client will be shutdown, do you want to proceed?</source>
+        <translation>クライアントは停止されます。続行しますか？</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>This change would require a client restart.</source>
@@ -913,6 +1394,7 @@
         <translation>あなたの現在の残高</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current balance in watch-only addresses</source>
         <translation>監視限定アドレス内の現在の残高</translation>
     </message>
@@ -923,18 +1405,98 @@
     <message>
         <source>Recent transactions</source>
         <translation>最近のトランザクション</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;最近の取引&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>同期していない</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI の操作</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI を解析できません! これは無効な Bitcoin アドレスあるいや不正な形式の URI パラメーターによって引き起こされる場合があります。
+</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>要求された支払額 %1 は少なすぎます (ダストとみなされてしまいます)。</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>支払いのリクエストのエラーです</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Bitcoin を起動できません: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>支払い要求の取得先URLが無効です: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>支払いリクエストファイルを処理しています</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>カスタム支払いスクリプトに対する、検証されていない支払いリクエストはサポートされていません。</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>%1 からの返金</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>%1: %2とコミュニケーション・エラーです</translation>
+    </message>
+    <message>
+        <source>Bad response from server %1</source>
+        <translation>サーバーの返事は無効 %1</translation>
+    </message>
+    <message>
+        <source>Payment acknowledged</source>
+        <translation>支払いは確認しました</translation>
+    </message>
+    <message>
+        <source>Network request error</source>
+        <translation>ネットワーク・リクエストのエラーです</translation>
+    </message>
+</context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>エラー: 指定のデータ ディレクトリ "%1" は存在しません。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
         <translation>監視限定アドレスに対する未検証のトランザクション</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Mined balance in watch-only addresses that has not yet matured</source>
         <translation>ウォッチオンリーアドレスの採掘された残高のうち、成熟していないもの</translation>
     </message>
     <message>
         <source>Current total balance in watch-only addresses</source>
         <translation>監視限定アドレス内の現在の全残高</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Bitcoin アドレスを入力します (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -953,6 +1515,7 @@
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -965,34 +1528,12 @@
     <message>
         <source>%1 d</source>
         <translation>%1日</translation>
-    </message>
-    <message>
-        <source>%1 h</source>
-        <translation>%1 h</translation>
-    </message>
-    <message>
-        <source>%1 m</source>
-        <translation>%1 m</translation>
-    </message>
-    <message>
-        <source>%1 s</source>
-        <translation>%1秒</translation>
-    </message>
-    <message>
-        <source>None</source>
-        <translation>なし</translation>
-    </message>
-    <message>
-        <source>N/A</source>
-        <translation>N/A</translation>
-    </message>
-    <message>
-        <source>%1 ms</source>
-        <translation>%1ミリ秒</translation>
-    </message>
-</context>
-<context>
+=======
     <name>RPCConsole</name>
+    <message>
+        <source>Client name</source>
+        <translation>クライアント名</translation>
+    </message>
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
@@ -1014,12 +1555,8 @@
         <translation>一般</translation>
     </message>
     <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>使用中のBerkleyDBバージョン</translation>
-    </message>
-    <message>
-        <source>Datadir</source>
-        <translation>データディレクトリ</translation>
+        <source>Using OpenSSL version</source>
+        <translation>使用中の OpenSSL のバージョン</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -1044,6 +1581,494 @@
     <message>
         <source>Current number of blocks</source>
         <translation>現在のブロック数</translation>
+    </message>
+    <message>
+        <source>Estimated total blocks</source>
+        <translation>推定総ブロック数</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>最終ブロックの日時</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>開く (&amp;O)</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>コンソール (&amp;C)</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
+        <translation>ネットワーク (&amp;N)</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>クリア(&amp;C)</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>合計</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>入力:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>出力:</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>ビルドの日付</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>デバッグ用ログファイル</translation>
+    </message>
+    <message>
+        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>現在のデータ ディレクトリから Bitcoin のデバッグ用ログファイルを開きます。ログファイルが大規模な場合には数秒かかることがあります。</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>コンソールをクリア</translation>
+    </message>
+    <message>
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>Bitcoin RPC コンソールへようこそ。</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>上下の矢印で履歴をたどれます。 &lt;b&gt;Ctrl-L&lt;/b&gt; でスクリーンを消去できます。</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>使用可能なコマンドを見るには &lt;b&gt;help&lt;/b&gt; と入力します。</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 KB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 h %2 m</source>
+        <translation>%1 h %2 m</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>総額:(&amp;A)</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>ラベル(&amp;L):</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>メッセージ (&amp;M):</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>以前利用した受取用アドレスのどれかを再利用します。アドレスの再利用はセキュリティおよびプライバシーにおいて問題があります。以前作成した支払リクエストを再生成するとき以外は利用しないでください。</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>既存の受取用アドレスを再利用する (非推奨) (&amp;E)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはBitcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>受取用アドレスに紐づく任意のラベル。</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>このフォームを使用して支払のリクエストを行いましょう。すべての項目は&lt;b&gt;任意入力&lt;/b&gt;です。</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>リクエストする任意の金額。特定の金額をリクエストするのでない場合には、この欄は空白のままかゼロにしてください。</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>全ての入力項目をクリア</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>クリア</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>支払リクエスト履歴</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>支払をリクエストする (&amp;R)</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>選択されたリクエストを表示する（項目をダブルクリックすることでも表示できます）</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>表示</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>リストから選択項目を削除</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>削除</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>ラベルをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>メッセージをコピーする</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>総額のコピー</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR コード</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>URI をコピーする (&amp;U)</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>アドレスをコピーする (&amp;A)</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>画像を保存(&amp;S)</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>%1 への支払いリクエストを行う</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>支払い情報</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>アドレス</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>総額</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>URI が長くなり過ぎます。ラベルやメッセージのテキストを短くしてください。</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>QR コード用の URI エンコードでエラー。</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>日付</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ラベル</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>メッセージ</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>総額</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>（ラベル無し）</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>（メッセージなし）</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>（金額なし）</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>コインを送る</translation>
+    </message>
+    <message>
+        <source>Coin Control Features</source>
+        <translation>コインコントロール機能</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>入力...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>自動選択</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>残高不足です！</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>数量:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>バイト:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>総額:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>優先度:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>手数料:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>手数料差引後:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>釣り銭:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>これが有効にもかかわらずおつりアドレスが空欄であったり無効であった場合には、おつりは新しく生成されたアドレスへ送金されます。</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>カスタムおつりアドレス</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>一度に複数の人に送る</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>受取人を追加 (&amp;R)</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>全ての入力項目をクリア</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>すべてクリア (&amp;A)</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>残高:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>送る操作を確認する</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>送る (&amp;e)</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>コインを送る確認</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 から %2</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>数量をコピーする</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 s</source>
+        <translation>%1秒</translation>
+    </message>
+    <message>
+        <source>None</source>
+        <translation>なし</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>%1 ms</source>
+        <translation>%1ミリ秒</translation>
+=======
+        <source>Copy fee</source>
+        <translation>手数料をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>手数料差引後の値をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>バイト数をコピーする</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>優先度をコピーする</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>クライアントのバージョン</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>情報 (&amp;I)</translation>
+=======
+        <source>Copy change</source>
+        <translation>釣り銭をコピー</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>総送金額 %1 (= %2)</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>または</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>デバッグ ウインドウ</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>一般</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>使用中のBerkleyDBバージョン</translation>
+    </message>
+    <message>
+        <source>Datadir</source>
+        <translation>データディレクトリ</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>起動した日時</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Network</source>
+        <translation>ネットワーク</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>名前</translation>
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>接続数</translation>
+=======
+        <source>Transaction creation failed!</source>
+        <translation>トラザクションの作成に失敗しました!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>トランザクションは拒否されました。wallet.dat のコピーを使い、そしてコピーしたウォレットからコインを使用したことがマークされなかったときなど、ウォレットのいくつかのコインがすでに使用されている場合に、このエラーは起こるかもしれません。</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>警告：無効なBitcoinアドレスです</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>ブロック チェーン</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Current number of blocks</source>
+        <translation>現在のブロック数</translation>
+=======
+        <source>Warning: Unknown change address</source>
+        <translation>警告：未知のおつりアドレスです</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Memory Pool</source>
@@ -1086,8 +2111,13 @@
         <translation>方向</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Version</source>
         <translation>バージョン</translation>
+=======
+        <source>This is a normal payment.</source>
+        <translation>これは通常の支払です。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Starting Block</source>
@@ -1102,14 +2132,20 @@
         <translation>同期済みブロック</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User Agent</source>
         <translation>ユーザエージェント</translation>
+=======
+        <source>Remove this entry</source>
+        <translation>この項目を削除する</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Open the %1 debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>現在のデータディレクトリから %1 のデバッグ用ログファイルを開きます。ログファイルが巨大な場合、数秒かかることがあります。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Decrease font size</source>
         <translation>文字サイズを縮小</translation>
     </message>
@@ -1128,18 +2164,47 @@
     <message>
         <source>Connection Time</source>
         <translation>接続時間</translation>
+=======
+        <source>This is a verified payment request.</source>
+        <translation>これは検証済みの支払リクエストです。</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>このアドレスに対するラベルを入力することで、使用済みアドレスの一覧に追加することができます</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>bitcoin: URIに添付されていたメッセージです。これは参照用としてトランザクションとともに保存されます。注意：このメッセージはBitcoinネットワークを通して送信されるわけではありません。</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>これは未検証の支払リクエストです。</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>支払先:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Last Send</source>
         <translation>最終送信</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Last Receive</source>
         <translation>最終受信</translation>
     </message>
     <message>
         <source>Ping Time</source>
         <translation>Ping時間</translation>
+=======
+        <source>Bitcoin Core is shutting down...</source>
+        <translation>Bitcoin Coreをシャットダウンしています。</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>このウィンドウが消えるまでコンピュータをシャットダウンしないで下さい。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>The duration of a currently outstanding ping.</source>
@@ -1230,8 +2295,13 @@
         <translation>上下の矢印で履歴をたどれます。 &lt;b&gt;Ctrl-L&lt;/b&gt; でスクリーンを消去できます。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>使用可能なコマンドを見るには &lt;b&gt;help&lt;/b&gt; と入力します。</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>署名を作成するには"メッセージの署名"をクリック</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 B</source>
@@ -1289,24 +2359,39 @@
         <translation>総額:(&amp;A)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Label:</source>
         <translation>ラベル(&amp;L):</translation>
+=======
+        <source>The Bitcoin Core developers</source>
+        <translation>ビットコインコアの開発者</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Message:</source>
         <translation>メッセージ (&amp;M):</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
         <translation>以前利用した受取用アドレスのどれかを再利用します。アドレスの再利用はセキュリティおよびプライバシーにおいて問題があります。以前作成した支払リクエストを再生成するとき以外は利用しないでください。</translation>
+=======
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>R&amp;euse an existing receiving address (not recommended)</source>
         <translation>既存の受取用アドレスを再利用する (非推奨) (&amp;E)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
         <translation>支払リクエストが開始された時に表示される、支払リクエストに添える任意のメッセージです。注意：メッセージはBitcoinネットワークを通じて、支払と共に送られるわけではありません。</translation>
+=======
+        <source>conflicted</source>
+        <translation>衝突</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1403,8 +2488,13 @@
         <translation>バイト:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Amount:</source>
         <translation>総額:</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>生成されたコインは使う前に%1のブロックを完成させる必要があります。あなたが生成した時、このブロックはブロック チェーンに追加されるネットワークにブロードキャストされました。チェーンに追加されるのが失敗した場合、状態が"不承認"に変更されて使えなくなるでしょう。これは、別のノードがあなたの数秒前にブロックを生成する場合に時々起こるかもしれません。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Priority:</source>
@@ -1467,8 +2557,13 @@
         <translation>（ツールチップをお読みください）</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recommended:</source>
         <translation>推奨：</translation>
+=======
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>未成熟（%1検証。%2検証完了後に使用可能となります）</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Custom:</source>
@@ -1491,6 +2586,7 @@
         <translation>高速</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send to multiple recipients at once</source>
         <translation>一度に複数の人に送る</translation>
     </message>
@@ -1505,6 +2601,22 @@
     <message>
         <source>Dust:</source>
         <translation>ダスト：</translation>
+=======
+        <source>Offline</source>
+        <translation>オフライン</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>未検証</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>検証中（%2の推奨検証数のうち、%1検証が完了）</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>衝突</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1640,6 +2752,7 @@
         <translation>Alt+A</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Paste address from clipboard</source>
         <translation>クリップボードからアドレスを貼付ける</translation>
     </message>
@@ -1658,6 +2771,26 @@
     <message>
         <source>Copy the current signature to the system clipboard</source>
         <translation>現在の署名をシステムのクリップボードにコピーする</translation>
+=======
+        <source>Export Transaction History</source>
+        <translation>トランザクション履歴をエクスポートする</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>エクスポートに失敗しました</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the transaction history to %1.</source>
+        <translation>トランザクション履歴を %1 へ保存する際にエラーが発生しました。</translation>
+    </message>
+    <message>
+        <source>Exporting Successful</source>
+        <translation>エクスポートに成功しました</translation>
+    </message>
+    <message>
+        <source>The transaction history was successfully saved to %1.</source>
+        <translation>トランザクション履歴は正常に%1に保存されました。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
@@ -1703,8 +2836,13 @@
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
+=======
+        <source>No wallet has been loaded.</source>
+        <translation>ウォレットがロードされていません</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -1715,10 +2853,41 @@
     </message>
 </context>
 <context>
+<<<<<<< HEAD
     <name>TransactionDescDialog</name>
     <message>
         <source>This pane shows a detailed description of the transaction</source>
         <translation>ここでは取引の詳細を表示しています</translation>
+=======
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>エクスポート (&amp;E)</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>ファイルに現在のタブのデータをエクスポート</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>ウォレットのバックアップ</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>ウォレット データ (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>バックアップに失敗しました</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the wallet data to %1.</source>
+        <translation>ウォレットデータを%1へ保存する際にエラーが発生しました。</translation>
+    </message>
+    <message>
+        <source>The wallet data was successfully saved to %1.</source>
+        <translation>ウォレット データは正常に%1に保存されました。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -1779,8 +2948,13 @@
         <translation>送信するトランザクションに付加する手数料 (%s/kB単位) (初期値: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Pruning blockstore...</source>
         <translation>ブロックデータを剪定しています……</translation>
+=======
+        <source>Bitcoin Core RPC client version</source>
+        <translation>ビットコインコアRPCクライアントのバージョン</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -1795,12 +2969,36 @@
         <translation>外部からの接続を許可 (初期値:  -proxy または -connect を使用していない場合は1)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Bitcoin のコア</translation>
     </message>
     <message>
         <source>The %s developers</source>
         <translation>%s の開発者</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, rpcpassword を設定ファイルで設定してください:
+%s
+下記のランダムなパスワードの使用を推奨します:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(このパスワードを覚える必要はありません)
+ユーザー名とパスワードが同じであってはいけません。
+もしもファイルが存在しないなら、所有者だけが読み取れる権限で作成してください。
+また、問題が通知されるように alertnotify を設定することをお勧めします;
+例えば: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
@@ -1815,6 +3013,7 @@
         <translation>トランザクションの中継を行っていない場合でも、ホワイトリストのピアから受け取った中継トランザクションは受け取るようにする (デフォルト: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>指定のアドレスへバインドし、その上で常にリスンします。IPv6 は [ホスト名]:ポート番号 と表記します</translation>
     </message>
@@ -1829,6 +3028,14 @@
     <message>
         <source>Distributed under the MIT software license, see the accompanying file COPYING or &lt;http://www.opensource.org/licenses/mit-license.php&gt;.</source>
         <translation>MITソフトウェアライセンスのもとで配布されています。付属のCOPYINGファイルまたは&lt;http://www.opensource.org/licenses/mit-license.php&gt;を参照してください。</translation>
+=======
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly. This is intended for regression testing tools and app development.</source>
+        <translation>ブロックを瞬時に解決することができる特別なチェーンを使用して、リグレッションテストモードに入る。これはリグレッションテストツールやアプリケーション開発を対象としています。</translation>
+    </message>
+    <message>
+        <source>Enter regression test mode, which uses a special chain in which blocks can be solved instantly.</source>
+        <translation>ブロックを瞬時に解決することができる特別なチェーンを使用して、リグレッションテストモードに入る。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Error loading %s: You can't enable HD on a already existing non-HD wallet</source>
@@ -1843,6 +3050,7 @@
         <translation>ウォレットの取引を変更する際にコマンドを実行 (cmd の %s は TxID に置換される)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Force relay of transactions from whitelisted peers even they violate local relay policy (default: %d)</source>
         <translation>ホワイトリストのピアから受け取ったトランザクションに関しては、たとえローカルの中継ポリシーに違反しているとしても中継を行うようにする (デフォルト: %d)</translation>
     </message>
@@ -1861,26 +3069,46 @@
     <message>
         <source>Please contribute if you find %s useful. Visit %s for further information about the software.</source>
         <translation>%s が有用だと感じられた方はぜひプロジェクトへの貢献をお願いします。ソフトウェアのより詳細な情報については %s をご覧ください。</translation>
+=======
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation>このモードでは -genproclimit は何個のブロックをただちに生成するのか制御します。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Set the number of script verification threads (%u to %d, 0 = auto, &lt;0 = leave that many cores free, default: %d)</source>
         <translation>スクリプト検証スレッドを設定 (%uから%dの間, 0 = 自動, &lt;0 = たくさんのコアを自由にしておく, 初期値: %d)</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
         <translation>ブロックのデータベースに未来の時刻のブロックが含まれています。これはおそらくお使いのコンピュータに設定されている日時が間違っていることを示しています。お使いのコンピュータの日時が本当に正しい場合にのみ、ブロックのデータベースの再構築を行ってください。</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>これはリリース前のテストビルドです - 各自の責任で利用すること - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to rewind the database to a pre-fork state. You will need to redownload the blockchain</source>
         <translation>データベースをフォーク前の状態に巻き戻せませんでした。ブロックチェーンを再ダウンロードする必要があります</translation>
     </message>
     <message>
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>リスン ポートの割当に UPnP を使用 (初期値: リスン中および-proxyが指定されていない場合は1)</translation>
+=======
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>このコンピュータの %s にバインドすることができません。おそらく Bitcoin Core は既に実行されています。</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>警告: -paytxfee が非常に高く設定されています! これは取引を送信する場合に支払う取引手数料です。</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>警告: あなたのコンピュータの日時が正しいことを確認してください! 時計が間違っていると Bitcoin は正常に動作しません。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -1899,12 +3127,21 @@
         <translation>-txindex を変更するには -reindex-chainstate を使用してデータベースを再構築する必要があります</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%s corrupt, salvage failed</source>
         <translation>%s が壊れています。復旧にも失敗しました</translation>
     </message>
     <message>
         <source>-maxmempool must be at least %d MB</source>
         <translation>-maxmempoolは最低でも %d MB必要です</translation>
+=======
+        <source>(default: 1)</source>
+        <translation>(デフォルト: 1)</translation>
+    </message>
+    <message>
+        <source>(default: wallet.dat)</source>
+        <translation>(デフォルト: wallet.dat)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>
@@ -1915,14 +3152,18 @@
         <translation>ユーザエージェント文字列にコメントを</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Attempt to recover private keys from a corrupt wallet on startup</source>
         <translation>起動時に壊れたウォレットから秘密鍵を復旧することを試す</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Block creation options:</source>
         <translation>ブロック作成オプション:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot resolve -%s address: '%s'</source>
         <translation>-%s アドレス '%s' を解決できません</translation>
     </message>
@@ -1941,6 +3182,18 @@
     <message>
         <source>Copyright (C) %i-%i</source>
         <translation>Copyright (C) %i-%i</translation>
+=======
+        <source>Connect only to the specified node(s)</source>
+        <translation>指定したノードだけに接続</translation>
+    </message>
+    <message>
+        <source>Connect through SOCKS proxy</source>
+        <translation>SOCKS プロキシ経由で接続する</translation>
+    </message>
+    <message>
+        <source>Connection options:</source>
+        <translation>接続オプション：</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -1950,18 +3203,26 @@
     <message>
         <source>Debugging/Testing options:</source>
         <translation>デバッグ／テスト用オプション:</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
         <translation>ウォレットは読み込まず、ウォレットRPCコールを無効化する</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Do you want to rebuild the block database now?</source>
         <translation>ブロック データベースを今すぐ再構築しますか?</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enable publish hash block in &lt;address&gt;</source>
         <translation>&lt;address&gt;に対し、ハッシュブロックの公開を有効にする</translation>
+=======
+        <source>Do not load the wallet and disable wallet RPC calls</source>
+        <translation>ウォレットは読み込まず、ウォレットRPCコールを無効化する</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Enable publish hash transaction in &lt;address&gt;</source>
@@ -2052,20 +3313,34 @@
         <translation>banリストを読み込んでいます...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Location of the auth cookie (default: data dir)</source>
         <translation>認証クッキーの場所 (デフォルト: )</translation>
     </message>
     <message>
         <source>Minimum bytes per sigop in transactions we relay and mine (default: %u)</source>
         <translation>中継や採掘を行ってもよい、sigopあたりの最小バイト数 (デフォルト: %u)</translation>
+=======
+        <source>Fee per kB to add to transactions you send</source>
+        <translation>送信するトランザクションの1kBあたりの手数料</translation>
+    </message>
+    <message>
+        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
+        <translation>この値未満の (中継) 手数料はゼロであるとみなす (デフォルト:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>使用可能なファイルディスクリプタが不足しています。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Only connect to nodes in network &lt;net&gt; (ipv4, ipv6 or onion)</source>
         <translation>&lt;net&gt; (ipv4, ipv6 または onion) ネットワーク内のノードだけに接続する</translation>
+=======
+        <source>Force safe mode (default: 0)</source>
+        <translation>セーフモードを矯正する (デフォルト: 0)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Print this help message and exit</source>
@@ -2076,38 +3351,58 @@
         <translation>バージョンを表示し終了</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune cannot be configured with a negative value.</source>
         <translation>剪定値は負の値に設定できません。</translation>
     </message>
     <message>
         <source>Prune mode is incompatible with -txindex.</source>
         <translation>剪定モードは-txindexと互換性がありません。</translation>
+=======
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>&lt;category&gt; が与えられなかった場合には、すべてのデバッグ情報が出力されます。</translation>
+    </message>
+    <message>
+        <source>Importing...</source>
+        <translation>インポートしています……</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Rebuild chain state and block index from the blk*.dat files on disk</source>
         <translation>チェイン状態およびブロックインデックスをディスク上の blk*.dat ファイルから再構築する</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rebuild chain state from the currently indexed blocks</source>
         <translation>既にインデックスされたブロックからチェイン状態を再構築する</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>無効な -onion アドレス：'%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Rewinding blocks...</source>
         <translation>ブロックを巻き戻しています...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
         <translation>データベースのキャッシュサイズをメガバイトで設定 (%dから%d。初期値: %d)</translation>
     </message>
     <message>
         <source>Set maximum block cost (default: %d)</source>
         <translation>最大ブロックコストを設定 (初期値: %d)</translation>
+=======
+        <source>RPC client options:</source>
+        <translation>RPC クライアントのオプション:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>最大ブロックサイズをバイトで設定 (初期値: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify wallet file (within data directory)</source>
         <translation>ウォレットのファイルを指定　(データ・ディレクトリの中に)</translation>
     </message>
@@ -2118,6 +3413,14 @@
     <message>
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
         <translation>このコンピュータの %s にバインドすることができません。おそらく %s は既に実行されています。</translation>
+=======
+        <source>Set database cache size in megabytes (%d to %d, default: %d)</source>
+        <translation>データベースのキャッシュサイズをメガバイトで設定 (%dから%d。初期値: %d)</translation>
+    </message>
+    <message>
+        <source>Set maximum block size in bytes (default: %d)</source>
+        <translation>最大ブロックサイズをバイトで設定 (初期値: %d)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -2128,6 +3431,7 @@
         <translation>サポートされていない引数 -debugnet は無視されました。-debug=net を使用してください。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unsupported argument -tor found, use -onion.</source>
         <translation>サポートされていない引数 -tor が見つかりました。-onion を使用してください。</translation>
     </message>
@@ -2138,6 +3442,10 @@
     <message>
         <source>User Agent comment (%s) contains unsafe characters.</source>
         <translation>ユーザエージェントのコメント (%s) には安全でない文字が含まれています。</translation>
+=======
+        <source>This is intended for regression testing tools and app development.</source>
+        <translation>これはリグレッションテストツールやアプリ開発のためのものです。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -2148,6 +3456,13 @@
         <translation>ウォレットの検証中...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Wait for RPC server to start</source>
+        <translation>RPC サーバが開始するのを待つ</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Wallet %s resides outside data directory %s</source>
         <translation>財布 %s はデータ・ディレクトリ%sの外にあります</translation>
     </message>
@@ -2162,6 +3477,7 @@
     <message>
         <source>Wallet options:</source>
         <translation>ウォレットオプション：</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
@@ -2170,6 +3486,12 @@
     <message>
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>指定されたアドレスおよび、そこに接続を行ってきたホワイトリストのピアに対してバインドを行います。IPv6の場合には [host]:port 表記を使用してください</translation>
+=======
+    </message>
+    <message>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation>警告: 非推奨の引数 -debugnet は無視されました。-debug=net を使用してください</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
@@ -2180,30 +3502,41 @@
         <translation>umask 077 ではなく、システムのデフォルトパーミッションで新規ファイルを作成する (ウォレット機能が無効化されていた場合にのみ有効)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Discover own IP addresses (default: 1 when listening and no -externalip or -proxy)</source>
         <translation>自分のIPアドレスを解決する (規定値: リッスンをしており、-externalipまたは-proxyオプションが指定されていない場合は1)</translation>
     </message>
     <message>
         <source>Error: Listening for incoming connections failed (listen returned error %s)</source>
         <translation>エラー: 内向きの接続をリッスンするのに失敗しました (エラー %s が返却されました)</translation>
+=======
+        <source>Cannot obtain a lock on data directory %s. Bitcoin Core is probably already running.</source>
+        <translation>データ ディレクトリ %s のロックを取得することができません。おそらく Bitcoin Core は実行中です。</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
         <translation>関連のアラートをもらってもすごく長いのフォークを見てもコマンドを実行 (コマンドの中にあるの%sはメッセージから置き換えさせる)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Fees (in %s/kB) smaller than this are considered zero fee for relaying, mining and transaction creation (default: %s)</source>
         <translation>トランザクションの中継、採掘および作成の際には、この値未満の手数料 (%s/kB単位) はゼロであるとみなす (デフォルト: %s)</translation>
     </message>
     <message>
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>paytxfee が設定されていなかった場合、平均して n ブロック以内にトランザクションが検証され始めるのに十分な手数料を含める (初期値: %u)</translation>
+=======
+        <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
+        <translation>最優先/最低手数料の最大サイズをバイトで指定 (初期値: %d)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>-maxtxfee=&lt;amount&gt; の数量の指定が不正です: '%s' (トランザクションが詰まってしまうのを防ぐため、少なくとも %s の最小中継手数料を指定しなければいけません)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>中継および採掘を行う際の、データ運送トランザクションの中のデータの最大サイズ (初期値: %u)</translation>
     </message>
@@ -2218,6 +3551,22 @@
     <message>
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>最優先/最低手数料の最大サイズをバイトで指定 (初期値: %d)</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>不正な額 -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>不正な額 -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
+        <translation>署名キャッシュのサイズを &lt;n&gt; エントリーに制限する (デフォルト: 50000)</translation>
+    </message>
+    <message>
+        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
+        <translation>ブロックの採掘時にトランザクションの優先度と1kBあたりの手数料をログに残す (デフォルト: 0)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
@@ -2240,6 +3589,7 @@
         <translation>非剪定モードに戻るためには-reindexオプションを使用してデータベースを再構築する必要があります。これによりブロックチェイン全体の再ダウンロードが行われます。</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: %u)</source>
         <translation>(規定値: %u)</translation>
     </message>
@@ -2270,24 +3620,46 @@
     <message>
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>-paytxfee=&lt;amount&gt; に対する無効な数量です: '%s' (少なくとも %s でなければいけません)</translation>
+=======
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>RPC SSL オプション: (SSLのセットアップ手順はビットコインWikiを参照してください)</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>RPCサーバのオプション:</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>&lt;n&gt; 個のネットワークメッセージごとにひとつをランダムに捨てる</translation>
+    </message>
+    <message>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>&lt;n&gt;個のネットワークメッセージごとにひとつをランダムに改変する</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>-whitelist に対する無効なネットマスクです: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
         <translation>最大で &lt;n&gt; 個の孤立したトランザクションをメモリの中に保持する (初期値: %u)</translation>
     </message>
     <message>
         <source>Need to specify a port with -whitebind: '%s'</source>
         <translation>-whitebind を用いてポートを指定する必要があります: '%s'</translation>
+=======
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>トレース/デバッグ情報を debug.log ファイルの代わりにコンソールへ送る</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Node relay options:</source>
         <translation>ノード中継オプション:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>RPC server options:</source>
         <translation>RPCサーバのオプション:</translation>
     </message>
@@ -2308,6 +3680,8 @@
         <translation>可能な場合には手数料ゼロのトランザクションとしてトランザクションを送信する (初期値: %u)</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>すべてのデバッグオプションを表示する (使い方: --help -help-debug)</translation>
     </message>
@@ -2324,8 +3698,13 @@
         <translation>トランザクションの金額が小さすぎて手数料を支払えません</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This is experimental software.</source>
         <translation>これは実験的なソフトウェアです。</translation>
+=======
+        <source>Start Bitcoin Core Daemon</source>
+        <translation>Bitcoinコアのデーモンを起動</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Tor control port password (default: empty)</source>
@@ -2380,8 +3759,13 @@
         <translation>ウォレットからすべてのトランザクションを消去しています...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>ZeroMQ notification options:</source>
         <translation>ZeroMQ通知オプション:</translation>
+=======
+        <source>on startup</source>
+        <translation>起動時</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -2480,18 +3864,28 @@
         <translation>DNS ルックアップを通してピアアドレスを常に問い合わせる (初期値: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>起動時に点検するブロック数 (初期値: %u, 0=すべて)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>デバッグ出力にIPアドレスを含める (初期値: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>無効な -proxy アドレス: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>-onlynet で指定された '%s' は未知のネットワークです</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>無効な -proxy アドレス: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>&lt;port&gt; で JSON-RPC 接続をリスン (初期値: %u、testnet は %u)</translation>
     </message>
@@ -2502,6 +3896,18 @@
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>ピアの接続数を最大でも &lt;n&gt; 個に維持する (初期値: %u)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>-bind のアドレス '%s' を解決できません</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>-externalip のアドレス '%s' を解決できません</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt; の額 '%s' が無効です</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>

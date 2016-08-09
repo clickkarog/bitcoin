@@ -43,9 +43,86 @@ static int ec_privkey_import_der(const secp256k1_context* ctx, unsigned char *ou
     if (end < privkey+len) {
         return 0;
     }
+<<<<<<< HEAD
     /* sequence element 0: version number (=1) */
     if (end < privkey+3 || privkey[0] != 0x02 || privkey[1] != 0x01 || privkey[2] != 0x01) {
         return 0;
+=======
+
+    void GetPubKey(CPubKey &pubkey, bool fCompressed) {
+        EC_KEY_set_conv_form(pkey, fCompressed ? POINT_CONVERSION_COMPRESSED : POINT_CONVERSION_UNCOMPRESSED);
+        int nSize = i2o_ECPublicKey(pkey, NULL);
+        assert(nSize);
+        assert(nSize <= 65);
+        unsigned char c[65];
+        unsigned char *pbegin = c;
+        int nSize2 = i2o_ECPublicKey(pkey, &pbegin);
+        assert(nSize == nSize2);
+        pubkey.Set(&c[0], &c[nSize]);
+    }
+
+    bool SetPubKey(const CPubKey &pubkey) {
+        const unsigned char* pbegin = pubkey.begin();
+        return o2i_ECPublicKey(&pkey, &pbegin, pubkey.size());
+    }
+
+    bool Sign(const uint256 &hash, std::vector<unsigned char>& vchSig) {
+        vchSig.clear();
+        ECDSA_SIG *sig = ECDSA_do_sign((unsigned char*)&hash, sizeof(hash), pkey);
+        if (sig == NULL)
+            return false;
+        BN_CTX *ctx = BN_CTX_new();
+        BN_CTX_start(ctx);
+        const EC_GROUP *group = EC_KEY_get0_group(pkey);
+        BIGNUM *order = BN_CTX_get(ctx);
+        BIGNUM *halforder = BN_CTX_get(ctx);
+        EC_GROUP_get_order(group, order, ctx);
+        BN_rshift1(halforder, order);
+        if (BN_cmp(sig->s, halforder) > 0) {
+            // enforce low S values, by negating the value (modulo the order) if above order/2.
+            BN_sub(sig->s, order, sig->s);
+        }
+        BN_CTX_end(ctx);
+        BN_CTX_free(ctx);
+        unsigned int nSize = ECDSA_size(pkey);
+        vchSig.resize(nSize); // Make sure it is big enough
+        unsigned char *pos = &vchSig[0];
+        nSize = i2d_ECDSA_SIG(sig, &pos);
+        ECDSA_SIG_free(sig);
+        vchSig.resize(nSize); // Shrink to fit actual size
+        return true;
+    }
+
+    bool Verify(const uint256 &hash, const std::vector<unsigned char>& vchSig) {
+        if (vchSig.empty())
+            return false;
+
+        // New versions of OpenSSL will reject non-canonical DER signatures. de/re-serialize first.
+        unsigned char *norm_der = NULL;
+        ECDSA_SIG *norm_sig = ECDSA_SIG_new();
+        const unsigned char* sigptr = &vchSig[0];
+        assert(norm_sig);
+        if (d2i_ECDSA_SIG(&norm_sig, &sigptr, vchSig.size()) == NULL)
+        {
+            /* As of OpenSSL 1.0.0p d2i_ECDSA_SIG frees and nulls the pointer on
+             * error. But OpenSSL's own use of this function redundantly frees the
+             * result. As ECDSA_SIG_free(NULL) is a no-op, and in the absence of a
+             * clear contract for the function behaving the same way is more
+             * conservative.
+             */
+            ECDSA_SIG_free(norm_sig);
+            return false;
+        }
+        int derlen = i2d_ECDSA_SIG(norm_sig, &norm_der);
+        ECDSA_SIG_free(norm_sig);
+        if (derlen <= 0)
+            return false;
+
+        // -1 = error, 0 = bad sig, 1 = good
+        bool ret = ECDSA_verify(0, (unsigned char*)&hash, sizeof(hash), norm_der, derlen, pkey) == 1;
+        OPENSSL_free(norm_der);
+        return ret;
+>>>>>>> refs/remotes/karogkung/0.9
     }
     privkey += 3;
     /* sequence element 1: octet string, up to 32 bytes */
@@ -327,3 +404,15 @@ void ECC_Stop() {
         secp256k1_context_destroy(ctx);
     }
 }
+
+bool ECC_InitSanityCheck() {
+    EC_KEY *pkey = EC_KEY_new_by_curve_name(NID_secp256k1);
+    if(pkey == NULL)
+        return false;
+    EC_KEY_free(pkey);
+
+    // TODO Is there more EC functionality that could be missing?
+    return true;
+}
+
+

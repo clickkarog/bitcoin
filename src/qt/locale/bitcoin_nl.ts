@@ -1,4 +1,44 @@
 <TS language="nl" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Over Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt; Bitcoin Core&lt;/b&gt; versie</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Dit is experimentele software.
+
+Gedistribueerd onder de MIT/X11 software licentie, zie het bijgevoegde bestand COPYING of http://www.opensource.org/licenses/mit-license.php.
+
+Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in de OpenSSL Toolkit (http://www.openssl.org/) en cryptografische software gemaakt door Eric Young (eay@cryptsoft.com) en UPnP software geschreven door Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Auteursrecht</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>De Bitcoin Core ontwikkelaars</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -611,8 +651,13 @@
 <context>
     <name>OpenURIDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Open URI</source>
         <translation>Open URI</translation>
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Als dit label rood is, is de prioriteit minder dan "medium".</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Open payment request from URI or file</source>
@@ -682,8 +727,234 @@
         <translation>Transactie-URLs van derde partijen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Active command-line options that override above options:</source>
         <translation>Actieve opdrachtregelopties die bovenstaande opties overschrijven:</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Reset alle clientopties naar de standaardinstellingen.</translation>
+=======
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Het opgegeven adres "%1" bestaat al in uw adresboek.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Het opgegeven adres "%1" is een ongeldig Bitcoinadres</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Reset Opties</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+=======
+        <source>New key generation failed.</source>
+        <translation>Genereren nieuwe sleutel mislukt.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Een nieuwe gegevensmap wordt aangemaakt.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>naam</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Map bestaat al. Voeg %1 toe als u van plan bent hier een nieuwe map aan te maken.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Communicatiepad bestaat al, en is geen folder.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Kan hier geen gegevensmap aanmaken.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Bitcoin Core - Commandoregel-opties</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Kern</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versie</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>commandoregel-opties</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>gebruikersinterfaceopties</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Stel taal in, bijvoorbeeld ''de_DE" (standaard: systeeminstellingen)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Geminimaliseerd starten</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Zet SSL root certificaten voor betalingsverzoek (standaard: -sytem-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Laat laadscherm zien bij het opstarten. (standaard: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Kies de gegevensmap tijdens het opstarten (standaard: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Welkom</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Welkom bij Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>Omdat dit de eerste keer is dat het programma gestart is, kunt u nu kiezen waar Bitcoin Core de data moet opslaan.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Core zal een kopie van de Bitcoin blokketen downloaden en opslaan. Tenminste %1 GB aan data wordt opgeslagen in deze map en het zal groeien in de tijd. De portemonnee wordt ook in deze map opgeslagen.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Gebruik de standaard gegevensmap</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Gebruik een persoonlijke gegevensmap:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Fout: Opgegeven gegevensmap "%1" kan niet aangemaakt worden.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fout</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB aan vrije opslagruimte beschikbaar</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(van %1GB benodigd)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Open URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Open betalingsverzoek via URI of bestand</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Selecteer betalingsverzoek bestand</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Selecteer betalingsverzoek bestand om te openen</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Opties</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Algemeen</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Optionele transactiekosten per kB. Transactiekosten helpen ervoor te zorgen dat uw transacties snel verwerkt worden. De meeste transacties zijn 1kB.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Betaal &amp;transactiekosten</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Start Bitcoin automatisch na inloggen in het systeem</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>Start &amp;Bitcoin bij het inloggen in het systeem</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Grootte van de &amp;database cache</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Aantal threads voor &amp;scriptverificatie</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Verbind met het Bitcoin-netwerk via een SOCKS-proxy.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Verbind via een SOCKS-proxy (standaardproxy):</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP-adres van de proxy (bijv. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Derde partijen URL's (bijvoorbeeld block explorer) dat in de transacties tab verschijnen als contextmenu elementen. %s in de URL is vervangen door transactie hash. Verscheidene URL's zijn gescheiden door een verticale streep |.  </translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Transactie-URLs van derde partijen</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Actieve commandoregelopties die bovenstaande opties overschrijven:</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -694,6 +965,7 @@
         <translation>&amp;Reset Opties</translation>
     </message>
     <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>&amp;Network</source>
         <translation>&amp;Netwerk</translation>
     </message>
@@ -913,8 +1185,56 @@
         <translation>Uw totale saldo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current balance in watch-only addresses</source>
         <translation>Uw huidige balans in alleen-bekijkbare adressen</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Recente transacties&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>niet gesynchroniseerd</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI-behandeling</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Bitcoinadres of misvormde URI-parameters.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Het gevraagde betalingsbedrag van %1 is te weinig (beschouwd als stof).</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Fout bij betalingsverzoek</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Kan bitcoin niet starten: click-to-pay handler</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Netmanager waarschuwing</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Uw actieve proxy ondersteunt geen SOCKS5, dewelke vereist is voor betalingsverzoeken via proxy.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>URL om betalingsverzoek te verkrijgen is ongeldig: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Betalingsverzoek bestandsafhandeling</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spendable:</source>
@@ -955,8 +1275,17 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Bedrag</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Fout: Opgegeven gegevensmap "%1" bestaat niet.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
@@ -967,8 +1296,13 @@
         <translation>%1 d</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 uur</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core is nog niet veilig uitgeschakeld...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 m</source>
@@ -1231,7 +1565,11 @@
     </message>
     <message>
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+<<<<<<< HEAD
         <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare opdrachten.</translation>
+=======
+        <translation>Typ &lt;b&gt;help&lt;/b&gt; voor een overzicht van de beschikbare commando's.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 B</source>
@@ -1615,6 +1953,483 @@
 </context>
 <context>
     <name>SignVerifyMessageDialog</name>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Handtekeningen - Onderteken een bericht / Verifiëer een handtekening</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>O&amp;nderteken Bericht</translation>
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>U kunt berichten ondertekenen met een van uw adressen om te bewijzen dat u dit adres bezit. Pas op dat u geen onduidelijke dingen ondertekent, want phishingaanvallen zouden u kunnen misleiden om zo uw identiteit te stelen. Onderteken alleen berichten waarmee u het volledig eens bent.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Het adres om het bericht mee te ondertekenen (Vb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L).</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Kies een eerder gebruikt adres</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Plak adres vanuit klembord</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Typ hier het bericht dat u wilt ondertekenen</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Handtekening</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Kopieer de huidige handtekening naar het systeemklembord</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Onderteken een bericht om te bewijzen dat u een bepaald Bitcoinadres bezit</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Onderteken &amp;Bericht</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Verwijder alles in de invulvelden</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Verwijder &amp;Alles</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Verifiëer Bericht</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Voer het ondertekenende adres, bericht en handtekening hieronder in (let erop dat u nieuwe regels, spaties en tabs juist overneemt) om de handtekening te verifiëren. Let erop dat u niet meer uit het bericht interpreteert dan er daadwerkelijk staat,  om te voorkomen dat u wordt misleid in een man-in-the-middle-aanval.</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Het adres waarmee bet bericht was ondertekend (Vb.: 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L).</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Bitcoinadres het bericht heeft ondertekend.</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Verifiëer &amp;Bericht</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Verwijder alles in de invulvelden</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Vul een Bitcoinadres in (bijv. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Klik "Onderteken Bericht" om de handtekening te genereren</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Het opgegeven adres is ongeldig.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Controleer s.v.p. het adres en probeer het opnieuw.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Het opgegeven adres verwijst niet naar een sleutel.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Portemonnee-ontsleuteling is geannuleerd</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Geheime sleutel voor het ingevoerde adres is niet beschikbaar.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Ondertekenen van het bericht is mislukt.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Bericht ondertekend.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>De handtekening kon niet worden gedecodeerd.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Controleer s.v.p. de handtekening en probeer het opnieuw.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>De handtekening hoort niet bij het bericht.</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Berichtverificatie mislukt.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Bericht correct geverifiëerd.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Kern</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>De Bitcoin Core ontwikkelaars</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnetwerk]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    <message>
+        <source>KB/s</source>
+        <translation>KB/s</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Openen totdat %1</translation>
+    </message>
+    <message>
+        <source>conflicted</source>
+        <translation>conflicterend</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/offline</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/onbevestigd</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 bevestigingen</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, uitgezonden naar %n node</numerusform><numerusform>, uitgezonden naar %n nodes</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Bron</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Gegenereerd</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Van</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Aan</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>eigen adres</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>label</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Credit</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>komt tot wasdom na %n nieuw blok</numerusform><numerusform>komt tot wasdom na %n nieuwe blokken</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>niet geaccepteerd</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Debet</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transactiekosten</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Netto bedrag</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Bericht</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Opmerking</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>Transactie-ID:</translation>
+    </message>
+    <message>
+        <source>Merchant</source>
+        <translation>Handelaar</translation>
+    </message>
+    <message>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Gegenereerde munten moeten %1 blokken rijpen voordat ze kunnen worden besteed. Toen dit blok gegenereerd werd, werd het uitgezonden naar het netwerk om aan de blokketen toegevoegd te worden. Als het niet lukt om in de keten toegevoegd te worden, zal de status te veranderen naar "niet geaccepteerd" en het zal deze niet besteedbaar zijn. Dit kan soms gebeuren als een ander knooppunt een blok genereert binnen een paar seconden na die van u.</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Debug-informatie</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transactie</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Inputs</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>waar</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>onwaar</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, is nog niet met succes uitgezonden</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekend</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Transactiedetails</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Dit venster laat een uitgebreide beschrijving van de transactie zien</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Type</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>Immature (%1 confirmations, will be available after %2)</source>
+        <translation>immatuur (%1 bevestigingen, zal beschikbaar zijn na %2)</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Open voor nog %n blok</numerusform><numerusform>Open voor nog %n blokken</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Open tot %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Bevestigd (%1 bevestigingen)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Dit blok is niet ontvangen bij andere nodes en zal waarschijnlijk niet worden geaccepteerd!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Gegenereerd maar niet geaccepteerd</translation>
+    </message>
+    <message>
+        <source>Offline</source>
+        <translation>Niet verbonden</translation>
+    </message>
+    <message>
+        <source>Unconfirmed</source>
+        <translation>Onbevestigd</translation>
+    </message>
+    <message>
+        <source>Confirming (%1 of %2 recommended confirmations)</source>
+        <translation>Bevestigen (%1 van %2 aanbevolen bevestigingen)</translation>
+    </message>
+    <message>
+        <source>Conflicted</source>
+        <translation>Conflicterend</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ontvangen met</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Ontvangen van</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Verzonden aan</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Betaling aan uzelf</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Gedolven</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(nvt)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Transactiestatus. Houd de muiscursor boven dit veld om het aantal bevestigingen te laten zien.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Datum en tijd waarop deze transactie is ontvangen.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Type transactie.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Ontvangend adres van transactie.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Bedrag verwijderd van of toegevoegd aan saldo</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Alles</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Vandaag</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Deze week</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Deze maand</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Vorige maand</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Dit jaar</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Bereik...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ontvangen met</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Verzonden aan</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Aan uzelf</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Gedolven</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Anders</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Vul adres of label in om te zoeken</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Min. bedrag</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>Signatures - Sign / Verify a Message</source>
         <translation>Handtekeningen – Onderteken een bericht / Verifiëer een handtekening</translation>
@@ -1731,6 +2546,21 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Lijst van commando's</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Toon hulp voor een commando</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Options:</source>
         <translation>Opties:</translation>
     </message>
@@ -1763,8 +2593,13 @@
         <translation>Snoei: laatste portemoneesynchronisatie gaat verder dan de gesnoeide data. U moet -reindex gebruiken (download opnieuw de gehele blokketen voor een weggesnoeide node)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
         <translation>Beperk benodigde opslag door snoeien (verwijderen) van oude blokken. Deze modus is niet-compatibele met -txindex en -rescan. Waarschuwing: Terugzetten van deze instellingen vereist opnieuw downloaden van gehele de blokketen. (standaard:0 = uitzetten snoeimodus, &gt;%u = doelgrootte in MiB voor blokbestanden)</translation>
+=======
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Aanvaard commandoregel- en JSON-RPC-commando's</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
@@ -1784,7 +2619,11 @@
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
+<<<<<<< HEAD
         <translation>Draai in de achtergrond als daemon en aanvaard opdrachten</translation>
+=======
+        <translation>Draai in de achtergrond als daemon en aanvaard commando's</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
@@ -1795,8 +2634,35 @@
         <translation>Accepteer verbindingen van buitenaf (standaard: 1 als geen -proxy of -connect is opgegeven)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bitcoin Core</source>
         <translation>Bitcoin Core</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
+U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(u hoeft dit wachtwoord niet te onthouden)
+De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
+Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
+Het is ook aan te bevelen "alertnotify" in te stellen zodat u op de hoogte gesteld wordt van problemen;
+bijvoorbeeld: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com</translation>
+    </message>
+    <message>
+        <source>Acceptable ciphers (default: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</source>
+        <translation>Aanvaardbare cijfers (standaard: TLSv1.2+HIGH:TLSv1+HIGH:!SSLv2:!aNULL:!eNULL:!3DES:@STRENGTH)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
@@ -1863,8 +2729,21 @@
         <translation>Dit is een prerelease testversie – gebruik op eigen risico! Gebruik deze niet voor het delven van munten of handelsdoeleinden</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Gebruik UPnP om de luisterende poort te mappen (standaard: 1 als er geluisterd worden en geen -proxy is meegegeven)</translation>
+=======
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Gebruik een aparte SOCKS5 proxy om 'Tor hidden services' te bereiken (standaard: hetzelfde als -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld.  Dit zijn de transactiekosten die u betaalt bij het versturen van een transactie.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Bitcoin niet correct werken.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -1875,8 +2754,13 @@
         <translation>Waarschuwing: Het lijkt erop dat we geen consensus kunnen vinden met onze peers! Mogelijk dient u te upgraden, of andere nodes moeten wellicht upgraden.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
         <translation>Goedgekeurde peers die verbinden van het ingegeven netmask of IP adres. Kan meerdere keren gespecificeerd worden.</translation>
+=======
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Waarschuwing: Fout bij het lezen van wallet.dat! Alle sleutels zijn in goede orde uitgelezen, maar transactiedata of adresboeklemma's zouden kunnen ontbreken of fouten bevatten.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>You need to rebuild the database using -reindex-chainstate to change -txindex</source>
@@ -2071,16 +2955,26 @@
         <translation>Zet database cache grootte in megabytes (%d tot %d, standaard: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set maximum block size in bytes (default: %d)</source>
         <translation>Stel maximum blokgrootte in in bytes (standaard: %d)</translation>
+=======
+        <source>Importing...</source>
+        <translation>Importeren...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Specify wallet file (within data directory)</source>
         <translation>Specificeer het portemonnee bestand (vanuit de gegevensmap)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer. %s is probably already running.</source>
         <translation>Niet in staat om %s te verbinden op deze computer. %s draait waarschijnlijk al.</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Ongeldig -onion adres '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -2187,12 +3081,21 @@
         <translation>Het transactiebedrag is te klein om te versturen nadat de transactiekosten in mindering zijn gebracht</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Dit product bevat software dat ontwikkeld is door het OpenSSL Project voor gebruik in de OpenSSL Toolkit &lt;https://www.openssl.org/&gt; en cryptografische software geschreven door Eric Young en UPnP software geschreven door Thomas Bernard.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Goedgekeurde peers kunnen niet ge-DoS-banned worden en hun transacties worden altijd doorgegeven, zelfs als ze reeds in de mempool aanwezig zijn, nuttig voor bijv. een gateway</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ongeldig bedrag voor -minrelaytxfee=&lt;bedrag&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ongeldig bedrag voor -mintxfee=&lt;bedrag&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
@@ -2359,8 +3262,13 @@
         <translation>Adressen aan het laden...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1 = behoudt tx meta data bijv. account eigenaar en betalingsverzoek informatie, 2. sla tx meta data niet op)</translation>
+=======
+        <source>Send commands to node running on &lt;ip&gt; (default: 127.0.0.1)</source>
+        <translation>Verstuur commando's naar proces dat op &lt;ip&gt; draait (standaard: 127.0.0.1)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>-maxtxfee is set very high! Fees this large could be paid on a single transaction.</source>
@@ -2439,18 +3347,28 @@
         <translation>Vind anderen door middel van een DNS-naslag (standaard: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>How many blocks to check at startup (default: %u, 0 = all)</source>
         <translation>Aantal te checken blokken bij het opstarten (standaard: %u, 0 = allemaal)</translation>
     </message>
     <message>
         <source>Include IP addresses in debug output (default: %u)</source>
         <translation>IP-adressen toevoegen in de debuguitvoer (standaard: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ongeldig -proxy adres: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Onbekend netwerk gespecificeerd in -onlynet: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid -proxy address: '%s'</source>
         <translation>Ongeldig -proxy adres: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Listen for JSON-RPC connections on &lt;port&gt; (default: %u or testnet: %u)</source>
         <translation>Luister naar JSON-RPC-verbindingen op &lt;poort&gt; (standaard: %u of testnet: %u)</translation>
     </message>
@@ -2461,6 +3379,18 @@
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
         <translation>Onderhoud maximaal &lt;n&gt; verbindingen naar peers (standaard: %u)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Kan -bind adres niet herleiden: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Kan -externlip adres niet herleiden: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ongeldig bedrag voor -paytxfee=&lt;bedrag&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Make the wallet broadcast transactions</source>

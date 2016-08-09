@@ -373,7 +373,10 @@ I ReadVarInt(Stream& is)
 
 #define FLATDATA(obj) REF(CFlatData((char*)&(obj), (char*)&(obj) + sizeof(obj)))
 #define VARINT(obj) REF(WrapVarInt(REF(obj)))
+<<<<<<< HEAD
 #define COMPACTSIZE(obj) REF(CCompactSize(REF(obj)))
+=======
+>>>>>>> refs/remotes/karogkung/0.9
 #define LIMITED_STRING(obj,n) REF(LimitedString< n >(REF(obj)))
 
 /** 
@@ -444,6 +447,7 @@ public:
     }
 };
 
+<<<<<<< HEAD
 class CCompactSize
 {
 protected:
@@ -466,6 +470,8 @@ public:
     }
 };
 
+=======
+>>>>>>> refs/remotes/karogkung/0.9
 template<size_t Limit>
 class LimitedString
 {

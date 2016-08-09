@@ -1,6 +1,7 @@
 dnl require autoconf 2.60 (AS_ECHO/AS_ECHO_N)
 AC_PREREQ([2.60])
 define(_CLIENT_VERSION_MAJOR, 0)
+<<<<<<< HEAD
 define(_CLIENT_VERSION_MINOR, 13)
 define(_CLIENT_VERSION_REVISION, 99)
 define(_CLIENT_VERSION_BUILD, 0)
@@ -19,6 +20,16 @@ BITCOIN_GUI_NAME=bitcoin-qt
 BITCOIN_CLI_NAME=bitcoin-cli
 BITCOIN_TX_NAME=bitcoin-tx
 
+=======
+define(_CLIENT_VERSION_MINOR, 9)
+define(_CLIENT_VERSION_REVISION, 5)
+define(_CLIENT_VERSION_BUILD, 0)
+define(_CLIENT_VERSION_IS_RELEASE, true)
+define(_COPYRIGHT_YEAR, 2015)
+AC_INIT([Bitcoin Core],[_CLIENT_VERSION_MAJOR._CLIENT_VERSION_MINOR._CLIENT_VERSION_REVISION],[info@bitcoin.org],[bitcoin])
+AC_CONFIG_AUX_DIR([src/build-aux])
+AC_CONFIG_MACRO_DIR([src/m4])
+>>>>>>> refs/remotes/karogkung/0.9
 AC_CANONICAL_HOST
 
 AH_TOP([#ifndef BITCOIN_CONFIG_H])
@@ -314,7 +325,11 @@ case $host in
 
        AC_CHECK_PROG([BREW],brew, brew)
        if test x$BREW = xbrew; then
+<<<<<<< HEAD
          dnl These Homebrew packages may be keg-only, meaning that they won't be found
+=======
+         dnl These Homebrew packages may be bottled, meaning that they won't be found
+>>>>>>> refs/remotes/karogkung/0.9
          dnl in expected paths because they may conflict with system files. Ask
          dnl Homebrew where each one is located, then adjust paths accordingly.
          dnl It's safe to add these paths even if the functionality is disabled by
@@ -324,16 +339,24 @@ case $host in
          bdb_prefix=`$BREW --prefix berkeley-db4 2>/dev/null`
          qt5_prefix=`$BREW --prefix qt5 2>/dev/null`
          if test x$openssl_prefix != x; then
+<<<<<<< HEAD
            PKG_CONFIG_PATH="$openssl_prefix/lib/pkgconfig:$PKG_CONFIG_PATH"
            export PKG_CONFIG_PATH
+=======
+           export PKG_CONFIG_PATH="$openssl_prefix/lib/pkgconfig:$PKG_CONFIG_PATH"
+>>>>>>> refs/remotes/karogkung/0.9
          fi
          if test x$bdb_prefix != x; then
            CPPFLAGS="$CPPFLAGS -I$bdb_prefix/include"
            LIBS="$LIBS -L$bdb_prefix/lib"
          fi
          if test x$qt5_prefix != x; then
+<<<<<<< HEAD
            PKG_CONFIG_PATH="$qt5_prefix/lib/pkgconfig:$PKG_CONFIG_PATH"
            export PKG_CONFIG_PATH
+=======
+           export PKG_CONFIG_PATH="$qt5_prefix/lib/pkgconfig:$PKG_CONFIG_PATH"
+>>>>>>> refs/remotes/karogkung/0.9
          fi
        fi
      else
@@ -463,7 +486,11 @@ if test x$use_glibc_compat != xno; then
   #__fdelt_chk's params and return type have changed from long unsigned int to long int.
   # See which one is present here.
   AC_MSG_CHECKING(__fdelt_chk type)
+<<<<<<< HEAD
   AC_COMPILE_IFELSE([AC_LANG_PROGRAM([[#ifdef _FORTIFY_SOURCE
+=======
+  AC_TRY_COMPILE([#ifdef _FORTIFY_SOURCE
+>>>>>>> refs/remotes/karogkung/0.9
                     #undef _FORTIFY_SOURCE
                   #endif
                   #define _FORTIFY_SOURCE 2
@@ -947,7 +974,11 @@ else
     AC_MSG_RESULT($use_upnp_default)
     AC_DEFINE_UNQUOTED([USE_UPNP],[$upnp_setting],[UPnP support not compiled if undefined, otherwise value (0 or 1) determines default state])
     if test x$TARGET_OS = xwindows; then
+<<<<<<< HEAD
       MINIUPNPC_CPPFLAGS="-DSTATICLIB -DMINIUPNP_STATICLIB"
+=======
+      CPPFLAGS="$CPPFLAGS -DMINIUPNP_STATICLIB"
+>>>>>>> refs/remotes/karogkung/0.9
     fi
   else
     AC_MSG_RESULT(no)

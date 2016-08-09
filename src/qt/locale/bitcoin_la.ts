@@ -1,4 +1,27 @@
 <TS language="la" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>Hoc est experimentale programma.
+
+Distributum sub MIT/X11 licentia programmatum, vide comitantem plicam COPYING vel http://www.opensource.org/licenses/mit-license.php.
+
+Hoc productum continet programmata composita ab OpenSSL Project pro utendo in OpenSSL Toolkit (http://www.openssl.org/) et programmata cifrarum scripta ab Eric Young (eay@cryptsoft.com) et UPnP programmata scripta ab Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -10,6 +33,13 @@
         <translation>Copia inscriptionem iam selectam in latibulum systematis</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;Copy Address</source>
+        <translation>&amp;Copia Inscriptionem</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Delete the currently selected address from the list</source>
         <translation>Dele active selectam inscriptionem ex enumeratione</translation>
     </message>
@@ -25,6 +55,40 @@
         <source>&amp;Delete</source>
         <translation>&amp;Dele</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>These are your Bitcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hae sunt inscriptiones mittendi pensitationes.  Semper inspice quantitatem et inscriptionem accipiendi antequam nummos mittis.</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Label</source>
+        <translation>Copia &amp;Titulum</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>&amp;Muta</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma Separata Plica (*.csv)</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(nullus titulus)</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
 </context>
 <context>
     <name>AskPassphraseDialog</name>
@@ -107,6 +171,13 @@
         <translation>&amp;Muta tesseram...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Importing blocks from disk...</source>
+        <translation>Importans frusta ab disco...</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Reindexing blocks on disk...</source>
         <translation>Recreans indicem frustorum in disco...</translation>
     </message>
@@ -187,14 +258,54 @@
         <translation>Tabella instrumentorum "Tabs"</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Command-line options</source>
         <translation>Optiones mandati initiantis</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Nucleus</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin cliens</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n activa conexio ad rete Bitcoin</numerusform><numerusform>%n activae conexiones ad rete Bitcoin</numerusform></translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>No block source available...</source>
         <translation>Nulla fons frustorum absens...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Processed %1 of %2 (estimated) blocks of transaction history.</source>
+        <translation>Perfecta %1 de %2 (aestimato) frusta historiae transactionum.</translation>
+    </message>
+    <message>
+        <source>Processed %1 blocks of transaction history.</source>
+        <translation>Processae %1 frusta historiae transactionum.</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n hour(s)</source>
+        <translation><numerusform>%n hora</numerusform><numerusform>%n horae</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n day(s)</source>
+        <translation><numerusform>%n dies</numerusform><numerusform>%n dies</numerusform></translation>
+    </message>
+    <message numerus="yes">
+        <source>%n week(s)</source>
+        <translation><numerusform>%n hebdomas</numerusform><numerusform>%n hebdomades</numerusform></translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>%1 behind</source>
         <translation>%1 post</translation>
     </message>
@@ -265,12 +376,17 @@
 <context>
     <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Edit Address</source>
         <translation>Muta Inscriptionem</translation>
     </message>
     <message>
         <source>&amp;Label</source>
         <translation>&amp;Titulus</translation>
+=======
+        <source>Copy address</source>
+        <translation>Copia inscriptionem</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Address</source>
@@ -291,6 +407,7 @@
         <translation>Optiones mandati initiantis</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Usus:</translation>
     </message>
@@ -410,11 +527,94 @@
 </context>
 <context>
     <name>OverviewPage</name>
+=======
+        <source>(no label)</source>
+        <translation>(nullus titulus)</translation>
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+        <source>Edit Address</source>
+        <translation>Muta Inscriptionem</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;Titulus</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;Inscriptio</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Nova inscriptio accipiendi</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nova inscriptio mittendi</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Muta inscriptionem accipiendi</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Muta inscriptionem mittendi</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Inserta inscriptio "%1" iam in libro inscriptionum est.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Inscriptio inserta "%1" non valida inscriptio Bitcoin est.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Non potuisse cassidile reserare</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Generare novam clavem abortum est.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Nucleus</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versio</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Usus:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>Optiones mandati intiantis</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>UI optiones</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Constitue linguam, exempli gratia "de_DE" (praedefinitum: lingua systematis)</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>Form</source>
         <translation>Schema</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Bitcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
     </message>
@@ -443,6 +643,104 @@
     </context>
 <context>
     <name>RPCConsole</name>
+=======
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Monstra principem imaginem ad initium (praedefinitum: 1)</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Error</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Optiones</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Princeps</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Optionalis merces transactionum singulis kB quae adiuvat curare tuas transactiones processas esse celeriter.  Plurimi transactiones 1kB sunt.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Solve &amp;mercedem transactionis</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Pelle Bitcoin per se postquam in systema inire.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Pelle Bitcoin cum inire systema</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Reconstitue omnes optiones clientis ad praedefinita.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Reconstitue Optiones</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Rete</translation>
+    </message>
+    <message>
+        <source>Automatically open the Bitcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Aperi per se portam clientis Bitcoin in itineratore.  Hoc tantum effectivum est si itineratrum tuum supportat UPnP et id activum est.</translation>
+    </message>
+    <message>
+        <source>Map port using &amp;UPnP</source>
+        <translation>Designa portam utendo &amp;UPnP</translation>
+    </message>
+    <message>
+        <source>Proxy &amp;IP:</source>
+        <translation>&amp;IP vicarii:</translation>
+    </message>
+    <message>
+        <source>&amp;Port:</source>
+        <translation>&amp;Porta:</translation>
+    </message>
+    <message>
+        <source>Port of the proxy (e.g. 9050)</source>
+        <translation>Porta vicarii (e.g. 9050)</translation>
+    </message>
+    <message>
+        <source>SOCKS &amp;Version:</source>
+        <translation>SOCKS &amp;Versio:</translation>
+    </message>
+    <message>
+        <source>SOCKS version of the proxy (e.g. 5)</source>
+        <translation>SOCKS versio vicarii (e.g. 5)</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Fenestra</translation>
+    </message>
+    <message>
+        <source>Show only a tray icon after minimizing the window.</source>
+        <translation>Monstra tantum iconem in tabella systematis postquam fenestram minifactam est.</translation>
+    </message>
+    <message>
+        <source>&amp;Minimize to the tray instead of the taskbar</source>
+        <translation>&amp;Minifac in tabellam systematis potius quam applicationum</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>N/A</source>
         <translation>N/A</translation>
@@ -464,6 +762,136 @@
         <translation>Tempus initiandi</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>&amp;Unit to show amounts in:</source>
+        <translation>&amp;Unita qua quantitates monstrare:</translation>
+    </message>
+    <message>
+        <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
+        <translation>Selige praedefinitam unitam subdivisionis monstrare in interfacie et quando nummos mittere</translation>
+    </message>
+    <message>
+        <source>Whether to show Bitcoin addresses in the transaction list or not.</source>
+        <translation>Num monstrare inscriptiones Bitcoin in enumeratione transactionum.</translation>
+    </message>
+    <message>
+        <source>&amp;Display addresses in transaction list</source>
+        <translation>&amp;Monstra inscriptiones in enumeratione transactionum</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;OK</translation>
+    </message>
+    <message>
+        <source>&amp;Cancel</source>
+        <translation>&amp;Cancella</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>praedefinitum</translation>
+    </message>
+    <message>
+        <source>Confirm options reset</source>
+        <translation>Confirma optionum reconstituere</translation>
+    </message>
+    <message>
+        <source>The supplied proxy address is invalid.</source>
+        <translation>Inscriptio vicarii tradita non valida est.</translation>
+    </message>
+</context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Schema</translation>
+    </message>
+    <message>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Bitcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Monstrata informatio fortasse non recentissima est.  Tuum cassidile per se synchronizat cum rete Bitcoin postquam conexio constabilita est, sed hoc actio nondum perfecta est.</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Cassidile</translation>
+    </message>
+    <message>
+        <source>Immature:</source>
+        <translation>Immatura:</translation>
+    </message>
+    <message>
+        <source>Mined balance that has not yet matured</source>
+        <translation>Fossum pendendum quod nondum maturum est</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Recentes transactiones&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>non synchronizato</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>Tractatio URI</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI intellegi non posse!  Huius causa possit inscriptionem Bitcoin non validam aut URI parametra maleformata.</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Bitcoin incipere non potest: cliccare-ad-pensandum handler</translation>
+    </message>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Insere inscriptionem Bitcoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    <message>
+        <source>Save QR Code</source>
+        <translation>Salva codicem QR</translation>
+    </message>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+        <source>Client name</source>
+        <translation>Nomen clientis</translation>
+    </message>
+    <message>
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>Versio clientis</translation>
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informatio</translation>
+    </message>
+    <message>
+        <source>Using OpenSSL version</source>
+        <translation>Utens OpenSSL versione</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>Tempus initiandi</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Network</source>
         <translation>Rete</translation>
     </message>
@@ -474,6 +902,936 @@
     <message>
         <source>Block chain</source>
         <translation>Catena frustorum</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>Numerus frustorum iam nunc</translation>
+    </message>
+    <message>
+        <source>Estimated total blocks</source>
+        <translation>Aestimatus totalis numerus frustorum</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Hora postremi frusti</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Aperi</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Terminale</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Dies aedificandi</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Debug catalogi plica</translation>
+    </message>
+    <message>
+        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Aperi plicam catalogi de Bitcoin debug ex activo indice datorum.  Hoc possit pauca secunda pro plicis magnis catalogi.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Vacuefac terminale</translation>
+    </message>
+    <message>
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>Bene ventio in terminale RPC de Bitcoin.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>Utere sagittis sursum deorsumque ut per historiam naviges, et &lt;b&gt;Ctrl+L&lt;/b&gt; ut scrinium vacuefacias.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Scribe &lt;b&gt;help&lt;/b&gt; pro summario possibilium mandatorum.</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Titulus:</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia titulum</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia quantitatem</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nuntius</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Resultato URI nimis longo, conare minuere verba pro titulo / nuntio.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Error codificandi URI in codicem QR.</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nuntius</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(nullus titulus)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Mitte Nummos</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Quantitas:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Mitte pluribus accipientibus simul</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Adde &amp;Accipientem</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Vacuefac &amp;Omnia</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Pendendum:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Confirma actionem mittendi</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>&amp;Mitte</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Confirma mittendum nummorum</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia quantitatem</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Inscriptio accipientis non est valida, sodes reproba.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Oportet quantitatem ad pensandum maiorem quam 0 esse.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Quantitas est ultra quod habes.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Quantitas est ultra quod habes cum merces transactionis %1 includitur.</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Geminata inscriptio inventa, tantum posse mittere ad quamque inscriptionem semel singulare operatione.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(nullus titulus)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;Quantitas:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Pensa &amp;Ad:</translation>
+    </message>
+    <message>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Inscriptio cui mittere pensitationem (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Insero titulum huic inscriptioni ut eam in tuum librum inscriptionum addas.</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Titulus:</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Conglutina inscriptionem ex latibulo</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Nuntius:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Signationes - Signa / Verifica nuntium</translation>
+    </message>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Signa Nuntium</translation>
+    </message>
+    <message>
+        <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Potes nuntios signare inscriptionibus tuis ut demonstres te eas possidere.  Cautus es non amibiguum signare, quia impetus phiscatorum conentur te fallere ut signes identitatem tuam ad eos.  Solas signa sententias cuncte descriptas quibus convenis.</translation>
+    </message>
+    <message>
+        <source>The address to sign the message with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Inscriptio qua signare nuntium (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Glutina inscriptionem ex latibulo</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Enter the message you want to sign here</source>
+        <translation>Insere hic nuntium quod vis signare</translation>
+    </message>
+    <message>
+        <source>Signature</source>
+        <translation>Signatio</translation>
+    </message>
+    <message>
+        <source>Copy the current signature to the system clipboard</source>
+        <translation>Copia signationem in latibulum systematis</translation>
+    </message>
+    <message>
+        <source>Sign the message to prove you own this Bitcoin address</source>
+        <translation>Signa nuntium ut demonstres hanc inscriptionem Bitcoin a te possessa esse</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Signa &amp;Nuntium</translation>
+    </message>
+    <message>
+        <source>Reset all sign message fields</source>
+        <translation>Reconstitue omnes campos signandi nuntii</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Vacuefac &amp;Omnia</translation>
+    </message>
+    <message>
+        <source>&amp;Verify Message</source>
+        <translation>&amp;Verifica Nuntium</translation>
+    </message>
+    <message>
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Insere inscriptionem signantem, nuntium (cura ut copias intermissiones linearum, spatia, tabs, et cetera exacte) et signationem infra ut nuntium verifices.  Cautus esto ne magis legas in signationem quam in nuntio signato ipso est, ut vites falli ab impetu homo-in-medio.</translation>
+    </message>
+    <message>
+        <source>The address the message was signed with (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Inscriptio qua nuntius signatus est (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Bitcoin address</source>
+        <translation>Verifica nuntium ut cures signatum esse cum specifica inscriptione Bitcoin</translation>
+    </message>
+    <message>
+        <source>Verify &amp;Message</source>
+        <translation>Verifica &amp;Nuntium</translation>
+    </message>
+    <message>
+        <source>Reset all verify message fields</source>
+        <translation>Reconstitue omnes campos verificandi nuntii</translation>
+    </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Insere inscriptionem Bitcoin (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Clicca "Signa Nuntium" ut signatio generetur</translation>
+    </message>
+    <message>
+        <source>The entered address is invalid.</source>
+        <translation>Inscriptio inserta non valida est.</translation>
+    </message>
+    <message>
+        <source>Please check the address and try again.</source>
+        <translation>Sodes inscriptionem proba et rursus conare.</translation>
+    </message>
+    <message>
+        <source>The entered address does not refer to a key.</source>
+        <translation>Inserta inscriptio clavem non refert.</translation>
+    </message>
+    <message>
+        <source>Wallet unlock was cancelled.</source>
+        <translation>Cassidilis reserare cancellatum est.</translation>
+    </message>
+    <message>
+        <source>Private key for the entered address is not available.</source>
+        <translation>Clavis privata absens est pro inserta inscriptione.</translation>
+    </message>
+    <message>
+        <source>Message signing failed.</source>
+        <translation>Nuntium signare abortum est.</translation>
+    </message>
+    <message>
+        <source>Message signed.</source>
+        <translation>Nuntius signatus.</translation>
+    </message>
+    <message>
+        <source>The signature could not be decoded.</source>
+        <translation>Signatio decodificari non potuit.</translation>
+    </message>
+    <message>
+        <source>Please check the signature and try again.</source>
+        <translation>Sodes signationem proba et rursus conare.</translation>
+    </message>
+    <message>
+        <source>The signature did not match the message digest.</source>
+        <translation>Signatio non convenit digesto nuntii</translation>
+    </message>
+    <message>
+        <source>Message verification failed.</source>
+        <translation>Nuntium verificare abortum est.</translation>
+    </message>
+    <message>
+        <source>Message verified.</source>
+        <translation>Nuntius verificatus.</translation>
+    </message>
+</context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Nucleus</translation>
+    </message>
+    <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Open until %1</source>
+        <translation>Apertum donec %1</translation>
+    </message>
+    <message>
+        <source>%1/offline</source>
+        <translation>%1/non conecto</translation>
+    </message>
+    <message>
+        <source>%1/unconfirmed</source>
+        <translation>%1/non confirmata</translation>
+    </message>
+    <message>
+        <source>%1 confirmations</source>
+        <translation>%1 confirmationes</translation>
+    </message>
+    <message>
+        <source>Status</source>
+        <translation>Status</translation>
+    </message>
+    <message numerus="yes">
+        <source>, broadcast through %n node(s)</source>
+        <translation><numerusform>, disseminatum per %n nodo</numerusform><numerusform>, disseminata per %n nodis</numerusform></translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Source</source>
+        <translation>Fons</translation>
+    </message>
+    <message>
+        <source>Generated</source>
+        <translation>Generatum</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Ab</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Ad</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>inscriptio propria</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>titulus</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Creditum</translation>
+    </message>
+    <message numerus="yes">
+        <source>matures in %n more block(s)</source>
+        <translation><numerusform>maturum erit in %n plure frusto</numerusform><numerusform>maturum erit in %n pluribus frustis</numerusform></translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>non acceptum</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Debitum</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transactionis merces</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Cuncta quantitas</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Nuntius</translation>
+    </message>
+    <message>
+        <source>Comment</source>
+        <translation>Annotatio</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID transactionis</translation>
+    </message>
+    <message>
+        <source>Debug information</source>
+        <translation>Informatio de debug</translation>
+    </message>
+    <message>
+        <source>Transaction</source>
+        <translation>Transactio</translation>
+    </message>
+    <message>
+        <source>Inputs</source>
+        <translation>Lectenda</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>verum</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>falsum</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, nondum prospere disseminatum est</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>ignotum</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+        <source>Transaction details</source>
+        <translation>Particularia transactionis</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Haec tabula monstrat descriptionem verbosam transactionis</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typus</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message numerus="yes">
+        <source>Open for %n more block(s)</source>
+        <translation><numerusform>Aperi pro %n plure frusto</numerusform><numerusform>Aperi pro %n pluribus frustis</numerusform></translation>
+    </message>
+    <message>
+        <source>Open until %1</source>
+        <translation>Apertum donec %1</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Confirmatum (%1 confirmationes)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Hoc frustum non acceptum est ab ulla alia nodis et probabiliter non acceptum erit!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Generatum sed non acceptum</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Acceptum cum</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Acceptum ab</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Missum ad</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Pensitatio ad te ipsum</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Fossa</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Status transactionis.  Supervola cum mure ut monstretur numerus confirmationum.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Dies et tempus quando transactio accepta est.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Typus transactionis.</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Inscriptio destinationis transactionis.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Quantitas remota ex pendendo aut addita ei.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Omne</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Hodie</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Hac hebdomade</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Hoc mense</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Postremo mense</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Hoc anno</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Intervallum...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Acceptum cum</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Missum ad</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Ad te ipsum</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Fossa</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Alia</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Insere inscriptionem vel titulum ut quaeras</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Quantitas minima</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Copia inscriptionem</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Copia titulum</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Copia quantitatem</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Copia transactionis ID</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Muta titulum</translation>
+    </message>
+    <message>
+        <source>Show transaction details</source>
+        <translation>Monstra particularia transactionis</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Comma Separata Plica (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Confirmatum</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Dies</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Typus</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Titulus</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Inscriptio</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Quantitas</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Intervallum:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>ad</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Mitte Nummos</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>&amp;Exporta</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Exporta data in hac tabella in plicam</translation>
+    </message>
+    <message>
+        <source>Backup Wallet</source>
+        <translation>Conserva cassidile</translation>
+    </message>
+    <message>
+        <source>Wallet Data (*.dat)</source>
+        <translation>Data cassidilis (*.dat)</translation>
+    </message>
+    <message>
+        <source>Backup Failed</source>
+        <translation>Conservare abortum est.</translation>
+    </message>
+    <message>
+        <source>Backup Successful</source>
+        <translation>Successum in conservando</translation>
+    </message>
+</context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Usage:</source>
+        <translation>Usus:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Enumera mandata</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Accipe auxilium pro mandato</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Optiones:</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Specifica configurationis plicam (praedefinitum: bitcoin.conf)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>Specifica pid plicam (praedefinitum: bitcoin.pid)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Specifica indicem datorum</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Ausculta pro conexionibus in &lt;porta&gt; (praedefinitum: 8333 vel testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Manutene non plures quam &lt;n&gt; conexiones ad paria (praedefinitum: 125)</translation>
+    </message>
+    <message>
+        <source>Connect to a node to retrieve peer addresses, and disconnect</source>
+        <translation>Conecta ad nodum acceptare inscriptiones parium, et disconecte</translation>
+    </message>
+    <message>
+        <source>Specify your own public address</source>
+        <translation>Specifica tuam propriam publicam inscriptionem</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Limen pro disconectendo paria improba (praedefinitum: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Numerum secundorum prohibere ne paria improba reconectant (praedefinitum: 86400)</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv4: %s</source>
+        <translation>Error erat dum initians portam RPC %u pro auscultando in IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Ausculta pro conexionibus JSON-RPC in &lt;porta&gt; (praedefinitum: 8332 vel testnet: 18332)</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Accipe terminalis et JSON-RPC mandata.</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Operare infere sicut daemon et mandata accipe</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Utere rete experimentale</translation>
+    </message>
+    <message>
+        <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
+        <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
+    </message>
+    <message>
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, necesse est te rpcpassword constituere in plica configurationis:
+%s
+Hortatur te hanc fortuitam tesseram uti:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(non est necesse te hanc tesseram meminisse)
+Nomen usoris et tessera eadem esse NON POSSUNT.
+Si plica non existit, eam crea cum permissionibus ut eius dominus tantum sinitur id legere.
+Quoque hortatur alertnotify constituere ut tu notificetur de problematibus;
+exempli gratia: alertnotify=echo %%s | mail -s "Bitcoin Notificatio" admin@foo.com
+</translation>
+    </message>
+    <message>
+        <source>An error occurred while setting up the RPC port %u for listening on IPv6, falling back to IPv4: %s</source>
+        <translation>Error erat dum initians portam RPC %u pro auscultando in IPv6, labens retrorsum ad IPv4: %s</translation>
+    </message>
+    <message>
+        <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
+        <translation>Conglutina ad inscriptionem datam et semper in eam ausculta.  Utere [moderatrum]:porta notationem pro IPv6</translation>
+    </message>
+    <message>
+        <source>Error: The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Error: Transactio eiecta est! Hoc possit accidere si alii nummorum in cassidili tuo iam soluti sint, ut si usus es exemplar de wallet.dat et nummi soluti sunt in exemplari sed non hic notati ut soluti.</translation>
+    </message>
+    <message>
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation>Error: Huic transactioni necesse est merces saltem %s propter eius magnitudinem, complexitatem, vel usum recentum acceptorum nummorum!</translation>
+    </message>
+    <message>
+        <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
+        <translation>Facere mandatum quotiescumque cassidilis transactio mutet (%s in mandato sbstituitur ab TxID)</translation>
+    </message>
+    <message>
+        <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
+        <translation>Hoc est prae-dimittum experimentala aedes - utere eo periculo tuo proprio - nolite utere fodendo vel applicationibus mercatoriis</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Monitio: -paytxfee constitutum valde magnum!  Hoc est merces transactionis solves si mittis transactionem.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Monitio: Sodes cura ut dies tempusque computatri tui recti sunt!  Si horologium tuum pravum est, Bitcoin non proprie fungetur.</translation>
+    </message>
+    <message>
+        <source>Warning: error reading wallet.dat! All keys read correctly, but transaction data or address book entries might be missing or incorrect.</source>
+        <translation>Monitio: error legendo wallet.dat!  Omnes claves recte lectae, sed data transactionum vel libri inscriptionum fortasse desint vel prava sint.</translation>
+    </message>
+    <message>
+        <source>Warning: wallet.dat corrupt, data salvaged! Original wallet.dat saved as wallet.{timestamp}.bak in %s; if your balance or transactions are incorrect you should restore from a backup.</source>
+        <translation>Monitio: wallet.data corrupta, data salvata!  Originalis wallet.dat salvata ut wallet.{timestamp}.bak in %s; si pendendum tuum vel transactiones pravae sunt, oportet ab conservato restituere.</translation>
+    </message>
+    <message>
+        <source>Attempt to recover private keys from a corrupt wallet.dat</source>
+        <translation>Conare recipere claves privatas de corrupto wallet.dat</translation>
+    </message>
+    <message>
+        <source>Block creation options:</source>
+        <translation>Optiones creandi frustorum:</translation>
+    </message>
+    <message>
+        <source>Connect only to the specified node(s)</source>
+        <translation>Conecte sole ad nodos specificatos (vel nodum specificatum)</translation>
+    </message>
+    <message>
+        <source>Corrupted block database detected</source>
+        <translation>Corruptum databasum frustorum invenitur</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Discooperi propriam inscriptionem IP (praedefinitum: 1 quando auscultans et nullum -externalip)</translation>
+    </message>
+    <message>
+        <source>Do you want to rebuild the block database now?</source>
+        <translation>Visne reficere databasum frustorum iam?</translation>
+    </message>
+    <message>
+        <source>Error initializing block database</source>
+        <translation>Error initiando databasem frustorum</translation>
+    </message>
+    <message>
+        <source>Error initializing wallet database environment %s!</source>
+        <translation>Error initiando systematem databasi cassidilis %s!</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Current number of blocks</source>
@@ -549,6 +1907,7 @@
         <translation>Transactionis merces:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send to multiple recipients at once</source>
         <translation>Mitte pluribus accipientibus simul</translation>
     </message>
@@ -567,6 +1926,14 @@
     <message>
         <source>Confirm the send action</source>
         <translation>Confirma actionem mittendi</translation>
+=======
+        <source>Find peers using DNS lookup (default: 1 unless -connect)</source>
+        <translation>Inveni paria utendo DNS quaerendo (praedefinitum: 1 nisi -connect)</translation>
+    </message>
+    <message>
+        <source>Generate coins (default: 0)</source>
+        <translation>Genera nummos (praedefinitum: 0)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>S&amp;end</source>
@@ -576,6 +1943,7 @@
 <context>
     <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <source>A&amp;mount:</source>
         <translation>&amp;Quantitas:</translation>
     </message>
@@ -606,6 +1974,14 @@
     <message>
         <source>Pay To:</source>
         <translation>Pensa Ad:</translation>
+=======
+        <source>Not enough file descriptors available.</source>
+        <translation>Inopia descriptorum plicarum.</translation>
+    </message>
+    <message>
+        <source>Rebuild block chain index from current blk000??.dat files</source>
+        <translation>Restituere indicem catenae frustorum ex activis plicis blk000??.dat</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
@@ -614,6 +1990,7 @@
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Signatures - Sign / Verify a Message</source>
         <translation>Signationes - Signa / Verifica nuntium</translation>
     </message>
@@ -648,12 +2025,21 @@
     <message>
         <source>Sign the message to prove you own this Bitcoin address</source>
         <translation>Signa nuntium ut demonstres hanc inscriptionem Bitcoin a te possessa esse</translation>
+=======
+        <source>Set the number of threads to service RPC calls (default: 4)</source>
+        <translation>Constitue numerum filorum ad tractandum RPC postulationes (praedefinitum: 4)</translation>
+    </message>
+    <message>
+        <source>Verifying blocks...</source>
+        <translation>Verificante frusta...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Sign &amp;Message</source>
         <translation>Signa &amp;Nuntium</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Reset all sign message fields</source>
         <translation>Reconstitue omnes campos signandi nuntii</translation>
     </message>
@@ -676,11 +2062,16 @@
     <message>
         <source>Reset all verify message fields</source>
         <translation>Reconstitue omnes campos verificandi nuntii</translation>
+=======
+        <source>Imports blocks from external blk000??.dat file</source>
+        <translation>Importat frusta ab externa plica blk000??.dat</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <source>[testnet]</source>
         <translation>[testnet]</translation>
     </message>
@@ -727,6 +2118,18 @@
     <message>
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Accipe conexiones externas (praedefinitum: 1 nisi -proxy neque -connect)</translation>
+=======
+        <source>Information</source>
+        <translation>Informatio</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantitas non valida pro -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantitas non valida pro -mintxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Bitcoin Core</source>
@@ -749,6 +2152,7 @@
         <translation>Optiones creandi frustorum:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect only to the specified node(s)</source>
         <translation>Conecte sole ad nodos specificatos (vel nodum specificatum)</translation>
     </message>
@@ -787,12 +2191,21 @@
     <message>
         <source>Not enough file descriptors available.</source>
         <translation>Inopia descriptorum plicarum.</translation>
+=======
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Optiones SSL: (vide vici de Bitcoin pro instructionibus SSL configurationis)</translation>
+    </message>
+    <message>
+        <source>Send trace/debug info to console instead of debug.log file</source>
+        <translation>Mitte informationem vestigii/debug ad terminale potius quam plicam debug.log</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Verifying blocks...</source>
         <translation>Verificante frusta...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verifying wallet...</source>
         <translation>Verificante cassidilem...</translation>
     </message>
@@ -805,6 +2218,8 @@
         <translation>Mitte informationem vestigii/debug ad terminale potius quam plicam debug.log</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Shrink debug.log file on client startup (default: 1 when no -debug)</source>
         <translation>Diminue plicam debug.log ad initium clientis (praedefinitum: 1 nisi -debug)</translation>
     </message>
@@ -813,6 +2228,17 @@
         <translation>Signandum transactionis abortum est</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Specify connection timeout in milliseconds (default: 5000)</source>
+        <translation>Specifica tempumfati conexionis in millisecundis (praedefinitum: 5000)</translation>
+    </message>
+    <message>
+        <source>System error: </source>
+        <translation>Systematis error:</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Transaction amount too small</source>
         <translation>Magnitudo transactionis nimis parva</translation>
     </message>
@@ -833,6 +2259,21 @@
         <translation>Monitio</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Warning: This version is obsolete, upgrade required!</source>
+        <translation>Monitio: Haec versio obsoleta est, progressio postulata!</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versio</translation>
+    </message>
+    <message>
+        <source>wallet.dat corrupt, salvage failed</source>
+        <translation>wallet.dat corrupta, salvare abortum est</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Password for JSON-RPC connections</source>
         <translation>Tessera pro conexionibus JSON-RPC</translation>
     </message>
@@ -853,8 +2294,37 @@
         <translation>Inscriptio -proxy non valida: '%s'</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unknown network specified in -onlynet: '%s'</source>
         <translation>Ignotum rete specificatum in -onlynet: '%s'</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Inscriptio -proxy non valida: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ignotum rete specificatum in -onlynet: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown -socks proxy version requested: %i</source>
+        <translation>Ignota -socks vicarii versio postulata: %i</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Non posse resolvere -bind inscriptonem: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Non posse resolvere -externalip inscriptionem: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Quantitas non valida pro -paytxfee=&lt;quantitas&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Quantitas non valida</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Insufficient funds</source>

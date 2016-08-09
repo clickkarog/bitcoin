@@ -526,7 +526,12 @@ int main(int argc, char *argv[])
 #endif
 
     Q_INIT_RESOURCE(bitcoin);
+<<<<<<< HEAD
     Q_INIT_RESOURCE(bitcoin_locale);
+=======
+
+    GUIUtil::SubstituteFonts();
+>>>>>>> refs/remotes/karogkung/0.9
 
     BitcoinApplication app(argc, argv);
 #if QT_VERSION > 0x050100

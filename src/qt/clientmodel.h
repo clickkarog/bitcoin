@@ -78,8 +78,17 @@ public:
 
 private:
     OptionsModel *optionsModel;
+<<<<<<< HEAD
     PeerTableModel *peerTableModel;
     BanTableModel *banTableModel;
+=======
+
+    int cachedNumBlocks;
+    bool cachedReindexing;
+    bool cachedImporting;
+
+    int numBlocksAtStartup;
+>>>>>>> refs/remotes/karogkung/0.9
 
     QTimer *pollTimer;
 
@@ -88,8 +97,12 @@ private:
 
 Q_SIGNALS:
     void numConnectionsChanged(int count);
+<<<<<<< HEAD
     void numBlocksChanged(int count, const QDateTime& blockDate, double nVerificationProgress, bool header);
     void mempoolSizeChanged(long count, size_t mempoolSizeInBytes);
+=======
+    void numBlocksChanged(int count);
+>>>>>>> refs/remotes/karogkung/0.9
     void alertsChanged(const QString &warnings);
     void bytesChanged(quint64 totalBytesIn, quint64 totalBytesOut);
 

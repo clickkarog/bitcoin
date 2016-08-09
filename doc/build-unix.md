@@ -79,12 +79,19 @@ install necessary parts of boost:
 
         sudo apt-get install libboost-all-dev
 
+<<<<<<< HEAD
 BerkeleyDB is required for the wallet. db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
 You can add the repository and install using the following commands:
 
     sudo add-apt-repository ppa:bitcoin/bitcoin
     sudo apt-get update
     sudo apt-get install libdb4.8-dev libdb4.8++-dev
+=======
+for Debian 7 (Wheezy) and later:
+ The oldstable repository contains db4.8 packages.
+ Add the following line to /etc/apt/sources.list,
+ replacing [mirror] with any official debian mirror.
+>>>>>>> refs/remotes/karogkung/0.9
 
 Ubuntu and Debian have their own libdb-dev and libdb++-dev packages, but these will install
 BerkeleyDB 5.1 or later, which break binary wallet compatibility with the distributed executables which

@@ -312,12 +312,18 @@ int CommandLineRPC(int argc, char *argv[])
 int main(int argc, char* argv[])
 {
     SetupEnvironment();
+<<<<<<< HEAD
     if (!SetupNetworking()) {
         fprintf(stderr, "Error: Initializing networking failed\n");
         return EXIT_FAILURE;
     }
 
     try {
+=======
+
+    try
+    {
+>>>>>>> refs/remotes/karogkung/0.9
         if(!AppInitRPC(argc, argv))
             return EXIT_FAILURE;
     }

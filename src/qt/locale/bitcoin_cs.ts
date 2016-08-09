@@ -1,4 +1,44 @@
 <TS language="cs" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>O Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; verze</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Tohle je experimentální program.
+
+Šířen pod licencí MIT/X11, viz přiložený soubor COPYING nebo http://www.opensource.org/licenses/mit-license.php.
+
+Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v OpenSSL Toolkitu (http://www.openssl.org/) a kryptografický program od Erika Younga (eay@cryptsoft.com) a program UPnP od Thomase Bernarda.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Vývojáři Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -137,6 +177,13 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>Načíst &amp;URI...</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Importing blocks from disk...</source>
+        <translation>Importuji bloky z disku...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -221,6 +268,13 @@
     <message>
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Požaduj platby (generuje QR kódy a bitcoin: URI)</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;About Bitcoin Core</source>
+        <translation>O &amp;Bitcoin Core</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -236,7 +290,19 @@
     </message>
     <message>
         <source>&amp;Command-line options</source>
+<<<<<<< HEAD
         <translation>Ar&amp;gumenty příkazové řádky</translation>
+=======
+        <translation>Ar&amp;gumenty z příkazové řádky</translation>
+    </message>
+    <message>
+        <source>Show the Bitcoin Core help message to get a list with possible Bitcoin command-line options</source>
+        <translation>Seznam argumentů Bitcoinu pro příkazovou řádku získáš v nápovědě Bitcoinu Core</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin klient</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message numerus="yes">
         <source>%n active connection(s) to Bitcoin network</source>
@@ -250,6 +316,7 @@
         <source>Processed %n block(s) of transaction history.</source>
         <translation><numerusform>Zpracován %n blok transakční historie.</numerusform><numerusform>Zpracovány %n bloky transakční historie.</numerusform><numerusform>Zpracováno %n bloků transakční historie.</numerusform></translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n hour(s)</source>
         <translation><numerusform>%n hodinu</numerusform><numerusform>%n hodiny</numerusform><numerusform>%n hodin</numerusform></translation>
@@ -262,14 +329,19 @@
         <source>%n week(s)</source>
         <translation><numerusform>%n týden</numerusform><numerusform>%n týdny</numerusform><numerusform>%n týdnů</numerusform></translation>
     </message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>%1 and %2</source>
         <translation>%1 a %2</translation>
     </message>
+<<<<<<< HEAD
     <message numerus="yes">
         <source>%n year(s)</source>
         <translation><numerusform>%n rok</numerusform><numerusform>%n roky</numerusform><numerusform>%n roků</numerusform></translation>
     </message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>%1 behind</source>
         <translation>Stahuji ještě bloky transakcí za poslední %1</translation>
@@ -352,8 +424,13 @@
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Coin Selection</source>
         <translation>Výběr mincí</translation>
+=======
+        <source>Coin Control Address Selection</source>
+        <translation>Volba adres v rámci ruční správy mincí</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Quantity:</source>
@@ -376,8 +453,13 @@
         <translation>Poplatek:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust:</source>
         <translation>Prach:</translation>
+=======
+        <source>Low Output:</source>
+        <translation>Malý výstup:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>After Fee:</source>
@@ -447,27 +529,46 @@
         <translation>Adresa spojená s tímto záznamem v seznamu adres. Lze upravovat jen pro odesílací adresy.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Address</source>
         <translation>&amp;Adresa</translation>
+=======
+        <source>Lock unspent</source>
+        <translation>Zamkni neutracené</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>FreespaceChecker</name>
     <message>
+<<<<<<< HEAD
         <source>A new data directory will be created.</source>
         <translation>Vytvoří se nový adresář pro data.</translation>
     </message>
     <message>
         <source>name</source>
         <translation>název</translation>
+=======
+        <source>Unlock unspent</source>
+        <translation>Odemkni k utracení</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopíruj počet</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation>Adresář už existuje. Přidej %1, pokud tady chceš vytvořit nový adresář.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Path already exists, and is not a directory.</source>
         <translation>Taková cesta už existuje, ale není adresářem.</translation>
+=======
+        <source>Copy after fee</source>
+        <translation>Kopíruj čistou částku</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Cannot create data directory here.</source>
@@ -481,14 +582,20 @@
         <translation>verze</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
+=======
+        <source>Copy low output</source>
+        <translation>Kopíruj malý výstup</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Command-line options</source>
         <translation>Argumenty příkazové řádky</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Užití:</translation>
     </message>
@@ -519,11 +626,44 @@
     <message>
         <source>Show splash screen on startup (default: %u)</source>
         <translation>Zobrazit startovací obrazovku (výchozí: %u)</translation>
+=======
+        <source>highest</source>
+        <translation>nejvyšší</translation>
+    </message>
+    <message>
+        <source>higher</source>
+        <translation>vyšší</translation>
+    </message>
+    <message>
+        <source>high</source>
+        <translation>vysoká</translation>
+    </message>
+    <message>
+        <source>medium-high</source>
+        <translation>vyšší střední</translation>
+    </message>
+    <message>
+        <source>medium</source>
+        <translation>střední</translation>
+    </message>
+    <message>
+        <source>low-medium</source>
+        <translation>nižší střední</translation>
+    </message>
+    <message>
+        <source>low</source>
+        <translation>nízká</translation>
+    </message>
+    <message>
+        <source>lower</source>
+        <translation>nižší</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Welcome</source>
         <translation>Vítej</translation>
     </message>
@@ -550,11 +690,40 @@
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation><numerusform>(z potřebného %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform><numerusform>(z potřebných %n GB)</numerusform></translation>
+=======
+        <source>lowest</source>
+        <translation>nejnižší</translation>
+    </message>
+    <message>
+        <source>(%1 locked)</source>
+        <translation>(%1 zamčeno)</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>žádná</translation>
+    </message>
+    <message>
+        <source>Dust</source>
+        <translation>Prach</translation>
+    </message>
+    <message>
+        <source>yes</source>
+        <translation>ano</translation>
+    </message>
+    <message>
+        <source>no</source>
+        <translation>ne</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the transaction size is greater than 1000 bytes.</source>
+        <translation>Popisek zčervená, pokud je velikost transakce větší než 1000 bajtů.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Open URI</source>
         <translation>Načíst URI</translation>
     </message>
@@ -569,11 +738,28 @@
     <message>
         <source>Select payment request file</source>
         <translation>Vyber soubor platebního požadavku</translation>
+=======
+        <source>This means a fee of at least %1 per kB is required.</source>
+        <translation>To znamená, že je vyžadován poplatek alespoň %1 za kB.</translation>
+    </message>
+    <message>
+        <source>Can vary +/- 1 byte per input.</source>
+        <translation>Může se lišit o +/– 1 bajt na každý vstup.</translation>
+    </message>
+    <message>
+        <source>Transactions with higher priority are more likely to get included into a block.</source>
+        <translation>Transakce s vyšší prioritou mají větší šanci na zařazení do bloku.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Popisek zčervená, pokud je priorita menší než „střední“.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Options</source>
         <translation>Možnosti</translation>
     </message>
@@ -588,14 +774,35 @@
     <message>
         <source>MB</source>
         <translation>MB</translation>
+=======
+        <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
+        <translation>Popisek zčervená, pokud má některý příjemce obdržet částku menší než %1.</translation>
+    </message>
+    <message>
+        <source>This means a fee of at least %1 is required.</source>
+        <translation>To znamená, že je vyžadován poplatek alespoň %1.</translation>
+    </message>
+    <message>
+        <source>Amounts below 0.546 times the minimum relay fee are shown as dust.</source>
+        <translation>Částky menší než 0,546násobek minimálního poplatku pro přenos jsou označovány jako prach.</translation>
+    </message>
+    <message>
+        <source>This label turns red, if the change is smaller than %1.</source>
+        <translation>Popisek zčervená, pokud jsou drobné menší než %1.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Number of script &amp;verification threads</source>
         <translation>Počet vláken pro &amp;verifikaci skriptů</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside</source>
         <translation>Přijímat spojení zvenčí</translation>
+=======
+        <source>change from %1 (%2)</source>
+        <translation>drobné z %1 (%2)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Allow incoming connections</source>
@@ -618,8 +825,248 @@
         <translation>URL transakcí třetích stran</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Active command-line options that override above options:</source>
         <translation>Aktivní argumenty z příkazové řádky, které mají přednost před nastavením výše:</translation>
+=======
+        <source>&amp;Address</source>
+        <translation>&amp;Adresa</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Nová přijímací adresa</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Nová odesílací adresa</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>Uprav přijímací adresu</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Uprav odesílací adresu</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Zadaná adresa "%1" už v adresáři je.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Zadaná adresa "%1" není platná Bitcoinová adresa.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Nemohu odemknout peněženku.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Nepodařilo se mi vygenerovat nový klíč.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Vytvoří se nový adresář pro data.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>název</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Adresář už existuje. Přidej %1, pokud tady chceš vytvořit nový adresář.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Taková cesta už existuje, ale není adresářem.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Tady nemůžu vytvořit adresář pro data.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>BitcoinCore – Argumenty z příkazové řádky</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>verze</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Užití:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>možnosti příkazové řádky</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>Možnosti UI</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Nastavit jazyk, například "de_DE" (výchozí: systémové nastavení)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Nastartovat minimalizovaně</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Nastavit kořenové SSL certifikáty pro platební požadavky (výchozí: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Zobrazit startovací obrazovku (výchozí: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Zvolit adresář pro data při startu (výchozí: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Vítej</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Vítej v Bitcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>Tohle je poprvé, co spouštíš Bitcoin Core, takže si můžeš zvolit, kam bude ukládat svá data.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Core bude stahovat kopii řetězce bloků. Proto bude potřeba do tohoto adresáře uložit nejméně %1 GB dat – toto číslo bude navíc v průběhu času pomalu růst. Tvá peněženka bude rovněž uložena v tomto adresáři.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Použij výchozí adresář pro data</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Použij tento adresář pro data:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Chyba: Nejde vytvořit požadovaný adresář pro data „%1“.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Chyba</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB volného místa</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(z potřebných %1 GB)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Načíst URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Načíst platební požadavek z URI nebo ze souboru</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Vyber soubor platebního požadavku</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Vyber soubor platebního požadavku k načtení</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Možnosti</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Hlavní</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Dobrovolný transakční poplatek za každý započatý kB dopomáhá k rychlému zpracování tvých transakcí. Většina transakcí má do 1 kB.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Platit &amp;transakční poplatek</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Automaticky spustí Bitcoin po přihlášení do systému.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>S&amp;pustit Bitcoin po přihlášení do systému</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Velikost &amp;databázové cache</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Počet vláken pro &amp;verifikaci skriptů</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Připojí se do Bitcoinové sítě přes SOCKS proxy.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Připojit přes SOCKS proxy (výchozí proxy):</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP adresa proxy (např. IPv4: 127.0.0.1/IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>URL třetích stran (např. block exploreru), které se zobrazí v kontextovém menu v záložce Transakce. %s v URL se nahradí hashem transakce. Více URL odděl svislítkem |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>URL transakcí třetích stran</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktivní argumenty z příkazové řádky, které přetloukly tato nastavení:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -857,8 +1304,41 @@
         <translation>Vytěžené mince na sledovaných adresách, které ještě nejsou zralé</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Current total balance in watch-only addresses</source>
         <translation>Aktuální stav účtu sledovaných adres</translation>
+=======
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Tvá aktivní proxy nepodporuje SOCKS5, které je vyžadováno pro platební požadavky skrz proxy.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Zdrojová URL platebního požadavku není platná: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Zpracování souboru platebního požadavku</translation>
+    </message>
+    <message>
+        <source>Payment request file can not be read or processed! This can be caused by an invalid payment request file.</source>
+        <translation>Soubor platebního požadavku nejde přečíst nebo zpracovat! Příčinou může být špatný soubor platebního požadavku.</translation>
+    </message>
+    <message>
+        <source>Unverified payment requests to custom payment scripts are unsupported.</source>
+        <translation>Neověřené platební požadavky k uživatelským platebním skriptům nejsou podporované.</translation>
+    </message>
+    <message>
+        <source>Refund from %1</source>
+        <translation>Vrácení peněz od %1</translation>
+    </message>
+    <message>
+        <source>Error communicating with %1: %2</source>
+        <translation>Chyba při komunikaci s %1: %2</translation>
+    </message>
+    <message>
+        <source>Payment request can not be parsed or processed!</source>
+        <translation>Platebního požadavku nejde přečíst nebo zpracovat!</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -879,8 +1359,17 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Částka</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Chyba: Zadaný adresář pro data „%1“ neexistuje.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
@@ -891,8 +1380,13 @@
         <translation>%1 d</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 h</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core ještě bezpečně neskončil...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 m</source>
@@ -918,6 +1412,18 @@
 <context>
     <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
+        <source>N/A</source>
+        <translation>N/A</translation>
+    </message>
+    <message>
+        <source>Client version</source>
+        <translation>Verze klienta</translation>
+=======
+        <source>Client name</source>
+        <translation>Název klienta</translation>
+    </message>
+    <message>
         <source>N/A</source>
         <translation>N/A</translation>
     </message>
@@ -938,8 +1444,8 @@
         <translation>Obecné</translation>
     </message>
     <message>
-        <source>Using BerkeleyDB version</source>
-        <translation>Používaná verze BerkeleyDB</translation>
+        <source>Using OpenSSL version</source>
+        <translation>Používaná verze OpenSSL</translation>
     </message>
     <message>
         <source>Startup time</source>
@@ -966,6 +1472,504 @@
         <translation>Aktuální počet bloků</translation>
     </message>
     <message>
+        <source>Estimated total blocks</source>
+        <translation>Odhad celkového počtu bloků</translation>
+    </message>
+    <message>
+        <source>Last block time</source>
+        <translation>Čas posledního bloku</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Otevřít</translation>
+    </message>
+    <message>
+        <source>&amp;Console</source>
+        <translation>&amp;Konzole</translation>
+    </message>
+    <message>
+        <source>&amp;Network Traffic</source>
+        <translation>&amp;Síťový provoz</translation>
+    </message>
+    <message>
+        <source>&amp;Clear</source>
+        <translation>&amp;Vyčistit</translation>
+    </message>
+    <message>
+        <source>Totals</source>
+        <translation>Sumy</translation>
+    </message>
+    <message>
+        <source>In:</source>
+        <translation>Sem:</translation>
+    </message>
+    <message>
+        <source>Out:</source>
+        <translation>Ven:</translation>
+    </message>
+    <message>
+        <source>Build date</source>
+        <translation>Datum kompilace</translation>
+    </message>
+    <message>
+        <source>Debug log file</source>
+        <translation>Soubor s ladicími záznamy</translation>
+    </message>
+    <message>
+        <source>Open the Bitcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři soubor s ladicími záznamy Bitcoinu z aktuálního datového adresáře. U velkých logů to může pár vteřin zabrat.</translation>
+    </message>
+    <message>
+        <source>Clear console</source>
+        <translation>Vyčistit konzoli</translation>
+    </message>
+    <message>
+        <source>Welcome to the Bitcoin RPC console.</source>
+        <translation>Vítej v Bitcoinové RPC konzoli.</translation>
+    </message>
+    <message>
+        <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
+        <translation>V historii se pohybuješ šipkami nahoru a dolů a pomocí &lt;b&gt;Ctrl-L&lt;/b&gt; čistíš obrazovku.</translation>
+    </message>
+    <message>
+        <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
+        <translation>Napsáním &lt;b&gt;help&lt;/b&gt; si vypíšeš přehled dostupných příkazů.</translation>
+    </message>
+    <message>
+        <source>%1 B</source>
+        <translation>%1 B</translation>
+    </message>
+    <message>
+        <source>%1 KB</source>
+        <translation>%1 kB</translation>
+    </message>
+    <message>
+        <source>%1 MB</source>
+        <translation>%1 MB</translation>
+    </message>
+    <message>
+        <source>%1 GB</source>
+        <translation>%1 GB</translation>
+    </message>
+    <message>
+        <source>%1 m</source>
+        <translation>%1 m</translation>
+    </message>
+    <message>
+        <source>%1 h</source>
+        <translation>%1 h</translation>
+    </message>
+    <message>
+        <source>%1 h %2 m</source>
+        <translation>%1 h %2 m</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>&amp;Amount:</source>
+        <translation>Čás&amp;tka:</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Označení:</translation>
+    </message>
+    <message>
+        <source>&amp;Message:</source>
+        <translation>&amp;Zpráva:</translation>
+    </message>
+    <message>
+        <source>Reuse one of the previously used receiving addresses. Reusing addresses has security and privacy issues. Do not use this unless re-generating a payment request made before.</source>
+        <translation>Recyklovat již dříve použité adresy. Recyklace adres má bezpečnostní rizika a narušuje soukromí. Nezaškrtávejte to, pokud znovu nevytváříte již dříve vytvořený platební požadavek.</translation>
+    </message>
+    <message>
+        <source>R&amp;euse an existing receiving address (not recommended)</source>
+        <translation>&amp;Recyklovat již existující adresy (nedoporučeno)</translation>
+    </message>
+    <message>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Bitcoin network.</source>
+        <translation>Volitelná zpráva, která se připojí k platebnímu požadavku a která se zobrazí, když se požadavek otevře. Poznámka: Tahle zpráva se neposílá s platbou po Bitcoinové síti.</translation>
+    </message>
+    <message>
+        <source>An optional label to associate with the new receiving address.</source>
+        <translation>Volitelné označení, které se má přiřadit k nové adrese.</translation>
+    </message>
+    <message>
+        <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
+        <translation>Tímto formulář můžeš požadovat platby. Všechna pole jsou &lt;b&gt;volitelná&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>An optional amount to request. Leave this empty or zero to not request a specific amount.</source>
+        <translation>Volitelná částka, kterou požaduješ. Nech prázdné nebo nulové, pokud nepožaduješ konkrétní částku.</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Promaž obsah ze všech formulářových políček.</translation>
+    </message>
+    <message>
+        <source>Clear</source>
+        <translation>Vyčistit</translation>
+    </message>
+    <message>
+        <source>Requested payments history</source>
+        <translation>Historie vyžádaných plateb</translation>
+    </message>
+    <message>
+        <source>&amp;Request payment</source>
+        <translation>&amp;Vyžádat platbu</translation>
+    </message>
+    <message>
+        <source>Show the selected request (does the same as double clicking an entry)</source>
+        <translation>Zobraz zvolený požadavek (stejně tak můžeš přímo na něj dvakrát poklepat)</translation>
+    </message>
+    <message>
+        <source>Show</source>
+        <translation>Zobrazit</translation>
+    </message>
+    <message>
+        <source>Remove the selected entries from the list</source>
+        <translation>Smaž zvolené požadavky ze seznamu</translation>
+    </message>
+    <message>
+        <source>Remove</source>
+        <translation>Smazat</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Kopíruj její označení</translation>
+    </message>
+    <message>
+        <source>Copy message</source>
+        <translation>Kopíruj zprávu</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopíruj částku</translation>
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>QR Code</source>
+        <translation>QR kód</translation>
+    </message>
+    <message>
+        <source>Copy &amp;URI</source>
+        <translation>&amp;Kopíruj URI</translation>
+    </message>
+    <message>
+        <source>Copy &amp;Address</source>
+        <translation>Kopíruj &amp;adresu</translation>
+    </message>
+    <message>
+        <source>&amp;Save Image...</source>
+        <translation>&amp;Ulož obrázek...</translation>
+    </message>
+    <message>
+        <source>Request payment to %1</source>
+        <translation>Platební požadavek: %1</translation>
+    </message>
+    <message>
+        <source>Payment information</source>
+        <translation>Informace o platbě</translation>
+    </message>
+    <message>
+        <source>URI</source>
+        <translation>URI</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adresa</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Částka</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Označení</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Zpráva</translation>
+    </message>
+    <message>
+        <source>Resulting URI too long, try to reduce the text for label / message.</source>
+        <translation>Výsledná URI je příliš dlouhá, zkus zkrátit text označení/zprávy.</translation>
+    </message>
+    <message>
+        <source>Error encoding URI into QR Code.</source>
+        <translation>Chyba při kódování URI do QR kódu.</translation>
+    </message>
+</context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Označení</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Zpráva</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Částka</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez označení)</translation>
+    </message>
+    <message>
+        <source>(no message)</source>
+        <translation>(bez zprávy)</translation>
+    </message>
+    <message>
+        <source>(no amount)</source>
+        <translation>(bez částky)</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Pošli mince</translation>
+    </message>
+    <message>
+        <source>Coin Control Features</source>
+        <translation>Možnosti ruční správy mincí</translation>
+    </message>
+    <message>
+        <source>Inputs...</source>
+        <translation>Vstupy...</translation>
+    </message>
+    <message>
+        <source>automatically selected</source>
+        <translation>automaticky vybrané</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Nedostatek prostředků!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Počet:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bajtů:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Částka:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Priorita:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Poplatek:</translation>
+    </message>
+    <message>
+        <source>Low Output:</source>
+        <translation>Malý výstup:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Čistá částka:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Drobné:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Pokud aktivováno, ale adresa pro drobné je prázdná nebo neplatná, tak se drobné pošlou na nově vygenerovanou adresu.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Vlastní adresa pro drobné</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Pošli více příjemcům naráz</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Při&amp;dej příjemce</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Promaž obsah ze všech formulářových políček.</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Všechno s&amp;maž</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Stav účtu:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Potvrď odeslání</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>P&amp;ošli</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Potvrď odeslání mincí</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 pro %2</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopíruj počet</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopíruj částku</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Kopíruj poplatek</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Kopíruj čistou částku</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Kopíruj bajty</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Kopíruj prioritu</translation>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation>Kopíruj malý výstup</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Kopíruj drobné</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Celková částka %1 (= %2)</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>nebo</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Adresa příjemce je neplatná, překontroluj ji prosím.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Odesílaná částka musí být větší než 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Částka překračuje stav účtu.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Celková částka při připočítání poplatku %1 překročí stav účtu.</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Zaznamenána duplikovaná adresa; každá adresa může být v odesílané platbě pouze jednou.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Vytvoření transakce selhalo!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Transakce byla odmítnuta! Tohle může nastat, pokud nějaké mince z tvé peněženky už jednou byly utraceny, například pokud používáš kopii souboru wallet.dat a mince byly utraceny v druhé kopii, ale nebyly označeny jako utracené v této.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Upozornění: Neplatná Bitcoinová adresa</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(bez označení)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Upozornění: Neznámá adresa pro drobné</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Jsi si jistý, že to chceš poslat?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>přidán jako transakční poplatek</translation>
+    </message>
+    <message>
+        <source>Payment request expired</source>
+        <translation>Platební požadavek vypršel</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>&amp;Information</source>
+        <translation>&amp;Informace</translation>
+    </message>
+    <message>
+        <source>Debug window</source>
+        <translation>Ladicí okno</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Obecné</translation>
+    </message>
+    <message>
+        <source>Using BerkeleyDB version</source>
+        <translation>Používaná verze BerkeleyDB</translation>
+    </message>
+    <message>
+        <source>Startup time</source>
+        <translation>Čas spuštění</translation>
+    </message>
+    <message>
+        <source>Network</source>
+        <translation>Síť</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>Name</source>
+        <translation>Název</translation>
+=======
+        <source>Choose previously used address</source>
+        <translation>Vyber již použitou adresu</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    <message>
+        <source>Number of connections</source>
+        <translation>Počet spojení</translation>
+    </message>
+    <message>
+        <source>Block chain</source>
+        <translation>Řetězec bloků</translation>
+    </message>
+    <message>
+        <source>Current number of blocks</source>
+        <translation>Aktuální počet bloků</translation>
+    </message>
+    <message>
         <source>Memory usage</source>
         <translation>Využití paměti</translation>
     </message>
@@ -978,6 +1982,7 @@
         <translation>Odesláno</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Peers</source>
         <translation>&amp;Protějšky</translation>
     </message>
@@ -996,6 +2001,26 @@
     <message>
         <source>User Agent</source>
         <translation>Typ klienta</translation>
+=======
+        <source>This is a verified payment request.</source>
+        <translation>Tohle je ověřený platební požadavek.</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Zadej označení této adresy; obojí se ti pak uloží do adresáře</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>Zpráva, která byla připojena k bitcoin: URI a která se ti pro přehled uloží k transakci. Poznámka: Tahle zpráva se neposílá s platbou po Bitcoinové síti.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Tohle je neověřený platební požadavek.</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Komu:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Services</source>
@@ -1026,8 +2051,13 @@
         <translation>Časový posun</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Last block time</source>
         <translation>Čas posledního bloku</translation>
+=======
+        <source>Choose previously used address</source>
+        <translation>Vyber již použitou adresu</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1098,8 +2128,13 @@
         <translation>V historii se pohybuješ šipkami nahoru a dolů a pomocí &lt;b&gt;Ctrl-L&lt;/b&gt; čistíš obrazovku.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Type &lt;b&gt;help&lt;/b&gt; for an overview of available commands.</source>
         <translation>Napsáním &lt;b&gt;help&lt;/b&gt; si vypíšeš přehled dostupných příkazů.</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Kliknutím na "Podepiš zprávu" vygeneruješ podpis</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 B</source>
@@ -1189,8 +2224,13 @@
         <translation>Volitelná částka, kterou požaduješ. Nech prázdné nebo nulové, pokud nepožaduješ konkrétní částku.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Clear all fields of the form.</source>
         <translation>Promaž obsah ze všech formulářových políček.</translation>
+=======
+        <source>Status</source>
+        <translation>Stav</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Clear</source>
@@ -1227,10 +2267,13 @@
         <source>QR Code</source>
         <translation>QR kód</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Copy &amp;URI</source>
         <translation>&amp;Kopíruj URI</translation>
     </message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>Copy &amp;Address</source>
         <translation>Kopíruj &amp;adresu</translation>
@@ -1267,8 +2310,13 @@
         <translation>Počet:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bytes:</source>
         <translation>Bajtů:</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Vygenerované mince musí čekat %1 bloků, než mohou být utraceny. Když jsi vygeneroval tenhle blok, tak byl rozposlán do sítě, aby byl přidán do řetězce bloků. Pokud se mu nepodaří dostat se do řetězce, změní se na "neakceptovaný" a nepůjde utratit. To se občas může stát, pokud jiný uzel vygeneruje blok zhruba ve stejném okamžiku jako ty.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Amount:</source>
@@ -1298,10 +2346,13 @@
         <source>Custom change address</source>
         <translation>Vlastní adresa pro drobné</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Transaction Fee:</source>
         <translation>Transakční poplatek:</translation>
     </message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>Choose...</source>
         <translation>Zvol...</translation>
@@ -1334,10 +2385,13 @@
         <source>(read the tooltip)</source>
         <translation>(viz bublina)</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Recommended:</source>
         <translation>Doporučený:</translation>
     </message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>Custom:</source>
         <translation>Vlastní:</translation>
@@ -1619,12 +2673,17 @@
         <translation>Pokud není &lt;category&gt; zadána nebo je &lt;category&gt; = 1, bude tisknout veškeré ladicí informace.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
         <translation>Prořezávání je nastaveno pod minimum %d MiB.  Použij, prosím, nějaké vyšší číslo.</translation>
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
         <translation>Prořezávání: poslední synchronizace peněženky proběhla před už prořezanými daty. Je třeba provést -reindex (tedy v případě prořezávacího režimu stáhnout znovu celý řetězec bloků)</translation>
+=======
+        <source>Listen for JSON-RPC connections on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Čekat na JSON RPC spojení na &lt;portu&gt; (výchozí: 8332 nebo testnet: 18332)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. Warning: Reverting this setting requires re-downloading the entire blockchain. (default: 0 = disable pruning blocks, &gt;%u = target size in MiB to use for block files)</source>
@@ -1647,8 +2706,33 @@
         <translation>Prořezávám úložiště bloků...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Běžet na pozadí jako démon a přijímat příkazy</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, musíš nastavit rpcpassword v konfiguračním souboru:
+%s
+Je vhodné použít následující náhodné heslo:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(není potřeba si ho pamatovat)
+rpcuser a rpcpassword NESMÍ být stejné.
+Pokud konfigurační soubor ještě neexistuje, vytvoř ho tak, aby ho mohl číst pouze vlastník.
+Je také doporučeno si nastavit alertnotify, abys byl upozorněn na případné problémy;
+například: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unable to start HTTP server. See debug log for details.</source>
@@ -1663,8 +2747,13 @@
         <translation>Bitcoin Core</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>-fallbackfee is set very high! This is the transaction fee you may pay when fee estimates are not available.</source>
         <translation>-fallbackfee je nastaveno velmi vysoko! Toto je transakční poplatek, který bys platil, pokud nebude k dispozici odhad poplatků.</translation>
+=======
+        <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:15)</source>
+        <translation>Kontinuálně omezovat bezpoplatkové transakce na &lt;n&gt;*1000 bajtů za minutu (výchozí: 15)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>A fee rate (in %s/kB) that will be used when fee estimation has insufficient data (default: %s)</source>
@@ -1675,8 +2764,13 @@
         <translation>Přijímat přeposílané transakce obdržené od vždy vítaných protějšků, i když transakce nepřeposíláme (výchozí: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>
         <translation>Poslouchat na zadané adrese. Pro zápis IPv6 adresy použij notaci [adresa]:port</translation>
+=======
+        <source>Error: Listening for incoming connections failed (listen returned error %d)</source>
+        <translation>Chyba: Nelze naslouchat příchozí spojení (listen vrátil chybu %d)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
@@ -1691,6 +2785,7 @@
         <translation>Spustit příkaz, když se objeví transakce týkající se peněženky (%s se v příkazu nahradí za TxID)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Force relay of transactions from whitelisted peers even they violate local relay policy (default: %d)</source>
         <translation>Vynutit přeposílání transakcí od vždy vítaných protějšků (tj. těch na bílé listině), i když porušují místní zásady pro přeposílání (výchozí: %d)</translation>
     </message>
@@ -1701,14 +2796,51 @@
     <message>
         <source>The block database contains a block which appears to be from the future. This may be due to your computer's date and time being set incorrectly. Only rebuild the block database if you are sure that your computer's date and time are correct</source>
         <translation>Databáze bloků obsahuje blok, který vypadá jako z budoucnosti, což může být kvůli špatně nastavenému datu a času na tvém počítači. Nech databázi bloků přestavět pouze v případě, že si jsi jistý, že máš na počítači správný datum a čas</translation>
+=======
+        <source>Fees smaller than this are considered zero fee (for transaction creation) (default:</source>
+        <translation>Poplatky menší než tato hodnota jsou považovány za nulové (pro vytváření transakcí) (výchozí:</translation>
+    </message>
+    <message>
+        <source>Flush database activity from memory pool to disk log every &lt;n&gt; megabytes (default: 100)</source>
+        <translation>Promítnout databázovou aktivitu z paměťového prostoru do záznamu na disku každých &lt;n&gt; megabajtů (výchozí: 100)</translation>
+    </message>
+    <message>
+        <source>How thorough the block verification of -checkblocks is (0-4, default: 3)</source>
+        <translation>Jak moc důkladná má být verifikace bloků -checkblocks (0-4, výchozí: 3)</translation>
+    </message>
+    <message>
+        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
+        <translation>V tomto módu -genproclimit určuje, kolik bloků je vygenerováno okamžitě.</translation>
+    </message>
+    <message>
+        <source>Set the processor limit for when generation is on (-1 = unlimited, default: -1)</source>
+        <translation>Nastavit omezení procesoru pro zapnuté generování (-1 = bez omezení, výchozí: -1)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>This is a pre-release test build - use at your own risk - do not use for mining or merchant applications</source>
         <translation>Tohle je testovací verze – používej ji jen na vlastní riziko, ale rozhodně ji nepoužívej k těžbě nebo pro obchodní aplikace</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Použít UPnP k namapování naslouchacího portu (výchozí: 1, pokud naslouchá a nepoužívá -proxy)</translation>
+=======
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>Nedaří se mi připojit na %s na tomhle počítači. Bitcoin Core už pravděpodobně jednou běží.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Použít samostatnou SOCKS5 proxy ke spojení s peery přes skryté služby v Toru (výchozí: -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Upozornění: -paytxfee je nastaveno velmi vysoko! Toto je transakční poplatek, který zaplatíš za každou poslanou transakci.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Upozornění: Zkontroluj, že máš v počítači správně nastavený datum a čas! Pokud jsou nastaveny špatně, Bitcoin nebude fungovat správně.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -1736,13 +2868,32 @@
     </message>
     <message>
         <source>Block creation options:</source>
+<<<<<<< HEAD
         <translation>Možnosti vytváření bloku:</translation>
+=======
+        <translation>Možnosti vytvoření bloku:</translation>
+    </message>
+    <message>
+        <source>Clear list of wallet transactions (diagnostic tool; implies -rescan)</source>
+        <translation>Smazat seznam transakcí peněženky (diagnostický nástroj; vynutí -rescan)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Connect only to the specified node(s)</source>
         <translation>Připojit se pouze k zadanému uzlu (příp. zadaným uzlům)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Connect through SOCKS proxy</source>
+        <translation>Připojit se přes SOCKS proxy</translation>
+    </message>
+    <message>
+        <source>Connect to JSON-RPC on &lt;port&gt; (default: 8332 or testnet: 18332)</source>
+        <translation>Připojit se k JSON RPC na &lt;port&gt; (výchozí: 8332 nebo testnet: 18332)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Connection options:</source>
         <translation>Možnosti připojení:</translation>
     </message>
@@ -1753,6 +2904,17 @@
     <message>
         <source>Debugging/Testing options:</source>
         <translation>Možnosti ladění/testování:</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>Disable safemode, override a real safe mode event (default: 0)</source>
+        <translation>Vypnout bezpečný režim (safemode), překrýt skutečnou událost bezpečného režimu (výchozí: 0)</translation>
+    </message>
+    <message>
+        <source>Discover own IP address (default: 1 when listening and no -externalip)</source>
+        <translation>Zjistit vlastní IP adresu (výchozí: 1, pokud naslouchá a není zadáno -externalip)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Do not load the wallet and disable wallet RPC calls</source>
@@ -1843,8 +3005,13 @@
         <translation>Nastavit maximální velikost bloku v bajtech (výchozí: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify wallet file (within data directory)</source>
         <translation>Udej název souboru s peněženkou (v rámci datového adresáře)</translation>
+=======
+        <source>Fees smaller than this are considered zero fee (for relaying) (default:</source>
+        <translation>Poplatky menší než tato hodnota jsou považovány za nulové (pro přeposílání transakcí) (výchozí:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -1863,8 +3030,13 @@
         <translation>Použít UPnP k namapování naslouchacího portu (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>User Agent comment (%s) contains unsafe characters.</source>
         <translation>Komentář u typu klienta (%s) obsahuje riskantní znaky.</translation>
+=======
+        <source>If &lt;category&gt; is not supplied, output all debugging information.</source>
+        <translation>Pokud není &lt;category&gt; zadána, bude tisknout veškeré ladicí informace.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -1875,8 +3047,13 @@
         <translation>Kontroluji peněženku...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet %s resides outside data directory %s</source>
         <translation>Peněženka %s se nachází mimo datový adresář %s</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Neplatná -onion adresa: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Wallet options:</source>
@@ -1887,8 +3064,13 @@
         <translation>Povolit JSON-RPC spojení ze specifikovaného zdroje. Platnou hodnotou &lt;ip&gt; je jednotlivá IP adresa (např. 1.2.3.4), síť/maska (např. 1.2.3.4/255.255.255.0) nebo síť/CIDR (např. 1.2.3.4/24). Tuto volbu lze použít i vícekrát</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Bind to given address and whitelist peers connecting to it. Use [host]:port notation for IPv6</source>
         <translation>Obsadit zadanou adresu a vždy vítat protějšky, které se na ni připojí. Pro zápis IPv6 adresy použij notaci [adresa]:port</translation>
+=======
+        <source>RPC client options:</source>
+        <translation>Možnosti RPC klienta:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Bind to given address to listen for JSON-RPC connections. Use [host]:port notation for IPv6. This option can be specified multiple times (default: bind to all interfaces)</source>
@@ -1915,16 +3097,26 @@
         <translation>Poplatky (v %s/kB) menší než tato hodnota jsou považovány za nulové pro účely přeposílání, těžení a vytváření transakcí (výchozí: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>If paytxfee is not set, include enough fee so transactions begin confirmation on average within n blocks (default: %u)</source>
         <translation>Pokud paytxfee není nastaveno, platit dostatečný poplatek na to, aby začaly být transakce potvrzovány v průměru během n bloků (výchozí: %u)</translation>
+=======
+        <source>Spend unconfirmed change when sending transactions (default: 1)</source>
+        <translation>Utrácet i ještě nepotvrzené drobné při posílání transakcí (výchozí: 1)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
         <translation>Neplatná částka pro -maxtxfee=&lt;amount&gt;: '%s' (musí být alespoň jako poplatek minrelay %s, aby transakce nezůstávaly trčet)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Maximum size of data in data carrier transactions we relay and mine (default: %u)</source>
         <translation>Maximální velikost dat v transakcích nesoucích data, se kterou jsme ochotni je ještě přeposílat a těžit (výchozí: %u)</translation>
+=======
+        <source>Usage (deprecated, use bitcoin-cli):</source>
+        <translation>Užití (zastaralé, použij bitcoin-cli):</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect)</source>
@@ -1935,20 +3127,34 @@
         <translation>Použít náhodné údaje pro každé proxy spojení. To umožní izolovat nesouvisející datové toky v Toru (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set maximum size of high-priority/low-fee transactions in bytes (default: %d)</source>
         <translation>Nastavit maximální velikost prioritních/nízkopoplatkových transakcí v bajtech (výchozí: %d)</translation>
+=======
+        <source>Wait for RPC server to start</source>
+        <translation>Počkat, než RPC server nastartuje</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>The transaction amount is too small to send after the fee has been deducted</source>
         <translation>Částka v transakci po odečtení poplatku je příliš malá na odeslání</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit &lt;https://www.openssl.org/&gt; and cryptographic software written by Eric Young and UPnP software written by Thomas Bernard.</source>
         <translation>Tento produkt zahrnuje programy vyvinuté OpenSSL Projektem pro použití v OpenSSL Toolkitu &lt;https://www.openssl.org/&gt; a kryptografický program od Erika Younga a program UPnP od Thomase Bernarda.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
         <translation>Na vždy vítané protějšky se nevztahuje DoS klatba a jejich transakce jsou vždy přeposílány, i když už třeba jsou v transakčním zásobníku, což je užitečné např. pro bránu</translation>
+=======
+        <source>Wallet options:</source>
+        <translation>Možnosti peněženky:</translation>
+    </message>
+    <message>
+        <source>Warning: Deprecated argument -debugnet ignored, use -debug=net</source>
+        <translation>Upozornění: Zastaralý argument -debugnet se ignoruje, použij -debug=net</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>You need to rebuild the database using -reindex to go back to unpruned mode.  This will redownload the entire blockchain</source>
@@ -1983,6 +3189,7 @@
         <translation>Informace</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Neplatná částka pro -paytxfee=&lt;částka&gt;: '%s' (musí být alespoň %s)</translation>
     </message>
@@ -2001,6 +3208,22 @@
     <message>
         <source>Node relay options:</source>
         <translation>Možnosti přeposílání:</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná částka pro -minrelaytxfee=&lt;částka&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná částka pro -mintxfee=&lt;částka&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Limit size of signature cache to &lt;n&gt; entries (default: 50000)</source>
+        <translation>Omezit velikost vyrovnávací paměti pro podpisy na &lt;n&gt; položek (výchozí: 50000)</translation>
+    </message>
+    <message>
+        <source>Log transaction priority and fee per kB when mining blocks (default: 0)</source>
+        <translation>Zaznamenávat během těžení bloků prioritu transakce a poplatek za kB (výchozí: 0)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>RPC server options:</source>
@@ -2023,6 +3246,7 @@
         <translation>Posílat transakce pokud možno bez poplatků (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show all debugging options (usage: --help -help-debug)</source>
         <translation>Zobrazit všechny možnosti ladění (užití: --help -help-debug)</translation>
     </message>
@@ -2053,6 +3277,38 @@
     <message>
         <source>Transaction amount too small</source>
         <translation>Částka v transakci je příliš malá</translation>
+=======
+        <source>Print block on startup, if found in block index</source>
+        <translation>Vypsat při startu blok,pokud se nachází v indexu bloků</translation>
+    </message>
+    <message>
+        <source>Print block tree on startup (default: 0)</source>
+        <translation>Vypsat při startu strom bloků (výchozí: 0)</translation>
+    </message>
+    <message>
+        <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL pro RPC: (viz instrukce nastavení SSL na Bitcoin Wiki)</translation>
+    </message>
+    <message>
+        <source>RPC server options:</source>
+        <translation>Možnosti RPC serveru:</translation>
+    </message>
+    <message>
+        <source>Randomly drop 1 of every &lt;n&gt; network messages</source>
+        <translation>Náhodně zahazovat jednu z každých &lt;n&gt; síťových zpráv</translation>
+    </message>
+    <message>
+        <source>Randomly fuzz 1 of every &lt;n&gt; network messages</source>
+        <translation>Náhodně pozměňovat jednu z každých &lt;n&gt; síťových zpráv</translation>
+    </message>
+    <message>
+        <source>Run a thread to flush wallet periodically (default: 1)</source>
+        <translation>Spustit vlákno pročišťující periodicky peněženku (výchozí: 1)</translation>
+    </message>
+    <message>
+        <source>SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
+        <translation>Možnosti SSL: (viz instrukce nastavení SSL na Bitcoin Wiki)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Transaction amounts must be positive</source>
@@ -2067,6 +3323,7 @@
         <translation>Transakce je příliš velká</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Unable to bind to %s on this computer (bind returned error %s)</source>
         <translation>Nedaří se mi připojit na %s na tomhle počítači (operace bind vrátila chybu %s)</translation>
     </message>
@@ -2077,6 +3334,18 @@
     <message>
         <source>Username for JSON-RPC connections</source>
         <translation>Uživatelské jméno pro JSON-RPC spojení</translation>
+=======
+        <source>Sets the DB_PRIVATE flag in the wallet db environment (default: 1)</source>
+        <translation>Nastavit příznak DB_PRIVATE v databázovém prostředí peněženky (výchozí: 1)</translation>
+    </message>
+    <message>
+        <source>Show all debugging options (usage: --help -help-debug)</source>
+        <translation>Zobrazit všechny možnosti ladění (užití: --help -help-debug)</translation>
+    </message>
+    <message>
+        <source>Show benchmark information (default: 0)</source>
+        <translation>Zobrazit výkonnostní informace (výchozí: 0)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning</source>
@@ -2091,8 +3360,13 @@
         <translation>Vymazat všechny transakce z peněženky...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>ZeroMQ notification options:</source>
         <translation>Možnosti ZeroMQ oznámení:</translation>
+=======
+        <source>Start Bitcoin Core Daemon</source>
+        <translation>Spustit Bitcoin Core démona</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Password for JSON-RPC connections</source>
@@ -2131,8 +3405,13 @@
         <translation>Poplatky (v %s/kB) menší než tato hodnota jsou považovány za nulové pro účely vytváření transakcí (výchozí: %s)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>How thorough the block verification of -checkblocks is (0-4, default: %u)</source>
         <translation>Jak moc důkladná má být verifikace bloků -checkblocks (0-4, výchozí: %u)</translation>
+=======
+        <source>Zapping all transactions from wallet...</source>
+        <translation>Vymazat všechny transakce z peněženky...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Maintain a full transaction index, used by the getrawtransaction rpc call (default: %u)</source>
@@ -2227,18 +3506,28 @@
         <translation>Přeposílat a těžit transakce nesoucí data (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Relay non-P2SH multisig (default: %u)</source>
         <translation>Přeposílat ne-P2SH multisig (výchozí: %u)</translation>
     </message>
     <message>
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Nastavit zásobník klíčů na velikost &lt;n&gt; (výchozí: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Neplatná -proxy adresa: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>V -onlynet byla uvedena neznámá síť: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
         <translation>Nastavit minimální velikost bloku v bajtech (výchozí: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Nastavení počtu vláken pro servisní RPC volání (výchozí: %d)</translation>
     </message>
@@ -2249,6 +3538,18 @@
     <message>
         <source>Specify connection timeout in milliseconds (minimum: 1, default: %d)</source>
         <translation>Zadej časový limit spojení v milivteřinách (minimum: 1, výchozí: %d)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Nemohu přeložit -bind adresu: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Nemohu přeložit -externalip adresu: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Neplatná částka pro -paytxfee=&lt;částka&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>

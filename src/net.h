@@ -43,6 +43,7 @@ static const int PING_INTERVAL = 2 * 60;
 static const int TIMEOUT_INTERVAL = 20 * 60;
 /** The maximum number of entries in an 'inv' protocol message */
 static const unsigned int MAX_INV_SZ = 50000;
+<<<<<<< HEAD
 /** The maximum number of new addresses to accumulate before announcing. */
 static const unsigned int MAX_ADDR_TO_SEND = 1000;
 /** Maximum length of incoming protocol messages (no message over 4 MB is currently acceptable). */
@@ -76,6 +77,12 @@ static const ServiceFlags REQUIRED_SERVICES = NODE_NETWORK;
 
 // NOTE: When adjusting this, update rpcnet:setban's help ("24h")
 static const unsigned int DEFAULT_MISBEHAVING_BANTIME = 60 * 60 * 24;  // Default 24-hour ban
+=======
+/** The maximum number of entries in mapAskFor */
+static const size_t MAPASKFOR_MAX_SZ = MAX_INV_SZ;
+/** The maximum number of new addresses to accumulate before announcing. */
+static const unsigned int MAX_ADDR_TO_SEND = 1000;
+>>>>>>> refs/remotes/karogkung/0.9
 
 unsigned int ReceiveFloodSize();
 unsigned int SendBufferSize();
@@ -394,7 +401,11 @@ public:
 
     // flood relay
     std::vector<CAddress> vAddrToSend;
+<<<<<<< HEAD
     CRollingBloomFilter addrKnown;
+=======
+    mruset<CAddress> setAddrKnown;
+>>>>>>> refs/remotes/karogkung/0.9
     bool fGetAddr;
     std::set<uint256> setKnown;
     int64_t nNextAddrSend;
@@ -443,8 +454,72 @@ public:
     CAmount lastSentFeeFilter;
     int64_t nextSendTimeFeeFilter;
 
+<<<<<<< HEAD
     CNode(SOCKET hSocketIn, const CAddress &addrIn, const std::string &addrNameIn = "", bool fInboundIn = false);
     ~CNode();
+=======
+    CNode(SOCKET hSocketIn, CAddress addrIn, std::string addrNameIn = "", bool fInboundIn=false) : ssSend(SER_NETWORK, INIT_PROTO_VERSION), setAddrKnown(5000)
+    {
+        nServices = 0;
+        hSocket = hSocketIn;
+        nRecvVersion = INIT_PROTO_VERSION;
+        nLastSend = 0;
+        nLastRecv = 0;
+        nSendBytes = 0;
+        nRecvBytes = 0;
+        nLastSendEmpty = GetTime();
+        nTimeConnected = GetTime();
+        addr = addrIn;
+        addrName = addrNameIn == "" ? addr.ToStringIPPort() : addrNameIn;
+        nVersion = 0;
+        strSubVer = "";
+        fOneShot = false;
+        fClient = false; // set by version message
+        fInbound = fInboundIn;
+        fNetworkNode = false;
+        fSuccessfullyConnected = false;
+        fDisconnect = false;
+        nRefCount = 0;
+        nSendSize = 0;
+        nSendOffset = 0;
+        hashContinue = 0;
+        pindexLastGetBlocksBegin = 0;
+        hashLastGetBlocksEnd = 0;
+        nStartingHeight = -1;
+        fStartSync = false;
+        fGetAddr = false;
+        fRelayTxes = false;
+        setInventoryKnown.max_size(SendBufferSize() / 1000);
+        pfilter = new CBloomFilter();
+        nPingNonceSent = 0;
+        nPingUsecStart = 0;
+        nPingUsecTime = 0;
+        fPingQueued = false;
+
+        {
+            LOCK(cs_nLastNodeId);
+            id = nLastNodeId++;
+        }
+
+        // Be shy and don't send version until we hear
+        if (hSocket != INVALID_SOCKET && !fInbound)
+            PushVersion();
+
+        GetNodeSignals().InitializeNode(GetId(), this);
+    }
+
+    ~CNode()
+    {
+        if (hSocket != INVALID_SOCKET)
+        {
+            closesocket(hSocket);
+            hSocket = INVALID_SOCKET;
+        }
+        if (pfilter)
+            delete pfilter;
+        GetNodeSignals().FinalizeNode(GetId());
+    }
+>>>>>>> refs/remotes/karogkung/0.9
 
 private:
     // Network usage totals
@@ -519,7 +594,11 @@ public:
         // Known checking here is only to save space from duplicates.
         // SendMessages will filter it again for knowns that were added
         // after addresses were pushed.
+<<<<<<< HEAD
         if (addr.IsValid() && !addrKnown.contains(addr.GetKey())) {
+=======
+        if (addr.IsValid() && !setAddrKnown.count(addr)) {
+>>>>>>> refs/remotes/karogkung/0.9
             if (vAddrToSend.size() >= MAX_ADDR_TO_SEND) {
                 vAddrToSend[insecure_rand() % vAddrToSend.size()] = addr;
             } else {
@@ -551,14 +630,54 @@ public:
 
     void PushBlockHash(const uint256 &hash)
     {
+<<<<<<< HEAD
         LOCK(cs_inventory);
         vBlockHashesToAnnounce.push_back(hash);
+=======
+        if (mapAskFor.size() > MAPASKFOR_MAX_SZ)
+            return;
+
+        // We're using mapAskFor as a priority queue,
+        // the key is the earliest time the request can be sent
+        int64_t nRequestTime;
+        limitedmap<CInv, int64_t>::const_iterator it = mapAlreadyAskedFor.find(inv);
+        if (it != mapAlreadyAskedFor.end())
+            nRequestTime = it->second;
+        else
+            nRequestTime = 0;
+        LogPrint("net", "askfor %s   %d (%s)\n", inv.ToString().c_str(), nRequestTime, DateTimeStrFormat("%H:%M:%S", nRequestTime/1000000).c_str());
+
+        // Make sure not to reuse time indexes to keep things in the same order
+        int64_t nNow = GetTimeMicros() - 1000000;
+        static int64_t nLastTime;
+        ++nLastTime;
+        nNow = std::max(nNow, nLastTime);
+        nLastTime = nNow;
+
+        // Each retry is 2 minutes after the last
+        nRequestTime = std::max(nRequestTime + 2 * 60 * 1000000, nNow);
+        if (it != mapAlreadyAskedFor.end())
+            mapAlreadyAskedFor.update(it, nRequestTime);
+        else
+            mapAlreadyAskedFor.insert(std::make_pair(inv, nRequestTime));
+        mapAskFor.insert(std::make_pair(nRequestTime, inv));
+>>>>>>> refs/remotes/karogkung/0.9
     }
 
     void AskFor(const CInv& inv);
 
     // TODO: Document the postcondition of this function.  Is cs_vSend locked?
+<<<<<<< HEAD
     void BeginMessage(const char* pszCommand) EXCLUSIVE_LOCK_FUNCTION(cs_vSend);
+=======
+    void BeginMessage(const char* pszCommand) EXCLUSIVE_LOCK_FUNCTION(cs_vSend)
+    {
+        ENTER_CRITICAL_SECTION(cs_vSend);
+        assert(ssSend.size() == 0);
+        ssSend << CMessageHeader(pszCommand, 0);
+        LogPrint("net", "sending: %s ", SanitizeString(pszCommand));
+    }
+>>>>>>> refs/remotes/karogkung/0.9
 
     // TODO: Document the precondition of this function.  Is cs_vSend locked?
     void AbortMessage() UNLOCK_FUNCTION(cs_vSend);

@@ -1,4 +1,5 @@
 <TS language="zh_HK" version="2.1">
+<<<<<<< HEAD
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -198,6 +199,25 @@
         <source>Show or hide the main Window</source>
         <translation>顯示或隱藏主視窗</translation>
     </message>
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+<context>
+    <name>AddressBookPage</name>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    </context>
+<context>
+    <name>AskPassphraseDialog</name>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    </context>
+<context>
+    <name>ClientModel</name>
+>>>>>>> refs/remotes/karogkung/0.9
     </context>
 <context>
     <name>CoinControlDialog</name>
@@ -224,11 +244,21 @@
     <name>OverviewPage</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>PeerTableModel</name>
+=======
+    <name>PaymentServer</name>
+>>>>>>> refs/remotes/karogkung/0.9
     </context>
 <context>
     <name>QObject</name>
     </context>
+<<<<<<< HEAD
+=======
+<context>
+    <name>QRImageWidget</name>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>RPCConsole</name>
     </context>
@@ -238,6 +268,12 @@
 <context>
     <name>ReceiveRequestDialog</name>
     </context>
+<<<<<<< HEAD
+=======
+<context>
+    <name>RecentRequestsTableModel</name>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>SendCoinsDialog</name>
     </context>
@@ -256,11 +292,34 @@
 <context>
     <name>TrafficGraphWidget</name>
     </context>
+<<<<<<< HEAD
 <context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
     <name>UnitDisplayStatusBarControl</name>
+=======
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    </context>
+<context>
+    <name>TransactionView</name>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+>>>>>>> refs/remotes/karogkung/0.9
     </context>
 <context>
     <name>bitcoin-core</name>

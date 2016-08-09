@@ -14,7 +14,11 @@ namespace leveldb {
 
 // Update Makefile if you change these
 static const int kMajorVersion = 1;
+<<<<<<< HEAD
 static const int kMinorVersion = 18;
+=======
+static const int kMinorVersion = 17;
+>>>>>>> refs/remotes/karogkung/0.9
 
 struct Options;
 struct ReadOptions;

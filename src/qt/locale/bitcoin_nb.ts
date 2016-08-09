@@ -1,4 +1,44 @@
 <TS language="nb" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Om Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; versjon</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Dette er eksperimentell programvare.
+
+Distribuert under MIT/X11 programvarelisensen, se medfølgende fil COPYING eller http://www.opensource.org/licenses/mit-license.php.
+
+Dette produktet inneholder programvare utviklet av OpenSSL Project for bruk i OpenSSL Toolkit (http://www.openssl.org/), kryptografisk programvare skrevet av Eric Young (eay@cryptsoft.com) og UPnP programvare skrevet av Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core utviklerne</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation> (%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -388,8 +428,13 @@
         <translation>Avgift:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Dust:</source>
         <translation>Støv:</translation>
+=======
+        <source>Low Output:</source>
+        <translation>Svake Utdata:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>After Fee:</source>
@@ -579,8 +624,13 @@
         <translation>URI:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Select payment request file</source>
         <translation>Velg fil for betalingsetterspørring</translation>
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Denne merkelappen blir rød, hvis prioriteten er mindre enn "medium".</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -646,6 +696,244 @@
         <translation>&amp;Nettverk</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Edit sending address</source>
+        <translation>Rediger utsendingsadresse</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Den oppgitte adressen "%1" er allerede i adresseboken.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Den angitte adressed "%1" er ikke en gyldig Bitcoin-adresse.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Kunne ikke låse opp lommeboken.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Generering av ny nøkkel feilet.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>En ny datamappe vil bli laget.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>navn</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Mappe finnes allerede. Legg til %1 hvis du vil lage en ny mappe her.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Snarvei finnes allerede, og er ikke en mappe.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Kan ikke lage datamappe her.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Bitcoin Core - Kommandolinjevalg</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versjon</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Bruk:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>kommandolinjevalg</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>valg i brukergrensesnitt</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Sett språk, for eksempel "nb_NO" (standardverdi: fra operativsystem)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Start minimert</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Sett SSL-rotsertifikat for betalingsforespørsel (standard: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Vis splashskjerm ved oppstart (standardverdi: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Velg datamappe ved oppstart (standard: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Velkommen</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Velkommen til Bitcoin Core.</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>Siden dette er første gang programmet starter, kan du nå velge hvor Bitcoin Core skal lagre sine data.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Core vil laste ned og lagre en kopi av Bitcoin sin blokkjede. Minst %1GB av data vil bli lagret i denne mappen, og det vil vokse over tid. Lommeboken vil også bli lagret i denne mappen.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Bruk standard datamappe</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Bruk en egendefinert datamappe:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Feil: Spesifisert datamappe "%1" kan ikke opprettes.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Feil</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB ledig lagringsplass</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(av %1GB behøvd)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Åpne URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Åpne betalingsetterspørring fra URI eller fil</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Velg fil for betalingsetterspørring</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Velg fil for betalingsetterspørring å åpne</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Innstillinger</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Hoved</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Valgfritt transaksjonsgebyr per kB som sikrer at dine transaksjoner blir raskt prosessert. De fleste transaksjoner er 1 kB.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Betal &amp;transaksjonsgebyr</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Start Bitcoin automatisk etter innlogging.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Start Bitcoin ved systeminnlogging</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>Størrelse på &amp;database hurtigbuffer</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Antall script &amp;verifikasjonstråder</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Koble til Bitcoin-nettverket gjennom en SOCKS proxy.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Koble til gjennom SOCKS proxy (standardvalg proxy):</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP-adressen til proxyen (f.eks. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Tredjepart URLer (f. eks. en blokkutforsker) som dukker opp i transaksjonsfanen som kontekst meny elementer. %s i URLen er erstattet med transaksjonen sin hash. Flere URLer er separert av en vertikal linje |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Tredjepart transaksjon URLer</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktive kommandolinjevalg som overstyrer valgene ovenfor:</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Tilbakestill alle klient valg til standard</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Tilbakestill Instillinger</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Nettverk</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>(0 = auto, &lt;0 = leave that many cores free)</source>
         <translation>(0 = automatisk, &lt;0 = la så mange kjerner være ledig)</translation>
     </message>
@@ -849,8 +1137,56 @@
         <translation>Din nåværende saldo</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current balance in watch-only addresses</source>
         <translation>Din nåværende balanse i kun observerbare adresser</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Siste transaksjoner&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>ute av synk</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI-håndtering</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URI kunne ikke tolkes! Dette kan forårsakes av en ugyldig Bitcoin-adresse eller feil i URI-parametere.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Forespurt betalingsmengde på %1 er for liten (betraktet som støv).</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Betalingsforespørsel feil</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Kan ikke starte Bitcoin: klikk-og-betal håndterer</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Nettleder advarsel</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Din aktive proxy har ikke støtte for SOCKS5, som er påkrevd for betalingsforespørsler via proxy.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Hentelenke for betalingsforespørsel er ugyldig: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Filhåndtering for betalingsforespørsel</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spendable:</source>
@@ -891,8 +1227,17 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Beløp</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Feil: Spesifisert datamappe "%1" finnes ikke.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
@@ -903,8 +1248,13 @@
         <translation>%1 d</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 t</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core har ennå ikke avsluttet på en sikker måte...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 m</source>
@@ -1014,8 +1364,282 @@
         <translation>Hvitelistet</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Direction</source>
         <translation>Retning</translation>
+=======
+        <source>automatically selected</source>
+        <translation>automatisk valgte</translation>
+    </message>
+    <message>
+        <source>Insufficient funds!</source>
+        <translation>Utilstrekkelige midler!</translation>
+    </message>
+    <message>
+        <source>Quantity:</source>
+        <translation>Mengde:</translation>
+    </message>
+    <message>
+        <source>Bytes:</source>
+        <translation>Bytes:</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Beløp:</translation>
+    </message>
+    <message>
+        <source>Priority:</source>
+        <translation>Prioritet:</translation>
+    </message>
+    <message>
+        <source>Fee:</source>
+        <translation>Gebyr:</translation>
+    </message>
+    <message>
+        <source>Low Output:</source>
+        <translation>Svake Utdata:</translation>
+    </message>
+    <message>
+        <source>After Fee:</source>
+        <translation>Etter Gebyr:</translation>
+    </message>
+    <message>
+        <source>Change:</source>
+        <translation>Veksel:</translation>
+    </message>
+    <message>
+        <source>If this is activated, but the change address is empty or invalid, change will be sent to a newly generated address.</source>
+        <translation>Hvis dette er aktivert, men adressen for veksel er tom eller ugyldig, vil veksel bli sendt til en nylig generert adresse.</translation>
+    </message>
+    <message>
+        <source>Custom change address</source>
+        <translation>Egendefinert adresse for veksel</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Send til flere enn en mottaker</translation>
+    </message>
+    <message>
+        <source>Add &amp;Recipient</source>
+        <translation>Legg til &amp;Mottaker</translation>
+    </message>
+    <message>
+        <source>Clear all fields of the form.</source>
+        <translation>Fjern alle felter fra skjemaet.</translation>
+    </message>
+    <message>
+        <source>Clear &amp;All</source>
+        <translation>Fjern &amp;Alt</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Saldo:</translation>
+    </message>
+    <message>
+        <source>Confirm the send action</source>
+        <translation>Bekreft sending</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>S&amp;end</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Bekreft sending av bitcoins</translation>
+    </message>
+    <message>
+        <source>%1 to %2</source>
+        <translation>%1 til %2</translation>
+    </message>
+    <message>
+        <source>Copy quantity</source>
+        <translation>Kopier mengde</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopier beløp</translation>
+    </message>
+    <message>
+        <source>Copy fee</source>
+        <translation>Kopier gebyr</translation>
+    </message>
+    <message>
+        <source>Copy after fee</source>
+        <translation>Kopier fra gebyr</translation>
+    </message>
+    <message>
+        <source>Copy bytes</source>
+        <translation>Kopier bytes</translation>
+    </message>
+    <message>
+        <source>Copy priority</source>
+        <translation>Kopier prioritet</translation>
+    </message>
+    <message>
+        <source>Copy low output</source>
+        <translation>Kopier svake utdata</translation>
+    </message>
+    <message>
+        <source>Copy change</source>
+        <translation>Kopier veksel</translation>
+    </message>
+    <message>
+        <source>Total Amount %1 (= %2)</source>
+        <translation>Totalt Beløp %1 (= %2)</translation>
+    </message>
+    <message>
+        <source>or</source>
+        <translation>eller</translation>
+    </message>
+    <message>
+        <source>The recipient address is not valid, please recheck.</source>
+        <translation>Adresse for mottaker er ugyldig.</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Beløpet som skal betales må være over 0.</translation>
+    </message>
+    <message>
+        <source>The amount exceeds your balance.</source>
+        <translation>Beløpet overstiger saldo.</translation>
+    </message>
+    <message>
+        <source>The total exceeds your balance when the %1 transaction fee is included.</source>
+        <translation>Totalbeløpet overstiger saldo etter at %1 transaksjonsgebyr er lagt til.</translation>
+    </message>
+    <message>
+        <source>Duplicate address found, can only send to each address once per send operation.</source>
+        <translation>Doble antall adresser funnet. Kan bare sende en gang til hver adresse per operasjon.</translation>
+    </message>
+    <message>
+        <source>Transaction creation failed!</source>
+        <translation>Opprettelse av transaksjon feilet!</translation>
+    </message>
+    <message>
+        <source>The transaction was rejected! This might happen if some of the coins in your wallet were already spent, such as if you used a copy of wallet.dat and coins were spent in the copy but not marked as spent here.</source>
+        <translation>Transaksjonen ble avvist!  Dette kan skje hvis noen av myntene i lommeboken allerede er brukt, som hvis du kopierte wallet.dat og mynter ble brukt i kopien uten å bli markert som brukt her.</translation>
+    </message>
+    <message>
+        <source>Warning: Invalid Bitcoin address</source>
+        <translation>Advarsel: Ugyldig Bitcoin-adresse</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ingen merkelapp)</translation>
+    </message>
+    <message>
+        <source>Warning: Unknown change address</source>
+        <translation>Advarsel: Ukjent adresse for veksel</translation>
+    </message>
+    <message>
+        <source>Are you sure you want to send?</source>
+        <translation>Er du sikker på at du vil sende?</translation>
+    </message>
+    <message>
+        <source>added as transaction fee</source>
+        <translation>lagt til som transaksjonsgebyr</translation>
+    </message>
+    <message>
+        <source>Payment request expired</source>
+        <translation>Betalingsforespørsel utgått</translation>
+    </message>
+    <message>
+        <source>Invalid payment address %1</source>
+        <translation>Ugyldig betalingsadresse %1</translation>
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>&amp;Beløp:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Betal &amp;Til:</translation>
+    </message>
+    <message>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Adressen betalingen skal sendes til  (f.eks. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Skriv inn en merkelapp for denne adressen for å legge den til i din adressebok</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>&amp;Merkelapp:</translation>
+    </message>
+    <message>
+        <source>Choose previously used address</source>
+        <translation>Velg tidligere brukt adresse</translation>
+    </message>
+    <message>
+        <source>This is a normal payment.</source>
+        <translation>Dette er en normal betaling.</translation>
+    </message>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+    </message>
+    <message>
+        <source>Paste address from clipboard</source>
+        <translation>Lim inn adresse fra utklippstavlen</translation>
+    </message>
+    <message>
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+    </message>
+    <message>
+        <source>Remove this entry</source>
+        <translation>Fjern denne oppføringen</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Melding:</translation>
+    </message>
+    <message>
+        <source>This is a verified payment request.</source>
+        <translation>Dette er en verifisert betalingsetterspørring</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to the list of used addresses</source>
+        <translation>Skriv inn en merkelapp for denne adressen for å legge den til listen av brukte adresser</translation>
+    </message>
+    <message>
+        <source>A message that was attached to the bitcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Bitcoin network.</source>
+        <translation>En melding som var tilknyttet bitcoinen: URI vil bli lagret med transaksjonen for din oversikt. Denne meldingen vil ikke bli sendt over Bitcoin-nettverket.</translation>
+    </message>
+    <message>
+        <source>This is an unverified payment request.</source>
+        <translation>Dette er en uverifisert betalingsetterspørring</translation>
+    </message>
+    <message>
+        <source>Pay To:</source>
+        <translation>Betal Til:</translation>
+    </message>
+    <message>
+        <source>Memo:</source>
+        <translation>Memo:</translation>
+    </message>
+</context>
+<context>
+    <name>ShutdownWindow</name>
+    <message>
+        <source>Bitcoin Core is shutting down...</source>
+        <translation>Bitcoin Core lukker...</translation>
+    </message>
+    <message>
+        <source>Do not shut down the computer until this window disappears.</source>
+        <translation>Slå ikke av datamaskinen før dette vinduet forsvinner.</translation>
+    </message>
+</context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Signatures - Sign / Verify a Message</source>
+        <translation>Signaturer - Signer / Verifiser en Melding</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Version</source>
@@ -1078,8 +1702,13 @@
         <translation>Tidspunkt for siste blokk</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Open</source>
         <translation>&amp;Åpne</translation>
+=======
+        <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
+        <translation>Angi adresse for signering, melding (vær sikker på at du kopierer linjeskift, mellomrom, tab, etc. helt nøyaktig) og signatur under for å verifisere meldingen. Vær forsiktig med at du ikke gir signaturen mer betydning enn det som faktisk står i meldingen, for å unngå å bli lurt av såkalte "man-in-the-middle" angrep.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1102,8 +1731,13 @@
         <translation>Inn:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Out:</source>
         <translation>Ut:</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Klikk "Signer Melding" for å generere signatur</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Debug log file</source>
@@ -1276,8 +1910,13 @@
         <translation>QR-kode</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Copy &amp;URI</source>
         <translation>Kopier &amp;URI</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Genererte bitcoins må modnes %1 blokker før de kan brukes. Da du genererte denne blokken ble den kringkastet på nettverket for å bli lagt til i kjeden av blokker. Hvis den ikke kommer med i kjeden vil den endre seg til "ikke akseptert" og pengene vil ikke kunne brukes. Dette vil noen ganger skje hvis en annen node genererer en blokk noen sekunder i tid fra din egen.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Copy &amp;Address</source>
@@ -1667,8 +2306,32 @@
         <translation>Hvis &lt;category&gt; ikke er oppgitt eller hvis &lt;category&gt; = 1, ta ut all informasjon for feilsøking.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Prune configured below the minimum of %d MiB.  Please use a higher number.</source>
         <translation>Beskjæringsmodus er konfigurert under minimum på %d MiB. Vennligst bruk et høyere nummer.</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, du må angi rpcpassord i konfigurasjonsfilen.
+%s
+Det anbefales at du bruker det følgende tilfeldige passordet:
+rpcbruker=bitcoinrpc
+rpcpassord=%s
+(du behøver ikke å huske passordet)
+Brukernavnet og passordet MÅ IKKE være like.
+Om filen ikke eksisterer, opprett den nå med eier-kun-les filrettigheter.
+Det er også anbefalt at å sette varselsmelding slik du får melding om problemer.
+For eksempel: varselmelding=echo %%s | mail -s "Bitcoin Varsel" admin@foo.com</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Prune: last wallet synchronisation goes beyond pruned data. You need to -reindex (download the whole blockchain again in case of pruned node)</source>
@@ -1703,8 +2366,13 @@
         <translation>Kunne ikke starte HTTP server. Se debug logg for detaljer.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Accept connections from outside (default: 1 if no -proxy or -connect)</source>
         <translation>Ta imot tilkoblinger fra utsiden (standardverdi: 1 hvis uten -proxy eller -connect)</translation>
+=======
+        <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
+        <translation>Feil: Denne transaksjonen trenger et gebyr på minst %s på grunn av beløpet, kompleksiteten eller bruk av allerede mottatte penger!</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Bitcoin Core</source>
@@ -1739,8 +2407,25 @@
         <translation>Dette er en forhåndssluppet testversjon - bruk på egen risiko - ikke for bruk til blokkutvinning eller bedriftsapplikasjoner</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Bruk UPnP for lytteport (standardverdi: 1 ved lytting og uten -proxy)</translation>
+=======
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>Ute av stand til å binde til %s på denne datamaskinen. Bitcoin Core kjører sannsynligvis allerede.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Bruk separate SOCKS5 proxyer for å nå noder via Tor skjulte tjenester (standardverdi: -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Advarsel: -paytxfee er satt veldig høyt! Dette er transaksjonsgebyret du betaler når du sender transaksjoner.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Advarsel: Vennligst undersøk at din datamaskin har riktig dato og klokkeslett! Hvis klokken er stilt feil vil ikke Bitcoin fungere riktig.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -1907,8 +2592,13 @@
         <translation>Lommebok %s befinner seg utenfor datamappe %s</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Wallet options:</source>
         <translation>Valg for lommebok:</translation>
+=======
+        <source>Invalid -onion address: '%s'</source>
+        <translation>Ugyldig -onion adresse: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Allow JSON-RPC connections from specified source. Valid for &lt;ip&gt; are a single IP (e.g. 1.2.3.4), a network/netmask (e.g. 1.2.3.4/255.255.255.0) or a network/CIDR (e.g. 1.2.3.4/24). This option can be specified multiple times</source>
@@ -2011,12 +2701,21 @@
         <translation>Informasjon</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
         <translation>Ugyldig beløp for -paytxfee=&lt;amount&gt;: '%s' (må være minst %s)</translation>
     </message>
     <message>
         <source>Invalid netmask specified in -whitelist: '%s'</source>
         <translation>Ugyldig nettmaske spesifisert i -whitelist: '%s'</translation>
+=======
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ugyldig mengde for -minrelaytxfee=&lt;beløp&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ugyldig mengde for -mintxfee=&lt;beløp&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Keep at most &lt;n&gt; unconnectable transactions in memory (default: %u)</source>
@@ -2255,18 +2954,28 @@
         <translation>Videresend ikke-P2SH multisig (standardverdi: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Angi størrelse på nøkkel-lager til &lt;n&gt; (standardverdi: %u)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
         <translation>Sett minimum blokkstørrelse i bytes (standardverdi: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Ugyldig -proxy adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Ukjent nettverk angitt i -onlynet '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Sett antall tråder til betjening av RPC-kall (standardverdi: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: %s)</source>
         <translation>Angi konfigurasjonsfil (standardverdi: %s)</translation>
     </message>
@@ -2277,6 +2986,18 @@
     <message>
         <source>Specify pid file (default: %s)</source>
         <translation>Angi pid-fil (standardverdi: %s)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>Kunne ikke slå opp -bind adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>Kunne ikke slå opp -externalip adresse: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Ugyldig beløp for -paytxfee=&lt;beløp&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>

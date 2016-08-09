@@ -1,4 +1,10 @@
 <TS language="af_ZA" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -13,14 +19,35 @@
         <source>&amp;Delete</source>
         <translation>&amp;Verwyder</translation>
     </message>
+<<<<<<< HEAD
+=======
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(geen etiket)</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation>Wagfrase Dialoog</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Enter passphrase</source>
         <translation>Tik wagfrase in</translation>
     </message>
@@ -30,9 +57,79 @@
     </message>
     <message>
         <source>Repeat new passphrase</source>
+<<<<<<< HEAD
         <translation>Herhaal nuwe wagfrase</translation>
     </message>
 </context>
+=======
+        <translation>Herhaal nuwe wagwoord</translation>
+    </message>
+    <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Tik die nuwe wagwoord vir die beursie in.&lt;br/&gt;Gebruik asseblief 'n wagwoord van &lt;b&gt;ten minste 10 ewekansige karakters&lt;/b&gt;, of &lt;b&gt;agt (8) of meer woorde.&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Enkripteer beursie</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Hierdie operasie benodig 'n wagwoord om die beursie oop te sluit.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Sluit beursie oop</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Hierdie operasie benodig 'n wagwoord om die beursie oop te sluit.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Sluit beursie oop</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Verander wagwoord</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Tik asseblief die ou en nuwe wagwoord vir die beursie in.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Bevestig beursie enkripsie.</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Die beursie is nou bewaak</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Die beursie kon nie bewaak word nie</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Beursie bewaaking het misluk as gevolg van 'n interne fout. Die beursie is nie bewaak nie!</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Die wagwoord stem nie ooreen nie</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Beursie oopsluiting het misluk</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Die wagwoord wat ingetik was om die beursie oop te sluit, was verkeerd.</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Beursie dekripsie het misluk</translation>
+    </message>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>BanTableModel</name>
     </context>
@@ -67,6 +164,13 @@
         <translation>Sluit af</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Show information about Bitcoin</source>
+        <translation>Wys inligting oor Bitcoin</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Show information about Qt</source>
         <translation>Wys inligting oor Qt</translation>
     </message>
@@ -99,6 +203,7 @@
         <translation>Blad nutsbalk</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 behind</source>
         <translation>%1 agter</translation>
     </message>
@@ -113,32 +218,77 @@
     <message>
         <source>Information</source>
         <translation>Informasie</translation>
+=======
+        <source>Bitcoin client</source>
+        <translation>Bitcoin klient</translation>
+    </message>
+    <message>
+        <source>%1 behind</source>
+        <translation>%1 agter</translation>
+    </message>
+    <message>
+        <source>Last received block was generated %1 ago.</source>
+        <translation>Ontvangs van laaste blok is %1 terug.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fout</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Amount:</source>
         <translation>Bedrag:</translation>
+=======
+        <source>Information</source>
+        <translation>Informasie</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Bedrag</translation>
     </message>
     <message>
         <source>Date</source>
         <translation>Datum</translation>
+=======
+        <source>Amount:</source>
+        <translation>Bedrag:</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Label</source>
         <translation>&amp;Etiket</translation>
     </message>
     <message>
         <source>&amp;Address</source>
         <translation>&amp;Adres</translation>
+=======
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -147,15 +297,25 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Usage:</source>
         <translation>Gebruik:</translation>
+=======
+        <source>Copy address</source>
+        <translation>Maak kopie van adres</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Error</source>
         <translation>Fout</translation>
+=======
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
@@ -164,19 +324,37 @@
 <context>
     <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Options</source>
         <translation>Opsies</translation>
+=======
+        <source>(no label)</source>
+        <translation>(geen etiket)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>W&amp;allet</source>
         <translation>&amp;Beursie</translation>
+=======
+        <source>New receiving address</source>
+        <translation>Nuwe ontvangende adres</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>OverviewPage</name>
     <message>
+<<<<<<< HEAD
         <source>Form</source>
         <translation>Vorm</translation>
+=======
+        <source>New sending address</source>
+        <translation>Nuwe stuurende adres</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
@@ -185,24 +363,46 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Bedrag</translation>
+=======
+        <source>Edit receiving address</source>
+        <translation>Wysig ontvangende adres</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Information</source>
         <translation>Informasie</translation>
+=======
+        <source>Edit sending address</source>
+        <translation>Wysig stuurende adres</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Amount:</source>
         <translation>&amp;Bedrag:</translation>
+=======
+        <source>Could not unlock wallet.</source>
+        <translation>Kon nie die beursie oopsluit nie.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Message:</source>
         <translation>&amp;Boodskap:</translation>
     </message>
@@ -219,14 +419,223 @@
     <message>
         <source>Insufficient funds!</source>
         <translation>Onvoldoende fondse</translation>
+=======
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Fout</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Amount:</source>
+        <translation>Bedrag:</translation>
+=======
+        <source>Options</source>
+        <translation>Opsies</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
+        <source>Transaction Fee:</source>
+        <translation>Transaksie fooi:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Stuur aan vele ontvangers op eens</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Balans:</translation>
+=======
+        <source>Form</source>
+        <translation>Vorm</translation>
+    </message>
+    <message>
+        <source>Wallet</source>
+        <translation>Beursie</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Onlangse transaksies&lt;/b&gt;</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+<<<<<<< HEAD
+        <source>S&amp;end</source>
+        <translation>S&amp;tuur</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
+        <source>A&amp;mount:</source>
+        <translation>&amp;Bedrag:</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die adres waarheen die betaling gestuur moet word (b.v. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
+        <source>Message:</source>
+        <translation>Boodskap:</translation>
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>&amp;Sign Message</source>
+        <translation>&amp;Teken boodskap</translation>
+=======
+        <source>&amp;Information</source>
+        <translation>Informasie</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Signature</source>
+        <translation>Handtekening</translation>
+    </message>
+    <message>
+        <source>Sign &amp;Message</source>
+        <translation>Teken &amp;Boodskap</translation>
+=======
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>UnitDisplayStatusBarControl</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+<<<<<<< HEAD
+        <source>Options:</source>
+        <translation>Opsies:</translation>
+    </message>
+    <message>
+        <source>Error: Disk space is low!</source>
+        <translation>Fout: Hardeskyf spasie is baie laag!</translation>
+=======
+        <source>Label</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Boodskap</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
+        <source>Information</source>
+        <translation>Informasie</translation>
+    </message>
+    <message>
+        <source>Loading addresses...</source>
+        <translation>Laai adresse...</translation>
+    </message>
+    <message>
+        <source>Insufficient funds</source>
+        <translation>Onvoldoende fondse</translation>
+    </message>
+    <message>
+=======
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Boodskap</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(geen etiket)</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Stuur Munstukke</translation>
     </message>
     <message>
         <source>Amount:</source>
         <translation>Bedrag:</translation>
-    </message>
-    <message>
-        <source>Transaction Fee:</source>
-        <translation>Transaksie fooi:</translation>
     </message>
     <message>
         <source>Send to multiple recipients at once</source>
@@ -240,12 +649,20 @@
         <source>S&amp;end</source>
         <translation>S&amp;tuur</translation>
     </message>
-</context>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(geen etiket)</translation>
+    </message>
+    </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
-        <source>A&amp;mount:</source>
-        <translation>&amp;Bedrag:</translation>
+        <source>The address to send the payment to (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die adres waarheen die betaling gestuur moet word (b.v. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
     </message>
     <message>
         <source>Message:</source>
@@ -269,6 +686,10 @@
         <source>Sign &amp;Message</source>
         <translation>Teken &amp;Boodskap</translation>
     </message>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Die adres waarheen die betaling gestuur moet word (b.v. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+    </message>
     </context>
 <context>
     <name>SplashScreen</name>
@@ -277,16 +698,255 @@
     <name>TrafficGraphWidget</name>
     </context>
 <context>
+    <name>TransactionDesc</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>From</source>
+        <translation>Van</translation>
+    </message>
+    <message>
+        <source>To</source>
+        <translation>Na</translation>
+    </message>
+    <message>
+        <source>own address</source>
+        <translation>eie adres</translation>
+    </message>
+    <message>
+        <source>label</source>
+        <translation>etiket</translation>
+    </message>
+    <message>
+        <source>Credit</source>
+        <translation>Krediet</translation>
+    </message>
+    <message>
+        <source>not accepted</source>
+        <translation>nie aanvaar nie</translation>
+    </message>
+    <message>
+        <source>Debit</source>
+        <translation>Debiet</translation>
+    </message>
+    <message>
+        <source>Transaction fee</source>
+        <translation>Transaksie fooi</translation>
+    </message>
+    <message>
+        <source>Net amount</source>
+        <translation>Netto bedrag</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Boodskap</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>Transaksie ID</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>true</source>
+        <translation>waar</translation>
+    </message>
+    <message>
+        <source>false</source>
+        <translation>onwaar</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>onbekend</translation>
+    </message>
+</context>
+<context>
     <name>TransactionDescDialog</name>
     </context>
 <context>
-    <name>UnitDisplayStatusBarControl</name>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipe</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ontvang met</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Ontvang van</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Gestuur na</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Betalings Aan/na jouself</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Gemyn</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n.v.t)</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Datum en tyd wat die transaksie ontvang was.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Tipe transaksie.</translation>
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Alles</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Vandag</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Hierdie week</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Hierdie maand</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Verlede maand</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Hierdie jaar</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Reeks...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Ontvang met</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Gestuur na</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Aan/na jouself</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Gemyn</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Ander</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Min bedrag</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Maak kopie van adres</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Kopieer bedrag</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Datum</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Tipe</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Etiket</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Adres</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Bedrag</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Reeks:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>aan</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Stuur Munstukke</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
     </context>
 <context>
     <name>bitcoin-core</name>
     <message>
+        <source>Usage:</source>
+        <translation>Gebruik:</translation>
+    </message>
+    <message>
         <source>Options:</source>
         <translation>Opsies:</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Luister vir konneksies op &lt;port&gt; (standaard: 8333 of testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Onderhou op die meeste &lt;n&gt; konneksies na eweknieë (standaard: 125)</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Gebruik die toets netwerk</translation>
     </message>
     <message>
         <source>Error: Disk space is low!</source>
@@ -297,14 +957,27 @@
         <translation>Informasie</translation>
     </message>
     <message>
+        <source>System error: </source>
+        <translation>Sisteem fout:</translation>
+    </message>
+    <message>
+        <source>This help message</source>
+        <translation>Hierdie help boodskap</translation>
+    </message>
+    <message>
         <source>Loading addresses...</source>
         <translation>Laai adresse...</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Ongeldige bedrag</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
         <translation>Onvoldoende fondse</translation>
     </message>
     <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Loading block index...</source>
         <translation>Laai blok indeks...</translation>
     </message>
@@ -320,5 +993,9 @@
         <source>Error</source>
         <translation>Fout</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 </TS>

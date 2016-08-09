@@ -82,6 +82,7 @@ int64_t nMaxTipAge = DEFAULT_MAX_TIP_AGE;
 bool fEnableReplacement = DEFAULT_ENABLE_REPLACEMENT;
 
 
+<<<<<<< HEAD
 CFeeRate minRelayTxFee = CFeeRate(DEFAULT_MIN_RELAY_TX_FEE);
 CAmount maxTxFee = DEFAULT_TRANSACTION_MAXFEE;
 
@@ -95,11 +96,18 @@ struct IteratorComparator
     {
         return &(*a) < &(*b);
     }
+=======
+struct COrphanBlock {
+    uint256 hashBlock;
+    uint256 hashPrev;
+    vector<unsigned char> vchBlock;
+>>>>>>> refs/remotes/karogkung/0.9
 };
 
 struct COrphanTx {
     CTransaction tx;
     NodeId fromPeer;
+<<<<<<< HEAD
     int64_t nTimeExpire;
 };
 map<uint256, COrphanTx> mapOrphanTransactions GUARDED_BY(cs_main);
@@ -107,6 +115,12 @@ map<COutPoint, set<map<uint256, COrphanTx>::iterator, IteratorComparator>> mapOr
 void EraseOrphansFor(NodeId peer) EXCLUSIVE_LOCKS_REQUIRED(cs_main);
 
 static void CheckBlockIndex(const Consensus::Params& consensusParams);
+=======
+};
+map<uint256, COrphanTx> mapOrphanTransactions;
+map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
+void EraseOrphansFor(NodeId peer);
+>>>>>>> refs/remotes/karogkung/0.9
 
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
@@ -361,11 +375,17 @@ void FinalizeNode(NodeId nodeid) {
 
     BOOST_FOREACH(const QueuedBlock& entry, state->vBlocksInFlight) {
         mapBlocksInFlight.erase(entry.hash);
+<<<<<<< HEAD
     }
     EraseOrphansFor(nodeid);
     nPreferredDownload -= state->fPreferredDownload;
     nPeersWithValidatedDownloads -= (state->nBlocksInFlightValidHeaders != 0);
     assert(nPeersWithValidatedDownloads >= 0);
+=======
+    BOOST_FOREACH(const uint256& hash, state->vBlocksToDownload)
+        mapBlocksToDownload.erase(hash);
+    EraseOrphansFor(nodeid);
+>>>>>>> refs/remotes/karogkung/0.9
 
     mapNodeState.erase(nodeid);
 
@@ -675,7 +695,11 @@ CBlockTreeDB *pblocktree = NULL;
 // mapOrphanTransactions
 //
 
+<<<<<<< HEAD
 bool AddOrphanTx(const CTransaction& tx, NodeId peer) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
+=======
+bool AddOrphanTx(const CTransaction& tx, NodeId peer)
+>>>>>>> refs/remotes/karogkung/0.9
 {
     uint256 hash = tx.GetHash();
     if (mapOrphanTransactions.count(hash))
@@ -695,6 +719,7 @@ bool AddOrphanTx(const CTransaction& tx, NodeId peer) EXCLUSIVE_LOCKS_REQUIRED(c
         return false;
     }
 
+<<<<<<< HEAD
     auto ret = mapOrphanTransactions.emplace(hash, COrphanTx{tx, peer, GetTime() + ORPHAN_TX_EXPIRE_TIME});
     assert(ret.second);
     BOOST_FOREACH(const CTxIn& txin, tx.vin) {
@@ -702,6 +727,14 @@ bool AddOrphanTx(const CTransaction& tx, NodeId peer) EXCLUSIVE_LOCKS_REQUIRED(c
     }
 
     LogPrint("mempool", "stored orphan tx %s (mapsz %u outsz %u)\n", hash.ToString(),
+=======
+    mapOrphanTransactions[hash].tx = tx;
+    mapOrphanTransactions[hash].fromPeer = peer;
+    BOOST_FOREACH(const CTxIn& txin, tx.vin)
+        mapOrphanTransactionsByPrev[txin.prevout.hash].insert(hash);
+
+    LogPrint("mempool", "stored orphan tx %s (mapsz %u prevsz %u)\n", hash.ToString(),
+>>>>>>> refs/remotes/karogkung/0.9
              mapOrphanTransactions.size(), mapOrphanTransactionsByPrev.size());
     return true;
 }
@@ -710,6 +743,7 @@ int static EraseOrphanTx(uint256 hash) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
 {
     map<uint256, COrphanTx>::iterator it = mapOrphanTransactions.find(hash);
     if (it == mapOrphanTransactions.end())
+<<<<<<< HEAD
         return 0;
     BOOST_FOREACH(const CTxIn& txin, it->second.tx.vin)
     {
@@ -717,11 +751,23 @@ int static EraseOrphanTx(uint256 hash) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
         if (itPrev == mapOrphanTransactionsByPrev.end())
             continue;
         itPrev->second.erase(it);
+=======
+        return;
+    BOOST_FOREACH(const CTxIn& txin, it->second.tx.vin)
+    {
+        map<uint256, set<uint256> >::iterator itPrev = mapOrphanTransactionsByPrev.find(txin.prevout.hash);
+        if (itPrev == mapOrphanTransactionsByPrev.end())
+            continue;
+        itPrev->second.erase(hash);
+>>>>>>> refs/remotes/karogkung/0.9
         if (itPrev->second.empty())
             mapOrphanTransactionsByPrev.erase(itPrev);
     }
     mapOrphanTransactions.erase(it);
+<<<<<<< HEAD
     return 1;
+=======
+>>>>>>> refs/remotes/karogkung/0.9
 }
 
 void EraseOrphansFor(NodeId peer)
@@ -733,14 +779,23 @@ void EraseOrphansFor(NodeId peer)
         map<uint256, COrphanTx>::iterator maybeErase = iter++; // increment to avoid iterator becoming invalid
         if (maybeErase->second.fromPeer == peer)
         {
+<<<<<<< HEAD
             nErased += EraseOrphanTx(maybeErase->second.tx.GetHash());
+=======
+            EraseOrphanTx(maybeErase->second.tx.GetHash());
+            ++nErased;
+>>>>>>> refs/remotes/karogkung/0.9
         }
     }
     if (nErased > 0) LogPrint("mempool", "Erased %d orphan tx from peer %d\n", nErased, peer);
 }
 
 
+<<<<<<< HEAD
 unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans) EXCLUSIVE_LOCKS_REQUIRED(cs_main)
+=======
+unsigned int LimitOrphanTxSize(unsigned int nMaxOrphans)
+>>>>>>> refs/remotes/karogkung/0.9
 {
     unsigned int nEvicted = 0;
     static int64_t nNextSweep;
@@ -821,6 +876,7 @@ bool CheckFinalTx(const CTransaction &tx, int flags)
     return IsFinalTx(tx, nBlockHeight, nBlockTime);
 }
 
+<<<<<<< HEAD
 /**
  * Calculates the block height and previous block's median time past at
  * which the transaction will be considered final in the context of BIP 68.
@@ -861,6 +917,28 @@ static std::pair<int, int64_t> CalculateSequenceLocks(const CTransaction &tx, in
             // The height of this input is not relevant for sequence locks
             (*prevHeights)[txinIndex] = 0;
             continue;
+=======
+    BOOST_FOREACH(const CTxIn& txin, tx.vin)
+    {
+        // Biggest 'standard' txin is a 15-of-15 P2SH multisig with compressed
+        // keys. (remember the 520 byte limit on redeemScript size) That works
+        // out to a (15*(33+1))+3=513 byte redeemScript, 513+1+15*(73+1)=1624
+        // bytes of scriptSig, which we round off to 1650 bytes for some minor
+        // future-proofing. That's also enough to spend a 20-of-20
+        // CHECKMULTISIG scriptPubKey, though such a scriptPubKey is not
+        // considered standard)
+        if (txin.scriptSig.size() > 1650) {
+            reason = "scriptsig-size";
+            return false;
+        }
+        if (!txin.scriptSig.IsPushOnly()) {
+            reason = "scriptsig-not-pushonly";
+            return false;
+        }
+        if (!txin.scriptSig.HasCanonicalPushes()) {
+            reason = "scriptsig-non-canonical-push";
+            return false;
+>>>>>>> refs/remotes/karogkung/0.9
         }
 
         int nCoinHeight = (*prevHeights)[txinIndex];
@@ -1342,11 +1420,17 @@ bool AcceptToMemoryPoolWorker(CTxMemPool& pool, CValidationState& state, const C
             return state.DoS(0, false, REJECT_NONSTANDARD, "too-long-mempool-chain", false, errString);
         }
 
+<<<<<<< HEAD
         // A transaction that spends outputs that would be replaced by it is invalid. Now
         // that we have the set of all ancestors we can detect this
         // pathological case by making sure setConflicts and setAncestors don't
         // intersect.
         BOOST_FOREACH(CTxMemPool::txiter ancestorIt, setAncestors)
+=======
+        // Check against previous transactions
+        // This is done last to help prevent CPU exhaustion denial-of-service attacks.
+        if (!CheckInputs(tx, state, view, true, SCRIPT_VERIFY_P2SH | SCRIPT_VERIFY_STRICTENC | SCRIPT_VERIFY_DERSIG))
+>>>>>>> refs/remotes/karogkung/0.9
         {
             const uint256 &hashAncestor = ancestorIt->GetTx().GetHash();
             if (setConflicts.count(hashAncestor))
@@ -1686,7 +1770,51 @@ bool ReadBlockFromDisk(CBlock& block, const CBlockIndex* pindex, const Consensus
     return true;
 }
 
+<<<<<<< HEAD
 CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
+=======
+uint256 static GetOrphanRoot(const uint256& hash)
+{
+    map<uint256, COrphanBlock*>::iterator it = mapOrphanBlocks.find(hash);
+    if (it == mapOrphanBlocks.end())
+        return hash;
+
+    // Work back to the first block in the orphan chain
+    do {
+        map<uint256, COrphanBlock*>::iterator it2 = mapOrphanBlocks.find(it->second->hashPrev);
+        if (it2 == mapOrphanBlocks.end())
+            return it->first;
+        it = it2;
+    } while(true);
+}
+
+// Remove a random orphan block (which does not have any dependent orphans).
+void static PruneOrphanBlocks()
+{
+    if (mapOrphanBlocksByPrev.size() <= (size_t)std::max((int64_t)0, GetArg("-maxorphanblocks", DEFAULT_MAX_ORPHAN_BLOCKS)))
+        return;
+
+    // Pick a random orphan block.
+    int pos = insecure_rand() % mapOrphanBlocksByPrev.size();
+    std::multimap<uint256, COrphanBlock*>::iterator it = mapOrphanBlocksByPrev.begin();
+    while (pos--) it++;
+
+    // As long as this block has other orphans depending on it, move to one of those successors.
+    do {
+        std::multimap<uint256, COrphanBlock*>::iterator it2 = mapOrphanBlocksByPrev.find(it->second->hashBlock);
+        if (it2 == mapOrphanBlocksByPrev.end())
+            break;
+        it = it2;
+    } while(1);
+
+    uint256 hash = it->second->hashBlock;
+    delete it->second;
+    mapOrphanBlocksByPrev.erase(it);
+    mapOrphanBlocks.erase(hash);
+}
+
+int64_t GetBlockValue(int nHeight, int64_t nFees)
+>>>>>>> refs/remotes/karogkung/0.9
 {
     int halvings = nHeight / consensusParams.nSubsidyHalvingInterval;
     // Force block reward to zero when right shift is undefined.
@@ -1703,12 +1831,20 @@ bool IsInitialBlockDownload()
 {
     const CChainParams& chainParams = Params();
 
+<<<<<<< HEAD
     // Once this function has returned false, it must remain false.
     static std::atomic<bool> latchToFalse{false};
     // Optimization: pre-test latch before taking the lock.
     if (latchToFalse.load(std::memory_order_relaxed))
         return false;
 
+=======
+    return true;
+}
+
+bool IsInitialBlockDownload()
+{
+>>>>>>> refs/remotes/karogkung/0.9
     LOCK(cs_main);
     if (latchToFalse.load(std::memory_order_relaxed))
         return false;
@@ -1763,7 +1899,11 @@ void CheckForkWarningConditions()
         {
             std::string warning = std::string("'Warning: Large-work fork detected, forking after block ") +
                 pindexBestForkBase->phashBlock->ToString() + std::string("'");
+<<<<<<< HEAD
             AlertNotify(warning);
+=======
+            CAlert::Notify(warning, true);
+>>>>>>> refs/remotes/karogkung/0.9
         }
         if (pindexBestForkTip && pindexBestForkBase)
         {
@@ -2391,6 +2531,12 @@ bool ConnectBlock(const CBlock& block, CValidationState& state, CBlockIndex* pin
 
     int64_t nTime2 = GetTimeMicros(); nTimeForks += nTime2 - nTime1;
     LogPrint("bench", "    - Fork checks: %.2fms [%.2fs]\n", 0.001 * (nTime2 - nTime1), nTimeForks * 0.000001);
+
+    if (block.nVersion >= 3 &&
+        ((!TestNet() && CBlockIndex::IsSuperMajority(3, pindex->pprev, 750, 1000)) ||
+            (TestNet() && CBlockIndex::IsSuperMajority(3, pindex->pprev, 51, 100)))) {
+        flags |= SCRIPT_VERIFY_DERSIG;
+    }
 
     CBlockUndo blockundo;
 
@@ -3436,6 +3582,7 @@ bool IsWitnessEnabled(const CBlockIndex* pindexPrev, const Consensus::Params& pa
     return (VersionBitsState(pindexPrev, params, Consensus::DEPLOYMENT_SEGWIT, versionbitscache) == THRESHOLD_ACTIVE);
 }
 
+<<<<<<< HEAD
 // Compute at which vout of the block's coinbase transaction the witness
 // commitment occurs, or -1 if not found.
 static int GetWitnessCommitmentIndex(const CBlock& block)
@@ -3444,6 +3591,41 @@ static int GetWitnessCommitmentIndex(const CBlock& block)
     for (size_t o = 0; o < block.vtx[0].vout.size(); o++) {
         if (block.vtx[0].vout[o].scriptPubKey.size() >= 38 && block.vtx[0].vout[o].scriptPubKey[0] == OP_RETURN && block.vtx[0].vout[o].scriptPubKey[1] == 0x24 && block.vtx[0].vout[o].scriptPubKey[2] == 0xaa && block.vtx[0].vout[o].scriptPubKey[3] == 0x21 && block.vtx[0].vout[o].scriptPubKey[4] == 0xa9 && block.vtx[0].vout[o].scriptPubKey[5] == 0xed) {
             commitpos = o;
+=======
+        // Reject block.nVersion=1 blocks when 95% (75% on testnet) of the network has upgraded:
+        if (block.nVersion < 2)
+        {
+            if ((!TestNet() && CBlockIndex::IsSuperMajority(2, pindexPrev, 950, 1000)) ||
+                (TestNet() && CBlockIndex::IsSuperMajority(2, pindexPrev, 75, 100)))
+            {
+                return state.Invalid(error("AcceptBlock() : rejected nVersion=1 block"),
+                                     REJECT_OBSOLETE, "bad-version");
+            }
+        }
+        // Reject block.nVersion=2 blocks when 95% (75% on testnet) of the network has upgraded:
+        if (block.nVersion < 3)
+        {
+            if ((!TestNet() && CBlockIndex::IsSuperMajority(3, pindexPrev, 950, 1000)) ||
+                (TestNet() && CBlockIndex::IsSuperMajority(3, pindexPrev, 75, 100)))
+            {
+                return state.Invalid(error("AcceptBlock() : rejected nVersion=2 block"),
+                                     REJECT_OBSOLETE, "bad-version");
+            }
+        }
+        // Enforce block.nVersion=2 rule that the coinbase starts with serialized block height
+        if (block.nVersion >= 2)
+        {
+            // if 750 of the last 1,000 blocks are version 2 or greater (51/100 if testnet):
+            if ((!TestNet() && CBlockIndex::IsSuperMajority(2, pindexPrev, 750, 1000)) ||
+                (TestNet() && CBlockIndex::IsSuperMajority(2, pindexPrev, 51, 100)))
+            {
+                CScript expect = CScript() << nHeight;
+                if (block.vtx[0].vin[0].scriptSig.size() < expect.size() ||
+                    !std::equal(expect.begin(), expect.end(), block.vtx[0].vin[0].scriptSig.begin()))
+                    return state.DoS(100, error("AcceptBlock() : block height mismatch in coinbase"),
+                                     REJECT_INVALID, "bad-cb-height");
+            }
+>>>>>>> refs/remotes/karogkung/0.9
         }
     }
     return commitpos;
@@ -4323,7 +4505,82 @@ bool InitBlockIndex(const CChainParams& chainparams)
     return true;
 }
 
+<<<<<<< HEAD
 bool LoadExternalBlockFile(const CChainParams& chainparams, FILE* fileIn, CDiskBlockPos *dbp)
+=======
+
+
+void PrintBlockTree()
+{
+    AssertLockHeld(cs_main);
+    // pre-compute tree structure
+    map<CBlockIndex*, vector<CBlockIndex*> > mapNext;
+    for (map<uint256, CBlockIndex*>::iterator mi = mapBlockIndex.begin(); mi != mapBlockIndex.end(); ++mi)
+    {
+        CBlockIndex* pindex = (*mi).second;
+        mapNext[pindex->pprev].push_back(pindex);
+        // test
+        //while (rand() % 3 == 0)
+        //    mapNext[pindex->pprev].push_back(pindex);
+    }
+
+    vector<pair<int, CBlockIndex*> > vStack;
+    vStack.push_back(make_pair(0, chainActive.Genesis()));
+
+    int nPrevCol = 0;
+    while (!vStack.empty())
+    {
+        int nCol = vStack.back().first;
+        CBlockIndex* pindex = vStack.back().second;
+        vStack.pop_back();
+
+        // print split or gap
+        if (nCol > nPrevCol)
+        {
+            for (int i = 0; i < nCol-1; i++)
+                LogPrintf("| ");
+            LogPrintf("|\\\n");
+        }
+        else if (nCol < nPrevCol)
+        {
+            for (int i = 0; i < nCol; i++)
+                LogPrintf("| ");
+            LogPrintf("|\n");
+       }
+        nPrevCol = nCol;
+
+        // print columns
+        for (int i = 0; i < nCol; i++)
+            LogPrintf("| ");
+
+        // print item
+        CBlock block;
+        ReadBlockFromDisk(block, pindex);
+        LogPrintf("%d (blk%05u.dat:0x%x)  %s  tx %u\n",
+            pindex->nHeight,
+            pindex->GetBlockPos().nFile, pindex->GetBlockPos().nPos,
+            DateTimeStrFormat("%Y-%m-%d %H:%M:%S", block.GetBlockTime()),
+            block.vtx.size());
+
+        // put the main time-chain first
+        vector<CBlockIndex*>& vNext = mapNext[pindex];
+        for (unsigned int i = 0; i < vNext.size(); i++)
+        {
+            if (chainActive.Next(vNext[i]))
+            {
+                swap(vNext[0], vNext[i]);
+                break;
+            }
+        }
+
+        // iterate children
+        for (unsigned int i = 0; i < vNext.size(); i++)
+            vStack.push_back(make_pair(nCol+i, vNext[i]));
+    }
+}
+
+bool LoadExternalBlockFile(FILE* fileIn, CDiskBlockPos *dbp)
+>>>>>>> refs/remotes/karogkung/0.9
 {
     // Map of disk positions for blocks with unknown parent (only used for reindex)
     static std::multimap<uint256, CDiskBlockPos> mapBlocksUnknownParent;
@@ -4871,13 +5128,25 @@ uint32_t GetFetchFlags(CNode* pfrom, CBlockIndex* pprev, const Consensus::Params
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, int64_t nTimeReceived, const CChainParams& chainparams)
 {
+<<<<<<< HEAD
     LogPrint("net", "received: %s (%u bytes) peer=%d\n", SanitizeString(strCommand), vRecv.size(), pfrom->id);
+=======
+    RandAddSeedPerfmon();
+    LogPrint("net", "received: %s (%u bytes)\n", SanitizeString(strCommand), vRecv.size());
+>>>>>>> refs/remotes/karogkung/0.9
     if (mapArgs.count("-dropmessagestest") && GetRand(atoi(mapArgs["-dropmessagestest"])) == 0)
     {
         LogPrintf("dropmessagestest DROPPING RECV MESSAGE\n");
         return true;
     }
 
+<<<<<<< HEAD
+=======
+    {
+        LOCK(cs_main);
+        State(pfrom->GetId())->nLastBlockProcess = GetTimeMicros();
+    }
+>>>>>>> refs/remotes/karogkung/0.9
 
     if (!(nLocalServices & NODE_BLOOM) &&
               (strCommand == NetMsgType::FILTERLOAD ||
@@ -4941,7 +5210,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         if (!vRecv.empty())
             vRecv >> addrFrom >> nNonce;
         if (!vRecv.empty()) {
+<<<<<<< HEAD
             vRecv >> LIMITED_STRING(pfrom->strSubVer, MAX_SUBVERSION_LENGTH);
+=======
+            vRecv >> LIMITED_STRING(pfrom->strSubVer, 256);
+>>>>>>> refs/remotes/karogkung/0.9
             pfrom->cleanSubVer = SanitizeString(pfrom->strSubVer);
         }
         if (!vRecv.empty()) {
@@ -5029,6 +5302,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         if (fLogIPs)
             remoteAddr = ", peeraddr=" + pfrom->addr.ToString();
 
+<<<<<<< HEAD
         LogPrintf("receive version message: %s: version %d, blocks=%d, us=%s, peer=%d%s\n",
                   pfrom->cleanSubVer, pfrom->nVersion,
                   pfrom->nStartingHeight, addrMe.ToString(), pfrom->id,
@@ -5037,6 +5311,9 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         int64_t nTimeOffset = nTime - GetTime();
         pfrom->nTimeOffset = nTimeOffset;
         AddTimeData(pfrom->addr, nTimeOffset);
+=======
+        AddTimeData(pfrom->addr, nTime);
+>>>>>>> refs/remotes/karogkung/0.9
     }
 
 
@@ -5237,7 +5514,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             }
 
             // Track requests for our stuff
+<<<<<<< HEAD
             GetMainSignals().Inventory(inv.hash);
+=======
+            g_signals.Inventory(inv.hash);
+>>>>>>> refs/remotes/karogkung/0.9
 
             if (pfrom->nSendSize > (SendBufferSize() * 2)) {
                 Misbehaving(pfrom->GetId(), 50);
@@ -5262,7 +5543,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         }
 
         if (fDebug || (vInv.size() != 1))
+<<<<<<< HEAD
             LogPrint("net", "received getdata (%u invsz) peer=%d\n", vInv.size(), pfrom->id);
+=======
+            LogPrint("net", "received getdata (%u invsz)\n", vInv.size());
+>>>>>>> refs/remotes/karogkung/0.9
 
         if ((fDebug && vInv.size() > 0) || (vInv.size() == 1))
             LogPrint("net", "received getdata for: %s peer=%d\n", vInv[0].ToString(), pfrom->id);
@@ -5784,6 +6069,7 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
             return true;
         }
 
+<<<<<<< HEAD
         CBlockIndex *pindexLast = NULL;
         BOOST_FOREACH(const CBlockHeader& header, headers) {
             CValidationState state;
@@ -5866,13 +6152,86 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                         MaybeSetPeerAsAnnouncingHeaderAndIDs(nodestate, pfrom);
                         // In any case, we want to download using a compact block, not a regular one
                         vGetData[0] = CInv(MSG_CMPCT_BLOCK, vGetData[0].hash);
+=======
+            LogPrint("mempool", "AcceptToMemoryPool: %s %s : accepted %s (poolsz %u)\n",
+                pfrom->addr.ToString(), pfrom->cleanSubVer,
+                tx.GetHash().ToString(),
+                mempool.mapTx.size());
+
+            // Recursively process any orphan transactions that depended on this one
+            set<NodeId> setMisbehaving;
+            for (unsigned int i = 0; i < vWorkQueue.size(); i++)
+            {
+                map<uint256, set<uint256> >::iterator itByPrev = mapOrphanTransactionsByPrev.find(vWorkQueue[i]);
+                if (itByPrev == mapOrphanTransactionsByPrev.end())
+                    continue;
+                for (set<uint256>::iterator mi = itByPrev->second.begin();
+                     mi != itByPrev->second.end();
+                     ++mi)
+                {
+                    const uint256& orphanHash = *mi;
+                    const CTransaction& orphanTx = mapOrphanTransactions[orphanHash].tx;
+                    NodeId fromPeer = mapOrphanTransactions[orphanHash].fromPeer;
+                    bool fMissingInputs2 = false;
+                    // Use a dummy CValidationState so someone can't setup nodes to counter-DoS based on orphan
+                    // resolution (that is, feeding people an invalid transaction based on LegitTxX in order to get
+                    // anyone relaying LegitTxX banned)
+                    CValidationState stateDummy;
+
+                    vEraseQueue.push_back(orphanHash);
+
+                    if (setMisbehaving.count(fromPeer))
+                        continue;
+                    if (AcceptToMemoryPool(mempool, stateDummy, orphanTx, true, &fMissingInputs2))
+                    {
+                        LogPrint("mempool", "   accepted orphan tx %s\n", orphanHash.ToString());
+                        RelayTransaction(orphanTx, orphanHash);
+                        mapAlreadyAskedFor.erase(CInv(MSG_TX, orphanHash));
+                        vWorkQueue.push_back(orphanHash);
+                    }
+                    else if (!fMissingInputs2)
+                    {
+                        int nDos = 0;
+                        if (stateDummy.IsInvalid(nDos) && nDos > 0)
+                        {
+                            // Punish peer that gave us an invalid orphan tx
+                            Misbehaving(fromPeer, nDos);
+                            setMisbehaving.insert(fromPeer);
+                            LogPrint("mempool", "   invalid orphan tx %s\n", orphanHash.ToString());
+                        }
+                        // too-little-fee orphan
+                        LogPrint("mempool", "   removed orphan tx %s\n", orphanHash.ToString());
+>>>>>>> refs/remotes/karogkung/0.9
                     }
                     pfrom->PushMessage(NetMsgType::GETDATA, vGetData);
                 }
             }
         }
+<<<<<<< HEAD
 
         CheckBlockIndex(chainparams.GetConsensus());
+=======
+        else if (fMissingInputs)
+        {
+            AddOrphanTx(tx, pfrom->GetId());
+
+            // DoS prevention: do not allow mapOrphanTransactions to grow unbounded
+            unsigned int nMaxOrphanTx = (unsigned int)std::max((int64_t)0, GetArg("-maxorphantx", DEFAULT_MAX_ORPHAN_TRANSACTIONS));
+            unsigned int nEvicted = LimitOrphanTxSize(nMaxOrphanTx);
+            if (nEvicted > 0)
+                LogPrint("mempool", "mapOrphan overflow, removed %u tx\n", nEvicted);
+        }
+        int nDoS = 0;
+        if (state.IsInvalid(nDoS))
+        {
+            LogPrint("mempool", "%s from %s %s was not accepted into the memory pool: %s\n", tx.GetHash().ToString(),
+                pfrom->addr.ToString(), pfrom->cleanSubVer,
+                state.GetRejectReason());
+            pfrom->PushMessage("reject", strCommand, state.GetRejectCode(),
+                               state.GetRejectReason(), inv.hash);
+            if (nDoS > 0)
+                Misbehaving(pfrom->GetId(), nDoS);
+>>>>>>> refs/remotes/karogkung/0.9
         }
 
         NotifyHeaderTip();
@@ -6020,8 +6379,14 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
         }
 
         if (!(sProblem.empty())) {
+<<<<<<< HEAD
             LogPrint("net", "pong peer=%d: %s, %x expected, %x received, %u bytes\n",
                 pfrom->id,
+=======
+            LogPrint("net", "pong %s %s: %s, %x expected, %x received, %u bytes\n",
+                pfrom->addr.ToString(),
+                pfrom->cleanSubVer,
+>>>>>>> refs/remotes/karogkung/0.9
                 sProblem,
                 pfrom->nPingNonceSent,
                 nonce,
@@ -6091,10 +6456,17 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
 
     else if (strCommand == NetMsgType::REJECT)
     {
+<<<<<<< HEAD
         if (fDebug) {
             try {
                 string strMsg; unsigned char ccode; string strReason;
                 vRecv >> LIMITED_STRING(strMsg, CMessageHeader::COMMAND_SIZE) >> ccode >> LIMITED_STRING(strReason, MAX_REJECT_MESSAGE_LENGTH);
+=======
+        if (fDebug)
+        {
+            string strMsg; unsigned char ccode; string strReason;
+            vRecv >> LIMITED_STRING(strMsg, CMessageHeader::COMMAND_SIZE) >> ccode >> LIMITED_STRING(strReason, 111);
+>>>>>>> refs/remotes/karogkung/0.9
 
                 ostringstream ss;
                 ss << strMsg << " code " << itostr(ccode) << ": " << strReason;
@@ -6121,7 +6493,11 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv, 
                 LOCK(pfrom->cs_feeFilter);
                 pfrom->minFeeFilter = newFeeFilter;
             }
+<<<<<<< HEAD
             LogPrint("net", "received: feefilter of %s from peer=%d\n", CFeeRate(newFeeFilter).ToString(), pfrom->id);
+=======
+            LogPrint("net", "Reject %s\n", SanitizeString(ss.str()));
+>>>>>>> refs/remotes/karogkung/0.9
         }
     }
 
@@ -6145,7 +6521,11 @@ bool ProcessMessages(CNode* pfrom)
 {
     const CChainParams& chainparams = Params();
     //if (fDebug)
+<<<<<<< HEAD
     //    LogPrintf("%s(%u messages)\n", __func__, pfrom->vRecvMsg.size());
+=======
+    //    LogPrintf("ProcessMessages(%u messages)\n", pfrom->vRecvMsg.size());
+>>>>>>> refs/remotes/karogkung/0.9
 
     //
     // Message format
@@ -6173,7 +6553,11 @@ bool ProcessMessages(CNode* pfrom)
         CNetMessage& msg = *it;
 
         //if (fDebug)
+<<<<<<< HEAD
         //    LogPrintf("%s(message %u msgsz, %u bytes, complete:%s)\n", __func__,
+=======
+        //    LogPrintf("ProcessMessages(message %u msgsz, %u bytes, complete:%s)\n",
+>>>>>>> refs/remotes/karogkung/0.9
         //            msg.hdr.nMessageSize, msg.vRecv.size(),
         //            msg.complete() ? "Y" : "N");
 
@@ -6185,8 +6569,13 @@ bool ProcessMessages(CNode* pfrom)
         it++;
 
         // Scan for message start
+<<<<<<< HEAD
         if (memcmp(msg.hdr.pchMessageStart, chainparams.MessageStart(), MESSAGE_START_SIZE) != 0) {
             LogPrintf("PROCESSMESSAGE: INVALID MESSAGESTART %s peer=%d\n", SanitizeString(msg.hdr.GetCommand()), pfrom->id);
+=======
+        if (memcmp(msg.hdr.pchMessageStart, Params().MessageStart(), MESSAGE_START_SIZE) != 0) {
+            LogPrintf("PROCESSMESSAGE: INVALID MESSAGESTART %s\n", SanitizeString(msg.hdr.GetCommand()));
+>>>>>>> refs/remotes/karogkung/0.9
             fOk = false;
             break;
         }
@@ -6195,7 +6584,11 @@ bool ProcessMessages(CNode* pfrom)
         CMessageHeader& hdr = msg.hdr;
         if (!hdr.IsValid(chainparams.MessageStart()))
         {
+<<<<<<< HEAD
             LogPrintf("PROCESSMESSAGE: ERRORS IN HEADER %s peer=%d\n", SanitizeString(hdr.GetCommand()), pfrom->id);
+=======
+            LogPrintf("PROCESSMESSAGE: ERRORS IN HEADER %s\n", SanitizeString(hdr.GetCommand()));
+>>>>>>> refs/remotes/karogkung/0.9
             continue;
         }
         string strCommand = hdr.GetCommand();
@@ -6209,7 +6602,11 @@ bool ProcessMessages(CNode* pfrom)
         unsigned int nChecksum = ReadLE32((unsigned char*)&hash);
         if (nChecksum != hdr.nChecksum)
         {
+<<<<<<< HEAD
             LogPrintf("%s(%s, %u bytes): CHECKSUM ERROR nChecksum=%08x hdr.nChecksum=%08x\n", __func__,
+=======
+            LogPrintf("ProcessMessages(%s, %u bytes): CHECKSUM ERROR nChecksum=%08x hdr.nChecksum=%08x\n",
+>>>>>>> refs/remotes/karogkung/0.9
                SanitizeString(strCommand), nMessageSize, nChecksum, hdr.nChecksum);
             continue;
         }
@@ -6227,17 +6624,25 @@ bool ProcessMessages(CNode* pfrom)
             if (strstr(e.what(), "end of data"))
             {
                 // Allow exceptions from under-length message on vRecv
+<<<<<<< HEAD
                 LogPrintf("%s(%s, %u bytes): Exception '%s' caught, normally caused by a message being shorter than its stated length\n", __func__, SanitizeString(strCommand), nMessageSize, e.what());
+=======
+                LogPrintf("ProcessMessages(%s, %u bytes): Exception '%s' caught, normally caused by a message being shorter than its stated length\n", SanitizeString(strCommand), nMessageSize, e.what());
+>>>>>>> refs/remotes/karogkung/0.9
             }
             else if (strstr(e.what(), "size too large"))
             {
                 // Allow exceptions from over-long size
+<<<<<<< HEAD
                 LogPrintf("%s(%s, %u bytes): Exception '%s' caught\n", __func__, SanitizeString(strCommand), nMessageSize, e.what());
             }
             else if (strstr(e.what(), "non-canonical ReadCompactSize()"))
             {
                 // Allow exceptions from non-canonical encoding
                 LogPrintf("%s(%s, %u bytes): Exception '%s' caught\n", __func__, SanitizeString(strCommand), nMessageSize, e.what());
+=======
+                LogPrintf("ProcessMessages(%s, %u bytes): Exception '%s' caught\n", SanitizeString(strCommand), nMessageSize, e.what());
+>>>>>>> refs/remotes/karogkung/0.9
             }
             else
             {
@@ -6254,7 +6659,11 @@ bool ProcessMessages(CNode* pfrom)
         }
 
         if (!fRet)
+<<<<<<< HEAD
             LogPrintf("%s(%s, %u bytes) FAILED peer=%d\n", __func__, SanitizeString(strCommand), nMessageSize, pfrom->id);
+=======
+            LogPrintf("ProcessMessage(%s, %u bytes) FAILED\n", SanitizeString(strCommand), nMessageSize);
+>>>>>>> refs/remotes/karogkung/0.9
 
         break;
     }

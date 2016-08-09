@@ -461,8 +461,13 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
         setNumConnections(clientModel->getNumConnections());
         connect(clientModel, SIGNAL(numConnectionsChanged(int)), this, SLOT(setNumConnections(int)));
 
+<<<<<<< HEAD
         setNumBlocks(clientModel->getNumBlocks(), clientModel->getLastBlockDate(), clientModel->getVerificationProgress(NULL), false);
         connect(clientModel, SIGNAL(numBlocksChanged(int,QDateTime,double,bool)), this, SLOT(setNumBlocks(int,QDateTime,double,bool)));
+=======
+        setNumBlocks(clientModel->getNumBlocks());
+        connect(clientModel, SIGNAL(numBlocksChanged(int)), this, SLOT(setNumBlocks(int)));
+>>>>>>> refs/remotes/karogkung/0.9
 
         // Receive and report messages from client model
         connect(clientModel, SIGNAL(message(QString,QString,unsigned int)), this, SLOT(message(QString,QString,unsigned int)));
@@ -700,7 +705,11 @@ void BitcoinGUI::setNumConnections(int count)
     labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Bitcoin network", "", count));
 }
 
+<<<<<<< HEAD
 void BitcoinGUI::setNumBlocks(int count, const QDateTime& blockDate, double nVerificationProgress, bool header)
+=======
+void BitcoinGUI::setNumBlocks(int count)
+>>>>>>> refs/remotes/karogkung/0.9
 {
     if(!clientModel)
         return;
@@ -741,7 +750,11 @@ void BitcoinGUI::setNumBlocks(int count, const QDateTime& blockDate, double nVer
     QDateTime currentDate = QDateTime::currentDateTime();
     qint64 secs = blockDate.secsTo(currentDate);
 
+<<<<<<< HEAD
     tooltip = tr("Processed %n block(s) of transaction history.", "", count);
+=======
+    tooltip = tr("Processed %1 blocks of transaction history.").arg(count);
+>>>>>>> refs/remotes/karogkung/0.9
 
     // Set icon state: spinning if catching up, tick otherwise
     if(secs < 90*60)

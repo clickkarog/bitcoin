@@ -28,11 +28,18 @@ static int64_t nLastHeaderTipUpdateNotification = 0;
 static int64_t nLastBlockTipUpdateNotification = 0;
 
 ClientModel::ClientModel(OptionsModel *optionsModel, QObject *parent) :
+<<<<<<< HEAD
     QObject(parent),
     optionsModel(optionsModel),
     peerTableModel(0),
     banTableModel(0),
     pollTimer(0)
+=======
+    QObject(parent), optionsModel(optionsModel),
+    cachedNumBlocks(0),
+    cachedReindexing(0), cachedImporting(0),
+    numBlocksAtStartup(-1), pollTimer(0)
+>>>>>>> refs/remotes/karogkung/0.9
 {
     peerTableModel = new PeerTableModel(this);
     banTableModel = new BanTableModel(this);
@@ -95,6 +102,7 @@ long ClientModel::getMempoolSize() const
 
 size_t ClientModel::getMempoolDynamicUsage() const
 {
+<<<<<<< HEAD
     return mempool.DynamicMemoryUsage();
 }
 
@@ -105,6 +113,27 @@ double ClientModel::getVerificationProgress(const CBlockIndex *tipIn) const
     {
         LOCK(cs_main);
         tip = chainActive.Tip();
+=======
+    // Get required lock upfront. This avoids the GUI from getting stuck on
+    // periodical polls if the core is holding the locks for a longer time -
+    // for example, during a wallet rescan.
+    TRY_LOCK(cs_main, lockMain);
+    if(!lockMain)
+        return;
+    // Some quantities (such as number of blocks) change so fast that we don't want to be notified for each change.
+    // Periodically check and update with a timer.
+    int newNumBlocks = getNumBlocks();
+
+    // check for changed number of blocks we have, number of blocks peers claim to have, reindexing state and importing state
+    if (cachedNumBlocks != newNumBlocks ||
+        cachedReindexing != fReindex || cachedImporting != fImporting)
+    {
+        cachedNumBlocks = newNumBlocks;
+        cachedReindexing = fReindex;
+        cachedImporting = fImporting;
+
+        emit numBlocksChanged(newNumBlocks);
+>>>>>>> refs/remotes/karogkung/0.9
     }
     return Checkpoints::GuessVerificationProgress(Params().Checkpoints(), tip);
 }

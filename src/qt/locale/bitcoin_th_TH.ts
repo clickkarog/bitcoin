@@ -1,23 +1,38 @@
 <TS language="th_TH" version="2.1">
+<<<<<<< HEAD
 <context>
     <name>AddressBookPage</name>
     <message>
         <source>Right-click to edit address or label</source>
         <translation>คลิกขวาเพื่อแก้ไขที่อยู่ หรือป้ายชื่อ</translation>
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+<context>
+    <name>AddressBookPage</name>
+    <message>
+        <source>Double-click to edit address or label</source>
+        <translation>ดับเบิ้ลคลิก เพื่อแก้ไขที่อยู่ หรือชื่อ</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Create a new address</source>
         <translation>สร้างที่อยู่ใหม่</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;New</source>
         <translation>&amp;สร้างใหม่</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Copy the currently selected address to the system clipboard</source>
         <translation>คัดลอกที่อยู่ที่ถูกเลือกไปยัง คลิปบอร์ดของระบบ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Copy</source>
         <translation>&amp;คัดลอก</translation>
     </message>
@@ -40,15 +55,41 @@
     <message>
         <source>&amp;Delete</source>
         <translation>&amp;ลบ</translation>
+=======
+        <source>&amp;Delete</source>
+        <translation>&amp;ลบ</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>คั่นไฟล์ด้วยเครื่องหมายจุลภาค (*.csv)</translation>
+    </message>
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>ชื่อ</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation>ช่องสำหรับ รหัสผ่าน</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Enter passphrase</source>
         <translation>ใส่รหัสผ่าน</translation>
     </message>
@@ -64,6 +105,7 @@
 <context>
     <name>BanTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>IP/Netmask</source>
         <translation>IP/Netmask (ตัวกรอง IP)</translation>
     </message>
@@ -79,16 +121,88 @@
         <translation>เซ็นต์ชื่อด้วย &amp;ข้อความ...</translation>
     </message>
     <message>
+=======
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>ใส่รหัสผ่านใหม่ให้กับกระเป๋าเงิน. &lt;br/&gt; กรุณาใช้รหัสผ่านของ &lt;b&gt; 10 หรือแบบสุ่มมากกว่าตัวอักษร &lt;/ b&gt; หรือ &lt;b&gt; แปดหรือมากกว่าคำ &lt;/ b&gt;</translation>
+    </message>
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>กระเป๋าสตางค์ที่เข้ารหัส</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>การดำเนินการนี้ต้องมีรหัสผ่านกระเป๋าเงินของคุณเพื่อปลดล็อคกระเป๋าเงิน</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>เปิดกระเป๋าสตางค์</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>การดำเนินการนี้ต้องมีรหัสผ่านกระเป๋าเงินของคุณในการถอดรหัสกระเป๋าเงิน</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>ถอดรหัสกระเป๋าสตางค์</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>เปลี่ยนรหัสผ่าน</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>กรอกรหัสผ่านเก่าและรหัสผ่านใหม่สำหรับกระเป๋าสตางค์</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>ยืนยันการเข้ารหัสกระเป๋าสตางค์</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>กระเป๋าสตางค์ถูกเข้ารหัสเรียบร้อยแล้ว</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>การเข้ารหัสกระเป๋าสตางค์ผิดพลาด</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>กระเป๋าเงินเข้ารหัสล้มเหลวเนื่องจากข้อผิดพลาดภายใน กระเป๋าเงินของคุณไม่ได้เข้ารหัส</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>รหัสผ่านที่คุณกรอกไม่ตรงกัน</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>ปลดล็อคกระเป๋าเงินล้มเหลว</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>ป้อนรหัสผ่านสำหรับการถอดรหัสกระเป๋าเงินไม่ถูกต้อง</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>ถอดรหัสกระเป๋าเงินล้มเหลว</translation>
+    </message>
+    </context>
+<context>
+    <name>BitcoinGUI</name>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Synchronizing with network...</source>
         <translation>กำลังทำข้อมูลให้ตรงกันกับเครือข่าย ...</translation>
     </message>
     <message>
         <source>&amp;Overview</source>
         <translation>&amp;ภาพรวม</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Node</source>
         <translation>Node/โหนด</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Show general overview of wallet</source>
@@ -101,14 +215,18 @@
     <message>
         <source>Browse transaction history</source>
         <translation>เรียกดูประวัติการทำธุรกรรม</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>E&amp;xit</source>
         <translation>&amp;ออก</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Quit application</source>
         <translation>ออกจากโปรแกรม</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;About %1</source>
@@ -125,10 +243,17 @@
     <message>
         <source>Show information about Qt</source>
         <translation>แสดงข้อมูล เกี่ยวกับ Qt</translation>
+=======
+    </message>
+    <message>
+        <source>Show information about Bitcoin</source>
+        <translation>แสดงข้อมูลเกี่ยวกับ Bitcoin</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;ตัวเลือก...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Modify configuration options for %1</source>
@@ -169,10 +294,13 @@
     <message>
         <source>Backup wallet to another location</source>
         <translation>สำรอง กระเป๋าเงินไปยัง ที่เก็บอื่น</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
         <translation>เปลี่ยนรหัสผ่านที่ใช้สำหรับการเข้ารหัสกระเป๋าเงิน</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Debug window</source>
@@ -221,6 +349,8 @@
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
         <translation>ตรวจสอบ ข้อความ เพื่อให้แน่ใจว่า การเซ็นต์ชื่อ ด้วยที่เก็บ Bitcoin แล้ว</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;File</source>
@@ -239,6 +369,7 @@
         <translation>แถบเครื่องมือ</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>เรียกเก็บ การชำระเงิน (สร้าง QR codes และ bitcoin: URIs)</translation>
     </message>
@@ -305,16 +436,67 @@
     <message>
         <source>Last received block was generated %1 ago.</source>
         <translation>บล็อกสุดท้ายที่ได้รับ สร้างขึ้นเมื่อ %1 มาแล้ว</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n ที่ใช้งานการเชื่อมต่อกับเครือข่าย Bitcoin</numerusform></translation>
     </message>
     <message>
+        <source>Up to date</source>
+        <translation>ทันสมัย</translation>
+    </message>
+    <message>
+        <source>Catching up...</source>
+        <translation>จับได้...</translation>
+    </message>
+    <message>
+        <source>Sent transaction</source>
+        <translation>รายการที่ส่ง</translation>
+    </message>
+    <message>
+        <source>Incoming transaction</source>
+        <translation>การทำรายการขาเข้า</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
+        <translation>ระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในขณะนี้ &lt;b&gt;ปลดล็อคแล้ว&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
+        <translation>กระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Transactions after this will not yet be visible.</source>
         <translation>รายการหลังจากนี้ จะไม่แสดงให้เห็น</translation>
     </message>
     <message>
         <source>Error</source>
         <translation>ข้อผิดพลาด</translation>
+=======
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Warning</source>
         <translation>คำเตือน</translation>
     </message>
@@ -383,51 +565,208 @@
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>กระเป๋าเงินถูก &lt;b&gt;เข้ารหัส&lt;/b&gt; และในปัจจุบัน &lt;b&gt;ล็อค &lt;/b&gt;</translation>
+=======
+        <source>Edit Address</source>
+        <translation>แก้ไขที่อยู่</translation>
+    </message>
+    <message>
+        <source>&amp;Label</source>
+        <translation>&amp;ชื่อ</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>&amp;ที่อยู่</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>ที่อยู่ผู้รับใหม่</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>ที่อยู่ผู้ส่งใหม่</translation>
+    </message>
+    <message>
+        <source>Edit receiving address</source>
+        <translation>แก้ไขที่อยู่ผู้รับ</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>แก้ไขที่อยู่ผู้ส่ง</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>ป้อนที่อยู่ "%1" ที่มีอยู่แล้วในสมุดที่อยู่</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>ไม่สามารถปลดล็อคกระเป๋าเงิน</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>สร้างกุญแจใหม่ล้มเหลว</translation>
     </message>
 </context>
 <context>
-    <name>CoinControlDialog</name>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    </context>
+<context>
+    <name>Intro</name>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
     <message>
+        <source>Options</source>
+        <translation>ตัวเลือก</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+<<<<<<< HEAD
         <source>Coin Selection</source>
         <translation>การเลือก Coin</translation>
     </message>
     <message>
         <source>Quantity:</source>
         <translation>จำนวน:</translation>
+=======
+        <source>Form</source>
+        <translation>รูป</translation>
     </message>
     <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;รายการทำธุรกรรมล่าสุด&lt;/b&gt;</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Bytes:</source>
         <translation>ไบต์:</translation>
     </message>
     <message>
         <source>Amount:</source>
         <translation>จำนวน:</translation>
+=======
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>ชื่อ</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Priority:</source>
         <translation>ความเร่งด่วน:</translation>
     </message>
     <message>
         <source>Fee:</source>
         <translation>ค่าธรรมเนียม:</translation>
+=======
+        <source>Label</source>
+        <translation>ชื่อ</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Dust:</source>
         <translation>เศษ:</translation>
     </message>
     <message>
         <source>After Fee:</source>
         <translation>ส่วนที่เหลือจากค่าธรรมเนียม:</translation>
+=======
+        <source>Send Coins</source>
+        <translation>ส่งเหรียญ</translation>
     </message>
     <message>
+        <source>(no label)</source>
+        <translation>(ไม่มีชื่อ)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    <message>
+<<<<<<< HEAD
         <source>Change:</source>
         <translation>เงินทอน:</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
     <message>
+<<<<<<< HEAD
         <source>(un)select all</source>
         <translation>(ไม่)เลือกทั้งหมด</translation>
+=======
+        <source>Address</source>
+        <translation>ที่อยู่</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>TransactionView</name>
     <message>
+<<<<<<< HEAD
         <source>Tree mode</source>
         <translation>โหมดแบบต้นไม้</translation>
     </message>
@@ -442,12 +781,31 @@
     <message>
         <source>Received with label</source>
         <translation>รับโดยป้ายชื่อ (label)</translation>
+=======
+        <source>Today</source>
+        <translation>วันนี้</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>คั่นไฟล์ด้วยเครื่องหมายจุลภาค (*.csv)</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>ชื่อ</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Received with address</source>
         <translation>รับโดยที่เก็บ</translation>
     </message>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
     <message>
+<<<<<<< HEAD
         <source>Date</source>
         <translation>วันที่</translation>
     </message>
@@ -805,9 +1163,14 @@
     <message>
         <source>Amount</source>
         <translation>จำนวน</translation>
+=======
+        <source>Send Coins</source>
+        <translation>ส่งเหรียญ</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>RPCConsole</name>
     </context>
 <context>
@@ -907,4 +1270,11 @@
         <translation>ข้อผิดพลาด</translation>
     </message>
 </context>
+=======
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 </TS>

@@ -1,4 +1,10 @@
 <TS language="ky" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -9,14 +15,43 @@
         <source>&amp;Delete</source>
         <translation>Ө&amp;чүрүү</translation>
     </message>
+<<<<<<< HEAD
+=======
+    </context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     </context>
 <context>
+<<<<<<< HEAD
     <name>BanTableModel</name>
     </context>
 <context>
+    <name>BitcoinGUI</name>
+    <message>
+        <source>&amp;Transactions</source>
+        <translation>&amp;Транзакциялар</translation>
+    </message>
+    <message>
+        <source>&amp;Verify message...</source>
+        <translation>Билдирүүнү &amp;текшерүү...</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+=======
     <name>BitcoinGUI</name>
     <message>
         <source>&amp;Transactions</source>
@@ -60,10 +95,25 @@
     </message>
     </context>
 <context>
+    <name>ClientModel</name>
+    </context>
+<context>
     <name>CoinControlDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+    </message>
     <message>
         <source>Date</source>
         <translation>Дата</translation>
+    </message>
+    <message>
+        <source>none</source>
+        <translation>жок</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
     </message>
     </context>
 <context>
@@ -72,7 +122,7 @@
         <source>&amp;Address</source>
         <translation>&amp;Дарек</translation>
     </message>
-</context>
+    </context>
 <context>
     <name>FreespaceChecker</name>
     </context>
@@ -85,6 +135,10 @@
     </context>
 <context>
     <name>Intro</name>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
     <message>
         <source>Error</source>
         <translation>Ката</translation>
@@ -102,10 +156,6 @@
     <message>
         <source>&amp;Network</source>
         <translation>&amp;Тармак</translation>
-    </message>
-    <message>
-        <source>W&amp;allet</source>
-        <translation>Капчык</translation>
     </message>
     <message>
         <source>&amp;Port:</source>
@@ -134,6 +184,229 @@
     </context>
 <context>
     <name>OverviewPage</name>
+>>>>>>> refs/remotes/karogkung/0.9
+    <message>
+        <source>Wallet</source>
+        <translation>Капчык</translation>
+    </message>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;File</source>
+        <translation>&amp;Файл</translation>
+=======
+        <source>out of sync</source>
+        <translation>синхрондоштурулган эмес</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Help</source>
+        <translation>&amp;Жардам</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    <message>
+<<<<<<< HEAD
+        <source>Error</source>
+        <translation>Ката</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Эскертүү</translation>
+    </message>
+    <message>
+        <source>Information</source>
+        <translation>Маалымат</translation>
+    </message>
+    <message>
+        <source>Up to date</source>
+        <translation>Жаңыланган</translation>
+=======
+        <source>&amp;Information</source>
+        <translation>Маалымат</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Жалпы</translation>
+    </message>
+    <message>
+        <source>Name</source>
+        <translation>Аты</translation>
+    </message>
+    <message>
+        <source>&amp;Open</source>
+        <translation>&amp;Ачуу</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>Date</source>
+        <translation>Дата</translation>
+=======
+        <source>&amp;Console</source>
+        <translation>&amp;Консоль</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Address</source>
+        <translation>&amp;Дарек</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>version</source>
+        <translation>версия</translation>
+=======
+        <source>Clear console</source>
+        <translation>Консолду тазалоо</translation>
+    </message>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    </context>
+<context>
+    <name>ReceiveRequestDialog</name>
+    <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>Intro</name>
+    <message>
+<<<<<<< HEAD
+        <source>Error</source>
+        <translation>Ката</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>MB</source>
+        <translation>МБ</translation>
+    </message>
+    <message>
+        <source>&amp;Network</source>
+        <translation>&amp;Тармак</translation>
+    </message>
+    <message>
+        <source>W&amp;allet</source>
+        <translation>Капчык</translation>
+=======
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Port:</source>
+        <translation>&amp;Порт:</translation>
+    </message>
+    <message>
+        <source>&amp;Window</source>
+        <translation>&amp;Терезе</translation>
+    </message>
+    <message>
+        <source>&amp;OK</source>
+        <translation>&amp;Жарайт</translation>
+=======
+        <source>Clear &amp;All</source>
+        <translation>&amp;Бардыгын тазалоо</translation>
+    </message>
+    <message>
+        <source>S&amp;end</source>
+        <translation>&amp;Жөнөтүү</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>(аты жок)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+<<<<<<< HEAD
+        <source>&amp;Cancel</source>
+        <translation>&amp;Жокко чыгаруу</translation>
+    </message>
+    <message>
+        <source>default</source>
+        <translation>жарыяланбаган</translation>
+=======
+        <source>Paste address from clipboard</source>
+        <translation>Даректи алмашуу буферинен коюу</translation>
+    </message>
+    <message>
+        <source>Message:</source>
+        <translation>Билдирүү:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+<<<<<<< HEAD
+        <source>none</source>
+        <translation>жок</translation>
+=======
+        <source>Paste address from clipboard</source>
+        <translation>Даректи алмашуу буферинен коюу</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
     </context>
 <context>
     <name>PeerTableModel</name>
@@ -144,10 +417,25 @@
 <context>
     <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Information</source>
         <translation>Маалымат</translation>
+=======
+        <source>Clear &amp;All</source>
+        <translation>&amp;Бардыгын тазалоо</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
+    </context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
     <message>
+<<<<<<< HEAD
         <source>General</source>
         <translation>Жалпы</translation>
     </message>
@@ -158,23 +446,59 @@
     <message>
         <source>Name</source>
         <translation>Аты</translation>
+=======
+        <source>%1/offline</source>
+        <translation>%1/тармакта эмес</translation>
     </message>
     <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Message</source>
+        <translation>Билдирүү</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>TransactionDescDialog</name>
+    </context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>&amp;Open</source>
         <translation>&amp;Ачуу</translation>
     </message>
     <message>
         <source>&amp;Console</source>
         <translation>&amp;Консоль</translation>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
     <message>
+        <source>Address</source>
+        <translation>Дарек</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>TransactionView</name>
+    <message>
+<<<<<<< HEAD
         <source>Clear console</source>
         <translation>Консолду тазалоо</translation>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Message:</source>
         <translation>Билдирүү:</translation>
     </message>
@@ -191,11 +515,36 @@
     <message>
         <source>S&amp;end</source>
         <translation>&amp;Жөнөтүү</translation>
+=======
+        <source>Address</source>
+        <translation>Дарек</translation>
+    </message>
+    </context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    </context>
+<context>
+    <name>WalletView</name>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Information</source>
+        <translation>Маалымат</translation>
+    </message>
+    <message>
+        <source>Warning</source>
+        <translation>Эскертүү</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <source>Paste address from clipboard</source>
         <translation>Даректи алмашуу буферинен коюу</translation>
     </message>
@@ -245,4 +594,14 @@
         <translation>Ката</translation>
     </message>
 </context>
+=======
+        <source>version</source>
+        <translation>версия</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Ката</translation>
+    </message>
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 </TS>

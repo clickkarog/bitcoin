@@ -18,10 +18,14 @@
 
 #include <stdarg.h>
 
+<<<<<<< HEAD
 #if (defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__DragonFly__))
 #include <pthread.h>
 #include <pthread_np.h>
 #endif
+=======
+#include <boost/date_time/posix_time/posix_time.hpp>
+>>>>>>> refs/remotes/karogkung/0.9
 
 #ifndef WIN32
 // for posix_fallocate
@@ -309,6 +313,56 @@ int LogPrintStr(const std::string &str)
             vMsgsBeforeOpenLog->push_back(strTimestamped);
         }
         else
+<<<<<<< HEAD
+=======
+            fStartedNewLine = false;
+
+        ret = fwrite(str.data(), 1, str.size(), fileout);
+    }
+
+    return ret;
+}
+
+string FormatMoney(int64_t n, bool fPlus)
+{
+    // Note: not using straight sprintf here because we do NOT want
+    // localized number formatting.
+    int64_t n_abs = (n > 0 ? n : -n);
+    int64_t quotient = n_abs/COIN;
+    int64_t remainder = n_abs%COIN;
+    string str = strprintf("%d.%08d", quotient, remainder);
+
+    // Right-trim excess zeros before the decimal point:
+    int nTrim = 0;
+    for (int i = str.size()-1; (str[i] == '0' && isdigit(str[i-2])); --i)
+        ++nTrim;
+    if (nTrim)
+        str.erase(str.size()-nTrim, nTrim);
+
+    if (n < 0)
+        str.insert((unsigned int)0, 1, '-');
+    else if (fPlus && n > 0)
+        str.insert((unsigned int)0, 1, '+');
+    return str;
+}
+
+
+bool ParseMoney(const string& str, int64_t& nRet)
+{
+    return ParseMoney(str.c_str(), nRet);
+}
+
+bool ParseMoney(const char* pszIn, int64_t& nRet)
+{
+    string strWhole;
+    int64_t nUnits = 0;
+    const char* p = pszIn;
+    while (isspace(*p))
+        p++;
+    for (; *p; p++)
+    {
+        if (*p == '.')
+>>>>>>> refs/remotes/karogkung/0.9
         {
             // reopen the log file, if requested
             if (fReopenDebugLog) {
@@ -761,6 +815,7 @@ void RenameThread(const char* name)
 
 void SetupEnvironment()
 {
+<<<<<<< HEAD
     // On most POSIX systems (e.g. Linux, but not BSD) the environment's locale
     // may be invalid, in which case the "C" locale is used as fallback.
 #if !defined(WIN32) && !defined(MAC_OSX) && !defined(__FreeBSD__) && !defined(__OpenBSD__)
@@ -809,4 +864,29 @@ std::string CopyrightHolders(const std::string& strPrefix)
         strCopyrightHolders += "\n" + strPrefix + "The Bitcoin Core developers";
     }
     return strCopyrightHolders;
+=======
+    #ifndef WIN32
+    try
+    {
+	#if BOOST_FILESYSTEM_VERSION == 3
+            boost::filesystem::path::codecvt(); // Raises runtime error if current locale is invalid
+	#else				          // boost filesystem v2
+            std::locale();                      // Raises runtime error if current locale is invalid
+	#endif
+    } catch(std::runtime_error &e)
+    {
+        setenv("LC_ALL", "C", 1); // Force C locale
+    }
+    #endif
+}
+
+std::string DateTimeStrFormat(const char* pszFormat, int64_t nTime)
+{
+    // std::locale takes ownership of the pointer
+    std::locale loc(std::locale::classic(), new boost::posix_time::time_facet(pszFormat));
+    std::stringstream ss;
+    ss.imbue(loc);
+    ss << boost::posix_time::from_time_t(nTime);
+    return ss.str();
+>>>>>>> refs/remotes/karogkung/0.9
 }

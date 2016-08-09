@@ -205,8 +205,15 @@ bool BlockAssembler::isStillDependent(CTxMemPool::txiter iter)
             return true;
         }
     }
+<<<<<<< HEAD
     return false;
 }
+=======
+    ++nExtraNonce;
+    unsigned int nHeight = pindexPrev->nHeight+1; // Height first in coinbase required for block.version=2
+    pblock->vtx[0].vin[0].scriptSig = (CScript() << nHeight << CScriptNum(nExtraNonce)) + COINBASE_FLAGS;
+    assert(pblock->vtx[0].vin[0].scriptSig.size() <= 100);
+>>>>>>> refs/remotes/karogkung/0.9
 
 void BlockAssembler::onlyUnconfirmed(CTxMemPool::setEntries& testSet)
 {
@@ -516,8 +523,55 @@ void BlockAssembler::addPriorityTxs()
         return;
     }
 
+<<<<<<< HEAD
     bool fSizeAccounting = fNeedSizeAccounting;
     fNeedSizeAccounting = true;
+=======
+        auto_ptr<CBlockTemplate> pblocktemplate(CreateNewBlockWithKey(reservekey));
+        if (!pblocktemplate.get())
+            return;
+        CBlock *pblock = &pblocktemplate->block;
+        IncrementExtraNonce(pblock, pindexPrev, nExtraNonce);
+
+        LogPrintf("Running BitcoinMiner with %u transactions in block (%u bytes)\n", pblock->vtx.size(),
+               ::GetSerializeSize(*pblock, SER_NETWORK, PROTOCOL_VERSION));
+
+        //
+        // Pre-build hash buffers
+        //
+        char pmidstatebuf[32+16]; char* pmidstate = alignup<16>(pmidstatebuf);
+        char pdatabuf[128+16];    char* pdata     = alignup<16>(pdatabuf);
+        char phash1buf[64+16];    char* phash1    = alignup<16>(phash1buf);
+
+        FormatHashBuffers(pblock, pmidstate, pdata, phash1);
+
+        unsigned int& nBlockTime = *(unsigned int*)(pdata + 64 + 4);
+        unsigned int& nBlockBits = *(unsigned int*)(pdata + 64 + 8);
+        unsigned int& nBlockNonce = *(unsigned int*)(pdata + 64 + 12);
+
+
+        //
+        // Search
+        //
+        int64_t nStart = GetTime();
+        uint256 hashTarget = CBigNum().SetCompact(pblock->nBits).getuint256();
+        uint256 hashbuf[2];
+        uint256& hash = *alignup<16>(hashbuf);
+        while (true)
+        {
+            unsigned int nHashesDone = 0;
+            unsigned int nNonceFound;
+
+            // Crypto++ SHA256
+            nNonceFound = ScanHash_CryptoPP(pmidstate, pdata + 64, phash1,
+                                            (char*)&hash, nHashesDone);
+
+            // Check if something found
+            if (nNonceFound != (unsigned int) -1)
+            {
+                for (unsigned int i = 0; i < sizeof(hash)/4; i++)
+                    ((unsigned int*)&hash)[i] = ByteReverse(((unsigned int*)&hash)[i]);
+>>>>>>> refs/remotes/karogkung/0.9
 
     // This vector will be sorted into a priority queue:
     vector<TxCoinAgePriority> vecPriority;

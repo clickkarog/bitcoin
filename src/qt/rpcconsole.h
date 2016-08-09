@@ -86,10 +86,15 @@ public Q_SLOTS:
     void message(int category, const QString &message, bool html = false);
     /** Set number of connections shown in the UI */
     void setNumConnections(int count);
+<<<<<<< HEAD
     /** Set number of blocks and last block date shown in the UI */
     void setNumBlocks(int count, const QDateTime& blockDate, double nVerificationProgress, bool headers);
     /** Set size (number of transactions and memory usage) of the mempool in the UI */
     void setMempoolSize(long numberOfTxs, size_t dynUsage);
+=======
+    /** Set number of blocks shown in the UI */
+    void setNumBlocks(int count);
+>>>>>>> refs/remotes/karogkung/0.9
     /** Go forward or back in history */
     void browseHistory(int offset);
     /** Scroll console view to end */

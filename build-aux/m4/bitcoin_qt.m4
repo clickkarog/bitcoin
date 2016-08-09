@@ -95,6 +95,7 @@ AC_DEFUN([BITCOIN_QT_CONFIGURE],[
     BITCOIN_QT_CHECK([_BITCOIN_QT_FIND_LIBS_WITHOUT_PKGCONFIG])
   fi
 
+<<<<<<< HEAD:build-aux/m4/bitcoin_qt.m4
   dnl This is ugly and complicated. Yuck. Works as follows:
   dnl We can't discern whether Qt4 builds are static or not. For Qt5, we can
   dnl check a header to find out. When Qt is built statically, some plugins must
@@ -154,12 +155,15 @@ AC_DEFUN([BITCOIN_QT_CONFIGURE],[
   CXXFLAGS=$TEMP_CXXFLAGS
   ])
 
+=======
+>>>>>>> refs/remotes/karogkung/0.9:src/m4/bitcoin_qt.m4
   if test x$use_pkgconfig$qt_bin_path = xyes; then
     if test x$bitcoin_qt_got_major_vers = x5; then
       qt_bin_path="`$PKG_CONFIG --variable=host_bins Qt5Core 2>/dev/null`"
     fi
   fi
 
+<<<<<<< HEAD:build-aux/m4/bitcoin_qt.m4
   if test x$use_hardening != xno; then
     BITCOIN_QT_CHECK([
     AC_MSG_CHECKING(whether -fPIE can be used with this Qt config)
@@ -197,6 +201,8 @@ AC_DEFUN([BITCOIN_QT_CONFIGURE],[
     ])
   fi
 
+=======
+>>>>>>> refs/remotes/karogkung/0.9:src/m4/bitcoin_qt.m4
   BITCOIN_QT_PATH_PROGS([MOC], [moc-qt${bitcoin_qt_got_major_vers} moc${bitcoin_qt_got_major_vers} moc], $qt_bin_path)
   BITCOIN_QT_PATH_PROGS([UIC], [uic-qt${bitcoin_qt_got_major_vers} uic${bitcoin_qt_got_major_vers} uic], $qt_bin_path)
   BITCOIN_QT_PATH_PROGS([RCC], [rcc-qt${bitcoin_qt_got_major_vers} rcc${bitcoin_qt_got_major_vers} rcc], $qt_bin_path)

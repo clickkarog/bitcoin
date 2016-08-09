@@ -836,6 +836,7 @@ BOOST_AUTO_TEST_CASE(script_build)
 
     std::string strGen;
 
+<<<<<<< HEAD
     BOOST_FOREACH(TestBuilder& test, tests) {
         test.Test();
         std::string str = JSONPrettyPrint(test.GetJSON());
@@ -845,6 +846,15 @@ BOOST_AUTO_TEST_CASE(script_build)
         }
 #endif
         strGen += str + ",\n";
+=======
+        int flagsNow = flags;
+        if (test.size() > 3 && ("," + test[2].get_str() + ",").find(",DERSIG,") != string::npos) {
+            flagsNow |= SCRIPT_VERIFY_DERSIG;
+        }
+
+        CTransaction tx;
+        BOOST_CHECK_MESSAGE(VerifyScript(scriptSig, scriptPubKey, tx, 0, flagsNow, SIGHASH_NONE), strTest);
+>>>>>>> refs/remotes/karogkung/0.9
     }
 
 #ifdef UPDATE_JSON_TESTS
@@ -893,7 +903,17 @@ BOOST_AUTO_TEST_CASE(script_json_test)
         unsigned int scriptflags = ParseScriptFlags(test[pos++].get_str());
         int scriptError = ParseScriptError(test[pos++].get_str());
 
+<<<<<<< HEAD
         DoTest(scriptPubKey, scriptSig, witness, scriptflags, strTest, scriptError, nValue);
+=======
+        int flagsNow = flags;
+        if (test.size() > 3 && ("," + test[2].get_str() + ",").find(",DERSIG,") != string::npos) {
+            flagsNow |= SCRIPT_VERIFY_DERSIG;
+        }
+
+        CTransaction tx;
+        BOOST_CHECK_MESSAGE(!VerifyScript(scriptSig, scriptPubKey, tx, 0, flagsNow, SIGHASH_NONE), strTest);
+>>>>>>> refs/remotes/karogkung/0.9
     }
 }
 

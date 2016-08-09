@@ -1,4 +1,45 @@
 <TS language="fi" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Tietoja Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; versio</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Tämä on kokeellinen ohjelmisto.
+
+Levitetään MIT/X11 ohjelmistolisenssin alaisuudessa. Tarkemmat tiedot löytyvät tiedostosta COPYING tai osoitteesta http://www.opensource.org/licenses/mit-license.php.
+
+Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.openssl.org/), Eric Youngin (eay@cryptsoft.com) kehittämän salausohjelmiston sekä Thomas Bernardin UPnP ohjelmiston.
+</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Tekijänoikeus</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Bitcoin Core kehittäjät</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-bit)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -579,8 +620,13 @@
         <translation>URI:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Select payment request file</source>
         <translation>Valitse maksupyynnön tiedosto</translation>
+=======
+        <source>This label turns red, if the priority is smaller than "medium".</source>
+        <translation>Tämä nimi muuttuu punaiseksi jos prioriteetti on pienempi kuin "keskisuuri".</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -642,6 +688,244 @@
         <translation>&amp;Palauta asetukset</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Edit receiving address</source>
+        <translation>Muokkaa vastaanottajan osoitetta</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Muokkaa lähtevää osoitetta</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Osoite "%1" on jo osoitekirjassa.</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is not a valid Bitcoin address.</source>
+        <translation>Antamasi osoite "%1" ei ole validi Bitcoin-osoite.</translation>
+    </message>
+    <message>
+        <source>Could not unlock wallet.</source>
+        <translation>Lompakkoa ei voitu avata.</translation>
+    </message>
+    <message>
+        <source>New key generation failed.</source>
+        <translation>Uuden avaimen luonti epäonnistui.</translation>
+    </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    <message>
+        <source>A new data directory will be created.</source>
+        <translation>Luodaan uusi kansio.</translation>
+    </message>
+    <message>
+        <source>name</source>
+        <translation>Nimi</translation>
+    </message>
+    <message>
+        <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
+        <translation>Hakemisto on jo olemassa. Lisää %1 jos tarkoitus on luoda hakemisto tänne.</translation>
+    </message>
+    <message>
+        <source>Path already exists, and is not a directory.</source>
+        <translation>Polku on jo olemassa, eikä se ole kansio.</translation>
+    </message>
+    <message>
+        <source>Cannot create data directory here.</source>
+        <translation>Ei voida luoda data-hakemistoa tänne.</translation>
+    </message>
+</context>
+<context>
+    <name>HelpMessageDialog</name>
+    <message>
+        <source>Bitcoin Core - Command-line options</source>
+        <translation>Bitcoin Core - Kometorivivalinnat</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core</source>
+        <translation>Bitcoin-ydin</translation>
+    </message>
+    <message>
+        <source>version</source>
+        <translation>versio</translation>
+    </message>
+    <message>
+        <source>Usage:</source>
+        <translation>Käyttö:</translation>
+    </message>
+    <message>
+        <source>command-line options</source>
+        <translation>komentorivi parametrit</translation>
+    </message>
+    <message>
+        <source>UI options</source>
+        <translation>Käyttöliittymäasetukset</translation>
+    </message>
+    <message>
+        <source>Set language, for example "de_DE" (default: system locale)</source>
+        <translation>Set language, for example "de_DE" (default: system locale)</translation>
+    </message>
+    <message>
+        <source>Start minimized</source>
+        <translation>Käynnistä pienennettynä</translation>
+    </message>
+    <message>
+        <source>Set SSL root certificates for payment request (default: -system-)</source>
+        <translation>Aseta SSL root varmenne maksupyynnöille (oletus: -system-)</translation>
+    </message>
+    <message>
+        <source>Show splash screen on startup (default: 1)</source>
+        <translation>Näytä aloitusruutu käynnistettäessä (oletus: 1)</translation>
+    </message>
+    <message>
+        <source>Choose data directory on startup (default: 0)</source>
+        <translation>Valitse data-hakemisto käynnistyksessä (oletus: 0)</translation>
+    </message>
+</context>
+<context>
+    <name>Intro</name>
+    <message>
+        <source>Welcome</source>
+        <translation>Tervetuloa</translation>
+    </message>
+    <message>
+        <source>Welcome to Bitcoin Core.</source>
+        <translation>Tervetuloa Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>As this is the first time the program is launched, you can choose where Bitcoin Core will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun Bitcoin Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+    </message>
+    <message>
+        <source>Bitcoin Core will download and store a copy of the Bitcoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Bitcoin Core lataa ja tallentaa kopion Bitcoinin lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+    </message>
+    <message>
+        <source>Use the default data directory</source>
+        <translation>Käytä oletuskansiota</translation>
+    </message>
+    <message>
+        <source>Use a custom data directory:</source>
+        <translation>Määritä oma kansio:</translation>
+    </message>
+    <message>
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" can not be created.</source>
+        <translation>Virhe: Annettua data-hakemistoa "%1" ei voida luoda.</translation>
+    </message>
+    <message>
+        <source>Error</source>
+        <translation>Virhe</translation>
+    </message>
+    <message>
+        <source>GB of free space available</source>
+        <translation>GB vapaata tilaa</translation>
+    </message>
+    <message>
+        <source>(of %1GB needed)</source>
+        <translation>(tarvitaan %1GB)</translation>
+    </message>
+</context>
+<context>
+    <name>OpenURIDialog</name>
+    <message>
+        <source>Open URI</source>
+        <translation>Avaa URI</translation>
+    </message>
+    <message>
+        <source>Open payment request from URI or file</source>
+        <translation>Avaa maksupyyntö URI:sta tai tiedostosta</translation>
+    </message>
+    <message>
+        <source>URI:</source>
+        <translation>URI:</translation>
+    </message>
+    <message>
+        <source>Select payment request file</source>
+        <translation>Valitse maksupyynnön tiedosto</translation>
+    </message>
+    <message>
+        <source>Select payment request file to open</source>
+        <translation>Valitse maksypyynnön tiedosto avattavaksi</translation>
+    </message>
+</context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Asetukset</translation>
+    </message>
+    <message>
+        <source>&amp;Main</source>
+        <translation>&amp;Yleiset</translation>
+    </message>
+    <message>
+        <source>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB.</source>
+        <translation>Valinnainen rahansiirtopalkkio per kB auttaa varmistamaan että rahansiirtosi prosessoidaan nopeasti. Useimmat rahansiirrot ovat alle 1 kB.</translation>
+    </message>
+    <message>
+        <source>Pay transaction &amp;fee</source>
+        <translation>Maksa rahansiirtopalkkio</translation>
+    </message>
+    <message>
+        <source>Automatically start Bitcoin after logging in to the system.</source>
+        <translation>Käynnistä Bitcoin kirjautumisen yhteydessä.</translation>
+    </message>
+    <message>
+        <source>&amp;Start Bitcoin on system login</source>
+        <translation>&amp;Käynnistä Bitcoin kirjautumisen yhteydessä</translation>
+    </message>
+    <message>
+        <source>Size of &amp;database cache</source>
+        <translation>&amp;Tietokannan välimuistin koko</translation>
+    </message>
+    <message>
+        <source>MB</source>
+        <translation>MB</translation>
+    </message>
+    <message>
+        <source>Number of script &amp;verification threads</source>
+        <translation>Script &amp;varmistuksen threadien määrä</translation>
+    </message>
+    <message>
+        <source>Connect to the Bitcoin network through a SOCKS proxy.</source>
+        <translation>Yhdistä Bitcoin-verkkoon SOCKS proxyn kautta.</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS proxy (default proxy):</source>
+        <translation>&amp;Yhdistä SOCKS proxyn kautta (oletus proxy):</translation>
+    </message>
+    <message>
+        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
+        <translation>IP osoite proxille (esim. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
+    </message>
+    <message>
+        <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
+        <translation>Ulkopuoliset URL-osoitteet (esim. block explorer,) jotka esiintyvät siirrot-välilehdellä valikossa. %s URL-osoitteessa korvataan siirtotunnuksella. Useampi URL-osoite on eroteltu pystyviivalla |.</translation>
+    </message>
+    <message>
+        <source>Third party transaction URLs</source>
+        <translation>Kolmannen osapuolen rahansiirto URL:t</translation>
+    </message>
+    <message>
+        <source>Active command-line options that override above options:</source>
+        <translation>Aktiiviset komentorivivalinnat jotka ohittavat ylläolevat valinnat:</translation>
+    </message>
+    <message>
+        <source>Reset all client options to default.</source>
+        <translation>Palauta kaikki asetukset takaisin alkuperäisiksi.</translation>
+    </message>
+    <message>
+        <source>&amp;Reset Options</source>
+        <translation>&amp;Palauta asetukset</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>&amp;Network</source>
         <translation>&amp;Verkko</translation>
     </message>
@@ -849,8 +1133,56 @@
         <translation>Tililläsi tällä hetkellä olevien Bitcoinien määrä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Your current balance in watch-only addresses</source>
         <translation>Nykyinen tase seurantaosoitetteissa</translation>
+=======
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Viimeisimmät rahansiirrot&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <source>out of sync</source>
+        <translation>Ei ajan tasalla</translation>
+    </message>
+</context>
+<context>
+    <name>PaymentServer</name>
+    <message>
+        <source>URI handling</source>
+        <translation>URI käsittely</translation>
+    </message>
+    <message>
+        <source>URI can not be parsed! This can be caused by an invalid Bitcoin address or malformed URI parameters.</source>
+        <translation>URIa ei voitu jäsentää! Tämä voi johtua kelvottomasta Bitcoin-osoitteesta tai virheellisistä URI parametreista.</translation>
+    </message>
+    <message>
+        <source>Requested payment amount of %1 is too small (considered dust).</source>
+        <translation>Maksupyyntö %1 on liian pieni (huomioidaan tomuna).</translation>
+    </message>
+    <message>
+        <source>Payment request error</source>
+        <translation>Maksupyyntövirhe</translation>
+    </message>
+    <message>
+        <source>Cannot start bitcoin: click-to-pay handler</source>
+        <translation>Ei voida käynnistää bitcoin: klikkaa-maksu käsittelijää</translation>
+    </message>
+    <message>
+        <source>Net manager warning</source>
+        <translation>Verkkohallinnan varoitus</translation>
+    </message>
+    <message>
+        <source>Your active proxy doesn't support SOCKS5, which is required for payment requests via proxy.</source>
+        <translation>Aktiivinen proxy ei tue SOCKS5, joka on pakollinen maksupyynnöissä proxyn kautta.</translation>
+    </message>
+    <message>
+        <source>Payment request fetch URL is invalid: %1</source>
+        <translation>Maksupyynnön haku URL on virheellinen: %1</translation>
+    </message>
+    <message>
+        <source>Payment request file handling</source>
+        <translation>Maksupyynnön tiedoston käsittely</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spendable:</source>
@@ -891,8 +1223,17 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Amount</source>
         <translation>Määrä</translation>
+=======
+        <source>Bitcoin</source>
+        <translation>Bitcoin</translation>
+    </message>
+    <message>
+        <source>Error: Specified data directory "%1" does not exist.</source>
+        <translation>Virhe: Annettu data-hakemisto "%1" ei ole olemassa.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Enter a Bitcoin address (e.g. %1)</source>
@@ -903,8 +1244,13 @@
         <translation>%1 d</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 h</source>
         <translation>%1 h</translation>
+=======
+        <source>Bitcoin Core didn't yet exit safely...</source>
+        <translation>Bitcoin Core ei ole vielä sulkeutunut turvallisesti...</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>%1 m</source>
@@ -1078,8 +1424,13 @@
         <translation>Viimeisimmän lohkon aika</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>&amp;Open</source>
         <translation>&amp;Avaa</translation>
+=======
+        <source>Click "Sign Message" to generate signature</source>
+        <translation>Klikkaa "Allekirjoita Viesti luodaksesi allekirjoituksen </translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Console</source>
@@ -1245,8 +1596,13 @@
         <translation>Tyhjennä</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Requested payments history</source>
         <translation>Pyydettyjen maksujen historia</translation>
+=======
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <translation>Luodut kolikot täytyy kypsyttää %1 lohkoa kunnes ne voidaan käyttää. Kun loit tämän lohkon, se lähetettiin verkkoon lisänä lohkoketjuun. Jos se epäonnistuu pääsemään ketjuun sen tila tulee muuttumaan "ei hyväksytty" ja sitä ei voida käyttää. Tämä voi ajoittain tapahtua kun toisen solmun lohko luodaan samanaikaisesti omasi kanssa.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Request payment</source>
@@ -1659,8 +2015,33 @@
         <translation>Vähennä levytilan tarvetta karsimalla (poistamalla) vanhoja lohkoja. Tämä tila ei ole yhteensopiva -txindex ja -rescan -parametrien kanssa. Varoitus: Tämän asetuksen peruutus vaatii koko lohkoketjun uudelleenlataamisen. (oletus: 0 = poista karsinta käytöstä, &gt;%u = kohdekoko muodossa MiB jota käytetään lohkotiedostoille) </translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Rescans are not possible in pruned mode. You will need to use -reindex which will download the whole blockchain again.</source>
         <translation>Uudelleenskannaukset eivät ole mahdollisia karsivassa tilassa. Sinun täytyy käyttää -reindex joka lataa koko lohkoketjun uudelleen.</translation>
+=======
+        <source>%s, you must set a rpcpassword in the configuration file:
+%s
+It is recommended you use the following random password:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</source>
+        <translation>%s, sinun tulee asettaa rpcpassword asetustietostossa:
+%s
+Suositellaan että käytät allaolevaa satunnaista salasanaa:
+rpcuser=bitcoinrpc
+rpcpassword=%s
+(sinun ei tarvitse muistaa tätä salasanaa)
+Tämän tunnuksen ja salasanan TULEE OLLA sama.
+Jos tiedostoa ei ole, luo se vain omistajan-luku-oikeudella.
+Suositellaan asettaa alertnotify jotta saat tietoa ongelmista;
+esimerkiksi: alertnotify=echo %%s | mail -s "Bitcoin Alert" admin@foo.com
+</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Error: A fatal internal error occurred, see debug.log for details</source>
@@ -1711,8 +2092,25 @@
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Use UPnP to map the listening port (default: 1 when listening and no -proxy)</source>
         <translation>Käytä UPnP:ta kuuntelevan portin kartoitukseen (oletus: 1 kun kuunnellaan ja -proxy ei käytössä)</translation>
+=======
+        <source>Unable to bind to %s on this computer. Bitcoin Core is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. Bitcoin Core on luultavasti jo käynnissä.</translation>
+    </message>
+    <message>
+        <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
+        <translation>Käytä erillistä SOCKS5 proxya tavoittaaksesi vertaiset Tor palvelun kautta (oletus: -proxy)</translation>
+    </message>
+    <message>
+        <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
+        <translation>Varoitus: -paytxfee on asetettu erittäin korkeaksi! Tämä on maksukulu jonka tulet maksamaan kun lähetät siirron.</translation>
+    </message>
+    <message>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Bitcoin will not work properly.</source>
+        <translation>Varoitus: Tarkista että tietokoneesi kellonaika ja päivämäärä ovat paikkansapitäviä! Bitcoin ei toimi oikein väärällä päivämäärällä ja/tai kellonajalla.</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -1863,12 +2261,25 @@
         <translation>Aseta maksimikoko korkea prioriteetti/pieni palkkio rahansiirtoihin tavuissa (oletus: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>(default: %u)</source>
         <translation>(oletus: %u)</translation>
     </message>
     <message>
         <source>Accept public REST requests (default: %u)</source>
         <translation>Hyväksy julkisia REST-pyyntöjä (oletus: %u)</translation>
+=======
+        <source>Information</source>
+        <translation>Tietoa</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Virheellinen määrä -minrelaytxfee=&lt;amount&gt;: '%s'</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
+        <translation>Virheellinen määrä -mintxfee=&lt;amount&gt;: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Connect through SOCKS5 proxy</source>
@@ -2063,18 +2474,28 @@
         <translation>Välitä ei-P2SH-multisig (oletus: %u)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Set key pool size to &lt;n&gt; (default: %u)</source>
         <translation>Aseta avainaltaan kooksi &lt;n&gt; (oletus: %u)</translation>
     </message>
     <message>
         <source>Set minimum block size in bytes (default: %u)</source>
         <translation>Aseta pienin mahdollinen lohkokoko tavuina (oletus: %u)</translation>
+=======
+        <source>Invalid -proxy address: '%s'</source>
+        <translation>Virheellinen proxy-osoite '%s'</translation>
+    </message>
+    <message>
+        <source>Unknown network specified in -onlynet: '%s'</source>
+        <translation>Tuntematon verkko -onlynet parametrina: '%s'</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Set the number of threads to service RPC calls (default: %d)</source>
         <translation>Aseta RPC-kutsujen palvelemiseen tarkoitettujen säikeiden lukumäärä (oletus: %d)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Specify configuration file (default: %s)</source>
         <translation>Määritä asetustiedosto (oletus: %s)</translation>
     </message>
@@ -2085,6 +2506,18 @@
     <message>
         <source>Specify pid file (default: %s)</source>
         <translation>Määritä pid-tiedosto (oletus: %s)</translation>
+=======
+        <source>Cannot resolve -bind address: '%s'</source>
+        <translation>-bind osoitteen '%s' selvittäminen epäonnistui</translation>
+    </message>
+    <message>
+        <source>Cannot resolve -externalip address: '%s'</source>
+        <translation>-externalip osoitteen '%s' selvittäminen epäonnistui</translation>
+    </message>
+    <message>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
+        <translation>-paytxfee=&lt;amount&gt;: '%s' on virheellinen</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Spend unconfirmed change when sending transactions (default: %u)</source>

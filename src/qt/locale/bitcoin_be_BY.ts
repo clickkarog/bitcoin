@@ -1,4 +1,44 @@
 <TS language="be_BY" version="2.1">
+<<<<<<< HEAD
+=======
+<context>
+    <name>AboutDialog</name>
+    <message>
+        <source>About Bitcoin Core</source>
+        <translation>Аб Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>&lt;b&gt;Bitcoin Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Bitcoin Core&lt;/b&gt; версіі</translation>
+    </message>
+    <message>
+        <source>
+This is experimental software.
+
+Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php.
+
+This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/) and cryptographic software written by Eric Young (eay@cryptsoft.com) and UPnP software written by Thomas Bernard.</source>
+        <translation>
+Гэта эксперыментальная праграма.
+
+Распаўсюджваецца пад праграмнай ліцэнзіяй MIT/X11, глядзі суправаджальную ліцэнзію капіявання альбо http://www.opensource.org/licenses/mit-license.php.
+
+Гэты прадукт уключае ПЗ, распрацаванае Праектам OpenSSL ужыванае ў OpenSSL Toolkit ( http://www.openssl.org/ ) і крыптаграфічныя праграмы, напісаныя Eric Young (eay@cryptsoft.com) і праграму UPnP, напісаную Thomas Bernard.</translation>
+    </message>
+    <message>
+        <source>Copyright</source>
+        <translation>Copyright</translation>
+    </message>
+    <message>
+        <source>The Bitcoin Core developers</source>
+        <translation>Распрацоўнікі Bitcoin Core</translation>
+    </message>
+    <message>
+        <source>(%1-bit)</source>
+        <translation>(%1-біт)</translation>
+    </message>
+</context>
+>>>>>>> refs/remotes/karogkung/0.9
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -24,6 +64,13 @@
     <message>
         <source>C&amp;lose</source>
         <translation>Зачыніць</translation>
+<<<<<<< HEAD
+=======
+    </message>
+    <message>
+        <source>&amp;Copy Address</source>
+        <translation>Капіяваць адрас</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Delete the currently selected address from the list</source>
@@ -41,14 +88,71 @@
         <source>&amp;Delete</source>
         <translation>Выдаліць</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Choose the address to send coins to</source>
+        <translation>Выбраць адрас, куды выслаць сродкі</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Выбраць адрас, на які атрымаць сродкі</translation>
+    </message>
+    <message>
+        <source>C&amp;hoose</source>
+        <translation>Выбраць</translation>
+    </message>
+    <message>
+        <source>Sending addresses</source>
+        <translation>адрасы Адпраўкі</translation>
+    </message>
+    <message>
+        <source>Receiving addresses</source>
+        <translation>адрасы Прымання</translation>
+    </message>
+    <message>
+        <source>&amp;Edit</source>
+        <translation>Рэдагаваць</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Коскамі падзелены файл (*.csv)</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Экспартаванне няўдалае</translation>
+    </message>
+    <message>
+        <source>There was an error trying to save the address list to %1.</source>
+        <translation>Адбылася памылка пры спробе захавання спісу адрасоў у %1.</translation>
+    </message>
+</context>
+<context>
+    <name>AddressTableModel</name>
+    <message>
+        <source>Label</source>
+        <translation>Пазнака</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрас</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>непазначаны</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
 </context>
 <context>
     <name>AskPassphraseDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Passphrase Dialog</source>
         <translation>Дыялог сакрэтнай фразы</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Enter passphrase</source>
         <translation>Увядзіце кодавую фразу</translation>
     </message>
@@ -60,6 +164,93 @@
         <source>Repeat new passphrase</source>
         <translation>Паўтарыце новую кодавую фразу</translation>
     </message>
+<<<<<<< HEAD
+=======
+    <message>
+        <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;10 or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
+        <translation>Увядзіце новую кодавую фразу для гаманца. &lt;br/&gt;Калі ласка, ўжывайце пароль &lt;b&gt;не меньша за 10 адвольных сімвалаў&lt;/b&gt;, ці &lt;b&gt;болей васьмі слоў&lt;/b&gt;.</translation>
+    </message>
+    <message>
+        <source>Encrypt wallet</source>
+        <translation>Зашыфраваць гаманец.</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to unlock the wallet.</source>
+        <translation>Гэтая аперацыя патрабуе кодавую фразу, каб рзблакаваць гаманец.</translation>
+    </message>
+    <message>
+        <source>Unlock wallet</source>
+        <translation>Разблакаваць гаманец</translation>
+    </message>
+    <message>
+        <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
+        <translation>Гэтая аперацыя патрабуе пароль каб расшыфраваць гаманец.</translation>
+    </message>
+    <message>
+        <source>Decrypt wallet</source>
+        <translation>Рачшыфраваць гаманец</translation>
+    </message>
+    <message>
+        <source>Change passphrase</source>
+        <translation>Змяніць пароль</translation>
+    </message>
+    <message>
+        <source>Enter the old and new passphrase to the wallet.</source>
+        <translation>Увядзіце стары і новы пароль да гаманца.</translation>
+    </message>
+    <message>
+        <source>Confirm wallet encryption</source>
+        <translation>Пацвердзіце шыфраванне гаманца</translation>
+    </message>
+    <message>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR BITCOINS&lt;/b&gt;!</source>
+        <translation>Увага: калі вы зашыфруеце свой гаманец і страціце парольную фразу, то &lt;b&gt;СТРАЦІЦЕ ЎСЕ СВАЕ БІТКОЙНЫ&lt;/b&gt;!</translation>
+    </message>
+    <message>
+        <source>Are you sure you wish to encrypt your wallet?</source>
+        <translation>Ці ўпэўненыя вы, што жадаеце зашыфраваць свой гаманец?</translation>
+    </message>
+    <message>
+        <source>Warning: The Caps Lock key is on!</source>
+        <translation>Увага: Caps Lock уключаны!</translation>
+    </message>
+    <message>
+        <source>Wallet encrypted</source>
+        <translation>Гаманец зашыфраваны</translation>
+    </message>
+    <message>
+        <source>Bitcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your bitcoins from being stolen by malware infecting your computer.</source>
+        <translation>Bitcoin зачыняецца дзеля завяршэння працэсса шыфравання. Памятайце, што шыфраванне гаманца цалкам абараняе вашыя сродкі ад скрадання шкоднымі праграмамі якія могуць пранікнуць у ваш камп'ютар.</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed</source>
+        <translation>Шыфраванне гаманца няўдалае</translation>
+    </message>
+    <message>
+        <source>Wallet encryption failed due to an internal error. Your wallet was not encrypted.</source>
+        <translation>Шыфраванне гаманца не адбылося з-за ўнутранай памылкі. Гаманец незашыфраваны.</translation>
+    </message>
+    <message>
+        <source>The supplied passphrases do not match.</source>
+        <translation>Уведдзеныя паролі не супадаюць</translation>
+    </message>
+    <message>
+        <source>Wallet unlock failed</source>
+        <translation>Разблакаванне гаманца няўдалае</translation>
+    </message>
+    <message>
+        <source>The passphrase entered for the wallet decryption was incorrect.</source>
+        <translation>Уведзены пароль  для расшыфравання гаманца памылковы</translation>
+    </message>
+    <message>
+        <source>Wallet decryption failed</source>
+        <translation>Расшыфраванне гаманца няўдалае</translation>
+    </message>
+    <message>
+        <source>Wallet passphrase was successfully changed.</source>
+        <translation>Парольная фраза гаманца паспяхова зменена.</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
 </context>
 <context>
     <name>BanTableModel</name>
@@ -117,6 +308,7 @@
     <message>
         <source>&amp;Encrypt Wallet...</source>
         <translation>Зашыфраваць Гаманец...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>&amp;Backup Wallet...</source>
@@ -133,10 +325,13 @@
     <message>
         <source>&amp;Receiving addresses...</source>
         <translation>Адрасы прымання...</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Open &amp;URI...</source>
         <translation>Адчыниць &amp;URI...</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -145,6 +340,8 @@
     <message>
         <source>Send coins to a Bitcoin address</source>
         <translation>Даслаць манеты на Біткойн-адрас</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -157,6 +354,7 @@
     <message>
         <source>&amp;Debug window</source>
         <translation>Вакно адладкі</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Open debugging and diagnostic console</source>
@@ -169,6 +367,8 @@
     <message>
         <source>Bitcoin</source>
         <translation>Біткойн</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Wallet</source>
@@ -193,6 +393,7 @@
     <message>
         <source>Encrypt the private keys that belong to your wallet</source>
         <translation>Зашыфраваць прыватныя ключы, якия належаць вашаму гаманцу</translation>
+<<<<<<< HEAD
     </message>
     <message>
         <source>Sign messages with your Bitcoin addresses to prove you own them</source>
@@ -201,6 +402,8 @@
     <message>
         <source>Verify messages to ensure they were signed with specified Bitcoin addresses</source>
         <translation>Спраўдзіць паведамленне з дапамогай Біткойн-адраса каб даказаць, што яно належыць вам</translation>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;File</source>
@@ -215,6 +418,7 @@
         <translation>Дапамога</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and bitcoin: URIs)</source>
         <translation>Запатрабаваць плацёж (генеруецца QR-код для біткойн URI)</translation>
     </message>
@@ -277,12 +481,25 @@
     <message>
         <source>Transactions after this will not yet be visible.</source>
         <translation>Транзакцыи пасля гэтай не будуць бачныя.</translation>
+=======
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+    </message>
+    <message>
+        <source>Bitcoin client</source>
+        <translation>Bitcoin кліент</translation>
+    </message>
+    <message numerus="yes">
+        <source>%n active connection(s) to Bitcoin network</source>
+        <translation><numerusform>%n актыўнае злучэнне з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform><numerusform>%n актыўных злучэнняў з Bitcoin-сецівам</numerusform></translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Error</source>
         <translation>Памылка</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning</source>
         <translation>Увага</translation>
     </message>
@@ -291,6 +508,8 @@
         <translation>Інфармацыя</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Up to date</source>
         <translation>Сінхранізавана</translation>
     </message>
@@ -332,6 +551,7 @@
         <source>Sent transaction</source>
         <translation>Дасланыя транзакцыі</translation>
     </message>
+<<<<<<< HEAD
     <message>
         <source>Incoming transaction</source>
         <translation>Прынятыя транзакцыі</translation>
@@ -386,6 +606,17 @@
     <message>
         <source>List mode</source>
         <translation>Рэжым спіса</translation>
+=======
+    </context>
+<context>
+    <name>ClientModel</name>
+    </context>
+<context>
+    <name>CoinControlDialog</name>
+    <message>
+        <source>Amount:</source>
+        <translation>Колькасць:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Amount</source>
@@ -404,14 +635,18 @@
         <translation>Дата</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Confirmations</source>
         <translation>Пацверджанняў</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Confirmed</source>
         <translation>Пацверджана</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Priority</source>
         <translation>Прыярытэт</translation>
     </message>
@@ -421,6 +656,10 @@
     <message>
         <source>Edit Address</source>
         <translation>Рэдагаваць Адрас</translation>
+=======
+        <source>Copy address</source>
+        <translation>Капіяваць адрас</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>&amp;Label</source>
@@ -438,17 +677,31 @@
         <translation>Будзе створаны новы каталог з данымі.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>name</source>
         <translation>імя</translation>
+=======
+        <source>(no label)</source>
+        <translation>непазначаны</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>EditAddressDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Directory already exists. Add %1 if you intend to create a new directory here.</source>
         <translation>Каталог ужо існуе. Дадайце %1 калі вы збіраецеся стварыць тут новы каталог.</translation>
+=======
+        <source>Edit Address</source>
+        <translation>Рэдагаваць Адрас</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>(%1-bit)</source>
         <translation>(%1-біт)</translation>
     </message>
@@ -463,11 +716,28 @@
     <message>
         <source>command-line options</source>
         <translation>опцыі каманднага радка</translation>
+=======
+        <source>&amp;Label</source>
+        <translation>Пазнака</translation>
+    </message>
+    <message>
+        <source>&amp;Address</source>
+        <translation>Адрас</translation>
+    </message>
+    <message>
+        <source>New receiving address</source>
+        <translation>Новы адрас для атрымання</translation>
+    </message>
+    <message>
+        <source>New sending address</source>
+        <translation>Новы адрас для дасылання</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>Welcome</source>
         <translation>Вітаем</translation>
     </message>
@@ -482,26 +752,63 @@
     <message numerus="yes">
         <source>(of %n GB needed)</source>
         <translation><numerusform>(з %n Гб патрэбна)</numerusform><numerusform>(з %n Гб патрэбна)</numerusform><numerusform>(з %n Гб патрэбна)</numerusform><numerusform>(з %n Гб патрэбна)</numerusform></translation>
+=======
+        <source>Edit receiving address</source>
+        <translation>Рэдагаваць адрас прымання</translation>
+    </message>
+    <message>
+        <source>Edit sending address</source>
+        <translation>Рэдагаваць адрас дасылання</translation>
+    </message>
+    <message>
+        <source>The entered address "%1" is already in the address book.</source>
+        <translation>Уведзены адрас "%1" ужо ў кніге адрасоў</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>OpenURIDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Open URI</source>
         <translation>Адкрыць URI</translation>
+=======
+        <source>Could not unlock wallet.</source>
+        <translation>Немагчыма разблакаваць гаманец</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>OptionsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Options</source>
         <translation>Опцыі</translation>
+=======
+        <source>New key generation failed.</source>
+        <translation>Генерацыя новага ключа няўдалая</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+</context>
+<context>
+    <name>FreespaceChecker</name>
+    </context>
+<context>
+    <name>HelpMessageDialog</name>
     <message>
+<<<<<<< HEAD
         <source>MB</source>
         <translation>Мб</translation>
+=======
+        <source>Usage:</source>
+        <translation>Ужыванне:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>Intro</name>
     <message>
+<<<<<<< HEAD
         <source>W&amp;allet</source>
         <translation>Гаманец</translation>
     </message>
@@ -521,11 +828,33 @@
     <message>
         <source>Amount</source>
         <translation>Колькасць</translation>
+=======
+        <source>Error</source>
+        <translation>Памылка</translation>
+    </message>
+    </context>
+<context>
+    <name>OpenURIDialog</name>
+    </context>
+<context>
+    <name>OptionsDialog</name>
+    <message>
+        <source>Options</source>
+        <translation>Опцыі</translation>
+    </message>
+    </context>
+<context>
+    <name>OverviewPage</name>
+    <message>
+        <source>Form</source>
+        <translation>Форма</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>RPCConsole</name>
     <message>
+<<<<<<< HEAD
         <source>&amp;Information</source>
         <translation>Інфармацыя</translation>
     </message>
@@ -539,26 +868,71 @@
     <message>
         <source>&amp;Amount:</source>
         <translation>&amp;Колькасць:</translation>
+=======
+        <source>Wallet</source>
+        <translation>Гаманец</translation>
     </message>
     <message>
+        <source>&lt;b&gt;Recent transactions&lt;/b&gt;</source>
+        <translation>&lt;b&gt;Нядаўнія транзаццыі&lt;/b&gt;</translation>
+    </message>
+    </context>
+<context>
+    <name>PaymentServer</name>
+    </context>
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Увядзіце Біткойн-адрас (ўзор 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>QRImageWidget</name>
+    </context>
+<context>
+    <name>RPCConsole</name>
+    </context>
+<context>
+    <name>ReceiveCoinsDialog</name>
+    <message>
         <source>&amp;Label:</source>
+<<<<<<< HEAD
         <translation>Метка:</translation>
+=======
+        <translation>Пазнака:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Copy &amp;Address</source>
         <translation>Капіяваць адрас</translation>
+=======
+        <source>Copy label</source>
+        <translation>Капіяваць пазнаку</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>SendCoinsDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Send Coins</source>
         <translation>Даслаць Манеты</translation>
+=======
+        <source>Copy amount</source>
+        <translation>Капіяваць колькасць</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+</context>
+<context>
+    <name>ReceiveRequestDialog</name>
     <message>
+<<<<<<< HEAD
         <source>Insufficient funds!</source>
         <translation>Недастаткова сродкаў</translation>
     </message>
@@ -569,8 +943,24 @@
     <message>
         <source>Bytes:</source>
         <translation>Байтаў:</translation>
+=======
+        <source>Address</source>
+        <translation>Адрас</translation>
     </message>
     <message>
+        <source>Amount</source>
+        <translation>Колькасць</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Пазнака</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>RecentRequestsTableModel</name>
+    <message>
+<<<<<<< HEAD
         <source>Amount:</source>
         <translation>Колькасць:</translation>
     </message>
@@ -585,8 +975,28 @@
     <message>
         <source>After Fee:</source>
         <translation>Пасля камісіі:</translation>
+=======
+        <source>Date</source>
+        <translation>Дата</translation>
     </message>
     <message>
+        <source>Label</source>
+        <translation>Пазнака</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Колькасць</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>непазначаны</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+    </context>
+<context>
+    <name>SendCoinsDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Send to multiple recipients at once</source>
         <translation>Даслаць адразу некалькім атрымальнікам</translation>
     </message>
@@ -601,11 +1011,28 @@
     <message>
         <source>Confirm the send action</source>
         <translation>Пацвердзіць дасыланне</translation>
+=======
+        <source>Send Coins</source>
+        <translation>Даслаць Манеты</translation>
+    </message>
+    <message>
+        <source>Amount:</source>
+        <translation>Колькасць:</translation>
+    </message>
+    <message>
+        <source>Send to multiple recipients at once</source>
+        <translation>Даслаць адразу некалькім атрымальнікам</translation>
+    </message>
+    <message>
+        <source>Balance:</source>
+        <translation>Баланс:</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     </context>
 <context>
     <name>SendCoinsEntry</name>
     <message>
+<<<<<<< HEAD
         <source>A&amp;mount:</source>
         <translation>Колькасць:</translation>
     </message>
@@ -647,6 +1074,46 @@
     </context>
 <context>
     <name>SignVerifyMessageDialog</name>
+=======
+        <source>Confirm the send action</source>
+        <translation>Пацвердзіць дасыланне</translation>
+    </message>
+    <message>
+        <source>Confirm send coins</source>
+        <translation>Пацвердзіць дасыланне манет</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Капіяваць колькасць</translation>
+    </message>
+    <message>
+        <source>The amount to pay must be larger than 0.</source>
+        <translation>Велічыня плацяжу мае быць больш за 0.</translation>
+    </message>
+    <message>
+        <source>(no label)</source>
+        <translation>непазначаны</translation>
+    </message>
+    </context>
+<context>
+    <name>SendCoinsEntry</name>
+    <message>
+        <source>A&amp;mount:</source>
+        <translation>Колькасць:</translation>
+    </message>
+    <message>
+        <source>Pay &amp;To:</source>
+        <translation>Заплаціць да:</translation>
+    </message>
+    <message>
+        <source>Enter a label for this address to add it to your address book</source>
+        <translation>Увядзіце пазнаку гэтаму адрасу, каб дадаць яго ў адрасную кнігу</translation>
+    </message>
+    <message>
+        <source>&amp;Label:</source>
+        <translation>Пазнака:</translation>
+    </message>
+>>>>>>> refs/remotes/karogkung/0.9
     <message>
         <source>Alt+A</source>
         <translation>Alt+A</translation>
@@ -661,24 +1128,44 @@
     </message>
     </context>
 <context>
+<<<<<<< HEAD
     <name>SplashScreen</name>
     <message>
         <source>[testnet]</source>
         <translation>[testnet]</translation>
+=======
+    <name>ShutdownWindow</name>
+    </context>
+<context>
+    <name>SignVerifyMessageDialog</name>
+    <message>
+        <source>Alt+A</source>
+        <translation>Alt+A</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>TrafficGraphWidget</name>
     <message>
+<<<<<<< HEAD
         <source>KB/s</source>
         <translation>Кб/с</translation>
+=======
+        <source>Paste address from clipboard</source>
+        <translation>Уставіць адрас з буферу абмена</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
     <name>TransactionDescDialog</name>
     <message>
+<<<<<<< HEAD
         <source>This pane shows a detailed description of the transaction</source>
         <translation>Гэтая панэль паказвае дэтальнае апісанне транзакцыі</translation>
+=======
+        <source>Alt+P</source>
+        <translation>Alt+P</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
 </context>
 <context>
@@ -687,18 +1174,42 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Options:</source>
         <translation>Опцыі:</translation>
+=======
+        <source>Enter a Bitcoin address (e.g. 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</source>
+        <translation>Увядзіце Біткойн-адрас (ўзор 1NS17iag9jJgTHD1VXjvLCEnZuQ3rJDE9L)</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
+    </context>
+<context>
+    <name>SplashScreen</name>
     <message>
+<<<<<<< HEAD
         <source>Specify data directory</source>
         <translation>Вызначыць каталог даных</translation>
     </message>
     <message>
         <source>Accept command line and JSON-RPC commands</source>
         <translation>Прымаць камандны радок і JSON-RPC каманды</translation>
+=======
+        <source>The Bitcoin Core developers</source>
+        <translation>Распрацоўнікі Bitcoin Core</translation>
     </message>
     <message>
+        <source>[testnet]</source>
+        <translation>[testnet]</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>TrafficGraphWidget</name>
+    </context>
+<context>
+    <name>TransactionDesc</name>
+    <message>
+<<<<<<< HEAD
         <source>Run in the background as a daemon and accept commands</source>
         <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
     </message>
@@ -725,8 +1236,40 @@
     <message>
         <source>Error opening block database</source>
         <translation>Памылка адчынення базы звестак блокаў</translation>
+=======
+        <source>%1/unconfirmed</source>
+        <translation>%1/непацверджана</translation>
     </message>
     <message>
+        <source>%1 confirmations</source>
+        <translation>%1 пацверджанняў</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Transaction ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Колькасць</translation>
+    </message>
+    <message>
+        <source>, has not been successfully broadcast yet</source>
+        <translation>, пакуль не было паспяхова транслявана</translation>
+    </message>
+    <message>
+        <source>unknown</source>
+        <translation>невядома</translation>
+>>>>>>> refs/remotes/karogkung/0.9
+    </message>
+</context>
+<context>
+    <name>TransactionDescDialog</name>
+    <message>
+<<<<<<< HEAD
         <source>Error: Disk space is low!</source>
         <translation>Памылка: Замала вольнага месца на дыску!</translation>
     </message>
@@ -761,12 +1304,299 @@
     <message>
         <source>RPC server options:</source>
         <translation>Опцыі RPC сервера:</translation>
+=======
+        <source>Transaction details</source>
+        <translation>Дэталі транзакцыі</translation>
+    </message>
+    <message>
+        <source>This pane shows a detailed description of the transaction</source>
+        <translation>Гэтая панэль паказвае дэтальнае апісанне транзакцыі</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionTableModel</name>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тып</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрас</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Колькасць</translation>
+    </message>
+    <message>
+        <source>Confirmed (%1 confirmations)</source>
+        <translation>Пацверджана (%1 пацверджанняў)</translation>
+    </message>
+    <message>
+        <source>This block was not received by any other nodes and will probably not be accepted!</source>
+        <translation>Гэты блок не быў прыняты іншымі вузламі і магчыма не будзе ўхвалены!</translation>
+    </message>
+    <message>
+        <source>Generated but not accepted</source>
+        <translation>Згенеравана, але не прынята</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Прынята з</translation>
+    </message>
+    <message>
+        <source>Received from</source>
+        <translation>Прынята ад</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Даслана да</translation>
+    </message>
+    <message>
+        <source>Payment to yourself</source>
+        <translation>Плацёж самому сабе</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Здабыта</translation>
+    </message>
+    <message>
+        <source>(n/a)</source>
+        <translation>(n/a)</translation>
+    </message>
+    <message>
+        <source>Transaction status. Hover over this field to show number of confirmations.</source>
+        <translation>Статус транзакцыі. Навядзіце курсар на гэтае поле, каб паказаць колькасць пацверджанняў.</translation>
+    </message>
+    <message>
+        <source>Date and time that the transaction was received.</source>
+        <translation>Дата і час, калі транзакцыя была прынята.</translation>
+    </message>
+    <message>
+        <source>Type of transaction.</source>
+        <translation>Тып транзакцыі</translation>
+    </message>
+    <message>
+        <source>Destination address of transaction.</source>
+        <translation>Адрас прызначэння транзакцыі.</translation>
+    </message>
+    <message>
+        <source>Amount removed from or added to balance.</source>
+        <translation>Колькасць аднятая ці даданая да балансу.</translation>
+    </message>
+</context>
+<context>
+    <name>TransactionView</name>
+    <message>
+        <source>All</source>
+        <translation>Усё</translation>
+    </message>
+    <message>
+        <source>Today</source>
+        <translation>Сёння</translation>
+    </message>
+    <message>
+        <source>This week</source>
+        <translation>Гэты тыдзень</translation>
+    </message>
+    <message>
+        <source>This month</source>
+        <translation>Гэты месяц</translation>
+    </message>
+    <message>
+        <source>Last month</source>
+        <translation>Мінулы месяц</translation>
+    </message>
+    <message>
+        <source>This year</source>
+        <translation>Гэты год</translation>
+    </message>
+    <message>
+        <source>Range...</source>
+        <translation>Прамежак...</translation>
+    </message>
+    <message>
+        <source>Received with</source>
+        <translation>Прынята з</translation>
+    </message>
+    <message>
+        <source>Sent to</source>
+        <translation>Даслана да</translation>
+    </message>
+    <message>
+        <source>To yourself</source>
+        <translation>Да сябе</translation>
+    </message>
+    <message>
+        <source>Mined</source>
+        <translation>Здабыта</translation>
+    </message>
+    <message>
+        <source>Other</source>
+        <translation>Іншыя</translation>
+    </message>
+    <message>
+        <source>Enter address or label to search</source>
+        <translation>Увядзіце адрас ці пазнаку для пошуку</translation>
+    </message>
+    <message>
+        <source>Min amount</source>
+        <translation>Мін. колькасць</translation>
+    </message>
+    <message>
+        <source>Copy address</source>
+        <translation>Капіяваць адрас</translation>
+    </message>
+    <message>
+        <source>Copy label</source>
+        <translation>Капіяваць пазнаку</translation>
+    </message>
+    <message>
+        <source>Copy amount</source>
+        <translation>Капіяваць колькасць</translation>
+    </message>
+    <message>
+        <source>Copy transaction ID</source>
+        <translation>Капіяваць ID транзакцыі</translation>
+    </message>
+    <message>
+        <source>Edit label</source>
+        <translation>Рэдагаваць пазнаку</translation>
+    </message>
+    <message>
+        <source>Exporting Failed</source>
+        <translation>Экспартаванне няўдалае</translation>
+    </message>
+    <message>
+        <source>Comma separated file (*.csv)</source>
+        <translation>Коскамі падзелены файл (*.csv)</translation>
+    </message>
+    <message>
+        <source>Confirmed</source>
+        <translation>Пацверджана</translation>
+    </message>
+    <message>
+        <source>Date</source>
+        <translation>Дата</translation>
+    </message>
+    <message>
+        <source>Type</source>
+        <translation>Тып</translation>
+    </message>
+    <message>
+        <source>Label</source>
+        <translation>Пазнака</translation>
+    </message>
+    <message>
+        <source>Address</source>
+        <translation>Адрас</translation>
+    </message>
+    <message>
+        <source>Amount</source>
+        <translation>Колькасць</translation>
+    </message>
+    <message>
+        <source>ID</source>
+        <translation>ID</translation>
+    </message>
+    <message>
+        <source>Range:</source>
+        <translation>Прамежак:</translation>
+    </message>
+    <message>
+        <source>to</source>
+        <translation>да</translation>
+    </message>
+</context>
+<context>
+    <name>WalletFrame</name>
+    </context>
+<context>
+    <name>WalletModel</name>
+    <message>
+        <source>Send Coins</source>
+        <translation>Даслаць Манеты</translation>
+    </message>
+</context>
+<context>
+    <name>WalletView</name>
+    <message>
+        <source>&amp;Export</source>
+        <translation>Экспарт</translation>
+    </message>
+    <message>
+        <source>Export the data in the current tab to a file</source>
+        <translation>Экспартаваць гэтыя звесткі у файл</translation>
+    </message>
+    </context>
+<context>
+    <name>bitcoin-core</name>
+    <message>
+        <source>Usage:</source>
+        <translation>Ужыванне:</translation>
+    </message>
+    <message>
+        <source>List commands</source>
+        <translation>Спіс каманд</translation>
+    </message>
+    <message>
+        <source>Get help for a command</source>
+        <translation>Атрымаць дапамогу для каманды</translation>
+    </message>
+    <message>
+        <source>Options:</source>
+        <translation>Опцыі:</translation>
+    </message>
+    <message>
+        <source>Specify configuration file (default: bitcoin.conf)</source>
+        <translation>Вызначыць канфігурацыйны файл (зыходна: bitcoin.conf)</translation>
+    </message>
+    <message>
+        <source>Specify pid file (default: bitcoind.pid)</source>
+        <translation>Вызначыць pid-файл (зыходна: bitcoind.pid)</translation>
+    </message>
+    <message>
+        <source>Specify data directory</source>
+        <translation>Вызначыць каталог даных</translation>
+    </message>
+    <message>
+        <source>Listen for connections on &lt;port&gt; (default: 8333 or testnet: 18333)</source>
+        <translation>Слухаць злучэнні на &lt;port&gt; (зыходна: 8333 ці testnet: 18333)</translation>
+    </message>
+    <message>
+        <source>Maintain at most &lt;n&gt; connections to peers (default: 125)</source>
+        <translation>Трымаць не больш за &lt;n&gt; злучэнняў на асобу (зыходна: 125)</translation>
+    </message>
+    <message>
+        <source>Threshold for disconnecting misbehaving peers (default: 100)</source>
+        <translation>Парог для адлучэння злаўмысных карыстальнікаў (тыпова: 100)</translation>
+    </message>
+    <message>
+        <source>Number of seconds to keep misbehaving peers from reconnecting (default: 86400)</source>
+        <translation>Колькасць секунд для ўстрымання асобаў да перадалучэння (заходна: 86400)</translation>
+    </message>
+    <message>
+        <source>Accept command line and JSON-RPC commands</source>
+        <translation>Прымаць камандны радок і JSON-RPC каманды</translation>
+    </message>
+    <message>
+        <source>Run in the background as a daemon and accept commands</source>
+        <translation>Запусціць у фоне як дэман і прымаць каманды</translation>
+    </message>
+    <message>
+        <source>Use the test network</source>
+        <translation>Ужываць тэставае сеціва</translation>
+>>>>>>> refs/remotes/karogkung/0.9
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
         <translation>Слаць trace/debug звесткі ў кансоль замест файла debug.log</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Signing transaction failed</source>
         <translation>Памылка подпісу транзакцыі</translation>
     </message>
@@ -783,14 +1613,19 @@
         <translation>Транзакцыя занадта вялікая</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Username for JSON-RPC connections</source>
         <translation>Імя карыстальника для JSON-RPC злучэнняў</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning</source>
         <translation>Увага</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Password for JSON-RPC connections</source>
         <translation>Пароль для JSON-RPC злучэнняў</translation>
     </message>
@@ -799,10 +1634,60 @@
         <translation>Выканаць каманду калі лепшы блок зменіцца (%s замяняецца на хэш блока)</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Upgrade wallet to latest format</source>
+        <translation>Абнавіць гаманец на новы фармат</translation>
+    </message>
+    <message>
+        <source>Set key pool size to &lt;n&gt; (default: 100)</source>
+        <translation>Устанавіць памер фонда ключоў у &lt;n&gt; (тыпова: 100)</translation>
+    </message>
+    <message>
+        <source>Rescan the block chain for missing wallet transactions</source>
+        <translation>Перасканаваць ланцуг блокаў дзеля пошуку адсутных транзакцый</translation>
+    </message>
+    <message>
+        <source>Use OpenSSL (https) for JSON-RPC connections</source>
+        <translation>Ужываць OpenSSL (https) для JSON-RPC злучэнняў</translation>
+    </message>
+    <message>
+        <source>Server certificate file (default: server.cert)</source>
+        <translation>Файл-сертыфікат сервера (зыходна: server.cert)</translation>
+    </message>
+    <message>
+        <source>Server private key (default: server.pem)</source>
+        <translation>Прыватны ключ сервера (зыходна: server.pem)</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Loading addresses...</source>
         <translation>Загружаем адрасы...</translation>
     </message>
     <message>
+<<<<<<< HEAD
+=======
+        <source>Error loading wallet.dat: Wallet corrupted</source>
+        <translation>Памылка загрузкі wallet.dat: гаманец пашкоджаны</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat: Wallet requires newer version of Bitcoin</source>
+        <translation>Памылка загрузкі wallet.dat: гаманец патрабуе новую версію Bitcoin</translation>
+    </message>
+    <message>
+        <source>Wallet needed to be rewritten: restart Bitcoin to complete</source>
+        <translation>Гаманец мае быць перазапісаны: патрэбны перазапуск Bitcoin для выканання</translation>
+    </message>
+    <message>
+        <source>Error loading wallet.dat</source>
+        <translation>Памылка загрузкі wallet.dat</translation>
+    </message>
+    <message>
+        <source>Invalid amount</source>
+        <translation>Памылковая колькасць</translation>
+    </message>
+    <message>
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Insufficient funds</source>
         <translation>Недастаткова сродкаў</translation>
     </message>
@@ -815,10 +1700,13 @@
         <translation>Загружаем гаманец...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot downgrade wallet</source>
         <translation>Немагчыма рэгрэсаваць гаманец</translation>
     </message>
     <message>
+=======
+>>>>>>> refs/remotes/karogkung/0.9
         <source>Rescanning...</source>
         <translation>Перасканаванне...</translation>
     </message>
@@ -830,5 +1718,9 @@
         <source>Error</source>
         <translation>Памылка</translation>
     </message>
+<<<<<<< HEAD
 </context>
+=======
+    </context>
+>>>>>>> refs/remotes/karogkung/0.9
 </TS>

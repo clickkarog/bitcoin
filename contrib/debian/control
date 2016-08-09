@@ -37,6 +37,13 @@ Description: peer-to-peer network based digital currency - daemon
  and issuing money are carried out collectively by the network. Bitcoin Core
  is the name of the open source software which enables the use of this currency.
  .
+<<<<<<< HEAD
+=======
+ Full transaction history is stored locally at each client.  This
+ requires 20+ GB of space, slowly growing.
+ .
+
+>>>>>>> refs/remotes/karogkung/0.9
  This package provides the daemon, bitcoind, and the CLI tool
  bitcoin-cli to interact with the daemon.
 
